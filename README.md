@@ -19,16 +19,16 @@ I'm **Chandan Kumar**, a **Java Back-End Developer** from India focused on **Spr
 
 ### **Languages & Tools**:
 <p float="left">
-  <img src="https://img.icons8.com/color/64/000000/java-coffee-cup-logo.png" alt="java" width="64" height="64">  
-  <img src="https://img.icons8.com/ios/50/000000/spring-logo.png" alt="spring" width="64" height="64">
-  <img src="https://img.icons8.com/ios/50/000000/javascript.png" alt="javascript" width="64" height="64">
-  <img src="https://img.icons8.com/ios/50/000000/bootstrap.png" alt="bootstrap" width="64" height="64">
-  <img src="https://img.icons8.com/ios/50/000000/postman.png" alt="postman" width="64" height="64">
-  <img src="https://img.icons8.com/ios/50/000000/mysql-logo.png" alt="mysql" width="64" height="64">
-  <img src="https://img.icons8.com/ios/50/000000/docker.png" alt="docker" width="64" height="64">
-  <img src="https://img.icons8.com/ios/50/000000/jenkins.png" alt="jenkins" width="64" height="64">
-  <img src="https://img.icons8.com/ios/50/000000/amazon-web-services.png" alt="aws" width="64" height="64">
-  <img src="https://img.icons8.com/ios/50/000000/kubernetes.png" alt="kubernetes" width="64" height="64">
+  <a href="https://www.java.com" rel="nofollow"> <img src="https://img.icons8.com/color/64/000000/java-coffee-cup-logo.png" alt="java" width="64" height="64"> </a>  
+  <a href="https://spring.io/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/spring-logo.png" alt="spring" width="64" height="64"> </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/javascript.png" alt="javascript" width="64" height="64"> </a>
+  <a href="https://getbootstrap.com" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/bootstrap.png" alt="bootstrap" width="64" height="64"> </a>
+  <a href="https://postman.com" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/postman.png" alt="postman" width="64" height="64"> </a>
+  <a href="https://www.mysql.com/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/mysql-logo.png" alt="mysql" width="64" height="64"> </a>
+  <a href="https://www.docker.com/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/docker.png" alt="docker" width="64" height="64"> </a>
+  <a href="https://www.jenkins.io/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/jenkins.png" alt="jenkins" width="64" height="64"> </a>
+  <a href="https://aws.amazon.com/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/amazon-web-services.png" alt="aws" width="64" height="64"> </a>
+  <a href="https://kubernetes.io/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/kubernetes.png" alt="kubernetes" width="64" height="64"> </a>
 </p>
 
 ---
@@ -72,21 +72,21 @@ I'm **Chandan Kumar**, a **Java Back-End Developer** from India focused on **Spr
 ## 🔑 **Skills & Frameworks**
 
 <p float="left">
-  <img src="https://img.icons8.com/color/64/000000/java-coffee-cup-logo.png" alt="java" width="64" height="64">  
-  <img src="https://img.icons8.com/ios/50/000000/spring-logo.png" alt="spring" width="64" height="64">
-  <img src="https://img.icons8.com/ios/50/000000/hibernate.png" alt="hibernate" width="64" height="64">
-  <img src="https://img.icons8.com/ios/50/000000/cogs.png" alt="microservices" width="64" height="64">
-  <img src="https://img.icons8.com/ios/50/000000/angularjs.png" alt="angular" width="64" height="64">
-  <img src="https://img.icons8.com/ios/50/000000/react-native.png" alt="react" width="64" height="64">
-  <img src="https://img.icons8.com/ios/50/000000/docker.png" alt="docker" width="64" height="64">
-  <img src="https://img.icons8.com/ios/50/000000/kubernetes.png" alt="kubernetes" width="64" height="64">
-  <img src="https://img.icons8.com/ios/50/000000/amazon-web-services.png" alt="aws" width="64" height="64">
-  <img src="https://img.icons8.com/ios/50/000000/mysql-logo.png" alt="mysql" width="64" height="64">
-  <img src="https://img.icons8.com/ios/50/000000/postgresql.png" alt="postgresql" width="64" height="64">
-  <img src="https://img.icons8.com/ios/50/000000/git.png" alt="git" width="64" height="64">
-  <img src="https://img.icons8.com/ios/50/000000/apache-maven.png" alt="maven" width="64" height="64">
-  <img src="https://img.icons8.com/ios/50/000000/junit.png" alt="junit5" width="64" height="64">
-  <img src="https://img.icons8.com/ios/50/000000/mock.png" alt="mockito" width="64" height="64">
+  <a href="https://www.java.com" rel="nofollow"> <img src="https://img.icons8.com/color/64/000000/java-coffee-cup-logo.png" alt="java" width="64" height="64"> </a>  
+  <a href="https://spring.io/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/spring-logo.png" alt="spring" width="64" height="64"> </a>
+  <a href="https://hibernate.org/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/hibernate.png" alt="hibernate" width="64" height="64"> </a>
+  <a href="https://microservices.io/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/cogs.png" alt="microservices" width="64" height="64"> </a>
+  <a href="https://angular.io/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/angularjs.png" alt="angular" width="64" height="64"> </a>
+  <a href="https://reactjs.org/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/react-native.png" alt="react" width="64" height="64"> </a>
+  <a href="https://www.docker.com/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/docker.png" alt="docker" width="64" height="64"> </a>
+  <a href="https://kubernetes.io/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/kubernetes.png" alt="kubernetes" width="64" height="64"> </a>
+  <a href="https://aws.amazon.com/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/amazon-web-services.png" alt="aws" width="64" height="64"> </a>
+  <a href="https://www.mysql.com/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/mysql-logo.png" alt="mysql" width="64" height="64"> </a>
+  <a href="https://www.postgresql.org/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/postgresql.png" alt="postgresql" width="64" height="64"> </a>
+  <a href="https://git-scm.com/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/git.png" alt="git" width="64" height="64"> </a>
+  <a href="https://maven.apache.org/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/apache-maven.png" alt="maven" width="64" height="64"> </a>
+  <a href="https://junit.org/junit5/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/junit.png" alt="junit5" width="64" height="64"> </a>
+  <a href="https://site.mockito.org/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/mock.png" alt="mockito" width="64" height="64"> </a>
 </p>
 
 ---
@@ -112,5 +112,4 @@ I'm **Chandan Kumar**, a **Java Back-End Developer** from India focused on **Spr
 ## 📍 **When Not Coding**
 
 - 📚 **Reading**
-- ✍️ **Writing**
-- 🎮 **Gaming**
+- ✍️ **

@@ -112,19 +112,14 @@ Java (☕), Spring Boot (🌱), Hibernate (🐍), Microservices (⚙️), Angula
 
 ---
 
-## 🎬 **GIFs**
+## 🎬 **GIFs** (Front-End, Back-End, DevOps, Coding Enjoyment)
 
-### 🚀 **Front-End Developer**:
-![Frontend Developer](https://media.giphy.com/media/7WUd8nVm6TSwa/giphy.gif)
-
-### 🖥️ **Back-End Developer**:
-![Backend Developer](https://media.giphy.com/media/paQszD7FvV1Xq/giphy.gif)
-
-### 🔧 **DevOps**:
-![DevOps](https://media.giphy.com/media/2ogexz5lGyhEo/giphy.gif)
-
-### 👨‍💻 **Enjoying Coding**:
-![Enjoying Coding](https://media.giphy.com/media/3o6ZtsnDkZp3p5luo0/giphy.gif)
+<p float="left">
+  <img src="https://media.giphy.com/media/xT0GqP5AKF2ALFZniM/giphy.gif" alt="Frontend Developer" width="100" height="100"/>
+  <img src="https://media.giphy.com/media/l0HlLHzf8V67x7fZy/giphy.gif" alt="Backend Developer" width="100" height="100"/>
+  <img src="https://media.giphy.com/media/WlHYOtGVz30Sg/giphy.gif" alt="DevOps" width="100" height="100"/>
+  <img src="https://media.giphy.com/media/l4FGgw0HhggYJ8RU4/giphy.gif" alt="Enjoying Coding" width="100" height="100"/>
+</p>
 
 ---
 

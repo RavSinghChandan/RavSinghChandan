@@ -1,21 +1,21 @@
-# Chandan Kumar 👋
+# **Chandan Kumar** 👋
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&color=FF7722&size=20&lines=Hey!+It's+Chandan+Kumar!;Learning+Java+Back-end+Development...👨🏻‍💻;)](https://github.com/RavSinghChandan)
 
 ---
 
-## 🚀 About Me
+## 🚀 **About Me**
 
-Hello! I'm **Chandan Kumar**, a passionate self-learner and a **Java Back-end Developer** from West Bengal, India. I'm constantly exploring patterns that are helpful in mastering Back-end development. Currently, I am focusing on **Spring Boot** and **Hibernate**, and I'm excited about collaborating on diverse web development projects.
+Hello! I'm **Chandan Kumar**, a self-motivated **Java Back-End Developer** from India, exploring **Spring Boot** (🌱), **Hibernate** (🐍), and **Microservices** (⚙️). I'm passionate about solving challenges and collaborating on impactful web development projects.
 
-### 💬 Current Learning Goals
-- 🌱 Learning **Spring Boot**, **Hibernate**, and expanding my knowledge in **microservices**.
-- 🔭 Looking to collaborate on **Java Back-end Development** and **Open Source Projects**.
-- 🤝 Seeking collaborations in **Web Development Projects**.
+### 💬 **Current Learning Goals**:
+- 🌱 **Spring Boot**, **Hibernate**, and **Microservices**
+- 🔭 **Java Back-End Development** & **Open Source Projects**
+- 🤝 **Collaborations in Web Development**
 
 ---
 
-## 💻 Skills & Technologies
+## 💻 **Skills & Technologies**
 
 ### **Languages & Tools**:
 <p float="left">
@@ -33,47 +33,47 @@ Hello! I'm **Chandan Kumar**, a passionate self-learner and a **Java Back-end De
 
 ---
 
-## 🛠️ Projects
+## 🛠️ **Projects**
 
 ### 1. **Sky Chain & Offer & Order - One Order (Cargo)**
 
-- **Tech Stack**: Java 8, Oracle, Spring Boot, Hibernate, Microservices, Maven
-- **Role**: Created APIs, integrated with Offer & Order UI for multiple airlines clients.
-- **Collaboration**: Worked remotely with teams in Dubai, Spain, Pune, and Mumbai.
+- **Tech Stack**: Java 8 (☕), Oracle (🟠), Spring Boot (🌱), Hibernate (🐍), Microservices (⚙️), Maven (🛠)
+- **Role**: Created APIs, integrated with Offer & Order UI.
+- **Collaboration**: Worked with teams across different time zones.
 - **User Base**: 100+ Airlines.
 
 ### 2. **Offer & Order - One Order (Cargo) - UI**
 
-- **Tech Stack**: JavaScript, TypeScript, Angular, HTML, CSS, Bootstrap, Agile
+- **Tech Stack**: JavaScript (📜), TypeScript (📊), Angular (🅰️), HTML5 (📄), CSS3 (🎨), Bootstrap (🧩)
 - **Role**: Integrated APIs, enhanced UI style and functionality.
 - **User Base**: 100+ Airlines.
 
 ### 3. **WAT Framework - Airline Settlement (Passengers)**
 
-- **Tech Stack**: Java 8, Spring Boot, Hibernate, Redis Cache, Docker, Maven
+- **Tech Stack**: Java 8 (☕), Spring Boot (🌱), Hibernate (🐍), Redis Cache (🗃), Docker (🐳), Maven (🛠)
 - **Role**: Integrated client data, optimized session management for large data sets.
 - **User Base**: 100+ Airlines.
 
 ### 4. **Solar Panel Microservices for USA Customers**
 
-- **Tech Stack**: Java 8, Spring Boot, Redis, PostgreSQL, MongoDB, Docker, Kubernetes
+- **Tech Stack**: Java 8 (☕), Spring Boot (🌱), Redis (🗃), PostgreSQL (🟢), MongoDB (🍃), Docker (🐳), Kubernetes (☸️)
 - **Role**: Resolved bugs, optimized performance, API integration.
 - **User Base**: USA-based clients.
 
 ### 5. **SIM Online Billing Engine (Microservices)**
 
-- **Tech Stack**: Java 8, Spring Boot, Hazelcast, Kafka, Docker, MySQL
+- **Tech Stack**: Java 8 (☕), Spring Boot (🌱), Hazelcast (🌩), Kafka (🎤), Docker (🐳), MySQL (🔵)
 - **Role**: Implemented graceful shutdown, optimized performance with caching.
 - **User Base**: 1 Million users.
 
 ### 6. **Online Pizza Delivery Application**
 
-- **Tech Stack**: Java 8, MongoDB, Spring Boot, Microservices
+- **Tech Stack**: Java 8 (☕), MongoDB (🍃), Spring Boot (🌱), Microservices (⚙️)
 - **Role**: Created services from scratch and implemented unit testing.
 
 ---
 
-## 🌱 Work Experience
+## 🌱 **Work Experience**
 
 - **SDE-2 at Accelya** (2024 - Present), Mumbai
 - **Java Developer at Texala Pvt. Ltd.** (2023 - 2024), Pune
@@ -81,20 +81,20 @@ Hello! I'm **Chandan Kumar**, a passionate self-learner and a **Java Back-end De
 
 ---
 
-## 🔑 Skills & Frameworks
+## 🔑 **Skills & Frameworks**
 
-Java 8, Java 11, Java 17, Java 21, Spring Boot, Hibernate, Microservices, Spring Security, Angular, React, Docker, Kubernetes, Jenkins, AWS, MongoDB, PostgreSQL, MySQL, Git, Maven, JUnit5, Mockito, and more...
+Java 8 (☕), Java 11 (☕), Java 17 (☕), Java 21 (☕), Spring Boot (🌱), Hibernate (🐍), Microservices (⚙️), Spring Security (🔒), Angular (🅰️), React (⚛️), Docker (🐳), Kubernetes (☸️), Jenkins (🔨), AWS (☁️), MongoDB (🍃), PostgreSQL (🟢), MySQL (🔵), Git (🐙), Maven (🛠), JUnit5 (🔬), Mockito (🔧), and more...
 
 ---
 
-## 🎓 Education
+## 🎓 **Education**
 
 - **Java Back-end Development** - Masai School, Bangalore (2021)
 - **B.Tech in Computer Science** - Future Institute of Engineering and Management, Kolkata (2014-2018)
 
 ---
 
-## 📜 Certifications
+## 📜 **Certifications**
 
 - **The Git & GitHub Bootcamp** - 17 hours
 - **Spring Boot Fundamentals** - 11 hours
@@ -106,7 +106,7 @@ Java 8, Java 11, Java 17, Java 21, Spring Boot, Hibernate, Microservices, Spring
 
 ---
 
-## 📍 When Not Coding
+## 📍 **When Not Coding**
 
 - 📚 **Reading Novels**
 - ✍️ **Writing Blogs & Content**
@@ -116,7 +116,7 @@ Java 8, Java 11, Java 17, Java 21, Spring Boot, Hibernate, Microservices, Spring
 
 ---
 
-## 🌐 Connect With Me
+## 🌐 **Connect With Me**
 
 Feel free to reach out to me at:
 
@@ -128,19 +128,18 @@ Feel free to reach out to me at:
 
 ---
 
-## 📊 GitHub Stats
+## 📊 **GitHub Stats**
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=RavSinghChandan&show_icons=true&theme=radical)
 
 ---
 
-## 👥 Top Languages
+## 👥 **Top Languages**
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=RavSinghChandan&layout=compact&theme=radical)
 
 ---
 
-## 💼 GitHub Trophy
+## 💼 **GitHub Trophy**
 
 ![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=RavSinghChandan&theme=monokai&row=1&column=4)
-

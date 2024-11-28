@@ -6,12 +6,12 @@
 
 ## 🚀 **About Me**
 
-Hello! I'm **Chandan Kumar**, a self-motivated **Java Back-End Developer** from India, exploring **Spring Boot** (🌱), **Hibernate** (🐍), and **Microservices** (⚙️). I'm passionate about solving challenges and collaborating on impactful web development projects.
+I'm **Chandan Kumar**, a **Java Back-End Developer** from India focused on **Spring Boot** and **Hibernate**. I enjoy solving complex problems and collaborating on impactful web development projects.
 
-### 💬 **Current Learning Goals**:
-- 🌱 **Spring Boot**, **Hibernate**, and **Microservices**
-- 🔭 **Java Back-End Development** & **Open Source Projects**
-- 🤝 **Collaborations in Web Development**
+### 💬 **Learning Goals**:
+- 🌱 **Spring Boot**, **Hibernate**, **Microservices**
+- 🔭 **Java Back-End Projects** & **Open Source Contributions**
+- 🤝 **Web Development Collaborations**
 
 ---
 
@@ -19,57 +19,45 @@ Hello! I'm **Chandan Kumar**, a self-motivated **Java Back-End Developer** from 
 
 ### **Languages & Tools**:
 <p float="left">
-  <a href="https://www.java.com" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"> </a>  
-  <a href="https://spring.io/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg" alt="spring" width="40" height="40"> </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"> </a>
-  <a href="https://getbootstrap.com" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"> </a>
-  <a href="https://postman.com" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-plain-wordmark.svg" alt="postman" width="40" height="40"> </a>
-  <a href="https://www.mysql.com/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"> </a>
-  <a href="https://www.docker.com/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"> </a>
-  <a href="https://www.jenkins.io/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg" alt="jenkins" width="40" height="40"> </a>
-  <a href="https://aws.amazon.com/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/aws/aws-original-wordmark.svg" alt="aws" width="40" height="40"> </a>
-  <a href="https://kubernetes.io/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain-wordmark.svg" alt="kubernetes" width="40" height="40"> </a>
+  <a href="https://www.java.com" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="32" height="32"> </a>  
+  <a href="https://spring.io/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg" alt="spring" width="32" height="32"> </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="32" height="32"> </a>
+  <a href="https://getbootstrap.com" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="32" height="32"> </a>
+  <a href="https://postman.com" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-plain-wordmark.svg" alt="postman" width="32" height="32"> </a>
+  <a href="https://www.mysql.com/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="32" height="32"> </a>
+  <a href="https://www.docker.com/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="32" height="32"> </a>
+  <a href="https://www.jenkins.io/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg" alt="jenkins" width="32" height="32"> </a>
+  <a href="https://aws.amazon.com/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/aws/aws-original-wordmark.svg" alt="aws" width="32" height="32"> </a>
+  <a href="https://kubernetes.io/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain-wordmark.svg" alt="kubernetes" width="32" height="32"> </a>
 </p>
 
 ---
 
 ## 🛠️ **Projects**
 
-### 1. **Sky Chain & Offer & Order - One Order (Cargo)**
+### 1. **Sky Chain & Offer & Order - Cargo**
 
-- **Tech Stack**: Java 8 (☕), Oracle (🟠), Spring Boot (🌱), Hibernate (🐍), Microservices (⚙️), Maven (🛠)
-- **Role**: Created APIs, integrated with Offer & Order UI.
-- **Collaboration**: Worked with teams across different time zones.
+- **Tech Stack**: Java 8 (☕), Spring Boot (🌱), Hibernate (🐍), Microservices (⚙️)
+- **Role**: Created APIs and integrated with client UI.
 - **User Base**: 100+ Airlines.
 
-### 2. **Offer & Order - One Order (Cargo) - UI**
+### 2. **Offer & Order - UI**
 
-- **Tech Stack**: JavaScript (📜), TypeScript (📊), Angular (🅰️), HTML5 (📄), CSS3 (🎨), Bootstrap (🧩)
-- **Role**: Integrated APIs, enhanced UI style and functionality.
+- **Tech Stack**: JavaScript (📜), Angular (🅰️), Bootstrap (🧩)
+- **Role**: Integrated APIs and enhanced UI.
 - **User Base**: 100+ Airlines.
 
-### 3. **WAT Framework - Airline Settlement (Passengers)**
+### 3. **WAT Framework - Airline Settlement**
 
-- **Tech Stack**: Java 8 (☕), Spring Boot (🌱), Hibernate (🐍), Redis Cache (🗃), Docker (🐳), Maven (🛠)
-- **Role**: Integrated client data, optimized session management for large data sets.
+- **Tech Stack**: Java 8 (☕), Spring Boot (🌱), Docker (🐳)
+- **Role**: Integrated data and optimized session management.
 - **User Base**: 100+ Airlines.
 
-### 4. **Solar Panel Microservices for USA Customers**
+### 4. **Solar Panel Microservices**
 
-- **Tech Stack**: Java 8 (☕), Spring Boot (🌱), Redis (🗃), PostgreSQL (🟢), MongoDB (🍃), Docker (🐳), Kubernetes (☸️)
-- **Role**: Resolved bugs, optimized performance, API integration.
+- **Tech Stack**: Java 8 (☕), Spring Boot (🌱), Redis (🗃), PostgreSQL (🟢), Docker (🐳)
+- **Role**: Resolved bugs, optimized performance.
 - **User Base**: USA-based clients.
-
-### 5. **SIM Online Billing Engine (Microservices)**
-
-- **Tech Stack**: Java 8 (☕), Spring Boot (🌱), Hazelcast (🌩), Kafka (🎤), Docker (🐳), MySQL (🔵)
-- **Role**: Implemented graceful shutdown, optimized performance with caching.
-- **User Base**: 1 Million users.
-
-### 6. **Online Pizza Delivery Application**
-
-- **Tech Stack**: Java 8 (☕), MongoDB (🍃), Spring Boot (🌱), Microservices (⚙️)
-- **Role**: Created services from scratch and implemented unit testing.
 
 ---
 
@@ -83,7 +71,7 @@ Hello! I'm **Chandan Kumar**, a self-motivated **Java Back-End Developer** from 
 
 ## 🔑 **Skills & Frameworks**
 
-Java 8 (☕), Java 11 (☕), Java 17 (☕), Java 21 (☕), Spring Boot (🌱), Hibernate (🐍), Microservices (⚙️), Spring Security (🔒), Angular (🅰️), React (⚛️), Docker (🐳), Kubernetes (☸️), Jenkins (🔨), AWS (☁️), MongoDB (🍃), PostgreSQL (🟢), MySQL (🔵), Git (🐙), Maven (🛠), JUnit5 (🔬), Mockito (🔧), and more...
+Java (☕), Spring Boot (🌱), Hibernate (🐍), Microservices (⚙️), Angular (🅰️), React (⚛️), Docker (🐳), Kubernetes (☸️), AWS (☁️), MySQL (🔵), PostgreSQL (🟢), Git (🐙), Maven (🛠), JUnit5 (🔬), Mockito (🔧)
 
 ---
 
@@ -99,26 +87,22 @@ Java 8 (☕), Java 11 (☕), Java 17 (☕), Java 21 (☕), Spring Boot (🌱), H
 - **The Git & GitHub Bootcamp** - 17 hours
 - **Spring Boot Fundamentals** - 11 hours
 - **Docker for Beginners** - 6.5 hours
-- **Java Multithreading, Concurrency & Performance Optimization** - 4.5 hours
-- **Microservices Architecture - The Complete Guide** - 5 hours
-- **Spring Security 6 Zero to Master** - 15 hours
-- And many more...
+- **Java Multithreading** - 4.5 hours
+- **Microservices Architecture** - 5 hours
+- **Spring Security Master** - 15 hours
 
 ---
 
 ## 📍 **When Not Coding**
 
-- 📚 **Reading Novels**
-- ✍️ **Writing Blogs & Content**
-- 🏍️ **Traveling to Historical Places**
-- 🏋️‍♂️ **Exercise**
+- 📚 **Reading**
+- ✍️ **Writing Blogs**
+- 🏍️ **Traveling**
 - 🎧 **Creating Podcasts**
 
 ---
 
 ## 🌐 **Connect With Me**
-
-Feel free to reach out to me at:
 
 - **LinkedIn**: [Rav Chandan Kumar Singh](https://www.linkedin.com/in/rav-chandan-kumar-singh-0544b3285/)
 - **Twitter**: [@ravchandan1](https://twitter.com/ravchandan1)

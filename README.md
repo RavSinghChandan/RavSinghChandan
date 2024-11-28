@@ -112,6 +112,22 @@ Java (☕), Spring Boot (🌱), Hibernate (🐍), Microservices (⚙️), Angula
 
 ---
 
+## 🎬 **GIFs**
+
+### 🚀 **Front-End Developer**:
+![Frontend Developer](https://media.giphy.com/media/7WUd8nVm6TSwa/giphy.gif)
+
+### 🖥️ **Back-End Developer**:
+![Backend Developer](https://media.giphy.com/media/paQszD7FvV1Xq/giphy.gif)
+
+### 🔧 **DevOps**:
+![DevOps](https://media.giphy.com/media/2ogexz5lGyhEo/giphy.gif)
+
+### 👨‍💻 **Enjoying Coding**:
+![Enjoying Coding](https://media.giphy.com/media/3o6ZtsnDkZp3p5luo0/giphy.gif)
+
+---
+
 ## 📊 **GitHub Stats**
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=RavSinghChandan&show_icons=true&theme=radical)

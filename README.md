@@ -19,16 +19,16 @@ I'm **Chandan Kumar**, a **Java Back-End Developer** from India focused on **Spr
 
 ### **Languages & Tools**:
 <p float="left">
-  <a href="https://www.java.com" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="32" height="32"> </a>  
-  <a href="https://spring.io/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg" alt="spring" width="32" height="32"> </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="32" height="32"> </a>
-  <a href="https://getbootstrap.com" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="32" height="32"> </a>
-  <a href="https://postman.com" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-plain-wordmark.svg" alt="postman" width="32" height="32"> </a>
-  <a href="https://www.mysql.com/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="32" height="32"> </a>
-  <a href="https://www.docker.com/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="32" height="32"> </a>
-  <a href="https://www.jenkins.io/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg" alt="jenkins" width="32" height="32"> </a>
-  <a href="https://aws.amazon.com/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/aws/aws-original-wordmark.svg" alt="aws" width="32" height="32"> </a>
-  <a href="https://kubernetes.io/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain-wordmark.svg" alt="kubernetes" width="32" height="32"> </a>
+  <a href="https://www.java.com" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="64" height="64"> </a>  
+  <a href="https://spring.io/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg" alt="spring" width="64" height="64"> </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="64" height="64"> </a>
+  <a href="https://getbootstrap.com" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="64" height="64"> </a>
+  <a href="https://postman.com" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-plain-wordmark.svg" alt="postman" width="64" height="64"> </a>
+  <a href="https://www.mysql.com/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="64" height="64"> </a>
+  <a href="https://www.docker.com/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="64" height="64"> </a>
+  <a href="https://www.jenkins.io/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg" alt="jenkins" width="64" height="64"> </a>
+  <a href="https://aws.amazon.com/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/aws/aws-original-wordmark.svg" alt="aws" width="64" height="64"> </a>
+  <a href="https://kubernetes.io/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain-wordmark.svg" alt="kubernetes" width="64" height="64"> </a>
 </p>
 
 ---
@@ -71,7 +71,23 @@ I'm **Chandan Kumar**, a **Java Back-End Developer** from India focused on **Spr
 
 ## 🔑 **Skills & Frameworks**
 
-Java (☕), Spring Boot (🌱), Hibernate (🐍), Microservices (⚙️), Angular (🅰️), React (⚛️), Docker (🐳), Kubernetes (☸️), AWS (☁️), MySQL (🔵), PostgreSQL (🟢), Git (🐙), Maven (🛠), JUnit5 (🔬), Mockito (🔧)
+<p float="left">
+  <a href="https://www.java.com" rel="nofollow"> <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" alt="java" width="64" height="64"> </a>  
+  <a href="https://spring.io/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/spring-logo.png" alt="spring" width="64" height="64"> </a>
+  <a href="https://hibernate.org/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/hibernate.png" alt="hibernate" width="64" height="64"> </a>
+  <a href="https://microservices.io/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/cogs.png" alt="microservices" width="64" height="64"> </a>
+  <a href="https://angular.io/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/angularjs.png" alt="angular" width="64" height="64"> </a>
+  <a href="https://reactjs.org/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/react-native.png" alt="react" width="64" height="64"> </a>
+  <a href="https://www.docker.com/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/docker.png" alt="docker" width="64" height="64"> </a>
+  <a href="https://kubernetes.io/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/kubernetes.png" alt="kubernetes" width="64" height="64"> </a>
+  <a href="https://aws.amazon.com/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/amazon-web-services.png" alt="aws" width="64" height="64"> </a>
+  <a href="https://www.mysql.com/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/mysql-logo.png" alt="mysql" width="64" height="64"> </a>
+  <a href="https://www.postgresql.org/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/postgresql.png" alt="postgresql" width="64" height="64"> </a>
+  <a href="https://git-scm.com/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/git.png" alt="git" width="64" height="64"> </a>
+  <a href="https://maven.apache.org/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/apache-maven.png" alt="maven" width="64" height="64"> </a>
+  <a href="https://junit.org/junit5/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/junit.png" alt="junit5" width="64" height="64"> </a>
+  <a href="https://site.mockito.org/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/mock.png" alt="mockito" width="64" height="64"> </a>
+</p>
 
 ---
 
@@ -104,11 +120,13 @@ Java (☕), Spring Boot (🌱), Hibernate (🐍), Microservices (⚙️), Angula
 
 ## 🌐 **Connect With Me**
 
-- **LinkedIn**: [Rav Chandan Kumar Singh](https://www.linkedin.com/in/rav-chandan-kumar-singh-0544b3285/)
-- **Twitter**: [@ravchandan1](https://twitter.com/ravchandan1)
-- **Facebook**: [Chandan Kumar](https://www.facebook.com/profile.php?id=100022220104392)
-- **Instagram**: [ravchandankumar](https://www.instagram.com/ravchandankumar/)
-- **YouTube**: [See The God in You](https://www.youtube.com/watch?v=YAP89umHjZ4)
+<p float="left">
+  <a href="https://www.linkedin.com/in/rav-chandan-kumar-singh-0544b3285/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/linkedin.png" alt="linkedin" width="64" height="64"> </a>
+  <a href="https://twitter.com/ravchandan1" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/twitter.png" alt="twitter" width="64" height="64"> </a>
+  <a href="https://www.facebook.com/profile.php?id=100022220104392" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/facebook.png" alt="facebook" width="64" height="64"> </a>
+  <a href="https://www.instagram.com/ravchandankumar/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/instagram-new.png" alt="instagram" width="64" height="64"> </a>
+  <a href="https://www.youtube.com/watch?v=YAP89umHjZ4" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/youtube-play.png" alt="youtube" width="64" height="64"> </a>
+</p>
 
 ---
 

@@ -19,16 +19,16 @@ I'm **Chandan Kumar**, a **Java Back-End Developer** from India focused on **Spr
 
 ### **Languages & Tools**:
 <p float="left">
-  <a href="https://www.java.com" rel="nofollow"> <img src="https://img.icons8.com/color/64/000000/java-coffee-cup-logo.png" alt="java" width="64" height="64"> </a>  
-  <a href="https://spring.io/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/spring-logo.png" alt="spring" width="64" height="64"> </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/javascript.png" alt="javascript" width="64" height="64"> </a>
-  <a href="https://getbootstrap.com" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/bootstrap.png" alt="bootstrap" width="64" height="64"> </a>
-  <a href="https://postman.com" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/postman.png" alt="postman" width="64" height="64"> </a>
-  <a href="https://www.mysql.com/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/mysql-logo.png" alt="mysql" width="64" height="64"> </a>
-  <a href="https://www.docker.com/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/docker.png" alt="docker" width="64" height="64"> </a>
-  <a href="https://www.jenkins.io/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/jenkins.png" alt="jenkins" width="64" height="64"> </a>
-  <a href="https://aws.amazon.com/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/amazon-web-services.png" alt="aws" width="64" height="64"> </a>
-  <a href="https://kubernetes.io/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/kubernetes.png" alt="kubernetes" width="64" height="64"> </a>
+  <a href="https://www.java.com" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="64" height="64"> </a>  
+  <a href="https://spring.io/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg" alt="spring" width="64" height="64"> </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="64" height="64"> </a>
+  <a href="https://getbootstrap.com" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="64" height="64"> </a>
+  <a href="https://postman.com" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-plain-wordmark.svg" alt="postman" width="64" height="64"> </a>
+  <a href="https://www.mysql.com/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="64" height="64"> </a>
+  <a href="https://www.docker.com/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="64" height="64"> </a>
+  <a href="https://www.jenkins.io/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg" alt="jenkins" width="64" height="64"> </a>
+  <a href="https://aws.amazon.com/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/aws/aws-original-wordmark.svg" alt="aws" width="64" height="64"> </a>
+  <a href="https://kubernetes.io/" rel="nofollow"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain-wordmark.svg" alt="kubernetes" width="64" height="64"> </a>
 </p>
 
 ---
@@ -72,7 +72,7 @@ I'm **Chandan Kumar**, a **Java Back-End Developer** from India focused on **Spr
 ## 🔑 **Skills & Frameworks**
 
 <p float="left">
-  <a href="https://www.java.com" rel="nofollow"> <img src="https://img.icons8.com/color/64/000000/java-coffee-cup-logo.png" alt="java" width="64" height="64"> </a>  
+  <a href="https://www.java.com" rel="nofollow"> <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" alt="java" width="64" height="64"> </a>  
   <a href="https://spring.io/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/spring-logo.png" alt="spring" width="64" height="64"> </a>
   <a href="https://hibernate.org/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/hibernate.png" alt="hibernate" width="64" height="64"> </a>
   <a href="https://microservices.io/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/cogs.png" alt="microservices" width="64" height="64"> </a>
@@ -112,4 +112,47 @@ I'm **Chandan Kumar**, a **Java Back-End Developer** from India focused on **Spr
 ## 📍 **When Not Coding**
 
 - 📚 **Reading**
-- ✍️ **
+- ✍️ **Writing Blogs**
+- 🏍️ **Traveling**
+- 🎧 **Creating Podcasts**
+
+---
+
+## 🌐 **Connect With Me**
+
+<p float="left">
+  <a href="https://www.linkedin.com/in/rav-chandan-kumar-singh-0544b3285/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/linkedin.png" alt="linkedin" width="64" height="64"> </a>
+  <a href="https://twitter.com/ravchandan1" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/twitter.png" alt="twitter" width="64" height="64"> </a>
+  <a href="https://www.facebook.com/profile.php?id=100022220104392" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/facebook.png" alt="facebook" width="64" height="64"> </a>
+  <a href="https://www.instagram.com/ravchandankumar/" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/instagram-new.png" alt="instagram" width="64" height="64"> </a>
+  <a href="https://www.youtube.com/watch?v=YAP89umHjZ4" rel="nofollow"> <img src="https://img.icons8.com/ios/50/000000/youtube-play.png" alt="youtube" width="64" height="64"> </a>
+</p>
+
+---
+
+## 🎬 **GIFs** (Front-End, Back-End, DevOps, Coding Enjoyment)
+
+<p float="left">
+  <img src="https://media.giphy.com/media/xT0GqP5AKF2ALFZniM/giphy.gif" alt="Frontend Developer" width="100" height="100"/>
+  <img src="https://media.giphy.com/media/l0HlLHzf8V67x7fZy/giphy.gif" alt="Backend Developer" width="100" height="100"/>
+  <img src="https://media.giphy.com/media/WlHYOtGVz30Sg/giphy.gif" alt="DevOps" width="100" height="100"/>
+  <img src="https://media.giphy.com/media/l4FGgw0HhggYJ8RU4/giphy.gif" alt="Enjoying Coding" width="100" height="100"/>
+</p>
+
+---
+
+## 📊 **GitHub Stats**
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=RavSinghChandan&show_icons=true&theme=radical)
+
+---
+
+## 👥 **Top Languages**
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=RavSinghChandan&layout=compact&theme=radical)
+
+---
+
+## 💼 **GitHub Trophy**
+
+![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=RavSinghChandan&theme=monokai&row=1&column=4)

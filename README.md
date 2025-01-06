@@ -67,6 +67,34 @@ I’m here to build, collaborate, and grow with like-minded people. Let’s crea
 - **X/Twitter**: [Stay Updated](https://x.com/ravchandan1)  
 
 ---
+## 🛠️ Projects & Repositories  
+
+### 🔥 [**awesome-dsa-gamification**](https://github.com/yourusername/awesome-dsa-gamification)  
+> **Make DSA fun and engaging** with gamified challenges designed for learners at all levels.  
+
+![Tech Stack](https://img.shields.io/badge/Tech%20Stack-JavaScript%20%7C%20Java%20%7C%20Python-blue) ![Stars](https://img.shields.io/github/stars/yourusername/awesome-dsa-gamification) ![Forks](https://img.shields.io/github/forks/yourusername/awesome-dsa-gamification)  
+
+### 📚 [**awesome-low-level-design**](https://github.com/yourusername/awesome-low-level-design)  
+> Your go-to resource for mastering **Low-Level Design (LLD)** concepts and principles.  
+
+![Tech Stack](https://img.shields.io/badge/Tech%20Stack-Java-orange) ![Stars](https://img.shields.io/github/stars/yourusername/awesome-low-level-design) ![Forks](https://img.shields.io/github/forks/yourusername/awesome-low-level-design)  
+
+### 💡 [**life-harmony-vastu**](https://github.com/yourusername/life-harmony-vastu)  
+> Insights into **Vastu Shastra** combined with modern architecture for balanced living.  
+
+![Tech Stack](https://img.shields.io/badge/Inspired%20by-Ancient%20Wisdom-yellow) ![Stars](https://img.shields.io/github/stars/yourusername/life-harmony-vastu) ![Forks](https://img.shields.io/github/forks/yourusername/life-harmony-vastu)  
+
+---  
+
+## 📅 Everyday Commit Tracker  
+
+> **Consistency beats intensity**: I strive to code and contribute daily.  
+
+![Commit Streak](https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical&hide_border=true)  
+
+### **My Daily Contributions**  
+Here’s my day-by-day breakdown for this year:  
+
 
 ## 💬 My Philosophy  
 

@@ -62,9 +62,9 @@ I’m here to build, collaborate, and grow with like-minded people. Let’s crea
 
 ### 🌍 Stay Connected  
 
-- **LinkedIn**: [Follow Me](https://www.linkedin.com/in/yourprofile)  
-- **YouTube**: [Subscribe](https://www.youtube.com/yourchannel)  
-- **X/Twitter**: [Stay Updated](https://twitter.com/yourprofile)  
+- **LinkedIn**: [Follow Me](https://www.linkedin.com/in/rav-chandan-kumar-singh-767374315/)  
+- **YouTube**: [Subscribe](https://www.youtube.com/@aurawithrav)  
+- **X/Twitter**: [Stay Updated](https://x.com/ravchandan1)  
 
 ---
 
@@ -75,4 +75,4 @@ I’m here to build, collaborate, and grow with like-minded people. Let’s crea
 Let’s embark on this journey together—one line of code and one insight at a time!  
 
 📧 **Email**: yourname@example.com  
-🌐 **Website**: [Aura with Rav](https://github.com/yourusername/aura-with-rav)  
+🌐 **Website**: [Aura with Rav](https://topmate.io/aura_with_rav)  

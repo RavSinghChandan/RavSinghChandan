@@ -1,93 +1,120 @@
-# 🌟 Chandan Kumar Singh — Engineer by Day, Life Guide by Soul
+<h1 align="center">🌟 Chandan Kumar Singh</h1>
 
-**SDE-2 Java Full-Stack Developer** | **Certified Palmist** | **Vastu Expert** | **Tech Mentor**  
-🎯 3+ Years in Scalable App Development | ⚡ Immediate Joiner | 🇮🇳 Based in India
+<p align="center">
+  <strong>SDE-2 Java Full-Stack Developer</strong> |
+  <strong>Palmist</strong> |
+  <strong>Vastu Consultant</strong> |
+  <strong>Tech Mentor</strong><br>
+  <i>Bridging Code and Cosmos ✨</i>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-21-orange?style=flat-square&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Boot-Microservices-green?style=flat-square&logo=spring" />
+  <img src="https://img.shields.io/badge/Angular-14--17-red?style=flat-square&logo=angular&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-DevOps-blue?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vastu-Palmistry-yellow?style=flat-square" />
+</p>
 
 ---
 
-## 👋 Welcome to My World
+## 👋 Hello, I’m Chandan
 
-I’m Chandan — a passionate technologist who codes enterprise solutions by day and deciphers destinies by night.
-
-I combine **cutting-edge software engineering** with **Vedic insights** to solve real-world problems in tech, business, and life. Through my initiative **Aura with Rav**, I help professionals find clarity, balance, and growth — both logically and spiritually.
-
----
-
-## 🔧 My Core Stack
-
-| Domain              | Tools / Frameworks                                 |
-|---------------------|-----------------------------------------------------|
-| Backend             | Java 21–23, Spring Boot, REST, Hibernate, JPA       |
-| Frontend            | Angular 14–17, TypeScript, RxJS, NgRx               |
-| DevOps & Cloud      | Docker, GitHub Actions, AWS (EC2, S3, Route 53)     |
-| Database            | PostgreSQL, MySQL, Oracle                           |
-| Messaging & Tools   | Kafka, RabbitMQ, Swagger, Postman                   |
-| System Design       | SOLID, DDD, HLD/LLD, Microservices                  |
+I combine **cutting-edge software engineering** with **traditional sciences** like palmistry and vastu.  
+Through my initiative **Aura with Rav**, I guide professionals toward **technical clarity** and **life alignment**.
 
 ---
 
 ## 🚀 Featured Projects
 
 ### 🎮 [awesome-dsa-gamification](https://github.com/RavSinghChandan/awesome-dsa-gamification)
-> Learn DSA with a twist — fun levels, boss fights, and challenge modes.
+> DSA + Fun = Levels, Boss Battles, and Logic Games!
 
-![Java](https://img.shields.io/badge/Java-blue) ![Gamified](https://img.shields.io/badge/Gamified-Yes-brightgreen) ![Stars](https://img.shields.io/github/stars/RavSinghChandan/awesome-dsa-gamification) ![Forks](https://img.shields.io/github/forks/RavSinghChandan/awesome-dsa-gamification)
+<p>
+  <img src="https://img.shields.io/github/stars/RavSinghChandan/awesome-dsa-gamification?style=social" />
+  <img src="https://img.shields.io/github/forks/RavSinghChandan/awesome-dsa-gamification?style=social" />
+</p>
 
 ---
 
 ### 🧱 [awesome-low-level-design](https://github.com/RavSinghChandan/awesome-low-level-design)
-> A structured walkthrough of LLD concepts with real-world diagrams and patterns.
+> Your real-world LLD guide with SOLID, UML, and hands-on scenarios.
 
-![Java](https://img.shields.io/badge/Tech-Java-orange) ![Design](https://img.shields.io/badge/Design-SOLID%20%7C%20UML-lightgrey) ![Forks](https://img.shields.io/github/forks/RavSinghChandan/awesome-low-level-design)
+<p>
+  <img src="https://img.shields.io/badge/SOLID-Principles-blueviolet?style=flat-square" />
+  <img src="https://img.shields.io/github/stars/RavSinghChandan/awesome-low-level-design?style=social" />
+</p>
 
 ---
 
 ### 🧿 [life-harmony-vastu](https://github.com/RavSinghChandan/life-harmony-vastu)
-> Traditional Indian architecture meets modern living — balance your home and destiny.
+> Balance life with energy-aligned Vastu + modern architecture.
 
-![Inspired](https://img.shields.io/badge/Vastu-Ancient%20Science-yellow) ![Wisdom](https://img.shields.io/badge/Wisdom-Practical%20%7C%20Scientific-blue)
-
----
-
-## 🧬 Personal Initiatives
-
-### ✨ Aura with Rav  
-I help people find purpose, timing, and direction through:
-- ✋ **Palm Reading** – Predictive + personality decoding
-- 🧭 **Vastu** – Energy alignment for home and office
-- 📈 **Numerology** – Business name, career timing & promotion guidance
+<p>
+  <img src="https://img.shields.io/badge/Vastu--Shastra-Ancient%20Science-yellow" />
+  <img src="https://img.shields.io/github/stars/RavSinghChandan/life-harmony-vastu?style=social" />
+</p>
 
 ---
 
-## 🎯 Values I Live By
+## 🛠️ Tech Stack
 
-- 🔁 **Balance of Left & Right Brain** – I use logic and intuition equally.
-- 🧠 **1% Growth Everyday** – In coding, self-mastery, and relationships.
-- 🌍 **Service Over Spotlight** – I create for impact, not just applause.
+| Domain         | Tools & Frameworks |
+|----------------|--------------------|
+| 🧠 **Backend**        | ![Java](https://img.shields.io/badge/Java-21-blue?style=flat-square&logo=java&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Microservices-green?style=flat-square&logo=spring-boot&logoColor=white) ![Hibernate](https://img.shields.io/badge/Hibernate-ORM-brightgreen?style=flat-square&logo=hibernate&logoColor=white) |
+| 💻 **Frontend**       | ![Angular](https://img.shields.io/badge/Angular-14--17-red?style=flat-square&logo=angular&logoColor=white) ![RxJS](https://img.shields.io/badge/RxJS-Observable-purple?style=flat-square) ![NgRx](https://img.shields.io/badge/NgRx-State%20Management-pink?style=flat-square) |
+| ☁️ **DevOps & Cloud** | ![Docker](https://img.shields.io/badge/Docker-DevOps-blue?style=flat-square&logo=docker) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-2088ff?style=flat-square&logo=github-actions&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20S3-orange?style=flat-square&logo=amazon-aws&logoColor=white) |
+| 🗃️ **Databases**      | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Relational-blue?style=flat-square&logo=postgresql) ![MySQL](https://img.shields.io/badge/MySQL-Relational-lightblue?style=flat-square&logo=mysql) ![Oracle](https://img.shields.io/badge/Oracle-PL%2FSQL-red?style=flat-square&logo=oracle&logoColor=white) |
+| 💬 **Messaging**      | ![Kafka](https://img.shields.io/badge/Kafka-Streaming-black?style=flat-square&logo=apache-kafka) ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-Queue-orange?style=flat-square&logo=rabbitmq&logoColor=white) |
+| 🧩 **Design & Tools** | ![UML](https://img.shields.io/badge/UML-Class%20Diagrams-lightgrey?style=flat-square) ![SOLID](https://img.shields.io/badge/SOLID-Design%20Principles-blueviolet?style=flat-square) ![Postman](https://img.shields.io/badge/Postman-API%20Testing-orange?style=flat-square&logo=postman) |
+
 
 ---
 
-## 📡 Let’s Connect & Collaborate
+## 🔮 Personal Projects
 
-| Platform     | Link                                                                 |
-|--------------|----------------------------------------------------------------------|
-| 💼 LinkedIn   | [rav-chandan-kumar-singh](https://www.linkedin.com/in/rav-chandan-kumar-singh-767374315/) |
-| 📺 YouTube    | [Aura with Rav](https://www.youtube.com/@aurawithrav)               |
-| 🐦 Twitter / X| [@ravchandan1](https://x.com/ravchandan1)                            |
-| 📬 Email      | singhschandan011@gmail.com                                           |
+- ✋ **Palm Reading** – Decode destiny, purpose, and timing  
+- 🧭 **Vastu Guidance** – Energize your space for success  
+- 📈 **Career Numerology** – Plan your promotions and business growth  
+- 🎓 **Weekend Projects** – Teaching and building full-stack live apps
+
+---
+
+## 🌱 Values I Live By
+
+- 🔁 Balance logic with intuition  
+- 💡 Grow 1% daily – in code, career, clarity  
+- 🌍 Build for **impact**, not just applause
+
+---
+
+## 📡 Let’s Connect
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/rav-chandan-kumar-singh-767374315/" target="_blank">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-rav--chandan--kumar--singh-blue?style=for-the-badge&logo=linkedin">
+  </a>
+  <a href="https://www.youtube.com/@aurawithrav" target="_blank">
+    <img alt="YouTube" src="https://img.shields.io/badge/YouTube-Aura%20with%20Rav-red?style=for-the-badge&logo=youtube">
+  </a>
+  <a href="https://x.com/ravchandan1" target="_blank">
+    <img alt="Twitter/X" src="https://img.shields.io/badge/X-%40ravchandan1-black?style=for-the-badge&logo=twitter">
+  </a>
+  <a href="mailto:singhschandan011@gmail.com" target="_blank">
+    <img alt="Email" src="https://img.shields.io/badge/Email-Me-informational?style=for-the-badge&logo=gmail">
+  </a>
+</p>
 
 ---
 
 ## 💬 Want to Collaborate?
 
-- Build an enterprise app?  
-- Refactor legacy architecture?  
-- Align your career or startup with numerology or Vastu?  
-- Just want to grow 1% better daily?
+- 💻 Build high-performance backend systems  
+- 🧬 Align your startup or brand with spiritual guidance  
+- 🚀 Break personal growth plateaus with numerology and palmistry
 
-📩 **Let’s talk.**  
-My inbox is open for meaningful collaborations — technical, spiritual, or transformational.
+📩 **Let’s chat!** I'm always open to meaningful conversations.
 
 ---
 
-> _“Where logic ends, intuition begins. I build bridges between both.”_ — **Chandan Kumar Singh**
+> _“Where logic ends, intuition begins. I build bridges between both.”_ – **Chandan Kumar Singh**

@@ -7,6 +7,10 @@
 <p align="center">
   Senior Java Full-Stack Engineer · Backend & Distributed Systems
 </p>
+<p align="center">
+  <img src="logo.gif" alt="Logo" width="220"/>
+</p>
+
 
 ---
 

@@ -1,1 +1,71 @@
-<p align="center"> <img src="./techwithrav_profile.gif" width="300" /> </p> <h2 align="center">Chandan Kumar Singh</h2> <p align="center"> Senior Java Full-Stack Engineer · Backend & Distributed Systems </p> <p align="center" style="margin-top: 40px; margin-bottom: 40px;"> <img src="logo.gif" alt="TechWithRav Banner" width="100%" style="max-width: 900px; height: auto;" /> </p> <h3 align="center"> Backend • System Design • Real-World Engineering </h3> --- ### 👋 Hello World Glad to see you here! 🚀 I engineer software where **scale, clarity, and correctness** matter. --- ### 🧠 About Me - 💼 Senior **Java Full-Stack Developer** (Java 8–21, Spring Boot, Microservices) - ⚙️ Strong focus on **backend systems, JVM, concurrency, and system design** - 🌐 Frontend experience with **Angular (RxJS, performance-first design)** - ☁️ Docker, CI/CD, cloud-native thinking - 🎓 Tech mentor via **TechWithRav** I don’t chase tools — I **choose them deliberately**. --- ### 🛠 Tech Stack **Backend:** Java, Spring Boot, Kafka, REST APIs **Frontend:** Angular, RxJS, NgRx **Databases:** PostgreSQL, MySQL, Oracle **DevOps:** Docker, GitHub Actions, AWS --- ### 🚀 What I Care About - Designing systems that survive **production load** - Debugging issues that appear **only at scale** - Writing code that stays readable **years later** - Thinking in **systems**, not just features --- ### 🌍 Find Me Online - ▶️ YouTube: https://www.youtube.com/@TechWithRav - 🐦 X (Twitter): https://x.com/ravchandan1 - 💼 LinkedIn: https://www.linkedin.com/in/rav-chandan-kumar-singh-767374315/ - 📧 Email: ravchandan15@gmail.com | singhschandan011@gmail.com --- > “Strong systems come from clear thinking.”No, I want to keep this image as a background of all the text in my .md file. So do that change and give me OK. And should look like in the background at the same time should not hinder the UI and UX of a user.
+# Chandan Kumar Singh
+
+Senior Java Backend / Full-Stack Engineer  
+Backend Systems · Distributed Systems · System Design
+
+---
+
+## 👋 Overview
+
+I build and maintain backend systems where **scale, correctness, and reliability** matter.
+
+My work focuses on designing APIs, services, and distributed components that behave predictably under load, remain debuggable in production, and evolve without breaking existing consumers.
+
+I value **clear design decisions**, **boring reliability**, and **code that survives change**.
+
+---
+
+## 🧠 Engineering Focus
+
+- Backend development using **Java (8–21)** and **Spring Boot**
+- Designing **microservices**, REST APIs, and distributed workflows
+- JVM fundamentals, concurrency, thread safety, and performance
+- System design with emphasis on scalability, fault tolerance, and maintainability
+- Frontend collaboration using **Angular** with performance-first thinking
+- Production debugging, incident analysis, and long-term fixes
+
+I don’t chase tools — I choose them deliberately based on constraints.
+
+---
+
+## 🛠 Core Tech Stack
+
+**Backend:** Java, Spring Boot, Kafka, REST APIs  
+**Frontend:** Angular, RxJS  
+**Databases:** PostgreSQL, MySQL, Oracle  
+**Architecture:** Microservices, Event-Driven Systems  
+**DevOps:** Docker, CI/CD, AWS  
+**Practices:** Code reviews, design docs, production monitoring
+
+---
+
+## 🚀 What I Care About
+
+- Designing systems that survive **real production traffic**
+- Debugging issues that appear **only under concurrency**
+- Reducing coupling without over-engineering
+- Writing code that remains readable **years later**
+- Thinking in **systems**, not just features
+
+---
+
+## 📦 What You’ll Find Here
+
+This GitHub profile contains:
+- Backend-focused projects written with production patterns in mind
+- Practical implementations of **design patterns and system design concepts**
+- Code structured for readability, testability, and long-term maintenance
+- Notes and examples used while mentoring and teaching via TechWithRav
+
+---
+
+## 🌍 Find Me Online
+
+- YouTube: https://www.youtube.com/@TechWithRav  
+- X (Twitter): https://x.com/ravchandan1  
+- LinkedIn: https://www.linkedin.com/in/rav-chandan-kumar-singh-767374315/  
+- Email: ravchandan15@gmail.com
+
+---
+
+> Strong systems come from clear thinking.

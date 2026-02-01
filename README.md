@@ -7,7 +7,7 @@
 <p align="center">
   Senior Java Full-Stack Engineer · Backend & Distributed Systems
 </p>
-<p align="center">
+<p align="center" style="margin-top: 40px; margin-bottom: 40px;">
   <img 
     src="logo.gif" 
     alt="TechWithRav Banner"
@@ -15,6 +15,7 @@
     style="max-width: 900px; height: auto;"
   />
 </p>
+
 
 <h3 align="center">
   Backend • System Design • Real-World Engineering

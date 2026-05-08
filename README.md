@@ -28,126 +28,99 @@
 
 ---
 
-<div align="center">
-
-## About Me
-
-Senior Full-Stack Engineer transitioning into Applied AI Engineering.
-
-I build systems where software engineering discipline meets AI intelligence.
-
-Production AI requires architecture, observability, orchestration, guardrails, structured outputs, scalable frontend systems, and reliable backend platforms.
-
-That’s the space I operate in.
-
-</div>
-
----
-
-<div align="center">
-
-## What I Build
+# What I Build
 
 <table>
 <tr>
-<td align="center" width="50%">
+<td width="50%">
 
-<h3>AI Engineering</h3>
-
-Agentic AI Systems  
-Multi-Agent Orchestration  
-LangChain / LangGraph  
-LLM Applications  
-RAG Pipelines  
-Prompt Architecture  
-Guardrails  
-FastAPI AI Services  
-AI Workflow Design
+### AI Engineering
+- Agentic AI Systems
+- Multi-Agent Orchestration
+- LangChain / LangGraph
+- LLM Applications
+- RAG Pipelines
+- Guardrails
+- Prompt Architecture
+- FastAPI AI Services
+- AI Workflow Design
 
 </td>
 
-<td align="center" width="50%">
+<td width="50%">
 
-<h3>Full Stack Engineering</h3>
-
-Java / Spring Boot  
-Kafka  
-Microservices  
-Angular / TypeScript  
-System Design  
-Event-Driven Systems  
-PostgreSQL / Redis  
-Docker / AWS / CI-CD
+### Full Stack Engineering
+- Java / Spring Boot
+- Kafka
+- Microservices
+- Angular / TypeScript
+- System Design
+- Event-Driven Systems
+- PostgreSQL / Redis
+- Docker / AWS / CI-CD
 
 </td>
 </tr>
 </table>
 
-</div>
-
 ---
+
+# Signature Project
 
 <div align="center">
 
-## Signature Project
+## Aura with Rav
 
-# Aura with Rav
-
-*Production-grade AI-powered spiritual intelligence platform*
-
-Where **18+ AI agents coordinate dynamically** to generate structured personalized intelligence reports.
+*A production-grade AI-powered spiritual intelligence platform*
 
 </div>
 
-<table>
-<tr>
-<td align="center">Multi-Agent Orchestration</td>
-<td align="center">AI Guardrails + Validation</td>
-<td align="center">Structured Reasoning Systems</td>
-</tr>
+Where **18+ AI agents coordinate dynamically** to generate personalized spiritual intelligence reports.
 
-<tr>
-<td align="center">Dynamic PDF Rendering</td>
-<td align="center">Report Generation Pipelines</td>
-<td align="center">Workflow Modularization</td>
-</tr>
-
-<tr>
-<td align="center">Prompt Consistency</td>
-<td align="center">Full-Stack Architecture</td>
-<td align="center">AI Product Engineering</td>
-</tr>
-</table>
+### Engineering Challenges Solved
+✅ Multi-agent orchestration  
+✅ AI guardrails + validation  
+✅ Structured reasoning systems  
+✅ Dynamic PDF rendering  
+✅ Report generation pipelines  
+✅ Full-stack product architecture  
+✅ Workflow modularization  
+✅ Prompt consistency enforcement  
 
 ---
 
+# Engineering Philosophy
+
 <div align="center">
 
-## Engineering Philosophy
+### "AI is not magic. Reliable systems are engineered."
 
-### AI is not magic. Reliable systems are engineered.
+</div>
 
 Good systems are:
 
-Clear in intent  
-Reliable under pressure  
-Honest about trade-offs  
+✔ Clear in intent  
+✔ Boring in reliability  
+✔ Honest about trade-offs  
 
-I care deeply about scalable architecture, production reliability, AI safety boundaries, and product craftsmanship.
+I care deeply about:
+- scalable architecture
+- production reliability
+- AI safety boundaries
+- system clarity
+- product craftsmanship
 
-Shipping hype is easy.
+AI hype is easy.
 
-Shipping production systems is hard.
+Shipping reliable AI systems is hard.
 
 That’s the game I’m playing.
 
-</div>
-
 ---
 
-<div align="center">
+# Tech Universe
 
-## Tech Universe
+<div align="center">
 
 <img src="https://skillicons.dev/icons?i=java,spring,python,fastapi,angular,typescript,kafka,docker,aws,postgres,redis,git" />
 
@@ -155,11 +128,11 @@ That’s the game I’m playing.
 
 ---
 
+# Open To
+
 <div align="center">
 
-## Open To
-
-**Senior AI Engineer • Applied AI Engineer • AI Platform Engineer • Founding Engineer • Senior Full Stack Roles**
+**Senior AI Engineer • Applied AI Engineer • AI Platform Engineer • Founding Engineer**
 
 </div>
 
@@ -167,6 +140,6 @@ That’s the game I’m playing.
 
 <div align="center">
 
-### Building the future, one reliable AI system at a time.
+### Building the future, one reliable AI system at a time ⚡
 
 </div>

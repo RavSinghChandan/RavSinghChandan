@@ -28,121 +28,126 @@
 
 ---
 
-# ⚡ About Me
+<div align="center">
 
-I’m a **Senior Full-Stack Engineer transitioning into Applied AI Engineering**, building systems where engineering discipline meets AI intelligence.
+## About Me
 
-Most AI demos look magical.
+Senior Full-Stack Engineer transitioning into Applied AI Engineering.
 
-Production AI looks very different.
+I build systems where software engineering discipline meets AI intelligence.
 
-It needs:
+Production AI requires architecture, observability, orchestration, guardrails, structured outputs, scalable frontend systems, and reliable backend platforms.
 
-- architecture
-- failure boundaries
-- observability
-- orchestration
-- structured outputs
-- guardrails
-- scalable frontend + backend systems
+That’s the space I operate in.
 
-That’s where I thrive.
+</div>
 
 ---
 
-# 🚀 What I Build
+<div align="center">
+
+## What I Build
 
 <table>
 <tr>
-<td width="50%">
+<td align="center" width="50%">
 
-### 🤖 AI Engineering
-- Agentic AI Systems
-- Multi-Agent Orchestration
-- LangChain / LangGraph
-- LLM Applications
-- RAG Pipelines
-- Guardrails
-- Prompt Architecture
-- FastAPI AI Services
-- AI Workflow Design
+<h3>AI Engineering</h3>
+
+Agentic AI Systems  
+Multi-Agent Orchestration  
+LangChain / LangGraph  
+LLM Applications  
+RAG Pipelines  
+Prompt Architecture  
+Guardrails  
+FastAPI AI Services  
+AI Workflow Design
 
 </td>
 
-<td width="50%">
+<td align="center" width="50%">
 
-### 💻 Full Stack Engineering
-- Java / Spring Boot
-- Kafka
-- Microservices
-- Angular / TypeScript
-- System Design
-- Event-Driven Systems
-- PostgreSQL / Redis
-- Docker / AWS / CI-CD
+<h3>Full Stack Engineering</h3>
+
+Java / Spring Boot  
+Kafka  
+Microservices  
+Angular / TypeScript  
+System Design  
+Event-Driven Systems  
+PostgreSQL / Redis  
+Docker / AWS / CI-CD
 
 </td>
 </tr>
 </table>
 
----
-
-# 🔥 Signature Project
-
-<div align="center">
-
-## Aura with Rav
-
-*A production-grade AI-powered spiritual intelligence platform*
-
 </div>
-
-Where **18+ AI agents coordinate dynamically** to generate personalized spiritual intelligence reports.
-
-### Engineering Challenges Solved
-✅ Multi-agent orchestration  
-✅ AI guardrails + validation  
-✅ Structured reasoning systems  
-✅ Dynamic PDF rendering  
-✅ Report generation pipelines  
-✅ Full-stack product architecture  
-✅ Workflow modularization  
-✅ Prompt consistency enforcement  
 
 ---
 
-# 🧠 Engineering Philosophy
+<div align="center">
+
+## Signature Project
+
+# Aura with Rav
+
+*Production-grade AI-powered spiritual intelligence platform*
+
+Where **18+ AI agents coordinate dynamically** to generate structured personalized intelligence reports.
+
+</div>
+
+<table>
+<tr>
+<td align="center">Multi-Agent Orchestration</td>
+<td align="center">AI Guardrails + Validation</td>
+<td align="center">Structured Reasoning Systems</td>
+</tr>
+
+<tr>
+<td align="center">Dynamic PDF Rendering</td>
+<td align="center">Report Generation Pipelines</td>
+<td align="center">Workflow Modularization</td>
+</tr>
+
+<tr>
+<td align="center">Prompt Consistency</td>
+<td align="center">Full-Stack Architecture</td>
+<td align="center">AI Product Engineering</td>
+</tr>
+</table>
+
+---
 
 <div align="center">
 
-### "AI is not magic. Reliable systems are engineered."
+## Engineering Philosophy
 
-</div>
+### AI is not magic. Reliable systems are engineered.
 
 Good systems are:
 
-✔ Clear in intent  
-✔ Boring in reliability  
-✔ Honest about trade-offs  
+Clear in intent  
+Reliable under pressure  
+Honest about trade-offs  
 
-I care deeply about:
-- scalable architecture
-- production reliability
-- AI safety boundaries
-- system clarity
-- product craftsmanship
+I care deeply about scalable architecture, production reliability, AI safety boundaries, and product craftsmanship.
 
-AI hype is easy.
+Shipping hype is easy.
 
-Shipping reliable AI systems is hard.
+Shipping production systems is hard.
 
 That’s the game I’m playing.
 
+</div>
+
 ---
 
-# ⚙️ Tech Universe
-
 <div align="center">
+
+## Tech Universe
 
 <img src="https://skillicons.dev/icons?i=java,spring,python,fastapi,angular,typescript,kafka,docker,aws,postgres,redis,git" />
 
@@ -150,47 +155,11 @@ That’s the game I’m playing.
 
 ---
 
-# 📊 GitHub Analytics
-
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=RavSinghChandan&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"/>
+## Open To
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RavSinghChandan&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-# 🎯 Open To
-
-<div align="center">
-
-**Senior AI Engineer • Applied AI Engineer • AI Platform Engineer • Founding Engineer**
-
-</div>
-
----
-
-# 🌍 Let's Connect
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/rav-chandan-kumar-singh-767374315/">
-  <img src="https://img.shields.io/badge/LinkedIn-Chandan%20Kumar%20Singh-blue?style=for-the-badge&logo=linkedin"/>
-</a>
-
-<a href="https://www.youtube.com/@TechWithRav">
-  <img src="https://img.shields.io/badge/YouTube-TechWithRav-red?style=for-the-badge&logo=youtube"/>
-</a>
-
-<a href="mailto:ravchandan15@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Reach%20Out-black?style=for-the-badge&logo=gmail"/>
-</a>
-
-<a href="https://x.com/ravchandan1">
-  <img src="https://img.shields.io/badge/X-Follow-black?style=for-the-badge&logo=x"/>
-</a>
+**Senior AI Engineer • Applied AI Engineer • AI Platform Engineer • Founding Engineer • Senior Full Stack Roles**
 
 </div>
 
@@ -198,6 +167,6 @@ That’s the game I’m playing.
 
 <div align="center">
 
-### Building the future, one reliable AI system at a time ⚡
+### Building the future, one reliable AI system at a time.
 
 </div>

@@ -6,16 +6,19 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/rav-chandan-kumar-singh-767374315/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="42"/>
   </a>
+  &nbsp;&nbsp;
   <a href="https://www.youtube.com/@TechWithRav">
-    <img src="https://img.shields.io/badge/YouTube-TechWithRav-red?style=for-the-badge&logo=youtube"/>
+    <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" width="42"/>
   </a>
+  &nbsp;&nbsp;
   <a href="mailto:ravchandan15@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Reach_Out-black?style=for-the-badge&logo=gmail"/>
+    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="42"/>
   </a>
+  &nbsp;&nbsp;
   <a href="https://x.com/ravchandan1">
-    <img src="https://img.shields.io/badge/X-Follow-black?style=for-the-badge&logo=x"/>
+    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968830.png" width="42"/>
   </a>
 </p>
 
@@ -50,7 +53,7 @@ LLM Applications
 RAG Pipelines  
 Guardrails  
 Structured Outputs  
-Prompt Architecture
+Prompt Architecture  
 
 </td>
 
@@ -64,7 +67,7 @@ Kafka
 Microservices  
 REST APIs  
 System Design  
-Event-Driven Systems
+Event-Driven Systems  
 
 </td>
 
@@ -79,7 +82,7 @@ Redis
 CI/CD  
 Scalable Architecture  
 Observability  
-Production Reliability
+Production Reliability  
 
 </td>
 </tr>
@@ -115,8 +118,7 @@ A production-grade AI application where **18+ AI agents coordinate dynamically**
 
 <div align="center">
 
-<!-- Replace with your actual screenshot -->
-<img src="YOUR_AURA_SCREENSHOT_URL" width="100%" />
+<img src="https://drive.google.com/uc?export=view&id=1YlGd9qjuHhsmHW1GgseGy9SerUv0Quoh" width="100%" />
 
 </div>
 

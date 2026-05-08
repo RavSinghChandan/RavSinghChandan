@@ -1,126 +1,33 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=SF+Pro+Display&weight=600&size=32&pause=1000&color=6C63FF&center=true&vCenter=true&width=900&lines=Chandan+Kumar+Singh;Full-Stack+Engineer+%E2%86%92+Applied+AI+Engineer;Building+Production-Grade+AI+Systems" />
+# Chandan Kumar Singh
 
-<br/>
+### Applied AI Engineer | Senior Full-Stack Engineer | Production AI Systems Builder
 
 <p align="center">
   <a href="https://www.linkedin.com/in/rav-chandan-kumar-singh-767374315/">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="40"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/>
   </a>
-  &nbsp;&nbsp;
   <a href="https://www.youtube.com/@TechWithRav">
-    <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" width="40"/>
+    <img src="https://img.shields.io/badge/YouTube-TechWithRav-red?style=for-the-badge&logo=youtube"/>
   </a>
-  &nbsp;&nbsp;
   <a href="mailto:ravchandan15@gmail.com">
-    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="40"/>
+    <img src="https://img.shields.io/badge/Email-Reach_Out-black?style=for-the-badge&logo=gmail"/>
   </a>
-  &nbsp;&nbsp;
   <a href="https://x.com/ravchandan1">
-    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968830.png" width="40"/>
+    <img src="https://img.shields.io/badge/X-Follow-black?style=for-the-badge&logo=x"/>
   </a>
 </p>
 
-<h3>Engineering intelligent systems that survive reality.</h3>
+### Building intelligent systems that survive production reality.
 
 </div>
 
 ---
 
-# What I Build
-
-<table>
-<tr>
-<td width="50%">
-
-### AI Engineering
-- Agentic AI Systems
-- Multi-Agent Orchestration
-- LangChain / LangGraph
-- LLM Applications
-- RAG Pipelines
-- Guardrails
-- Prompt Architecture
-- FastAPI AI Services
-- AI Workflow Design
-
-</td>
-
-<td width="50%">
-
-### Full Stack Engineering
-- Java / Spring Boot
-- Kafka
-- Microservices
-- Angular / TypeScript
-- System Design
-- Event-Driven Systems
-- PostgreSQL / Redis
-- Docker / AWS / CI-CD
-
-</td>
-</tr>
-</table>
-
----
-
-# Signature Project
-
 <div align="center">
 
-## Aura with Rav
-
-*A production-grade AI-powered spiritual intelligence platform*
-
-</div>
-
-Where **18+ AI agents coordinate dynamically** to generate personalized spiritual intelligence reports.
-
-### Engineering Challenges Solved
-✅ Multi-agent orchestration  
-✅ AI guardrails + validation  
-✅ Structured reasoning systems  
-✅ Dynamic PDF rendering  
-✅ Report generation pipelines  
-✅ Full-stack product architecture  
-✅ Workflow modularization  
-✅ Prompt consistency enforcement  
-
----
-
-# Engineering Philosophy
-
-<div align="center">
-
-### "AI is not magic. Reliable systems are engineered."
-
-</div>
-
-Good systems are:
-
-✔ Clear in intent  
-✔ Boring in reliability  
-✔ Honest about trade-offs  
-
-I care deeply about:
-- scalable architecture
-- production reliability
-- AI safety boundaries
-- system clarity
-- product craftsmanship
-
-AI hype is easy.
-
-Shipping reliable AI systems is hard.
-
-That’s the game I’m playing.
-
----
-
-# Tech Universe
-
-<div align="center">
+## Tech Stack
 
 <img src="https://skillicons.dev/icons?i=java,spring,python,fastapi,angular,typescript,kafka,docker,aws,postgres,redis,git" />
 
@@ -128,11 +35,112 @@ That’s the game I’m playing.
 
 ---
 
-# Open To
+## What I Build
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+### AI Engineering
+
+Agentic AI Systems  
+Multi-Agent Orchestration  
+LangChain / LangGraph  
+LLM Applications  
+RAG Pipelines  
+Guardrails  
+Structured Outputs  
+Prompt Architecture
+
+</td>
+
+<td width="33%" align="center">
+
+### Full Stack
+
+Java / Spring Boot  
+Angular / TypeScript  
+Kafka  
+Microservices  
+REST APIs  
+System Design  
+Event-Driven Systems
+
+</td>
+
+<td width="33%" align="center">
+
+### Infrastructure
+
+Docker  
+AWS  
+PostgreSQL  
+Redis  
+CI/CD  
+Scalable Architecture  
+Observability  
+Production Reliability
+
+</td>
+</tr>
+</table>
+
+---
+
+# Featured Project
 
 <div align="center">
 
-**Senior AI Engineer • Applied AI Engineer • AI Platform Engineer • Founding Engineer**
+## Aura with Rav
+
+**AI-powered spiritual intelligence platform**
+
+</div>
+
+A production-grade AI application where **18+ AI agents coordinate dynamically** to generate personalized structured intelligence reports.
+
+### Core engineering challenges solved:
+- Multi-agent orchestration
+- Prompt consistency enforcement
+- Guardrails & validation layers
+- Structured reasoning workflows
+- Dynamic PDF rendering
+- AI workflow modularization
+- Full-stack product architecture
+- Report generation pipelines
+
+---
+
+## Product Snapshot
+
+<div align="center">
+
+<!-- Replace with your actual screenshot -->
+<img src="YOUR_AURA_SCREENSHOT_URL" width="100%" />
+
+</div>
+
+---
+
+## Engineering Philosophy
+
+> AI is not magic. Reliable systems are engineered.
+
+Good systems are:
+- clear in intent
+- resilient under failure
+- observable in production
+- honest about trade-offs
+
+I focus on shipping systems that work beyond demos.
+
+---
+
+## Open To
+
+<div align="center">
+
+### Senior AI Engineer • Applied AI Engineer • AI Platform Engineer • Founding Engineer
 
 </div>
 
@@ -140,6 +148,6 @@ That’s the game I’m playing.
 
 <div align="center">
 
-### Building the future, one reliable AI system at a time ⚡
+### If you're building serious AI products, let's connect.
 
 </div>

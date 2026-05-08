@@ -30,7 +30,7 @@
 
 # ⚡ About Me
 
-I’m a **Senior Full-Stack Engineer transitioning into Applied AI Engineering**, building systems where **engineering discipline meets AI intelligence**.
+I’m a **Senior Full-Stack Engineer transitioning into Applied AI Engineering**, building systems where engineering discipline meets AI intelligence.
 
 Most AI demos look magical.
 
@@ -132,6 +132,12 @@ I care deeply about:
 - system clarity
 - product craftsmanship
 
+AI hype is easy.
+
+Shipping reliable AI systems is hard.
+
+That’s the game I’m playing.
+
 ---
 
 # ⚙️ Tech Universe
@@ -148,9 +154,9 @@ I care deeply about:
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=RavSinghChandan&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RavSinghChandan&layout=compact&theme=tokyonight&hide_border=true"/>
 
 </div>
 
@@ -192,6 +198,6 @@ I care deeply about:
 
 <div align="center">
 
-### Building the future, one reliable system at a time ⚡
+### Building the future, one reliable AI system at a time ⚡
 
 </div>

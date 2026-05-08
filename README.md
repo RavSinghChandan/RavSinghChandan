@@ -1,6 +1,6 @@
 <div align="center">
 
-# Chandan Kumar Singh
+# Chandan Kumar
 
 ### Applied AI Engineer | Senior Full-Stack Engineer | Production AI Systems Builder
 

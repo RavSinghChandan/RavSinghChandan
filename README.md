@@ -136,7 +136,7 @@ A production-grade AI application where **18+ AI agents coordinate dynamically**
 
 <div align="center">
 
-<img src="[https://drive.google.com/uc?export=view&id=1YlGd9qjuHhsmHW1GgseGy9SerUv0Quoh](https://drive.google.com/file/d/17i5C5GRDapEX8doX8I0CRwXJhthxEt_u/view?usp=sharing)" width="100%" />
+<img src="https://drive.google.com/file/d/17i5C5GRDapEX8doX8I0CRwXJhthxEt_u/view?usp=drive_link" width="100%" />
 
 </div>
 

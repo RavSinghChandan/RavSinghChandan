@@ -96,7 +96,7 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/PROJECT_1-a78bfa?style=for-the-badge&labelColor=0f0c29"/>
+<img src="https://img.shields.io/badge/%E2%9C%A6%20PROJECT%20%E2%80%94%2001-7c3aed?style=for-the-badge&labelColor=0f0c29"/>
 
 ## Aura with Rav — AI Spiritual Intelligence Platform
 
@@ -113,14 +113,32 @@
 
 A production-grade AI application where **18+ AI agents coordinate dynamically** to generate personalized structured intelligence reports across Vedic Astrology, Numerology, Palmistry, Tarot, and Vastu Shastra — in **23 Indian languages**.
 
-| 🔴 Engineering Challenge | 🟢 How It Was Solved |
-|---|---|
-| 18+ agents coordinating without conflicts | LangGraph stateful orchestration — each agent is a node, edges are conditional |
-| Multi-tenant SaaS — 3 roles (USER / ADMIN / SUPERADMIN) | JWT Bearer + X-API-Key dual auth, role-based route guards, 76 auth tests |
-| Retrieval quality on spiritual queries | Hybrid RAG + Multi-Query expansion — ambiguous queries classified at higher confidence |
-| LLM hallucination on sensitive predictions | G1–G5 guardrails: rate limit, injection detection, PII filter, faithfulness gate |
-| Report in 23 Indian languages | Language-aware prompt templating, dynamic PDF rendering per locale |
-| Reliability without LLM dependency | **415 tests, 3.6s** — full stack tested with mock LLM, zero flakiness |
+<table align="center" width="100%">
+<tr>
+<td align="left" width="50%"><img src="https://img.shields.io/badge/PROBLEM-18%2B_agents_coordinating_without_conflicts-1e1b4b?style=flat-square&labelColor=7c3aed"/></td>
+<td align="left" width="50%"><img src="https://img.shields.io/badge/SOLVED-LangGraph_stateful_orchestration,_conditional_edges-064e3b?style=flat-square&labelColor=10b981"/></td>
+</tr>
+<tr>
+<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Multi--tenant_SaaS,_3_roles_(USER_ADMIN_SUPERADMIN)-1e1b4b?style=flat-square&labelColor=7c3aed"/></td>
+<td align="left"><img src="https://img.shields.io/badge/SOLVED-JWT_Bearer_%2B_X--API--Key_dual_auth,_76_auth_tests-064e3b?style=flat-square&labelColor=10b981"/></td>
+</tr>
+<tr>
+<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Retrieval_quality_on_spiritual_queries-1e1b4b?style=flat-square&labelColor=7c3aed"/></td>
+<td align="left"><img src="https://img.shields.io/badge/SOLVED-Hybrid_RAG_%2B_Multi--Query_expansion-064e3b?style=flat-square&labelColor=10b981"/></td>
+</tr>
+<tr>
+<td align="left"><img src="https://img.shields.io/badge/PROBLEM-LLM_hallucination_on_sensitive_predictions-1e1b4b?style=flat-square&labelColor=7c3aed"/></td>
+<td align="left"><img src="https://img.shields.io/badge/SOLVED-G1--G5_guardrails:_rate_limit,_injection,_PII,_faithfulness-064e3b?style=flat-square&labelColor=10b981"/></td>
+</tr>
+<tr>
+<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Reports_in_23_Indian_languages-1e1b4b?style=flat-square&labelColor=7c3aed"/></td>
+<td align="left"><img src="https://img.shields.io/badge/SOLVED-Language--aware_prompt_templating_%2B_dynamic_PDF_rendering-064e3b?style=flat-square&labelColor=10b981"/></td>
+</tr>
+<tr>
+<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Reliability_without_LLM_dependency-1e1b4b?style=flat-square&labelColor=7c3aed"/></td>
+<td align="left"><img src="https://img.shields.io/badge/SOLVED-415_tests,_3.6s_runtime,_mock_LLM,_zero_flakiness-064e3b?style=flat-square&labelColor=10b981"/></td>
+</tr>
+</table>
 
 **Core challenges solved:** Multi-agent orchestration · Prompt consistency · Guardrails & validation · Structured reasoning · Dynamic PDF rendering · AI workflow modularization · Full-stack product architecture
 
@@ -128,15 +146,13 @@ A production-grade AI application where **18+ AI agents coordinate dynamically**
 
 <img src="https://drive.usercontent.google.com/download?id=17i5C5GRDapEX8doX8I0CRwXJhthxEt_u&export=view&authuser=0" width="100%" alt="Aura with Rav — AstroIntel"/>
 
-> ⚠️ **Image not loading?** Upload to [imgur.com](https://imgur.com) and replace the src above with your imgur direct link ending in `.png`
-
 </div>
 
 ---
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/PROJECT_2-f59e0b?style=for-the-badge&labelColor=1a1a2e"/>
+<img src="https://img.shields.io/badge/%E2%9C%A6%20PROJECT%20%E2%80%94%2002-b45309?style=for-the-badge&labelColor=1a1a2e"/>
 
 ## Bench Resource Optimizer — Enterprise AI HR Platform
 
@@ -153,22 +169,44 @@ A production-grade AI application where **18+ AI agents coordinate dynamically**
 
 An enterprise-grade AI system that identifies bench employees, maps them to open roles using **Hybrid RAG**, surfaces skill gaps, and generates 7-day preparation roadmaps — production hardened with zero shortcuts.
 
-| 🔴 Engineering Challenge | 🟢 How It Was Solved |
-|---|---|
-| Accurate skill-to-role matching at scale | FAISS + BM25 + RRF + HyDE + CRAG + cross-encoder reranker — full hybrid RAG stack |
-| Repeated role queries hitting LLM every time | Semantic cache L1 (exact hash < 1ms) + L2 (cosine ≥ 0.92) backed by Redis |
-| CV text as untrusted input (injection risk) | G2 injection detection scans every CV before any LLM call |
-| Agent failures cascading to user timeouts | Circuit breaker — 5 failures → opens → graceful fallback in milliseconds |
-| Memory lost on every server restart | Write-through episodic memory to SQLite WAL — survives restarts |
-| Role knowledge base stuck as hardcoded JSON | Admin CRUD API — live add/edit/delete, async FAISS+BM25 rebuild, zero downtime |
-| Slow plan generation blocking the UI | SSE streaming — Angular EventSource renders tokens live, TTFT under 1.5s |
-| Verifying the entire enterprise stack | **222 tests, 3.6s runtime** — every module covered, zero external dependencies in CI |
+<table align="center" width="100%">
+<tr>
+<td align="left" width="50%"><img src="https://img.shields.io/badge/PROBLEM-Accurate_skill--to--role_matching_at_scale-1e1b4b?style=flat-square&labelColor=b45309"/></td>
+<td align="left" width="50%"><img src="https://img.shields.io/badge/SOLVED-FAISS_%2B_BM25_%2B_RRF_%2B_HyDE_%2B_CRAG_%2B_cross--encoder_reranker-064e3b?style=flat-square&labelColor=10b981"/></td>
+</tr>
+<tr>
+<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Repeated_role_queries_hammering_the_LLM-1e1b4b?style=flat-square&labelColor=b45309"/></td>
+<td align="left"><img src="https://img.shields.io/badge/SOLVED-Semantic_cache_L1_(exact_%3C1ms)_%2B_L2_(cosine_0.92)_%2B_Redis-064e3b?style=flat-square&labelColor=10b981"/></td>
+</tr>
+<tr>
+<td align="left"><img src="https://img.shields.io/badge/PROBLEM-CV_text_as_untrusted_input_(injection_risk)-1e1b4b?style=flat-square&labelColor=b45309"/></td>
+<td align="left"><img src="https://img.shields.io/badge/SOLVED-G2_injection_detection_LLM_never_sees_injected_payloads-064e3b?style=flat-square&labelColor=10b981"/></td>
+</tr>
+<tr>
+<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Agent_failures_cascading_to_user_timeouts-1e1b4b?style=flat-square&labelColor=b45309"/></td>
+<td align="left"><img src="https://img.shields.io/badge/SOLVED-Circuit_breaker:_5_failures_opens_graceful_fallback_in_ms-064e3b?style=flat-square&labelColor=10b981"/></td>
+</tr>
+<tr>
+<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Agent_memory_lost_on_every_server_restart-1e1b4b?style=flat-square&labelColor=b45309"/></td>
+<td align="left"><img src="https://img.shields.io/badge/SOLVED-Write--through_episodic_memory_to_SQLite_WAL_survives_restarts-064e3b?style=flat-square&labelColor=10b981"/></td>
+</tr>
+<tr>
+<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Role_knowledge_stuck_as_hardcoded_JSON-1e1b4b?style=flat-square&labelColor=b45309"/></td>
+<td align="left"><img src="https://img.shields.io/badge/SOLVED-Admin_CRUD_API_%2B_async_FAISS_BM25_rebuild_zero_downtime-064e3b?style=flat-square&labelColor=10b981"/></td>
+</tr>
+<tr>
+<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Slow_plan_generation_blocking_the_UI-1e1b4b?style=flat-square&labelColor=b45309"/></td>
+<td align="left"><img src="https://img.shields.io/badge/SOLVED-SSE_streaming_Angular_EventSource_TTFT_under_1.5s-064e3b?style=flat-square&labelColor=10b981"/></td>
+</tr>
+<tr>
+<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Verifying_the_entire_enterprise_stack-1e1b4b?style=flat-square&labelColor=b45309"/></td>
+<td align="left"><img src="https://img.shields.io/badge/SOLVED-222_tests_3.6s_runtime_zero_external_dependencies_in_CI-064e3b?style=flat-square&labelColor=10b981"/></td>
+</tr>
+</table>
 
 <div align="center">
 
 <img src="https://drive.usercontent.google.com/download?id=15tfvSFnxmGDNBF3Fvw5P1_77mwwgSkM-&export=view&authuser=0" width="100%" alt="Bench Resource Optimizer"/>
-
-> ⚠️ **Image not loading?** Upload to [imgur.com](https://imgur.com) and replace the src above with your imgur direct link ending in `.png`
 
 </div>
 
@@ -201,10 +239,21 @@ Good systems are:
 
 ## 🎯 Open To
 
-![Role1](https://img.shields.io/badge/Senior_AI_Engineer-6366f1?style=for-the-badge)
-![Role2](https://img.shields.io/badge/Applied_AI_Engineer-8b5cf6?style=for-the-badge)
-![Role3](https://img.shields.io/badge/AI_Platform_Engineer-a78bfa?style=for-the-badge)
-![Role4](https://img.shields.io/badge/Founding_Engineer-c4b5fd?style=for-the-badge)
+<a href="https://www.linkedin.com/in/rav-chandan-kumar-singh-767374315/">
+  <img src="https://img.shields.io/badge/Senior_AI_Engineer-6366f1?style=for-the-badge"/>
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/rav-chandan-kumar-singh-767374315/">
+  <img src="https://img.shields.io/badge/Applied_AI_Engineer-8b5cf6?style=for-the-badge"/>
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/rav-chandan-kumar-singh-767374315/">
+  <img src="https://img.shields.io/badge/AI_Platform_Engineer-a78bfa?style=for-the-badge"/>
+</a>
+&nbsp;
+<a href="mailto:ravchandan15@gmail.com">
+  <img src="https://img.shields.io/badge/Founding_Engineer-c4b5fd?style=for-the-badge"/>
+</a>
 
 </div>
 

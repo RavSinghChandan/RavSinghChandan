@@ -7,6 +7,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/rav-chandan-kumar-singh-767374315/">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="42"/>
+
   </a>
   &nbsp;&nbsp;
   <a href="https://www.youtube.com/@TechWithRav">
@@ -108,35 +109,94 @@
 
 ---
 
-# Featured Project
+# Featured Projects
+
+---
 
 <div align="center">
 
-## Aura with Rav
+## Project 1 — Aura with Rav
 
-**AI-powered spiritual intelligence platform**
+### AI-powered spiritual intelligence platform
+
+**Python · FastAPI · Angular 17 · LangGraph · DeepSeek LLM · JWT Auth · Production Deployed**
 
 </div>
 
-A production-grade AI application where **18+ AI agents coordinate dynamically** to generate personalized structured intelligence reports.
+A production-grade AI application where **18+ AI agents coordinate dynamically** to generate personalized structured intelligence reports across Vedic Astrology, Numerology, Palmistry, Tarot, and Vastu Shastra — in 23 Indian languages.
 
-### Core engineering challenges solved:
-- Multi-agent orchestration
-- Prompt consistency enforcement
-- Guardrails & validation layers
-- Structured reasoning workflows
-- Dynamic PDF rendering
-- AI workflow modularization
-- Full-stack product architecture
-- Report generation pipelines
+**What makes this senior-level work:**
 
----
+| Engineering Challenge | How It Was Solved |
+|---|---|
+| 18+ agents coordinating without conflicts | LangGraph stateful orchestration — each agent is a node, edges are conditional |
+| Multi-tenant SaaS — 3 roles (USER / ADMIN / SUPERADMIN) | JWT Bearer + X-API-Key dual auth, role-based route guards, 76 auth tests |
+| Retrieval quality on spiritual queries | Hybrid RAG + Multi-Query expansion — ambiguous queries classified at higher confidence |
+| LLM hallucination on sensitive predictions | G1–G5 guardrails: rate limit, injection detection, PII filter, faithfulness gate |
+| Report in 23 Indian languages | Language-aware prompt templating, dynamic PDF rendering per locale |
+| Reliability without LLM dependency | 415 tests, 3.6s — full stack tested with mock LLM, zero flakiness |
+
+**Core engineering challenges solved:**
+Multi-agent orchestration · Prompt consistency enforcement · Guardrails & validation layers · Structured reasoning workflows · Dynamic PDF rendering · AI workflow modularization · Full-stack product architecture · Report generation pipelines
 
 ## Product Snapshot
 
 <div align="center">
 
-<img src="https://drive.google.com/file/d/17i5C5GRDapEX8doX8I0CRwXJhthxEt_u/view?usp=drive_link" width="100%" />
+<!-- 
+  ACTION REQUIRED: Replace this image with an Imgur link.
+  Google Drive does NOT work on GitHub (GitHub's proxy blocks it).
+  
+  Steps (2 minutes):
+  1. Go to imgur.com
+  2. Drag your AstroIntel screenshot
+  3. Right-click uploaded image → Copy Image Address
+  4. Replace the src below with that URL (ends in .png or .jpg)
+-->
+<img src="https://drive.usercontent.google.com/download?id=17i5C5GRDapEX8doX8I0CRwXJhthxEt_u&export=view&authuser=0" width="100%" alt="Aura with Rav — AstroIntel"/>
+
+</div>
+
+---
+
+<div align="center">
+
+## Project 2 — Bench Resource Optimizer
+
+### Enterprise AI platform for HR & workforce intelligence
+
+**Python · FastAPI · Angular 17 · Hybrid RAG · SQLite WAL · Kafka · JWT Auth · 222 Tests**
+
+</div>
+
+An enterprise-grade AI system that identifies bench employees, maps them to open project roles using Hybrid RAG, surfaces skill gaps, and generates 7-day preparation roadmaps — fully production hardened with no shortcuts.
+
+**What makes this senior-level work:**
+
+| Engineering Challenge | How It Was Solved |
+|---|---|
+| Accurate skill-to-role matching at scale | FAISS + BM25 + RRF fusion + HyDE + CRAG + cross-encoder reranker — full hybrid RAG stack |
+| Repeated role queries hitting LLM every time | Semantic cache L1 (exact hash < 1ms) + L2 (cosine ≥ 0.92) backed by Redis |
+| CV text as untrusted input (injection risk) | G2 injection detection scans every CV before any LLM call — LLM never sees injected payloads |
+| Agent failures cascading to user timeouts | Circuit breaker per operation — 5 failures → circuit opens → graceful fallback in milliseconds |
+| Memory lost on every server restart | Write-through episodic memory to SQLite WAL — agent state survives restarts |
+| Role knowledge base stuck as hardcoded JSON | Admin CRUD API — add/edit/delete roles live, async FAISS+BM25 index rebuild, zero downtime |
+| Slow plan generation blocking the UI | SSE streaming — Angular EventSource renders tokens as they arrive, TTFT under 1.5s |
+| Verifying the entire enterprise stack | 222 tests, 3.6s runtime — every module covered, no external dependencies in CI |
+
+<div align="center">
+
+<!-- 
+  ACTION REQUIRED: Replace this image with an Imgur link.
+  Google Drive does NOT work on GitHub (GitHub's proxy blocks it).
+  
+  Steps (2 minutes):
+  1. Go to imgur.com
+  2. Drag your Bench Resource Optimizer screenshot
+  3. Right-click uploaded image → Copy Image Address
+  4. Replace the src below with that URL (ends in .png or .jpg)
+-->
+<img src="https://drive.usercontent.google.com/download?id=15tfvSFnxmGDNBF3Fvw5P1_77mwwgSkM-&export=view&authuser=0" width="100%" alt="Bench Resource Optimizer"/>
 
 </div>
 

@@ -212,6 +212,71 @@ An enterprise-grade AI system that identifies bench employees, maps them to open
 
 ---
 
+<div align="center">
+
+<img src="https://img.shields.io/badge/%E2%9C%A6%20PROJECT%20%E2%80%94%2003-065f46?style=for-the-badge&labelColor=0f172a"/>
+
+## RunbookAI — Enterprise IT Incident Response (RAGless)
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular_21-DD0031?style=flat-square&logo=angular&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-302b63?style=flat-square)
+![SQLite](https://img.shields.io/badge/SQLite_WAL-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![NetworkX](https://img.shields.io/badge/NetworkX_DAG-f59e0b?style=flat-square)
+![JWT](https://img.shields.io/badge/JWT_Auth-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![Tests](https://img.shields.io/badge/141_Tests_Passing-10b981?style=flat-square)
+![RAGless](https://img.shields.io/badge/RAGless_Architecture-ef4444?style=flat-square)
+
+</div>
+
+Enterprise IT incident response engine — **zero vectors, zero embeddings, zero hallucinated commands**. Every `kubectl` command is pulled verbatim from the database. Three completely separate, non-mixed knowledge panels ranked by priority for every incident.
+
+<table align="center" width="100%">
+<tr>
+<td align="left" width="50%"><img src="https://img.shields.io/badge/PROBLEM-LLM_hallucinating_kubectl_commands_at_3_AM-1e1b4b?style=flat-square&labelColor=065f46"/></td>
+<td align="left" width="50%"><img src="https://img.shields.io/badge/SOLVED-RAGless:_LLM_runs_ONCE_at_ingest,_SQL_returns_commands_verbatim-064e3b?style=flat-square&labelColor=10b981"/></td>
+</tr>
+<tr>
+<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Step_ordering_lost_when_documents_are_chunked-1e1b4b?style=flat-square&labelColor=065f46"/></td>
+<td align="left"><img src="https://img.shields.io/badge/SOLVED-NetworkX_DiGraph_%2B_topological_sort,_safe_execution_order_every_time-064e3b?style=flat-square&labelColor=10b981"/></td>
+</tr>
+<tr>
+<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Engineer_doesn%27t_know:_follow_company_runbook_or_K8s_docs%3F-1e1b4b?style=flat-square&labelColor=065f46"/></td>
+<td align="left"><img src="https://img.shields.io/badge/SOLVED-3_clean_panels:_P1_Internal_(green)_P2_Official_(blue)_P3_Combined_(purple)-064e3b?style=flat-square&labelColor=10b981"/></td>
+</tr>
+<tr>
+<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Numeric_conflicts_between_internal_and_official_docs_undetected-1e1b4b?style=flat-square&labelColor=065f46"/></td>
+<td align="left"><img src="https://img.shields.io/badge/SOLVED-Conflict_detector:_VALUE_ORDER_MISSING_EXTRA_with_severity_%2B_recommendation-064e3b?style=flat-square&labelColor=10b981"/></td>
+</tr>
+<tr>
+<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Official_K8s_docs_knowledge_locked_outside_the_system-1e1b4b?style=flat-square&labelColor=065f46"/></td>
+<td align="left"><img src="https://img.shields.io/badge/SOLVED-K8s_docs_scraper:_10_pages_from_kubernetes_website_GitHub-064e3b?style=flat-square&labelColor=10b981"/></td>
+</tr>
+<tr>
+<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Parallel_steps_not_identified,_engineers_run_sequentially-1e1b4b?style=flat-square&labelColor=065f46"/></td>
+<td align="left"><img src="https://img.shields.io/badge/SOLVED-NetworkX_parallel__groups:_Steps_4_%26_5_can_run_simultaneously-064e3b?style=flat-square&labelColor=10b981"/></td>
+</tr>
+<tr>
+<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Unauthenticated_upload,_CORS_open,_JWT_hardcoded-1e1b4b?style=flat-square&labelColor=065f46"/></td>
+<td align="left"><img src="https://img.shields.io/badge/SOLVED-editor%2B_JWT_required,_magic--byte_PDF_check,_ALLOWED__ORIGINS_env,_rate_limit-064e3b?style=flat-square&labelColor=10b981"/></td>
+</tr>
+<tr>
+<td align="left"><img src="https://img.shields.io/badge/PROBLEM-N%2B1_queries_%2B_bare_json.loads_crashing_on_corrupt_DB_fields-1e1b4b?style=flat-square&labelColor=065f46"/></td>
+<td align="left"><img src="https://img.shields.io/badge/SOLVED-Correlated_subquery_%2B__safe__json()_%2B_6_DB_indexes-064e3b?style=flat-square&labelColor=10b981"/></td>
+</tr>
+</table>
+
+**Core challenges solved:** RAGless architecture · Dependency graph reasoning · 3-panel priority UI · Conflict detection · Official docs scraping · Production security hardening · Multi-tenant RBAC · Rate limiting · Structured logging
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/View_Code-RavSinghChandan%2Fai--engineer-24292e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RavSinghChandan/ai-engineer/tree/main/runbook-ai)
+
+</div>
+
+---
+
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,100:302b63&height=4&section=header" width="100%"/>
 
 <div align="center">

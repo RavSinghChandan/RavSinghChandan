@@ -385,13 +385,15 @@ An agent platform where any application can plug in an AI agent with just a YAML
 
 [![07-ai-system-design](https://img.shields.io/badge/07--ai--system--design-Senior_Design_Patterns_%26_MCP-4f46e5?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/07-ai-system-design)
 &nbsp;
-[![08-kaggle-projects](https://img.shields.io/badge/08--kaggle--projects-Competitive_ML_%26_Fine--tuning-dc2626?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/08-kaggle-projects)
+[![08-associate-path](https://img.shields.io/badge/08--kaggle--projects-Associate_AI_Path_%2B_Interview_%2B_AWS_Infra-dc2626?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/08-kaggle-projects)
 &nbsp;
-[![09-open-source](https://img.shields.io/badge/09--open--source--contributions-LangChain_%26_LangGraph_PRs-059669?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/09-open-source-contributions)
+[![09-open-source](https://img.shields.io/badge/09--open--source--contributions-LangChain_%26_LangGraph_%26_Community-059669?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/09-open-source-contributions)
 
 [![10-astro-intel](https://img.shields.io/badge/10--astro--intel-AstroIntel_360°_18%2B_Agents_23_Languages-7c3aed?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/10-astro-intel)
 &nbsp;
 [![11-salesflow-ai](https://img.shields.io/badge/11--salesflow--ai-SalesFlow_AI_%2B_AI_Report_App-e11d48?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/11-salesflow-ai)
+&nbsp;
+[![12-frontend-apps](https://img.shields.io/badge/12--frontend--apps-Portfolio_%2B_AI_Blueprint_%2B_AI_With_Rav-0e7490?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/12-frontend-apps)
 
 [![monorepo](https://img.shields.io/badge/ai--engineer_(all_projects_monorepo)-1d1d1f?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/ai-engineer)
 

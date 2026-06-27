@@ -1,10 +1,5 @@
 <div align="center">
-  <div style="position:relative;display:inline-block;width:520px;height:540px;">
-    <img src="./avatar.svg" width="520" height="540" style="position:absolute;top:0;left:0;" alt="orbit animation"/>
-    <img src="./chandan.jpeg" width="210" height="210"
-         style="position:absolute;top:150px;left:155px;border-radius:50%;object-fit:cover;object-position:center top;border:3px solid #0071e3;"
-         alt="Chandan Kumar"/>
-  </div>
+<img src="./avatar.svg" width="520" height="540" alt="Chandan Kumar — Senior AI Engineer"/>
 </div>
 
 <div align="center">

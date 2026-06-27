@@ -116,7 +116,7 @@
 
 <div align="center">
 
-[![Code](https://img.shields.io/badge/View_Code-ai--engineer-24292e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RavSinghChandan/ai-engineer)
+[![Code](https://img.shields.io/badge/View_Code-10--astro--intel-24292e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RavSinghChandan/10-astro-intel)
 
 </div>
 
@@ -389,7 +389,11 @@ An agent platform where any application can plug in an AI agent with just a YAML
 &nbsp;
 [![09-open-source](https://img.shields.io/badge/09--open--source--contributions-LangChain_%26_LangGraph_PRs-059669?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/09-open-source-contributions)
 
-[![monorepo](https://img.shields.io/badge/ai--engineer_(all_5_projects)-1d1d1f?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/ai-engineer)
+[![10-astro-intel](https://img.shields.io/badge/10--astro--intel-AstroIntel_360°_18%2B_Agents_23_Languages-7c3aed?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/10-astro-intel)
+&nbsp;
+[![11-salesflow-ai](https://img.shields.io/badge/11--salesflow--ai-SalesFlow_AI_%2B_AI_Report_App-e11d48?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/11-salesflow-ai)
+
+[![monorepo](https://img.shields.io/badge/ai--engineer_(all_projects_monorepo)-1d1d1f?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/ai-engineer)
 
 </div>
 

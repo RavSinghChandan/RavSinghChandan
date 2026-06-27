@@ -1,26 +1,26 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Chandan%20Kumar&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Applied%20AI%20Engineer%20%7C%20Senior%20Full-Stack%20Engineer%20%7C%20Production%20AI%20Systems%20Builder&descAlignY=58&descSize=18&descColor=a78bfa" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0071e3,100:1d1d1f&height=240&section=header&text=Chandan%20Kumar&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Senior%20AI%20Engineer%20%7C%20Builder%20%7C%20100%20Days%20of%20AI&descAlignY=62&descSize=20&descColor=86b9f5" width="100%"/>
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=Building+intelligent+systems+that+survive+production+reality.;18%2B+AI+Agents+%7C+Hybrid+RAG+%7C+LangGraph+%7C+FastAPI;Java+%2B+Python+%2B+Angular+%7C+Full-Stack+AI+Engineer;415+tests+passing+%7C+222+tests+passing+%7C+Zero+shortcuts." />
+<img src="https://readme-typing-svg.demolab.com?font=SF+Pro+Display&weight=600&size=22&pause=1200&color=0071E3&center=true&vCenter=true&width=780&lines=I+build+AI+systems+that+survive+production+reality.;LangGraph+%7C+Hybrid+RAG+%7C+LLM+Guardrails+%7C+FastAPI;5+production+AI+projects+%7C+1000%2B+tests+passing;Explaining+one+AI+concept+every+day+%E2%80%94+%23100DaysOfAI" />
+
+</div>
 
 <br/>
 
-<a href="https://www.linkedin.com/in/rav-chandan-kumar-singh-767374315/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=safari&logoColor=white)](https://chandan-kumar-ai-engineer.vercel.app)
 &nbsp;
-<a href="https://www.youtube.com/@TechWithRav">
-  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
-</a>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chandankumar-ai/)
 &nbsp;
-<a href="mailto:ravchandan15@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@aiwithrav)
 &nbsp;
-<a href="https://x.com/ravchandan1">
-  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
-</a>
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/aiwithrav)
+&nbsp;
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/aiwithrav)
+&nbsp;
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ravchandan15@gmail.com)
 
 </div>
 
@@ -28,298 +28,300 @@
 
 <div align="center">
 
-## ⚡ Tech Stack
-
-<img src="https://skillicons.dev/icons?i=java,spring,python,fastapi,angular,typescript,kafka,docker,aws,postgres,redis,git" />
+### 🎙️ I explain one AI concept every day — in the simplest way possible.
+**Follow along on YouTube · Instagram · X → `@aiwithrav`**
 
 </div>
 
 ---
 
+<br/>
+
+## What I build
+
+I build **production-grade AI systems** — not demos. Every project in my portfolio has:
+
+- ✦ &nbsp; Real architecture decisions with documented trade-offs
+- ✦ &nbsp; Guardrails: hallucination detection, injection defence, faithfulness gates
+- ✦ &nbsp; 100+ tests, CI/CD, observability, and structured audit logs
+- ✦ &nbsp; A reason to exist beyond "I wanted to try LangChain"
+
+<br/>
+
 <div align="center">
 
-## 🧠 What I Build
+## ⚙️ Stack
 
-**AI Intelligence**
+<img src="https://skillicons.dev/icons?i=python,fastapi,java,spring,angular,typescript,docker,aws,postgres,redis,kafka,git&perline=12" />
 
-![Agentic AI](https://img.shields.io/badge/Agentic_AI_Systems-6366f1?style=flat-square&logoColor=white)
+<br/><br/>
+
+![LangGraph](https://img.shields.io/badge/LangGraph-1d1d1f?style=flat-square&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat-square&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph_Workflows-302b63?style=flat-square&logoColor=white)
-![LLM](https://img.shields.io/badge/LLM_Applications-10b981?style=flat-square&logoColor=white)
-![RAG](https://img.shields.io/badge/Hybrid_RAG_Pipelines-f59e0b?style=flat-square&logoColor=white)
-![Guardrails](https://img.shields.io/badge/Production_Guardrails-ef4444?style=flat-square&logoColor=white)
-![Structured Output](https://img.shields.io/badge/Structured_Outputs-8b5cf6?style=flat-square&logoColor=white)
-![Prompt Arch](https://img.shields.io/badge/Prompt_Architecture-06b6d4?style=flat-square&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS_+_BM25-0071e3?style=flat-square)
+![RAG](https://img.shields.io/badge/Hybrid_RAG-86b9f5?style=flat-square)
+![DeepSeek](https://img.shields.io/badge/DeepSeek-1d1d1f?style=flat-square)
+![Claude](https://img.shields.io/badge/Claude_Anthropic-D97706?style=flat-square)
+![MCP](https://img.shields.io/badge/MCP_Protocol-5856D6?style=flat-square)
+![NetworkX](https://img.shields.io/badge/NetworkX_DAG-34C759?style=flat-square)
 
-**Backend Systems**
+</div>
 
-![Java](https://img.shields.io/badge/Java_/_Spring_Boot-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Microservices](https://img.shields.io/badge/Microservices-6db33f?style=flat-square&logo=spring&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis_Cache-DC382D?style=flat-square&logo=redis&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![System Design](https://img.shields.io/badge/System_Design-374151?style=flat-square&logoColor=white)
+<br/>
 
-**Frontend Experience**
+---
 
-![Angular](https://img.shields.io/badge/Angular_17-DD0031?style=flat-square&logo=angular&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS_Design_Systems-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Figma](https://img.shields.io/badge/Product_UX-F24E1E?style=flat-square&logo=figma&logoColor=white)
+<br/>
 
-**Infrastructure & Scale**
+<div align="center">
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Observability-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Nginx](https://img.shields.io/badge/Production_Grade-009639?style=flat-square&logo=nginx&logoColor=white)
+# 🚀 Production Projects
+
+*Five AI systems. Every one shipped to production. Every one tested.*
+
+</div>
+
+<br/>
+
+---
+
+### ✦ 01 &nbsp;—&nbsp; AstroIntel 360° &nbsp;·&nbsp; AI Spiritual Intelligence Platform
+
+> **18+ coordinated AI agents · 23 Indian languages · 415 tests · Production deployed**
+
+An AI platform where LangGraph orchestrates 18+ domain agents (Vedic Astrology, Numerology, Palmistry, Tarot, Vastu Shastra) to generate personalised intelligence reports — in 23 Indian languages, with faithfulness guardrails on every output.
+
+| Problem | How I solved it |
+|---|---|
+| 18+ agents coordinating without conflicts | LangGraph stateful orchestration with conditional edges |
+| Hallucination on sensitive predictions | G1–G5 guardrails: rate limit, injection, PII, faithfulness gate |
+| Multi-tenant SaaS · 3 roles | JWT Bearer + X-API-Key dual auth · 76 auth tests |
+| Reports in 23 Indian languages | Language-aware prompt templates + dynamic PDF rendering |
+| Reliability at scale | 415 tests · 3.6s runtime · mock LLM · zero flakiness |
+
+**Tech:** Python · FastAPI · LangGraph · Angular 17 · DeepSeek · FAISS · JWT · SQLite WAL
+
+<div align="center">
+
+[![Code](https://img.shields.io/badge/View_Code-ai--engineer/agentic--growth--os-1d1d1f?style=flat-square&logo=github)](https://github.com/RavSinghChandan/ai-engineer)
 
 </div>
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,100:302b63&height=4&section=header" width="100%"/>
+### ✦ 02 &nbsp;—&nbsp; Bench Resource Optimizer &nbsp;·&nbsp; Enterprise AI HR Platform
+
+> **5-layer Hybrid RAG · Semantic cache · SSE streaming · 502 tests · SonarQube PASSED**
+
+An enterprise system that maps bench employees to open roles using the most sophisticated retrieval pipeline I've built: BM25 + FAISS dense + RRF reranking + HyDE hypothetical document + CRAG quality scoring — with L1+L2 semantic cache so repeated queries cost zero tokens.
+
+| Problem | How I solved it |
+|---|---|
+| Accurate skill-to-role matching at scale | FAISS + BM25 + RRF + HyDE + CRAG + cross-encoder reranker |
+| Repeated queries hammering the LLM | Semantic cache L1 (exact <1ms) + L2 (cosine ≥0.92) + Redis |
+| CV text as untrusted input | G2 injection detection — LLM never sees injected payloads |
+| Agent failures cascading to timeouts | Circuit breaker: 5 failures → graceful fallback in ms |
+| Slow plan generation blocking the UI | SSE streaming · Angular EventSource · TTFT under 1.5s |
+
+**Tech:** Python · FastAPI · LangChain · FAISS · BM25 · DeepSeek · Redis · Kafka · SQLite · Angular 17
 
 <div align="center">
 
-# 🚀 Featured Projects
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,100:302b63&height=4&section=header" width="100%"/>
-
----
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/%E2%9C%A6%20PROJECT%20%E2%80%94%2001-7c3aed?style=for-the-badge&labelColor=0f0c29"/>
-
-## Aura with Rav — AI Spiritual Intelligence Platform
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular_17-DD0031?style=flat-square&logo=angular&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-302b63?style=flat-square)
-![DeepSeek](https://img.shields.io/badge/DeepSeek_LLM-00D9FF?style=flat-square)
-![JWT](https://img.shields.io/badge/JWT_Auth-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
-![Tests](https://img.shields.io/badge/415_Tests_Passing-10b981?style=flat-square)
-![Status](https://img.shields.io/badge/Production_Deployed-ef4444?style=flat-square)
-
-</div>
-
-A production-grade AI application where **18+ AI agents coordinate dynamically** to generate personalized structured intelligence reports across Vedic Astrology, Numerology, Palmistry, Tarot, and Vastu Shastra — in **23 Indian languages**.
-
-<table align="center" width="100%">
-<tr>
-<td align="left" width="50%"><img src="https://img.shields.io/badge/PROBLEM-18%2B_agents_coordinating_without_conflicts-1e1b4b?style=flat-square&labelColor=7c3aed"/></td>
-<td align="left" width="50%"><img src="https://img.shields.io/badge/SOLVED-LangGraph_stateful_orchestration,_conditional_edges-064e3b?style=flat-square&labelColor=10b981"/></td>
-</tr>
-<tr>
-<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Multi--tenant_SaaS,_3_roles_(USER_ADMIN_SUPERADMIN)-1e1b4b?style=flat-square&labelColor=7c3aed"/></td>
-<td align="left"><img src="https://img.shields.io/badge/SOLVED-JWT_Bearer_%2B_X--API--Key_dual_auth,_76_auth_tests-064e3b?style=flat-square&labelColor=10b981"/></td>
-</tr>
-<tr>
-<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Retrieval_quality_on_spiritual_queries-1e1b4b?style=flat-square&labelColor=7c3aed"/></td>
-<td align="left"><img src="https://img.shields.io/badge/SOLVED-Hybrid_RAG_%2B_Multi--Query_expansion-064e3b?style=flat-square&labelColor=10b981"/></td>
-</tr>
-<tr>
-<td align="left"><img src="https://img.shields.io/badge/PROBLEM-LLM_hallucination_on_sensitive_predictions-1e1b4b?style=flat-square&labelColor=7c3aed"/></td>
-<td align="left"><img src="https://img.shields.io/badge/SOLVED-G1--G5_guardrails:_rate_limit,_injection,_PII,_faithfulness-064e3b?style=flat-square&labelColor=10b981"/></td>
-</tr>
-<tr>
-<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Reports_in_23_Indian_languages-1e1b4b?style=flat-square&labelColor=7c3aed"/></td>
-<td align="left"><img src="https://img.shields.io/badge/SOLVED-Language--aware_prompt_templating_%2B_dynamic_PDF_rendering-064e3b?style=flat-square&labelColor=10b981"/></td>
-</tr>
-<tr>
-<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Reliability_without_LLM_dependency-1e1b4b?style=flat-square&labelColor=7c3aed"/></td>
-<td align="left"><img src="https://img.shields.io/badge/SOLVED-415_tests,_3.6s_runtime,_mock_LLM,_zero_flakiness-064e3b?style=flat-square&labelColor=10b981"/></td>
-</tr>
-</table>
-
-**Core challenges solved:** Multi-agent orchestration · Prompt consistency · Guardrails & validation · Structured reasoning · Dynamic PDF rendering · AI workflow modularization · Full-stack product architecture
-
-<div align="center">
-
-<img src="https://drive.usercontent.google.com/download?id=17i5C5GRDapEX8doX8I0CRwXJhthxEt_u&export=view&authuser=0" width="100%" alt="Aura with Rav — AstroIntel"/>
+[![Code](https://img.shields.io/badge/View_Code-ai--engineer/bench--resource--optimizer-1d1d1f?style=flat-square&logo=github)](https://github.com/RavSinghChandan/ai-engineer)
+&nbsp;
+[![RAG Repo](https://img.shields.io/badge/01--rag--chatbot-0071e3?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/01-rag-chatbot)
 
 </div>
 
 ---
 
-<div align="center">
+### ✦ 03 &nbsp;—&nbsp; RunbookAI &nbsp;·&nbsp; Enterprise IT Incident Response
 
-<img src="https://img.shields.io/badge/%E2%9C%A6%20PROJECT%20%E2%80%94%2002-b45309?style=for-the-badge&labelColor=1a1a2e"/>
+> **RAGless · Zero vectors · Zero hallucinated commands · 141 tests**
 
-## Bench Resource Optimizer — Enterprise AI HR Platform
+The architecture proof: sometimes the right answer is **no RAG at all**. LLM runs once at PDF ingest. SQL returns every `kubectl` command verbatim at query time. Zero hallucination is possible by design — not just by luck.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular_17-DD0031?style=flat-square&logo=angular&logoColor=white)
-![HybridRAG](https://img.shields.io/badge/Hybrid_RAG-f59e0b?style=flat-square)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT_Auth-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
-![Tests](https://img.shields.io/badge/222_Tests_Passing-10b981?style=flat-square)
+| Problem | How I solved it |
+|---|---|
+| LLM hallucinating kubectl commands at 3 AM | RAGless: LLM at ingest only · SQL returns commands verbatim |
+| Step ordering lost when documents are chunked | NetworkX DiGraph + topological sort |
+| Internal runbook vs official K8s docs — which to follow? | 3 clean panels: P1 Internal · P2 Official · P3 Combined |
+| Conflicts between internal and official docs undetected | VALUE / ORDER / MISSING / EXTRA conflict detector |
+| Parallel steps run sequentially by engineers | NetworkX parallel groups — Steps 4 & 5 can run simultaneously |
 
-</div>
-
-An enterprise-grade AI system that identifies bench employees, maps them to open roles using **Hybrid RAG**, surfaces skill gaps, and generates 7-day preparation roadmaps — production hardened with zero shortcuts.
-
-<table align="center" width="100%">
-<tr>
-<td align="left" width="50%"><img src="https://img.shields.io/badge/PROBLEM-Accurate_skill--to--role_matching_at_scale-1e1b4b?style=flat-square&labelColor=b45309"/></td>
-<td align="left" width="50%"><img src="https://img.shields.io/badge/SOLVED-FAISS_%2B_BM25_%2B_RRF_%2B_HyDE_%2B_CRAG_%2B_cross--encoder_reranker-064e3b?style=flat-square&labelColor=10b981"/></td>
-</tr>
-<tr>
-<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Repeated_role_queries_hammering_the_LLM-1e1b4b?style=flat-square&labelColor=b45309"/></td>
-<td align="left"><img src="https://img.shields.io/badge/SOLVED-Semantic_cache_L1_(exact_%3C1ms)_%2B_L2_(cosine_0.92)_%2B_Redis-064e3b?style=flat-square&labelColor=10b981"/></td>
-</tr>
-<tr>
-<td align="left"><img src="https://img.shields.io/badge/PROBLEM-CV_text_as_untrusted_input_(injection_risk)-1e1b4b?style=flat-square&labelColor=b45309"/></td>
-<td align="left"><img src="https://img.shields.io/badge/SOLVED-G2_injection_detection_LLM_never_sees_injected_payloads-064e3b?style=flat-square&labelColor=10b981"/></td>
-</tr>
-<tr>
-<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Agent_failures_cascading_to_user_timeouts-1e1b4b?style=flat-square&labelColor=b45309"/></td>
-<td align="left"><img src="https://img.shields.io/badge/SOLVED-Circuit_breaker:_5_failures_opens_graceful_fallback_in_ms-064e3b?style=flat-square&labelColor=10b981"/></td>
-</tr>
-<tr>
-<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Agent_memory_lost_on_every_server_restart-1e1b4b?style=flat-square&labelColor=b45309"/></td>
-<td align="left"><img src="https://img.shields.io/badge/SOLVED-Write--through_episodic_memory_to_SQLite_WAL_survives_restarts-064e3b?style=flat-square&labelColor=10b981"/></td>
-</tr>
-<tr>
-<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Role_knowledge_stuck_as_hardcoded_JSON-1e1b4b?style=flat-square&labelColor=b45309"/></td>
-<td align="left"><img src="https://img.shields.io/badge/SOLVED-Admin_CRUD_API_%2B_async_FAISS_BM25_rebuild_zero_downtime-064e3b?style=flat-square&labelColor=10b981"/></td>
-</tr>
-<tr>
-<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Slow_plan_generation_blocking_the_UI-1e1b4b?style=flat-square&labelColor=b45309"/></td>
-<td align="left"><img src="https://img.shields.io/badge/SOLVED-SSE_streaming_Angular_EventSource_TTFT_under_1.5s-064e3b?style=flat-square&labelColor=10b981"/></td>
-</tr>
-<tr>
-<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Verifying_the_entire_enterprise_stack-1e1b4b?style=flat-square&labelColor=b45309"/></td>
-<td align="left"><img src="https://img.shields.io/badge/SOLVED-222_tests_3.6s_runtime_zero_external_dependencies_in_CI-064e3b?style=flat-square&labelColor=10b981"/></td>
-</tr>
-</table>
+**Tech:** Python · FastAPI · LangGraph · SQLite WAL · NetworkX · Angular 17 · JWT · DeepSeek
 
 <div align="center">
 
-<img src="https://drive.usercontent.google.com/download?id=15tfvSFnxmGDNBF3Fvw5P1_77mwwgSkM-&export=view&authuser=0" width="100%" alt="Bench Resource Optimizer"/>
+[![Code](https://img.shields.io/badge/View_Code-ai--engineer/runbook--ai-1d1d1f?style=flat-square&logo=github)](https://github.com/RavSinghChandan/ai-engineer)
+&nbsp;
+[![Doc QA Repo](https://img.shields.io/badge/04--document--qa-0071e3?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/04-document-qa)
 
 </div>
 
 ---
 
-<div align="center">
+### ✦ 04 &nbsp;—&nbsp; Agentic Growth OS &nbsp;·&nbsp; AI Marketing Intelligence
 
-<img src="https://img.shields.io/badge/%E2%9C%A6%20PROJECT%20%E2%80%94%2003-065f46?style=for-the-badge&labelColor=0f172a"/>
+> **5-node LangGraph pipeline · Self-improving · ROI grows run over run**
 
-## RunbookAI — Enterprise IT Incident Response (RAGless)
+A LangGraph pipeline where 5 specialist agents (research, copywriting, budget allocation, channel selection, learning) collaborate to generate and optimise marketing campaigns — with a learning engine that uses past performance to improve the next run automatically.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular_21-DD0031?style=flat-square&logo=angular&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-302b63?style=flat-square)
-![SQLite](https://img.shields.io/badge/SQLite_WAL-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![NetworkX](https://img.shields.io/badge/NetworkX_DAG-f59e0b?style=flat-square)
-![JWT](https://img.shields.io/badge/JWT_Auth-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
-![Tests](https://img.shields.io/badge/141_Tests_Passing-10b981?style=flat-square)
-![RAGless](https://img.shields.io/badge/RAGless_Architecture-ef4444?style=flat-square)
+| Problem | How I solved it |
+|---|---|
+| Campaign quality doesn't improve over time | Learning engine: stores CTR, conversion, ROI — feeds next run |
+| Budget numbers from LLM imagination | Budget agent uses stored performance history, not generation |
+| Each agent run isolated with no memory | Shared `CampaignState` TypedDict flows across all 5 nodes |
 
-</div>
-
-Enterprise IT incident response engine — **zero vectors, zero embeddings, zero hallucinated commands**. Every `kubectl` command is pulled verbatim from the database. Three completely separate, non-mixed knowledge panels ranked by priority for every incident.
-
-<table align="center" width="100%">
-<tr>
-<td align="left" width="50%"><img src="https://img.shields.io/badge/PROBLEM-LLM_hallucinating_kubectl_commands_at_3_AM-1e1b4b?style=flat-square&labelColor=065f46"/></td>
-<td align="left" width="50%"><img src="https://img.shields.io/badge/SOLVED-RAGless:_LLM_runs_ONCE_at_ingest,_SQL_returns_commands_verbatim-064e3b?style=flat-square&labelColor=10b981"/></td>
-</tr>
-<tr>
-<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Step_ordering_lost_when_documents_are_chunked-1e1b4b?style=flat-square&labelColor=065f46"/></td>
-<td align="left"><img src="https://img.shields.io/badge/SOLVED-NetworkX_DiGraph_%2B_topological_sort,_safe_execution_order_every_time-064e3b?style=flat-square&labelColor=10b981"/></td>
-</tr>
-<tr>
-<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Engineer_doesn%27t_know:_follow_company_runbook_or_K8s_docs%3F-1e1b4b?style=flat-square&labelColor=065f46"/></td>
-<td align="left"><img src="https://img.shields.io/badge/SOLVED-3_clean_panels:_P1_Internal_(green)_P2_Official_(blue)_P3_Combined_(purple)-064e3b?style=flat-square&labelColor=10b981"/></td>
-</tr>
-<tr>
-<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Numeric_conflicts_between_internal_and_official_docs_undetected-1e1b4b?style=flat-square&labelColor=065f46"/></td>
-<td align="left"><img src="https://img.shields.io/badge/SOLVED-Conflict_detector:_VALUE_ORDER_MISSING_EXTRA_with_severity_%2B_recommendation-064e3b?style=flat-square&labelColor=10b981"/></td>
-</tr>
-<tr>
-<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Official_K8s_docs_knowledge_locked_outside_the_system-1e1b4b?style=flat-square&labelColor=065f46"/></td>
-<td align="left"><img src="https://img.shields.io/badge/SOLVED-K8s_docs_scraper:_10_pages_from_kubernetes_website_GitHub-064e3b?style=flat-square&labelColor=10b981"/></td>
-</tr>
-<tr>
-<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Parallel_steps_not_identified,_engineers_run_sequentially-1e1b4b?style=flat-square&labelColor=065f46"/></td>
-<td align="left"><img src="https://img.shields.io/badge/SOLVED-NetworkX_parallel__groups:_Steps_4_%26_5_can_run_simultaneously-064e3b?style=flat-square&labelColor=10b981"/></td>
-</tr>
-<tr>
-<td align="left"><img src="https://img.shields.io/badge/PROBLEM-Unauthenticated_upload,_CORS_open,_JWT_hardcoded-1e1b4b?style=flat-square&labelColor=065f46"/></td>
-<td align="left"><img src="https://img.shields.io/badge/SOLVED-editor%2B_JWT_required,_magic--byte_PDF_check,_ALLOWED__ORIGINS_env,_rate_limit-064e3b?style=flat-square&labelColor=10b981"/></td>
-</tr>
-<tr>
-<td align="left"><img src="https://img.shields.io/badge/PROBLEM-N%2B1_queries_%2B_bare_json.loads_crashing_on_corrupt_DB_fields-1e1b4b?style=flat-square&labelColor=065f46"/></td>
-<td align="left"><img src="https://img.shields.io/badge/SOLVED-Correlated_subquery_%2B__safe__json()_%2B_6_DB_indexes-064e3b?style=flat-square&labelColor=10b981"/></td>
-</tr>
-</table>
-
-**Core challenges solved:** RAGless architecture · Dependency graph reasoning · 3-panel priority UI · Conflict detection · Official docs scraping · Production security hardening · Multi-tenant RBAC · Rate limiting · Structured logging
+**Tech:** Python · FastAPI · LangGraph · DeepSeek · Angular · SQLite
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/View_Code-RavSinghChandan%2Fai--engineer-24292e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RavSinghChandan/ai-engineer/tree/main/runbook-ai)
+[![Code](https://img.shields.io/badge/View_Code-ai--engineer/agentic--growth--os-1d1d1f?style=flat-square&logo=github)](https://github.com/RavSinghChandan/ai-engineer)
+&nbsp;
+[![Agent Repo](https://img.shields.io/badge/03--ai--agent-0071e3?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/03-ai-agent)
 
 </div>
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,100:302b63&height=4&section=header" width="100%"/>
+### ✦ 05 &nbsp;—&nbsp; Universal Agent &nbsp;·&nbsp; Plug-and-Play AI Platform
+
+> **YAML-configured · Per-agent lock/unlock · 20 tests · Zero API keys in CI**
+
+An agent platform where any application can plug in an AI agent without writing agent code — just a YAML file with persona, tools, and behaviour. Per-agent lock/unlock for token protection. Works with any model.
+
+| Problem | How I solved it |
+|---|---|
+| Every app needs its own agent code | YAML-configured personas — plug in, done |
+| Runaway agents burning tokens | Per-agent `/lock` endpoint — zero LLM calls while locked |
+| Unknown domain at build time | YAML config defines behaviour at runtime |
+
+**Tech:** Python · FastAPI · LangGraph ReAct · YAML · Angular · JWT · DeepSeek
 
 <div align="center">
 
-## 💡 Engineering Philosophy
+[![Code](https://img.shields.io/badge/View_Code-ai--engineer/universal--agent-1d1d1f?style=flat-square&logo=github)](https://github.com/RavSinghChandan/ai-engineer)
+&nbsp;
+[![Agent Repo](https://img.shields.io/badge/03--ai--agent-0071e3?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/03-ai-agent)
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0c29,100:302b63&height=4&section=header" width="100%"/>
-
-> ![quote](https://img.shields.io/badge/_%22AI_is_not_magic._Reliable_systems_are_engineered.%22_-0f0c29?style=for-the-badge&labelColor=302b63&color=6366f1)
-
-Good systems are:
-
-![intent](https://img.shields.io/badge/✦_Clear_in_intent-0f0c29?style=flat-square&labelColor=6366f1&color=1e1b4b)
-![resilient](https://img.shields.io/badge/✦_Resilient_under_failure-0f0c29?style=flat-square&labelColor=ef4444&color=1e1b4b)
-![observable](https://img.shields.io/badge/✦_Observable_in_production-0f0c29?style=flat-square&labelColor=10b981&color=1e1b4b)
-![honest](https://img.shields.io/badge/✦_Honest_about_trade--offs-0f0c29?style=flat-square&labelColor=f59e0b&color=1e1b4b)
-
-**I focus on shipping systems that work beyond demos.**
+<br/>
 
 ---
+
+<br/>
+
+<div align="center">
+
+## 📚 Senior AI Engineer Study Path
+
+*15 modules · 5 projects cross-referenced · Interview-ready*
+
+</div>
+
+| Module | Topic |
+|--------|-------|
+| 01 | AI Engineering Fundamentals · Evaluation · Token Economics |
+| 02 | LLM Core · Context Window · Attention · RAG vs Fine-tuning |
+| 03 | RAG Systems · Hybrid Retrieval · HyDE · CRAG · Reranking |
+| 04 | Agentic AI · LangGraph · Multi-agent · Tool Use · Memory |
+| 05 | AI System Design · Latency Budget · Semantic Cache · Rate Limiting |
+| 06 | MLOps · Prompt Versioning · RAGAS Eval · CI/CD · SonarQube |
+| 07 | Real-Time AI · SSE Streaming · Async · WebSocket |
+| 08 | Frameworks · LangChain · LangGraph · FastAPI · Angular |
+| 09 | Projects & Storytelling · How to pitch each system |
+| 10 | Advanced Topics · A2A · Multi-model Routing · MCP |
+| 11 | Interview Mastery · 50+ Q&As · Whiteboard patterns |
+| 12 | Java Spring Bridge · AI in JVM ecosystem |
+| 13 | Regex & Parsing · Structured extraction patterns |
+| 14 | Vectorless AI · RAGless architecture design |
+| **15** | **MCP · Model Context Protocol · Tools · Servers · Security** |
+
+<div align="center">
+
+[![Study Path](https://img.shields.io/badge/Full_Study_Path-ai--engineer/senior--ai--engineer-1d1d1f?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/ai-engineer/tree/main/senior-ai-engineer)
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+<div align="center">
+
+## 🗂️ Repository Index
+
+*Find the right code fast*
+
+</div>
+
+| # | Repository | What's inside |
+|---|-----------|--------------|
+| 01 | [![01-rag-chatbot](https://img.shields.io/badge/01--rag--chatbot-0071e3?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/01-rag-chatbot) | Hybrid RAG pipeline · BM25+FAISS+RRF+HyDE+CRAG · semantic cache |
+| 02 | [![02-fine-tuning-llm](https://img.shields.io/badge/02--fine--tuning--llm-0071e3?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/02-fine-tuning-llm) | Prompt versioning · LoRA/QLoRA patterns · RAGAS evaluation |
+| 03 | [![03-ai-agent](https://img.shields.io/badge/03--ai--agent-0071e3?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/03-ai-agent) | LangGraph ReAct · Universal Agent · YAML personas · multi-agent |
+| 04 | [![04-document-qa](https://img.shields.io/badge/04--document--qa-0071e3?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/04-document-qa) | RunbookAI · PDF ingest · RAGless query · NetworkX DAG |
+| 05 | [![05-multimodal-rag](https://img.shields.io/badge/05--multimodal--rag-0071e3?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/05-multimodal-rag) | Text + image + chart extraction · LangGraph pipeline |
+| 06 | [![06-mlops-pipeline](https://img.shields.io/badge/06--mlops--pipeline-0071e3?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/06-mlops-pipeline) | Prompt versioning · token tracking · CI/CD · SonarQube |
+| 07 | [![07-ai-system-design](https://img.shields.io/badge/07--ai--system--design-0071e3?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/07-ai-system-design) | Senior design patterns · RAG · streaming · MCP · A2A |
+| 08 | [![08-kaggle-projects](https://img.shields.io/badge/08--kaggle--projects-0071e3?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/08-kaggle-projects) | Competitive ML · EDA · feature engineering · LLM fine-tuning |
+| 09 | [![09-open-source](https://img.shields.io/badge/09--open--source--contributions-0071e3?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/09-open-source-contributions) | LangChain · LangGraph · ecosystem contributions |
+| — | [![ai-engineer](https://img.shields.io/badge/ai--engineer_(monorepo)-1d1d1f?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/ai-engineer) | All 5 production projects in one place |
+
+<br/>
+
+---
+
+<br/>
+
+<div align="center">
+
+## 📡 #100DaysOfAI
+
+*One AI concept · Every day · Explained simply*
+
+</div>
+
+<div align="center">
+
+| Platform | Link |
+|----------|------|
+| 📸 Instagram | [@aiwithrav](https://www.instagram.com/aiwithrav) |
+| ▶️ YouTube | [@aiwithrav](https://www.youtube.com/@aiwithrav) |
+| 🐦 X / Twitter | [@aiwithrav](https://x.com/aiwithrav) |
+| 💼 LinkedIn | [chandankumar-ai](https://www.linkedin.com/in/chandankumar-ai/) |
+| 🌐 Portfolio | [chandan-kumar-ai-engineer.vercel.app](https://chandan-kumar-ai-engineer.vercel.app) |
+
+</div>
+
+<br/>
+
+---
+
+<br/>
 
 <div align="center">
 
 ## 🎯 Open To
 
-<a href="https://www.linkedin.com/in/rav-chandan-kumar-singh-767374315/">
-  <img src="https://img.shields.io/badge/Senior_AI_Engineer-6366f1?style=for-the-badge"/>
-</a>
+[![Senior AI Engineer](https://img.shields.io/badge/Senior_AI_Engineer-0071e3?style=for-the-badge)](https://www.linkedin.com/in/chandankumar-ai/)
 &nbsp;
-<a href="https://www.linkedin.com/in/rav-chandan-kumar-singh-767374315/">
-  <img src="https://img.shields.io/badge/Applied_AI_Engineer-8b5cf6?style=for-the-badge"/>
-</a>
+[![Applied AI Engineer](https://img.shields.io/badge/Applied_AI_Engineer-1d1d1f?style=for-the-badge)](https://www.linkedin.com/in/chandankumar-ai/)
 &nbsp;
-<a href="https://www.linkedin.com/in/rav-chandan-kumar-singh-767374315/">
-  <img src="https://img.shields.io/badge/AI_Platform_Engineer-a78bfa?style=for-the-badge"/>
-</a>
+[![AI Platform Engineer](https://img.shields.io/badge/AI_Platform_Engineer-5856D6?style=for-the-badge)](https://www.linkedin.com/in/chandankumar-ai/)
 &nbsp;
-<a href="mailto:ravchandan15@gmail.com">
-  <img src="https://img.shields.io/badge/Founding_Engineer-c4b5fd?style=for-the-badge"/>
-</a>
+[![Founding Engineer](https://img.shields.io/badge/Founding_Engineer-34C759?style=for-the-badge)](mailto:ravchandan15@gmail.com)
+
+<br/>
+
+> *"AI is not magic. Reliable systems are engineered."*
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&text=If%20you're%20building%20serious%20AI%20products%2C%20let's%20connect.&fontSize=18&fontColor=a78bfa&animation=fadeIn&fontAlignY=65" width="100%"/>
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1d1d1f,50:0071e3,100:000000&height=140&section=footer&text=Building+in+public.+%23100DaysOfAI&fontSize=20&fontColor=ffffff&animation=fadeIn&fontAlignY=65" width="100%"/>

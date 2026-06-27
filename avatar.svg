@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <style>
+      @keyframes spin-slow  { from { transform: rotate(0deg);   } to { transform: rotate(360deg);  } }
+      @keyframes spin-rev   { from { transform: rotate(0deg);   } to { transform: rotate(-360deg); } }
+      @keyframes pulse-glow { 0%,100% { opacity:.55; r:118; } 50% { opacity:1; r:122; } }
+      @keyframes pulse-ring { 0%,100% { opacity:.3; }  50% { opacity:.9; } }
+      @keyframes float-1    { 0%,100% { transform:translateY(0px);   opacity:.7; } 50% { transform:translateY(-12px); opacity:1; } }
+      @keyframes float-2    { 0%,100% { transform:translateY(0px);   opacity:.5; } 50% { transform:translateY(10px);  opacity:.9; } }
+      @keyframes float-3    { 0%,100% { transform:translateY(-6px);  opacity:.6; } 50% { transform:translateY(6px);  opacity:1; } }
+      @keyframes dot-orbit  { from { transform: rotate(0deg)   translateX(142px) rotate(0deg);   }
+                               to   { transform: rotate(360deg) translateX(142px) rotate(-360deg); } }
+      @keyframes dot-orbit2 { from { transform: rotate(120deg) translateX(142px) rotate(-120deg); }
+                               to   { transform: rotate(480deg) translateX(142px) rotate(-480deg); } }
+      @keyframes dot-orbit3 { from { transform: rotate(240deg) translateX(142px) rotate(-240deg); }
+                               to   { transform: rotate(600deg) translateX(142px) rotate(-600deg); } }
+      @keyframes shimmer    { 0%,100% { stop-color:#0071e3; stop-opacity:.9; } 50% { stop-color:#5ac8fa; stop-opacity:1; } }
+      @keyframes shimmer2   { 0%,100% { stop-color:#5856D6; stop-opacity:.8; } 50% { stop-color:#0071e3; stop-opacity:1; } }
+
+      .spin-g  { transform-origin:250px 250px; animation:spin-slow 12s linear infinite; }
+      .spin-g2 { transform-origin:250px 250px; animation:spin-rev  18s linear infinite; }
+      .spin-g3 { transform-origin:250px 250px; animation:spin-slow 30s linear infinite; }
+
+      .tag1 { animation:float-1 3.2s ease-in-out infinite; }
+      .tag2 { animation:float-2 4.1s ease-in-out infinite; }
+      .tag3 { animation:float-3 3.7s ease-in-out infinite; }
+      .tag4 { animation:float-1 5s   ease-in-out infinite reverse; }
+      .tag5 { animation:float-2 4.5s ease-in-out infinite reverse; }
+      .tag6 { animation:float-3 3s   ease-in-out infinite; }
+
+      .dot1 { transform-origin:250px 250px; animation:dot-orbit  6s linear infinite; }
+      .dot2 { transform-origin:250px 250px; animation:dot-orbit2 6s linear infinite; }
+      .dot3 { transform-origin:250px 250px; animation:dot-orbit3 6s linear infinite; }
+
+      text { font-family: -apple-system, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif; }
+    </style>
+
+    <!-- gradient for rings -->
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:#0071e3;stop-opacity:1"/>
+      <stop offset="50%"  style="stop-color:#5ac8fa;stop-opacity:.8"/>
+      <stop offset="100%" style="stop-color:#5856D6;stop-opacity:1"/>
+    </linearGradient>
+
+    <linearGradient id="ringGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   style="stop-color:#5856D6;stop-opacity:.7"/>
+      <stop offset="100%" style="stop-color:#34C759;stop-opacity:.7"/>
+    </linearGradient>
+
+    <!-- glow filter -->
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="12" flood-color="#0071e3" flood-opacity="0.5"/>
+    </filter>
+
+    <!-- clip to circle -->
+    <clipPath id="circleClip">
+      <circle cx="250" cy="250" r="112"/>
+    </clipPath>
+  </defs>
+
+  <!-- ── dark background ── -->
+  <rect width="500" height="500" fill="#0a0a0f"/>
+
+  <!-- ── outermost faint halo ── -->
+  <circle cx="250" cy="250" r="200" fill="none" stroke="#0071e3" stroke-width="1" stroke-dasharray="4 8" opacity="0.18">
+    <animate attributeName="stroke-dashoffset" from="0" to="96" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ── outer dashed orbit ring (spinning) ── -->
+  <g class="spin-g3">
+    <circle cx="250" cy="250" r="178" fill="none" stroke="url(#ringGrad2)" stroke-width="1.5" stroke-dasharray="6 14" opacity="0.35"/>
+  </g>
+
+  <!-- ── second orbit ring (reverse spin) ── -->
+  <g class="spin-g2">
+    <circle cx="250" cy="250" r="155" fill="none" stroke="url(#ringGrad)" stroke-width="2" stroke-dasharray="3 9" opacity="0.45"/>
+    <!-- tick marks on ring -->
+    <line x1="250" y1="96" x2="250" y2="88" stroke="#5ac8fa" stroke-width="2.5" opacity="0.8"/>
+    <line x1="250" y1="96" x2="250" y2="88" stroke="#5ac8fa" stroke-width="2.5" opacity="0.8" transform="rotate(60,250,250)"/>
+    <line x1="250" y1="96" x2="250" y2="88" stroke="#5ac8fa" stroke-width="2.5" opacity="0.8" transform="rotate(120,250,250)"/>
+    <line x1="250" y1="96" x2="250" y2="88" stroke="#5ac8fa" stroke-width="2.5" opacity="0.8" transform="rotate(180,250,250)"/>
+    <line x1="250" y1="96" x2="250" y2="88" stroke="#5ac8fa" stroke-width="2.5" opacity="0.8" transform="rotate(240,250,250)"/>
+    <line x1="250" y1="96" x2="250" y2="88" stroke="#5ac8fa" stroke-width="2.5" opacity="0.8" transform="rotate(300,250,250)"/>
+  </g>
+
+  <!-- ── main orbit ring (forward spin) ── -->
+  <g class="spin-g">
+    <circle cx="250" cy="250" r="136" fill="none" stroke="url(#ringGrad)" stroke-width="3" stroke-dasharray="20 6 4 6" opacity="0.9" filter="url(#glow)"/>
+  </g>
+
+  <!-- ── 3 orbiting dots ── -->
+  <circle cx="250" cy="250" r="7" fill="#0071e3" filter="url(#glow)" class="dot1"/>
+  <circle cx="250" cy="250" r="5" fill="#5ac8fa" filter="url(#glow)" class="dot2"/>
+  <circle cx="250" cy="250" r="6" fill="#5856D6" filter="url(#glow)" class="dot3"/>
+
+  <!-- ── pulsing glow ring behind photo ── -->
+  <circle cx="250" cy="250" fill="none" stroke="#0071e3" stroke-width="6" opacity="0.6" filter="url(#glow)">
+    <animate attributeName="r" values="116;122;116" dur="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0.85;0.4" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ── photo clipped to circle ── -->
+  <image href="https://raw.githubusercontent.com/RavSinghChandan/RavSinghChandan/main/chandan.jpeg"
+         x="138" y="138" width="224" height="224"
+         clip-path="url(#circleClip)"
+         preserveAspectRatio="xMidYMin slice"
+         filter="url(#shadow)"/>
+
+  <!-- ── crisp border over photo ── -->
+  <circle cx="250" cy="250" r="112" fill="none" stroke="url(#ringGrad)" stroke-width="3.5" filter="url(#glow-soft)"/>
+
+  <!-- ── floating AI keyword tags ── -->
+  <!-- LangGraph — top left -->
+  <g class="tag1" transform="translate(38,108)">
+    <rect rx="8" ry="8" width="96" height="26" fill="#0071e3" opacity="0.15" stroke="#0071e3" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="48" y="17" font-size="11" font-weight="600" fill="#5ac8fa" text-anchor="middle">LangGraph</text>
+  </g>
+
+  <!-- RAG — top right -->
+  <g class="tag2" transform="translate(362,88)">
+    <rect rx="8" ry="8" width="82" height="26" fill="#5856D6" opacity="0.15" stroke="#5856D6" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="41" y="17" font-size="11" font-weight="600" fill="#a78bfa" text-anchor="middle">Hybrid RAG</text>
+  </g>
+
+  <!-- FastAPI — left mid -->
+  <g class="tag3" transform="translate(18,230)">
+    <rect rx="8" ry="8" width="76" height="26" fill="#059669" opacity="0.15" stroke="#34C759" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="38" y="17" font-size="11" font-weight="600" fill="#34C759" text-anchor="middle">FastAPI</text>
+  </g>
+
+  <!-- MCP — right mid -->
+  <g class="tag4" transform="translate(402,228)">
+    <rect rx="8" ry="8" width="68" height="26" fill="#0071e3" opacity="0.15" stroke="#0071e3" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="34" y="17" font-size="11" font-weight="600" fill="#5ac8fa" text-anchor="middle">MCP</text>
+  </g>
+
+  <!-- DeepSeek — bottom left -->
+  <g class="tag5" transform="translate(28,358)">
+    <rect rx="8" ry="8" width="88" height="26" fill="#5856D6" opacity="0.15" stroke="#5856D6" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="44" y="17" font-size="11" font-weight="600" fill="#a78bfa" text-anchor="middle">DeepSeek</text>
+  </g>
+
+  <!-- Python — bottom right -->
+  <g class="tag6" transform="translate(368,355)">
+    <rect rx="8" ry="8" width="76" height="26" fill="#f59e0b" opacity="0.12" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.6"/>
+    <text x="38" y="17" font-size="11" font-weight="600" fill="#fbbf24" text-anchor="middle">Python</text>
+  </g>
+
+  <!-- ── name + title below photo ── -->
+  <text x="250" y="408" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="-0.5">Chandan Kumar</text>
+  <text x="250" y="432" font-size="13" font-weight="500" fill="#0071e3" text-anchor="middle" letter-spacing="1.5">SENIOR AI ENGINEER</text>
+
+  <!-- ── animated underline ── -->
+  <rect x="170" y="440" height="2" rx="1" fill="url(#ringGrad)">
+    <animate attributeName="width" values="0;160;0" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="250;170;250" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ── bottom tagline ── -->
+  <text x="250" y="470" font-size="10.5" font-weight="400" fill="#6e6e73" text-anchor="middle" letter-spacing="0.5">Building AI systems that survive production reality</text>
+</svg>

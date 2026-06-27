@@ -1,4 +1,6 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0071e3,100:1d1d1f&height=240&section=header&text=Chandan%20Kumar&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Senior%20AI%20Engineer%20%7C%20Builder%20%7C%20%23100DaysOfAI&descAlignY=62&descSize=20&descColor=86b9f5" width="100%"/>
+<div align="center">
+<img src="./avatar.svg" width="500" height="500" alt="Chandan Kumar — Senior AI Engineer"/>
+</div>
 
 <div align="center">
 

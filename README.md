@@ -176,7 +176,7 @@ Enterprise-grade AI system that maps bench employees to open roles using **5-lay
 
 [![Code](https://img.shields.io/badge/View_Code-ai--engineer-24292e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RavSinghChandan/ai-engineer)
 &nbsp;
-[![RAG Repo](https://img.shields.io/badge/01--rag--chatbot-0071e3?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RavSinghChandan/01-rag-chatbot)
+[![RAG Repo](https://img.shields.io/badge/01--rag--chatbot-0071e3?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RavSinghChandan/01-bench-resource-optimizer)
 
 </div>
 
@@ -232,7 +232,7 @@ Enterprise IT incident response engine — **zero vectors, zero embeddings, zero
 
 [![Code](https://img.shields.io/badge/View_Code-ai--engineer-24292e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RavSinghChandan/ai-engineer)
 &nbsp;
-[![Doc QA Repo](https://img.shields.io/badge/04--document--qa-0071e3?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RavSinghChandan/04-document-qa)
+[![Doc QA Repo](https://img.shields.io/badge/04--document--qa-0071e3?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RavSinghChandan/04-runbook-ai)
 
 </div>
 
@@ -371,29 +371,29 @@ An agent platform where any application can plug in an AI agent with just a YAML
 
 ## 🗂️ Repository Index
 
-[![01-rag-chatbot](https://img.shields.io/badge/01--rag--chatbot-Hybrid_RAG_Pipeline-0071e3?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/01-rag-chatbot)
+[![01-bench-resource-optimizer](https://img.shields.io/badge/01--rag--chatbot-Hybrid_RAG_Pipeline-0071e3?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/01-bench-resource-optimizer)
 &nbsp;
-[![02-fine-tuning-llm](https://img.shields.io/badge/02--fine--tuning--llm-Prompt_Versioning_%26_LoRA-7c3aed?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/02-fine-tuning-llm)
+[![02-senior-ai-engineer-study-path](https://img.shields.io/badge/02--fine--tuning--llm-Prompt_Versioning_%26_LoRA-7c3aed?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/02-senior-ai-engineer-study-path)
 &nbsp;
 [![03-ai-agent](https://img.shields.io/badge/03--ai--agent-LangGraph_ReAct_%26_Universal_Agent-065f46?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/03-ai-agent)
 
-[![04-document-qa](https://img.shields.io/badge/04--document--qa-RunbookAI_RAGless_Pipeline-b45309?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/04-document-qa)
+[![04-runbook-ai](https://img.shields.io/badge/04--document--qa-RunbookAI_RAGless_Pipeline-b45309?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/04-runbook-ai)
 &nbsp;
-[![05-multimodal-rag](https://img.shields.io/badge/05--multimodal--rag-Text_%2B_Image_%2B_Chart_Extraction-1d4ed8?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/05-multimodal-rag)
+[![05-langchain-langraph-projects](https://img.shields.io/badge/05--multimodal--rag-Text_%2B_Image_%2B_Chart_Extraction-1d4ed8?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/05-langchain-langraph-projects)
 &nbsp;
-[![06-mlops-pipeline](https://img.shields.io/badge/06--mlops--pipeline-RAGAS_%26_CI%2FCD_%26_SonarQube-0e7490?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/06-mlops-pipeline)
+[![06-mlops-and-infra](https://img.shields.io/badge/06--mlops--pipeline-RAGAS_%26_CI%2FCD_%26_SonarQube-0e7490?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/06-mlops-and-infra)
 
 [![07-ai-system-design](https://img.shields.io/badge/07--ai--system--design-Senior_Design_Patterns_%26_MCP-4f46e5?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/07-ai-system-design)
 &nbsp;
-[![08-associate-path](https://img.shields.io/badge/08--kaggle--projects-Associate_AI_Path_%2B_Interview_%2B_AWS_Infra-dc2626?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/08-kaggle-projects)
+[![08-associate-path](https://img.shields.io/badge/08--kaggle--projects-Associate_AI_Path_%2B_Interview_%2B_AWS_Infra-dc2626?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/08-associate-ai-engineer-path)
 &nbsp;
-[![09-open-source](https://img.shields.io/badge/09--open--source--contributions-LangChain_%26_LangGraph_%26_Community-059669?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/09-open-source-contributions)
+[![09-open-source](https://img.shields.io/badge/09--open--source--contributions-LangChain_%26_LangGraph_%26_Community-059669?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/09-ai-with-rav-platform)
 
 [![10-astro-intel](https://img.shields.io/badge/10--astro--intel-AstroIntel_360°_18%2B_Agents_23_Languages-7c3aed?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/10-astro-intel)
 &nbsp;
 [![11-salesflow-ai](https://img.shields.io/badge/11--salesflow--ai-SalesFlow_AI_%2B_AI_Report_App-e11d48?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/11-salesflow-ai)
 &nbsp;
-[![12-frontend-apps](https://img.shields.io/badge/12--frontend--apps-Portfolio_%2B_AI_Blueprint_%2B_AI_With_Rav-0e7490?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/12-frontend-apps)
+[![12-angular-frontend-apps](https://img.shields.io/badge/12--frontend--apps-Portfolio_%2B_AI_Blueprint_%2B_AI_With_Rav-0e7490?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/12-angular-frontend-apps)
 
 [![monorepo](https://img.shields.io/badge/ai--engineer_(all_projects_monorepo)-1d1d1f?style=flat-square&logo=github&logoColor=white)](https://github.com/RavSinghChandan/ai-engineer)
 

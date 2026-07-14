@@ -37,6 +37,25 @@
 
 <div align="center">
 
+## 🌍 Open Source Contributions
+
+**Merged code into libraries the AI/ML world actually uses.**
+
+[![sentence-transformers](https://img.shields.io/badge/✓_MERGED-huggingface%2Fsentence--transformers_(18.9k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/huggingface/sentence-transformers/pull/3855)
+
+| Repo | Contribution | Status |
+|------|-------------|--------|
+| [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers/pull/3855) `18.9k★` | Regression tests for a core utility (PR #3855) | ✅ **Merged** |
+| joblib · nltk · spaCy · HF Evaluate | Fixes & test coverage | 🔄 In review |
+
+*Contributing across the ecosystem — more PRs landing over time.*
+
+</div>
+
+---
+
+<div align="center">
+
 ## ⚙️ Stack
 
 <img src="https://skillicons.dev/icons?i=python,fastapi,java,spring,angular,typescript,docker,aws,postgres,redis,kafka,git&perline=12" />

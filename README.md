@@ -41,14 +41,17 @@
 
 **Merged code into libraries the AI/ML world actually uses.**
 
+[![joblib](https://img.shields.io/badge/✓_MERGED-joblib%2Fjoblib_(4.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joblib/joblib/pull/1812)
 [![sentence-transformers](https://img.shields.io/badge/✓_MERGED-huggingface%2Fsentence--transformers_(18.9k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/huggingface/sentence-transformers/pull/3855)
 
 | Repo | Contribution | Status |
 |------|-------------|--------|
+| [joblib/joblib](https://github.com/joblib/joblib/pull/1812) `4.1k★` | Bug fix: accept any `os.PathLike` in `dump()`/`load()` (PR #1812) | ✅ **Merged** |
+| [joblib/joblib](https://github.com/joblib/joblib/pull/1811) `4.1k★` | Docstrings for time-format helpers (PR #1811) | ✅ **Merged** |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers/pull/3855) `18.9k★` | Regression tests for a core utility (PR #3855) | ✅ **Merged** |
-| joblib · nltk · spaCy · HF Evaluate | Fixes & test coverage | 🔄 In review |
+| nltk · spaCy · HF Evaluate · smolagents | Fixes & test coverage | 🔄 In review |
 
-*Contributing across the ecosystem — more PRs landing over time.*
+*3 merged across 2 libraries the AI/ML world runs on — more PRs landing over time.*
 
 </div>
 

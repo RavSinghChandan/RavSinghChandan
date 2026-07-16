@@ -41,6 +41,12 @@
 
 **Merged code into libraries the AI/ML world actually uses.**
 
+<p>
+  <a href="https://github.com/joblib/joblib/pull/1812"><img src="./assets/joblib-logo.svg" height="46" alt="joblib" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/huggingface/sentence-transformers/pull/3855"><img src="./assets/huggingface-logo.svg" height="46" alt="Hugging Face" /></a>
+</p>
+
 [![joblib](https://img.shields.io/badge/✓_MERGED-joblib%2Fjoblib_(4.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joblib/joblib/pull/1812)
 [![sentence-transformers](https://img.shields.io/badge/✓_MERGED-huggingface%2Fsentence--transformers_(18.9k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/huggingface/sentence-transformers/pull/3855)
 

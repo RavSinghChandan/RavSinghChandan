@@ -47,11 +47,14 @@
   <a href="https://github.com/huggingface/sentence-transformers/pull/3855"><img src="./assets/huggingface-logo.svg" height="46" alt="Hugging Face" /></a>
   &nbsp;&nbsp;
   <a href="https://github.com/nltk/nltk/pull/3703"><img src="./assets/nltk-logo.svg" height="46" alt="NLTK" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/py-pdf/pypdf/pull/3929"><img src="./assets/pypdf-logo.svg" height="46" alt="pypdf" /></a>
 </p>
 
 [![joblib](https://img.shields.io/badge/✓_MERGED-joblib%2Fjoblib_(4.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joblib/joblib/pull/1812)
 [![sentence-transformers](https://img.shields.io/badge/✓_MERGED-huggingface%2Fsentence--transformers_(18.9k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/huggingface/sentence-transformers/pull/3855)
 [![nltk](https://img.shields.io/badge/✓_MERGED-nltk%2Fnltk_(14.7k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nltk/nltk/pull/3703)
+[![pypdf](https://img.shields.io/badge/✓_MERGED-py--pdf%2Fpypdf_(10.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/py-pdf/pypdf/pull/3929)
 
 | Repo | Contribution | Status |
 |------|-------------|--------|
@@ -60,9 +63,10 @@
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers/pull/3855) `18.9k★` | Regression tests for a core utility (PR #3855) | ✅ **Merged** |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers/pull/3843) `18.9k★` | Documented the sparse-tensor → SciPy COO conversion (PR #3843) | ✅ **Merged** |
 | [nltk/nltk](https://github.com/nltk/nltk/pull/3703) `14.7k★` | Regression tests for `transitive_closure` — cycles, reflexive closure, and input-mutation safety (PR #3703) | ✅ **Merged** |
-| pypdf · spaCy · HF Evaluate · smolagents | Bug fixes & test coverage | 🔄 In review |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3929) `10.1k★` | Bug fix: low-bit `/DeviceRGB` images decoded as RGB instead of palette — broken image extraction (PR #3929) | ✅ **Merged** |
+| spaCy · HF Evaluate · smolagents · aiokafka | Bug fixes & test coverage | 🔄 In review |
 
-*5 merged across 3 libraries the AI/ML world runs on — more PRs landing over time.*
+*6 merged across 4 libraries the AI/ML world runs on — more PRs landing over time.*
 
 </div>
 

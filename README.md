@@ -45,19 +45,24 @@
   <a href="https://github.com/joblib/joblib/pull/1812"><img src="./assets/joblib-logo.svg" height="46" alt="joblib" /></a>
   &nbsp;&nbsp;
   <a href="https://github.com/huggingface/sentence-transformers/pull/3855"><img src="./assets/huggingface-logo.svg" height="46" alt="Hugging Face" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/nltk/nltk/pull/3703"><img src="./assets/nltk-logo.svg" height="46" alt="NLTK" /></a>
 </p>
 
 [![joblib](https://img.shields.io/badge/✓_MERGED-joblib%2Fjoblib_(4.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joblib/joblib/pull/1812)
 [![sentence-transformers](https://img.shields.io/badge/✓_MERGED-huggingface%2Fsentence--transformers_(18.9k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/huggingface/sentence-transformers/pull/3855)
+[![nltk](https://img.shields.io/badge/✓_MERGED-nltk%2Fnltk_(14.7k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nltk/nltk/pull/3703)
 
 | Repo | Contribution | Status |
 |------|-------------|--------|
 | [joblib/joblib](https://github.com/joblib/joblib/pull/1812) `4.1k★` | Bug fix: accept any `os.PathLike` in `dump()`/`load()` (PR #1812) | ✅ **Merged** |
 | [joblib/joblib](https://github.com/joblib/joblib/pull/1811) `4.1k★` | Docstrings for time-format helpers (PR #1811) | ✅ **Merged** |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers/pull/3855) `18.9k★` | Regression tests for a core utility (PR #3855) | ✅ **Merged** |
-| nltk · spaCy · HF Evaluate · smolagents | Fixes & test coverage | 🔄 In review |
+| [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers/pull/3843) `18.9k★` | Documented the sparse-tensor → SciPy COO conversion (PR #3843) | ✅ **Merged** |
+| [nltk/nltk](https://github.com/nltk/nltk/pull/3703) `14.7k★` | Regression tests for `transitive_closure` — cycles, reflexive closure, and input-mutation safety (PR #3703) | ✅ **Merged** |
+| pypdf · spaCy · HF Evaluate · smolagents | Bug fixes & test coverage | 🔄 In review |
 
-*3 merged across 2 libraries the AI/ML world runs on — more PRs landing over time.*
+*5 merged across 3 libraries the AI/ML world runs on — more PRs landing over time.*
 
 </div>
 

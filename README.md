@@ -67,7 +67,7 @@
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3938) `10.1k★` | Bug fix: low-bit expansion never ran for unfiltered/inline images, raising `unrecognized image mode` (PR #3938) | ✅ **Merged** |
 | python-jose · spaCy · HF Evaluate · aiokafka | Security fix & bug fixes | 🔄 In review |
 
-*6 merged across 4 libraries the AI/ML world runs on — more PRs landing over time.*
+*7 merged across 4 libraries the AI/ML world runs on — more PRs landing over time.*
 
 </div>
 

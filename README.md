@@ -49,12 +49,15 @@
   <a href="https://github.com/nltk/nltk/pull/3703"><img src="./assets/nltk-logo.svg" height="46" alt="NLTK" /></a>
   &nbsp;&nbsp;
   <a href="https://github.com/py-pdf/pypdf/pull/3929"><img src="./assets/pypdf-logo.svg" height="46" alt="pypdf" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/authlib/authlib/pull/919"><img src="./assets/authlib-logo.svg" height="46" alt="Authlib" /></a>
 </p>
 
 [![joblib](https://img.shields.io/badge/✓_MERGED-joblib%2Fjoblib_(4.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joblib/joblib/pull/1812)
 [![sentence-transformers](https://img.shields.io/badge/✓_MERGED-huggingface%2Fsentence--transformers_(18.9k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/huggingface/sentence-transformers/pull/3855)
 [![nltk](https://img.shields.io/badge/✓_MERGED-nltk%2Fnltk_(14.7k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nltk/nltk/pull/3703)
 [![pypdf](https://img.shields.io/badge/✓_MERGED-py--pdf%2Fpypdf_(10.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/py-pdf/pypdf/pull/3929)
+[![authlib](https://img.shields.io/badge/✓_MERGED-authlib%2Fauthlib_(5.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/authlib/authlib/pull/919)
 
 | Repo | Contribution | Status |
 |------|-------------|--------|
@@ -66,9 +69,10 @@
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3929) `10.1k★` | Bug fix: low-bit `/DeviceRGB` images decoded as RGB instead of palette — broken image extraction (PR #3929) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3938) `10.1k★` | Bug fix: low-bit expansion never ran for unfiltered/inline images, raising `unrecognized image mode` (PR #3938) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3943) `10.1k★` | Bug fix: an explicit `/Decode` array replaced the Adobe CMYK inversion instead of composing with it, leaving extracted images colour-inverted (PR #3943) | ✅ **Merged** |
-| python-jose · authlib · spaCy · HF Evaluate · aiokafka | Security fix & bug fixes | 🔄 In review |
+| [authlib/authlib](https://github.com/authlib/authlib/pull/919) `5.4k★` | Bug fix: the OAuth1 `InsecureTransportError` carried the OAuth2 description, telling OAuth 1.0a clients "OAuth 2 MUST utilize https." — merged by the project lead (PR #919) | ✅ **Merged** |
+| python-jose · spaCy · HF Evaluate · aiokafka | Security fix & bug fixes | 🔄 In review |
 
-*8 merged across 4 libraries the AI/ML world runs on — more PRs landing over time.*
+*9 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
 
 </div>
 

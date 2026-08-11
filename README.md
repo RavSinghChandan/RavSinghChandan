@@ -70,9 +70,10 @@
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3938) `10.1k★` | Bug fix: low-bit expansion never ran for unfiltered/inline images, raising `unrecognized image mode` (PR #3938) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3943) `10.1k★` | Bug fix: an explicit `/Decode` array replaced the Adobe CMYK inversion instead of composing with it, leaving extracted images colour-inverted (PR #3943) | ✅ **Merged** |
 | [authlib/authlib](https://github.com/authlib/authlib/pull/919) `5.4k★` | Bug fix: the OAuth1 `InsecureTransportError` carried the OAuth2 description, telling OAuth 1.0a clients "OAuth 2 MUST utilize https." — merged by the project lead (PR #919) | ✅ **Merged** |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3957) `10.1k★` | Bug fix: `pages` was annotated `list[PageObject]` but returns a lazy `_VirtualList`, so type checkers accepted `reader.pages.append(...)` — which raises at runtime (PR #3957) | ✅ **Merged** |
 | python-jose · spaCy · HF Evaluate · aiokafka | Security fix & bug fixes | 🔄 In review |
 
-*9 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
+*10 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
 
 </div>
 

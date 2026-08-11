@@ -65,9 +65,10 @@
 | [nltk/nltk](https://github.com/nltk/nltk/pull/3703) `14.7k★` | Regression tests for `transitive_closure` — cycles, reflexive closure, and input-mutation safety (PR #3703) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3929) `10.1k★` | Bug fix: low-bit `/DeviceRGB` images decoded as RGB instead of palette — broken image extraction (PR #3929) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3938) `10.1k★` | Bug fix: low-bit expansion never ran for unfiltered/inline images, raising `unrecognized image mode` (PR #3938) | ✅ **Merged** |
-| python-jose · spaCy · HF Evaluate · aiokafka | Security fix & bug fixes | 🔄 In review |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3943) `10.1k★` | Bug fix: an explicit `/Decode` array replaced the Adobe CMYK inversion instead of composing with it, leaving extracted images colour-inverted (PR #3943) | ✅ **Merged** |
+| python-jose · authlib · spaCy · HF Evaluate · aiokafka | Security fix & bug fixes | 🔄 In review |
 
-*7 merged across 4 libraries the AI/ML world runs on — more PRs landing over time.*
+*8 merged across 4 libraries the AI/ML world runs on — more PRs landing over time.*
 
 </div>
 

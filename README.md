@@ -41,6 +41,14 @@
 
 **Merged code into libraries the AI/ML world actually uses.**
 
+### How It All Connects
+
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 10 merged open-source pull requests as glowing atoms" />
+
+<sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
+
+<br/>
+
 <p>
   <a href="https://github.com/joblib/joblib/pull/1812"><img src="./assets/joblib-logo.svg" height="46" alt="joblib" /></a>
   &nbsp;&nbsp;

@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 10 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 11 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -79,9 +79,10 @@
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3943) `10.1k★` | Bug fix: an explicit `/Decode` array replaced the Adobe CMYK inversion instead of composing with it, leaving extracted images colour-inverted (PR #3943) | ✅ **Merged** |
 | [authlib/authlib](https://github.com/authlib/authlib/pull/919) `5.4k★` | Bug fix: the OAuth1 `InsecureTransportError` carried the OAuth2 description, telling OAuth 1.0a clients "OAuth 2 MUST utilize https." — merged by the project lead (PR #919) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3957) `10.1k★` | Bug fix: `pages` was annotated `list[PageObject]` but returns a lazy `_VirtualList`, so type checkers accepted `reader.pages.append(...)` — which raises at runtime (PR #3957) | ✅ **Merged** |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3960) `10.1k★` | Bug fix: `PdfWriterProtocol` declares `_reader`, but `PdfWriter` only set it in incremental mode — so a normal writer failed the protocol it is passed as (PR #3960) | ✅ **Merged** |
 | python-jose · spaCy · HF Evaluate · aiokafka | Security fix & bug fixes | 🔄 In review |
 
-*10 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
+*11 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
 
 </div>
 

@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 14 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 18 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -83,9 +83,13 @@
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3970) `10.1k★` | Bug fix: the object-translation table is declared `int`-to-`int`, but each entry also stores the source document under a `"PreventGC"` key — two `type: ignore` comments hid the mismatch (PR #3970) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3969) `10.1k★` | Release tooling: the version bump always assumed a patch release, so enhancements had to be corrected by hand — now derived from the generated changelog sections (PR #3969) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3971) `10.1k★` | Bug fix: a stream without an explicit `/DecodeParms` handed every filter a plain `dict`, but the decoders are typed for a `DictionaryObject` (PR #3971) | ✅ **Merged** |
-| pypdf · uvicorn · python-jose · llama_index | Bug fixes & security fix | 🔄 In review |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3983) `10.1k★` | Bug fix: iterating a PDF dictionary yields keys, so the AcroForm font walk collected nothing — form fields inheriting a document-level font came back with an empty font set (PR #3983) | ✅ **Merged** |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3984) `10.1k★` | Bug fix: `RectangleObject` was typed for a tuple, but every caller inside pypdf passes the `ArrayObject` read from the PDF (PR #3984) | ✅ **Merged** |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3985) `10.1k★` | Returned two empty lists from a function annotated `None`, hidden behind a `type: ignore` (PR #3985) | ✅ **Merged** |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3986) `10.1k★` | The annotation list holds `IndirectObject` references, not the `DictionaryObject` it was declared as (PR #3986) | ✅ **Merged** |
+| pypdf · optax · numba · llama_index | Bug fixes & docs | 🔄 In review |
 
-*14 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
+*18 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
 
 </div>
 

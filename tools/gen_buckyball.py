@@ -12,7 +12,7 @@ import os
 
 FRAMES = 30
 DURATION = 12          # seconds for a full turn
-MERGE_COUNT = 18       # bump this when a PR merges
+MERGE_COUNT = 20       # bump this when a PR merges
 ATOM_COLOR = "#34d399"
 
 OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),

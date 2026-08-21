@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 18 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 20 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -87,9 +87,11 @@
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3984) `10.1k★` | Bug fix: `RectangleObject` was typed for a tuple, but every caller inside pypdf passes the `ArrayObject` read from the PDF (PR #3984) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3985) `10.1k★` | Returned two empty lists from a function annotated `None`, hidden behind a `type: ignore` (PR #3985) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3986) `10.1k★` | The annotation list holds `IndirectObject` references, not the `DictionaryObject` it was declared as (PR #3986) | ✅ **Merged** |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3990) `10.1k★` | `Fit` was typed for a tuple, but the destination builder unpacks the PDF array and hands over a list (PR #3990) | ✅ **Merged** |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3991) `10.1k★` | The annotation `border` was declared an `ArrayObject` while the documented usage is a plain list (PR #3991) | ✅ **Merged** |
 | pypdf · optax · numba · llama_index | Bug fixes & docs | 🔄 In review |
 
-*18 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
+*20 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
 
 </div>
 

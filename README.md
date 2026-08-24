@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 22 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 25 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -91,9 +91,12 @@
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3991) `10.1k★` | The annotation `border` was declared an `ArrayObject` while the documented usage is a plain list (PR #3991) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3995) `10.1k★` | `XmpInformation` was typed for a `ContentStream`, a sibling of the `DecodedStreamObject` the `/Metadata` stream actually is (PR #3995) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3996) `10.1k★` | Bug fix: a CID font's `/W` array may hold real numbers, so a width of `443.35938` landed in a `dict[str, int]` (PR #3996) | ✅ **Merged** |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3972) `10.1k★` | A compressed cross-reference stream is an `EncodedStreamObject`, a sibling of the `ContentStream` it was declared as (PR #3972) | ✅ **Merged** |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3988) `10.1k★` | Both name-tree walks cast to `TreeObject` on objects that are plain dictionaries at runtime (PR #3988) | ✅ **Merged** |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3989) `10.1k★` | The layout-mode extractor passes a `ChainMap` into a function annotated for two lists, behind a `type: ignore` (PR #3989) | ✅ **Merged** |
 | pypdf · optax · numba · llama_index | Bug fixes & docs | 🔄 In review |
 
-*22 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
+*25 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
 
 </div>
 

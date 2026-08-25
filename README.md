@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 31 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 32 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -100,9 +100,10 @@
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4005) `10.1k★` | Bug fix: `number2uppercase_roman_numeral(-1)` returned `CMXCIX` instead of refusing a non-positive number (PR #4005) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4004) `10.1k★` | Bug fix: `PageRange("::0")` was accepted and reported valid, but the range only failed once applied (PR #4004) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4003) `10.1k★` | Form field flags were passed as a bare `1` where the docs point at the `FfBits` enum (PR #4003) | ✅ **Merged** |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4010) `10.1k★` | Bug fix: the page layout warning printed a set of an empty string and every layout run together (PR #4010) | ✅ **Merged** |
 | pypdf · optax · numba · llama_index | Bug fixes & docs | 🔄 In review |
 
-*31 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
+*32 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
 
 </div>
 

@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 27 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 29 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -96,9 +96,11 @@
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3989) `10.1k★` | The layout-mode extractor passes a `ChainMap` into a function annotated for two lists, behind a `type: ignore` (PR #3989) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3997) `10.1k★` | The docs set `annotation.flags = 4` under a comment pointing readers at `AnnotationFlag` (PR #3997) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4000) `10.1k★` | expat passes an `int` for `is_parameter_entity` while typeshed declares a `bool` - records why the annotation stays (PR #4000) | ✅ **Merged** |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4002) `10.1k★` | Bug fix: two callers passed the raw `/Font` entry to a function reading it as a dictionary - it worked only because `IndirectObject` forwards attributes (PR #4002) | ✅ **Merged** |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4005) `10.1k★` | Bug fix: `number2uppercase_roman_numeral(-1)` returned `CMXCIX` instead of refusing a non-positive number (PR #4005) | ✅ **Merged** |
 | pypdf · optax · numba · llama_index | Bug fixes & docs | 🔄 In review |
 
-*27 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
+*29 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
 
 </div>
 

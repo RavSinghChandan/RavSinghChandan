@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 35 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 37 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -104,9 +104,11 @@
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4009) `10.1k★` | A page box could be set to two values but not read back, since the getter needs four (PR #4009) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4011) `10.1k★` | `/PrintScaling` was declared with an empty list of acceptable values, so nothing checked it (PR #4011) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4013) `10.1k★` | `/PrintPageRange` holds page pairs, so an odd-length array leaves a range without its end (PR #4013) | ✅ **Merged** |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4012) `10.1k★` | `/NumCopies` accepted a negative count no reader can interpret (PR #4012) | ✅ **Merged** |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4014) `10.1k★` | The four area and clip preferences were declared with no acceptable values, so any name passed (PR #4014) | ✅ **Merged** |
 | pypdf · optax · numba · llama_index | Bug fixes & docs | 🔄 In review |
 
-*35 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
+*37 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
 
 </div>
 

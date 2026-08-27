@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 37 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 42 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -106,9 +106,14 @@
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4013) `10.1k★` | `/PrintPageRange` holds page pairs, so an odd-length array leaves a range without its end (PR #4013) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4012) `10.1k★` | `/NumCopies` accepted a negative count no reader can interpret (PR #4012) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4014) `10.1k★` | The four area and clip preferences were declared with no acceptable values, so any name passed (PR #4014) | ✅ **Merged** |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4016) `10.1k★` | An out-of-range page surfaced as a bare `IndexError` from the kids array (PR #4016) | ✅ **Merged** |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4017) `10.1k★` | An unknown page label style was written into `/S` and then silently dropped on read (PR #4017) | ✅ **Merged** |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4019) `10.1k★` | Robustness: a malformed AcroForm `/Fields` entry crashed `get_fields()` (PR #4019) | ✅ **Merged** |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4021) `10.1k★` | Robustness: a malformed `/ViewerPreferences` entry raised `AttributeError` (PR #4021) | ✅ **Merged** |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4022) `10.1k★` | Robustness: a malformed `/PageLabels` entry crashed `reader.page_labels` (PR #4022) | ✅ **Merged** |
 | pypdf · optax · numba · llama_index | Bug fixes & docs | 🔄 In review |
 
-*37 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
+*42 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
 
 </div>
 

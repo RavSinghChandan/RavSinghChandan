@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 46 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 48 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -115,9 +115,11 @@
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4020) `10.1k★` | Robustness: a malformed `/Dests` or `/Names` entry crashed `reader.named_destinations` (PR #4020) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4023) `10.1k★` | Robustness: an `/Outlines` entry that is not a dictionary crashed `reader.outline` (PR #4023) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4031) `10.1k★` | Robustness: a form field entry that is not a dictionary crashed `reader.get_fields()` (PR #4031) | ✅ **Merged** |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4029) `10.1k★` | Robustness: an `/AcroForm` entry that is not a dictionary crashed `reader.get_fields()` (PR #4029) | ✅ **Merged** |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4030) `10.1k★` | Robustness: `/XObject` resources that are not a dictionary crashed `page.images` (PR #4030) | ✅ **Merged** |
 | pypdf · optax · numba · llama_index | Bug fixes & docs | 🔄 In review |
 
-*46 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
+*48 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
 
 </div>
 

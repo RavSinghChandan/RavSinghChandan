@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 51 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 52 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -120,9 +120,10 @@
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4038) `10.1k★` | Typing: `read_object` was annotated to return an `int` or `str` it can never produce, forcing six suppressions across its callers (PR #4038) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4041) `10.1k★` | Robustness: a page box that is not an array failed with an error naming neither the box nor the problem (PR #4041) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4039) `10.1k★` | Robustness: a name tree node whose `/Names` or `/Kids` is not an array crashed `reader.named_destinations` (PR #4039) | ✅ **Merged** |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4046) `10.1k★` | Robustness: an `/Annots` entry that is not an array crashed anything iterating `page.annotations` (PR #4046) | ✅ **Merged** |
 | pypdf · optax · numba · llama_index | Bug fixes & docs | 🔄 In review |
 
-*51 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
+*52 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
 
 </div>
 

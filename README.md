@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 53 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 54 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -122,9 +122,10 @@
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4039) `10.1k★` | Robustness: a name tree node whose `/Names` or `/Kids` is not an array crashed `reader.named_destinations` (PR #4039) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4046) `10.1k★` | Robustness: an `/Annots` entry that is not an array crashed anything iterating `page.annotations` (PR #4046) | ✅ **Merged** |
 | [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4048) `10.1k★` | Robustness: a `/Kids` entry that is not a dictionary crashed the page tree walk (PR #4048) | ✅ **Merged** |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4054) `10.1k★` | Robustness: page `/Resources` that is not a dictionary crashed `extract_text()` on the `/Font` lookup (PR #4054) | ✅ **Merged** |
 | pypdf · optax · numba · llama_index | Bug fixes & docs | 🔄 In review |
 
-*53 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
+*54 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
 
 </div>
 

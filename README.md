@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 54 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 56 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -67,65 +67,114 @@
 [![pypdf](https://img.shields.io/badge/✓_MERGED-py--pdf%2Fpypdf_(10.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/py-pdf/pypdf/pull/3929)
 [![authlib](https://img.shields.io/badge/✓_MERGED-authlib%2Fauthlib_(5.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/authlib/authlib/pull/919)
 
-| Repo | Contribution | Status |
-|------|-------------|--------|
-| [joblib/joblib](https://github.com/joblib/joblib/pull/1812) `4.1k★` | Bug fix: accept any `os.PathLike` in `dump()`/`load()` (PR #1812) | ✅ **Merged** |
-| [joblib/joblib](https://github.com/joblib/joblib/pull/1811) `4.1k★` | Docstrings for time-format helpers (PR #1811) | ✅ **Merged** |
-| [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers/pull/3855) `18.9k★` | Regression tests for a core utility (PR #3855) | ✅ **Merged** |
-| [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers/pull/3843) `18.9k★` | Documented the sparse-tensor → SciPy COO conversion (PR #3843) | ✅ **Merged** |
-| [nltk/nltk](https://github.com/nltk/nltk/pull/3703) `14.7k★` | Regression tests for `transitive_closure` — cycles, reflexive closure, and input-mutation safety (PR #3703) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3929) `10.1k★` | Bug fix: low-bit `/DeviceRGB` images decoded as RGB instead of palette — broken image extraction (PR #3929) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3938) `10.1k★` | Bug fix: low-bit expansion never ran for unfiltered/inline images, raising `unrecognized image mode` (PR #3938) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3943) `10.1k★` | Bug fix: an explicit `/Decode` array replaced the Adobe CMYK inversion instead of composing with it, leaving extracted images colour-inverted (PR #3943) | ✅ **Merged** |
-| [authlib/authlib](https://github.com/authlib/authlib/pull/919) `5.4k★` | Bug fix: the OAuth1 `InsecureTransportError` carried the OAuth2 description, telling OAuth 1.0a clients "OAuth 2 MUST utilize https." — merged by the project lead (PR #919) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3957) `10.1k★` | Bug fix: `pages` was annotated `list[PageObject]` but returns a lazy `_VirtualList`, so type checkers accepted `reader.pages.append(...)` — which raises at runtime (PR #3957) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3960) `10.1k★` | Bug fix: `PdfWriterProtocol` declares `_reader`, but `PdfWriter` only set it in incremental mode — so a normal writer failed the protocol it is passed as (PR #3960) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3970) `10.1k★` | Bug fix: the object-translation table is declared `int`-to-`int`, but each entry also stores the source document under a `"PreventGC"` key — two `type: ignore` comments hid the mismatch (PR #3970) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3969) `10.1k★` | Release tooling: the version bump always assumed a patch release, so enhancements had to be corrected by hand — now derived from the generated changelog sections (PR #3969) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3971) `10.1k★` | Bug fix: a stream without an explicit `/DecodeParms` handed every filter a plain `dict`, but the decoders are typed for a `DictionaryObject` (PR #3971) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3983) `10.1k★` | Bug fix: iterating a PDF dictionary yields keys, so the AcroForm font walk collected nothing — form fields inheriting a document-level font came back with an empty font set (PR #3983) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3984) `10.1k★` | Bug fix: `RectangleObject` was typed for a tuple, but every caller inside pypdf passes the `ArrayObject` read from the PDF (PR #3984) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3985) `10.1k★` | Returned two empty lists from a function annotated `None`, hidden behind a `type: ignore` (PR #3985) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3986) `10.1k★` | The annotation list holds `IndirectObject` references, not the `DictionaryObject` it was declared as (PR #3986) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3990) `10.1k★` | `Fit` was typed for a tuple, but the destination builder unpacks the PDF array and hands over a list (PR #3990) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3991) `10.1k★` | The annotation `border` was declared an `ArrayObject` while the documented usage is a plain list (PR #3991) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3995) `10.1k★` | `XmpInformation` was typed for a `ContentStream`, a sibling of the `DecodedStreamObject` the `/Metadata` stream actually is (PR #3995) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3996) `10.1k★` | Bug fix: a CID font's `/W` array may hold real numbers, so a width of `443.35938` landed in a `dict[str, int]` (PR #3996) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3972) `10.1k★` | A compressed cross-reference stream is an `EncodedStreamObject`, a sibling of the `ContentStream` it was declared as (PR #3972) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3988) `10.1k★` | Both name-tree walks cast to `TreeObject` on objects that are plain dictionaries at runtime (PR #3988) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3989) `10.1k★` | The layout-mode extractor passes a `ChainMap` into a function annotated for two lists, behind a `type: ignore` (PR #3989) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/3997) `10.1k★` | The docs set `annotation.flags = 4` under a comment pointing readers at `AnnotationFlag` (PR #3997) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4000) `10.1k★` | expat passes an `int` for `is_parameter_entity` while typeshed declares a `bool` - records why the annotation stays (PR #4000) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4002) `10.1k★` | Bug fix: two callers passed the raw `/Font` entry to a function reading it as a dictionary - it worked only because `IndirectObject` forwards attributes (PR #4002) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4005) `10.1k★` | Bug fix: `number2uppercase_roman_numeral(-1)` returned `CMXCIX` instead of refusing a non-positive number (PR #4005) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4004) `10.1k★` | Bug fix: `PageRange("::0")` was accepted and reported valid, but the range only failed once applied (PR #4004) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4003) `10.1k★` | Form field flags were passed as a bare `1` where the docs point at the `FfBits` enum (PR #4003) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4010) `10.1k★` | Bug fix: the page layout warning printed a set of an empty string and every layout run together (PR #4010) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4009) `10.1k★` | A page box could be set to two values but not read back, since the getter needs four (PR #4009) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4011) `10.1k★` | `/PrintScaling` was declared with an empty list of acceptable values, so nothing checked it (PR #4011) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4013) `10.1k★` | `/PrintPageRange` holds page pairs, so an odd-length array leaves a range without its end (PR #4013) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4012) `10.1k★` | `/NumCopies` accepted a negative count no reader can interpret (PR #4012) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4014) `10.1k★` | The four area and clip preferences were declared with no acceptable values, so any name passed (PR #4014) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4016) `10.1k★` | An out-of-range page surfaced as a bare `IndexError` from the kids array (PR #4016) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4017) `10.1k★` | An unknown page label style was written into `/S` and then silently dropped on read (PR #4017) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4019) `10.1k★` | Robustness: a malformed AcroForm `/Fields` entry crashed `get_fields()` (PR #4019) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4021) `10.1k★` | Robustness: a malformed `/ViewerPreferences` entry raised `AttributeError` (PR #4021) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4022) `10.1k★` | Robustness: a malformed `/PageLabels` entry crashed `reader.page_labels` (PR #4022) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4018) `10.1k★` | Robustness: an outline node that is not a dictionary crashed `reader.outline` (PR #4018) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4020) `10.1k★` | Robustness: a malformed `/Dests` or `/Names` entry crashed `reader.named_destinations` (PR #4020) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4023) `10.1k★` | Robustness: an `/Outlines` entry that is not a dictionary crashed `reader.outline` (PR #4023) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4031) `10.1k★` | Robustness: a form field entry that is not a dictionary crashed `reader.get_fields()` (PR #4031) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4029) `10.1k★` | Robustness: an `/AcroForm` entry that is not a dictionary crashed `reader.get_fields()` (PR #4029) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4030) `10.1k★` | Robustness: `/XObject` resources that are not a dictionary crashed `page.images` (PR #4030) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4038) `10.1k★` | Typing: `read_object` was annotated to return an `int` or `str` it can never produce, forcing six suppressions across its callers (PR #4038) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4041) `10.1k★` | Robustness: a page box that is not an array failed with an error naming neither the box nor the problem (PR #4041) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4039) `10.1k★` | Robustness: a name tree node whose `/Names` or `/Kids` is not an array crashed `reader.named_destinations` (PR #4039) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4046) `10.1k★` | Robustness: an `/Annots` entry that is not an array crashed anything iterating `page.annotations` (PR #4046) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4048) `10.1k★` | Robustness: a `/Kids` entry that is not a dictionary crashed the page tree walk (PR #4048) | ✅ **Merged** |
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf/pull/4054) `10.1k★` | Robustness: page `/Resources` that is not a dictionary crashed `extract_text()` on the `/Font` lookup (PR #4054) | ✅ **Merged** |
-| pypdf · optax · numba · llama_index | Bug fixes & docs | 🔄 In review |
+**56 merged pull requests across 5 libraries.** Grouped by project — click any row to expand.
 
-*54 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
+| Library | Merged | Focus |
+|---|---|---|
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf) `10.1k★` | **50** | Reader robustness, typing, spec compliance |
+| [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) `18.9k★` | **2** | Regression tests, docs |
+| [joblib/joblib](https://github.com/joblib/joblib) `4.1k★` | **2** | Input validation, path handling |
+| [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
+| [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **1** | OAuth correctness |
+
+<details>
+<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.1k★</code> &nbsp;—&nbsp; 50 merged &nbsp;<i>(click to expand)</i></summary>
+
+| PR | Contribution |
+|---|---|
+| [#4064](https://github.com/py-pdf/pypdf/pull/4064) | Robustness: a malformed `/XFA` entry raised `TypeError` or `StopIteration` out of `reader.xfa` |
+| [#4058](https://github.com/py-pdf/pypdf/pull/4058) | Robustness: a font `/Encoding` whose `/Differences` is not an array crashed text extraction |
+| [#4054](https://github.com/py-pdf/pypdf/pull/4054) | Robustness: page `/Resources` that is not a dictionary crashed `extract_text()` on the `/Font` lookup |
+| [#4048](https://github.com/py-pdf/pypdf/pull/4048) | Robustness: a `/Kids` entry that is not a dictionary crashed the page tree walk |
+| [#4046](https://github.com/py-pdf/pypdf/pull/4046) | Robustness: an `/Annots` entry that is not an array crashed anything iterating `page.annotations` |
+| [#4041](https://github.com/py-pdf/pypdf/pull/4041) | Robustness: a page box that is not an array failed with an error naming neither the box nor the problem |
+| [#4039](https://github.com/py-pdf/pypdf/pull/4039) | Robustness: a name tree node whose `/Names` or `/Kids` is not an array crashed `reader.named_destinations` |
+| [#4038](https://github.com/py-pdf/pypdf/pull/4038) | Typing: `read_object` was annotated to return an `int` or `str` it can never produce, forcing six suppressions across its callers |
+| [#4031](https://github.com/py-pdf/pypdf/pull/4031) | Robustness: a form field entry that is not a dictionary crashed `reader.get_fields()` |
+| [#4030](https://github.com/py-pdf/pypdf/pull/4030) | Robustness: `/XObject` resources that are not a dictionary crashed `page.images` |
+| [#4029](https://github.com/py-pdf/pypdf/pull/4029) | Robustness: an `/AcroForm` entry that is not a dictionary crashed `reader.get_fields()` |
+| [#4023](https://github.com/py-pdf/pypdf/pull/4023) | Robustness: an `/Outlines` entry that is not a dictionary crashed `reader.outline` |
+| [#4022](https://github.com/py-pdf/pypdf/pull/4022) | Robustness: a malformed `/PageLabels` entry crashed `reader.page_labels` |
+| [#4021](https://github.com/py-pdf/pypdf/pull/4021) | Robustness: a malformed `/ViewerPreferences` entry raised `AttributeError` |
+| [#4020](https://github.com/py-pdf/pypdf/pull/4020) | Robustness: a malformed `/Dests` or `/Names` entry crashed `reader.named_destinations` |
+| [#4019](https://github.com/py-pdf/pypdf/pull/4019) | Robustness: a malformed AcroForm `/Fields` entry crashed `get_fields()` |
+| [#4018](https://github.com/py-pdf/pypdf/pull/4018) | Robustness: an outline node that is not a dictionary crashed `reader.outline` |
+| [#4017](https://github.com/py-pdf/pypdf/pull/4017) | An unknown page label style was written into `/S` and then silently dropped on read |
+| [#4016](https://github.com/py-pdf/pypdf/pull/4016) | An out-of-range page surfaced as a bare `IndexError` from the kids array |
+| [#4014](https://github.com/py-pdf/pypdf/pull/4014) | The four area and clip preferences were declared with no acceptable values, so any name passed |
+| [#4013](https://github.com/py-pdf/pypdf/pull/4013) | `/PrintPageRange` holds page pairs, so an odd-length array leaves a range without its end |
+| [#4012](https://github.com/py-pdf/pypdf/pull/4012) | `/NumCopies` accepted a negative count no reader can interpret |
+| [#4011](https://github.com/py-pdf/pypdf/pull/4011) | `/PrintScaling` was declared with an empty list of acceptable values, so nothing checked it |
+| [#4010](https://github.com/py-pdf/pypdf/pull/4010) | Bug fix: the page layout warning printed a set of an empty string and every layout run together |
+| [#4009](https://github.com/py-pdf/pypdf/pull/4009) | A page box could be set to two values but not read back, since the getter needs four |
+| [#4005](https://github.com/py-pdf/pypdf/pull/4005) | Bug fix: `number2uppercase_roman_numeral(-1)` returned `CMXCIX` instead of refusing a non-positive number |
+| [#4004](https://github.com/py-pdf/pypdf/pull/4004) | Bug fix: `PageRange("::0")` was accepted and reported valid, but the range only failed once applied |
+| [#4003](https://github.com/py-pdf/pypdf/pull/4003) | Form field flags were passed as a bare `1` where the docs point at the `FfBits` enum |
+| [#4002](https://github.com/py-pdf/pypdf/pull/4002) | Bug fix: two callers passed the raw `/Font` entry to a function reading it as a dictionary - it worked only because `IndirectObject` forwards attributes |
+| [#4000](https://github.com/py-pdf/pypdf/pull/4000) | expat passes an `int` for `is_parameter_entity` while typeshed declares a `bool` - records why the annotation stays |
+| [#3997](https://github.com/py-pdf/pypdf/pull/3997) | The docs set `annotation.flags = 4` under a comment pointing readers at `AnnotationFlag` |
+| [#3996](https://github.com/py-pdf/pypdf/pull/3996) | Bug fix: a CID font's `/W` array may hold real numbers, so a width of `443.35938` landed in a `dict[str, int]` |
+| [#3995](https://github.com/py-pdf/pypdf/pull/3995) | `XmpInformation` was typed for a `ContentStream`, a sibling of the `DecodedStreamObject` the `/Metadata` stream actually is |
+| [#3991](https://github.com/py-pdf/pypdf/pull/3991) | The annotation `border` was declared an `ArrayObject` while the documented usage is a plain list |
+| [#3990](https://github.com/py-pdf/pypdf/pull/3990) | `Fit` was typed for a tuple, but the destination builder unpacks the PDF array and hands over a list |
+| [#3989](https://github.com/py-pdf/pypdf/pull/3989) | The layout-mode extractor passes a `ChainMap` into a function annotated for two lists, behind a `type: ignore` |
+| [#3988](https://github.com/py-pdf/pypdf/pull/3988) | Both name-tree walks cast to `TreeObject` on objects that are plain dictionaries at runtime |
+| [#3986](https://github.com/py-pdf/pypdf/pull/3986) | The annotation list holds `IndirectObject` references, not the `DictionaryObject` it was declared as |
+| [#3985](https://github.com/py-pdf/pypdf/pull/3985) | Returned two empty lists from a function annotated `None`, hidden behind a `type: ignore` |
+| [#3984](https://github.com/py-pdf/pypdf/pull/3984) | Bug fix: `RectangleObject` was typed for a tuple, but every caller inside pypdf passes the `ArrayObject` read from the PDF |
+| [#3983](https://github.com/py-pdf/pypdf/pull/3983) | Bug fix: iterating a PDF dictionary yields keys, so the AcroForm font walk collected nothing — form fields inheriting a document-level font came back with an empty font set |
+| [#3972](https://github.com/py-pdf/pypdf/pull/3972) | A compressed cross-reference stream is an `EncodedStreamObject`, a sibling of the `ContentStream` it was declared as |
+| [#3971](https://github.com/py-pdf/pypdf/pull/3971) | Bug fix: a stream without an explicit `/DecodeParms` handed every filter a plain `dict`, but the decoders are typed for a `DictionaryObject` |
+| [#3970](https://github.com/py-pdf/pypdf/pull/3970) | Bug fix: the object-translation table is declared `int`-to-`int`, but each entry also stores the source document under a `"PreventGC"` key — two `type: ignore` comments hid the mismatch |
+| [#3969](https://github.com/py-pdf/pypdf/pull/3969) | Release tooling: the version bump always assumed a patch release, so enhancements had to be corrected by hand — now derived from the generated changelog sections |
+| [#3960](https://github.com/py-pdf/pypdf/pull/3960) | Bug fix: `PdfWriterProtocol` declares `_reader`, but `PdfWriter` only set it in incremental mode — so a normal writer failed the protocol it is passed as |
+| [#3957](https://github.com/py-pdf/pypdf/pull/3957) | Bug fix: `pages` was annotated `list[PageObject]` but returns a lazy `_VirtualList`, so type checkers accepted `reader.pages.append(...)` — which raises at runtime |
+| [#3943](https://github.com/py-pdf/pypdf/pull/3943) | Bug fix: an explicit `/Decode` array replaced the Adobe CMYK inversion instead of composing with it, leaving extracted images colour-inverted |
+| [#3938](https://github.com/py-pdf/pypdf/pull/3938) | Bug fix: low-bit expansion never ran for unfiltered/inline images, raising `unrecognized image mode` |
+| [#3929](https://github.com/py-pdf/pypdf/pull/3929) | Bug fix: low-bit `/DeviceRGB` images decoded as RGB instead of palette — broken image extraction |
+
+</details>
+
+<details>
+<summary><b>huggingface/sentence-transformers</b> &nbsp;<code>18.9k★</code> &nbsp;—&nbsp; 2 merged &nbsp;<i>(click to expand)</i></summary>
+
+| PR | Contribution |
+|---|---|
+| [#3855](https://github.com/huggingface/sentence-transformers/pull/3855) | Regression tests for a core utility |
+| [#3843](https://github.com/huggingface/sentence-transformers/pull/3843) | Documented the sparse-tensor → SciPy COO conversion |
+
+</details>
+
+<details>
+<summary><b>joblib/joblib</b> &nbsp;<code>4.1k★</code> &nbsp;—&nbsp; 2 merged &nbsp;<i>(click to expand)</i></summary>
+
+| PR | Contribution |
+|---|---|
+| [#1812](https://github.com/joblib/joblib/pull/1812) | Bug fix: accept any `os.PathLike` in `dump()`/`load()` |
+| [#1811](https://github.com/joblib/joblib/pull/1811) | Docstrings for time-format helpers |
+
+</details>
+
+<details>
+<summary><b>nltk/nltk</b> &nbsp;<code>14.7k★</code> &nbsp;—&nbsp; 1 merged &nbsp;<i>(click to expand)</i></summary>
+
+| PR | Contribution |
+|---|---|
+| [#3703](https://github.com/nltk/nltk/pull/3703) | Regression tests for `transitive_closure` — cycles, reflexive closure, and input-mutation safety |
+
+</details>
+
+<details>
+<summary><b>authlib/authlib</b> &nbsp;<code>5.4k★</code> &nbsp;—&nbsp; 1 merged &nbsp;<i>(click to expand)</i></summary>
+
+| PR | Contribution |
+|---|---|
+| [#919](https://github.com/authlib/authlib/pull/919) | Bug fix: the OAuth1 `InsecureTransportError` carried the OAuth2 description, telling OAuth 1.0a clients "OAuth 2 MUST utilize https." — merged by the project lead |
+
+</details>
+> 🔄 **In review:** pypdf · optax · numba · llama_index · typeguard · python-jose · kokoro-onnx — bug fixes and docs.
+
+*56 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
 
 </div>
 

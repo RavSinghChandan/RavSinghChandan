@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 57 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 60 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -67,21 +67,23 @@
 [![pypdf](https://img.shields.io/badge/✓_MERGED-py--pdf%2Fpypdf_(10.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/py-pdf/pypdf/pull/3929)
 [![authlib](https://img.shields.io/badge/✓_MERGED-authlib%2Fauthlib_(5.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/authlib/authlib/pull/919)
 
-**57 merged pull requests across 5 libraries.** Grouped by project — click any row to expand.
+**60 merged pull requests across 5 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf) `10.1k★` | **51** | Reader robustness, typing, spec compliance |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf) `10.1k★` | **53** | Reader robustness, typing, spec compliance |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) `18.9k★` | **2** | Regression tests, docs |
-| [joblib/joblib](https://github.com/joblib/joblib) `4.1k★` | **2** | Input validation, path handling |
+| [joblib/joblib](https://github.com/joblib/joblib) `4.1k★` | **3** | Input validation, path handling |
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **1** | OAuth correctness |
 
 <details>
-<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.1k★</code> &nbsp;—&nbsp; 50 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.1k★</code> &nbsp;—&nbsp; 53 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#4080](https://github.com/py-pdf/pypdf/pull/4080) | Robustness: `add_outline_item` raised `UnboundLocalError` instead of naming an unsupported `page_number` type |
+| [#4074](https://github.com/py-pdf/pypdf/pull/4074) | Bug fix: a string `rect` for `add_uri` collapsed to `0`, leaving the link with no clickable area |
 | [#4069](https://github.com/py-pdf/pypdf/pull/4069) | Robustness: `insert_blank_page` looked up the size of a page that did not exist yet on an empty writer |
 | [#4064](https://github.com/py-pdf/pypdf/pull/4064) | Robustness: a malformed `/XFA` entry raised `TypeError` or `StopIteration` out of `reader.xfa` |
 | [#4058](https://github.com/py-pdf/pypdf/pull/4058) | Robustness: a font `/Encoding` whose `/Differences` is not an array crashed text extraction |
@@ -147,10 +149,11 @@
 </details>
 
 <details>
-<summary><b>joblib/joblib</b> &nbsp;<code>4.1k★</code> &nbsp;—&nbsp; 2 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>joblib/joblib</b> &nbsp;<code>4.1k★</code> &nbsp;—&nbsp; 3 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#1839](https://github.com/joblib/joblib/pull/1839) | Input validation: a `pre_dispatch` below one dispatched nothing and returned no results |
 | [#1812](https://github.com/joblib/joblib/pull/1812) | Bug fix: accept any `os.PathLike` in `dump()`/`load()` |
 | [#1811](https://github.com/joblib/joblib/pull/1811) | Docstrings for time-format helpers |
 
@@ -175,7 +178,7 @@
 </details>
 > 🔄 **In review:** pypdf · optax · numba · llama_index · typeguard · python-jose · kokoro-onnx — bug fixes and docs.
 
-*57 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
+*60 merged across 5 libraries the AI/ML world runs on — more PRs landing over time.*
 
 </div>
 

@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 65 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 67 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -67,7 +67,7 @@
 [![pypdf](https://img.shields.io/badge/✓_MERGED-py--pdf%2Fpypdf_(10.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/py-pdf/pypdf/pull/3929)
 [![authlib](https://img.shields.io/badge/✓_MERGED-authlib%2Fauthlib_(5.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/authlib/authlib/pull/919)
 
-**65 merged pull requests across 5 libraries.** Grouped by project — click any row to expand.
+**67 merged pull requests across 5 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -78,10 +78,12 @@
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **1** | OAuth correctness |
 
 <details>
-<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.1k★</code> &nbsp;—&nbsp; 58 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.1k★</code> &nbsp;—&nbsp; 60 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#4138](https://github.com/py-pdf/pypdf/pull/4138) | Robustness: a `/Font` resource that is a number, string or array crashed `extract_text()` with `TypeError`, in plain and layout mode |
+| [#4123](https://github.com/py-pdf/pypdf/pull/4123) | Bug fix: a malformed rectangle failed with a bare `AssertionError` that vanished under `python -O`; it now raises a `ValueError` naming the values |
 | [#4098](https://github.com/py-pdf/pypdf/pull/4098) | Robustness: an outline `/A` action missing the required `/S` subtype raised `KeyError`, making the whole outline unreadable |
 | [#4119](https://github.com/py-pdf/pypdf/pull/4119) | Robustness: a `/Type0` font omitting `/DescendantFonts` raised a bare `KeyError` out of `extract_text()` |
 | [#4118](https://github.com/py-pdf/pypdf/pull/4118) | Robustness: a `/Widths` entry holding a string was passed to `int()`, raising `ValueError` during text extraction |

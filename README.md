@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 72 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 73 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -67,11 +67,11 @@
 [![pypdf](https://img.shields.io/badge/✓_MERGED-py--pdf%2Fpypdf_(10.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/py-pdf/pypdf/pull/3929)
 [![authlib](https://img.shields.io/badge/✓_MERGED-authlib%2Fauthlib_(5.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/authlib/authlib/pull/919)
 
-**72 merged pull requests across 6 libraries.** Grouped by project — click any row to expand.
+**73 merged pull requests across 6 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf) `10.1k★` | **63** | Reader robustness, typing, spec compliance |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf) `10.1k★` | **64** | Reader robustness, typing, spec compliance |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) `18.9k★` | **2** | Regression tests, docs |
 | [joblib/joblib](https://github.com/joblib/joblib) `4.1k★` | **3** | Input validation, path handling |
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
@@ -79,10 +79,11 @@
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **2** | CFF round-trip, feaLib spec compliance |
 
 <details>
-<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.1k★</code> &nbsp;—&nbsp; 63 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.1k★</code> &nbsp;—&nbsp; 64 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#4166](https://github.com/py-pdf/pypdf/pull/4166) | Robustness: a `TJ` operator with a number instead of an array made `extract_text()` raise `TypeError`; it is now skipped and the text around it kept |
 | [#4165](https://github.com/py-pdf/pypdf/pull/4165) | Robustness: a bare `Do` operator made `extract_text()` raise `IndexError` from inside its own warning; it is now skipped and the text around it kept |
 | [#4163](https://github.com/py-pdf/pypdf/pull/4163) | Robustness: a `/FirstChar` that is null, a name or a string crashed layout-mode `extract_text()` with `TypeError` |
 | [#4155](https://github.com/py-pdf/pypdf/pull/4155) | Bug fix (6.19.0 regression): text shown before a change of direction, such as digits beside Arabic, was dropped from `extract_text()` |
@@ -199,7 +200,7 @@
 </details>
 > 🔄 **In review:** pypdf · fontTools · Pillow · joblib · urllib3 · typeguard — bug fixes.
 
-*72 merged across 6 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*73 merged across 6 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

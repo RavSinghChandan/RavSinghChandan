@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 73 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 75 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -67,22 +67,23 @@
 [![pypdf](https://img.shields.io/badge/✓_MERGED-py--pdf%2Fpypdf_(10.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/py-pdf/pypdf/pull/3929)
 [![authlib](https://img.shields.io/badge/✓_MERGED-authlib%2Fauthlib_(5.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/authlib/authlib/pull/919)
 
-**73 merged pull requests across 6 libraries.** Grouped by project — click any row to expand.
+**75 merged pull requests across 6 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf) `10.1k★` | **64** | Reader robustness, typing, spec compliance |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf) `10.1k★` | **65** | Reader robustness, typing, spec compliance |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) `18.9k★` | **2** | Regression tests, docs |
 | [joblib/joblib](https://github.com/joblib/joblib) `4.1k★` | **3** | Input validation, path handling |
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **1** | OAuth correctness |
-| [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **2** | CFF round-trip, feaLib spec compliance |
+| [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **3** | CFF round-trip, feaLib spec compliance |
 
 <details>
-<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.1k★</code> &nbsp;—&nbsp; 64 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.1k★</code> &nbsp;—&nbsp; 65 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#4171](https://github.com/py-pdf/pypdf/pull/4171) | Robustness: a `Tj` operator with a number instead of a string made `extract_text()` raise `TypeError`; it is now skipped and the text around it kept |
 | [#4166](https://github.com/py-pdf/pypdf/pull/4166) | Robustness: a `TJ` operator with a number instead of an array made `extract_text()` raise `TypeError`; it is now skipped and the text around it kept |
 | [#4165](https://github.com/py-pdf/pypdf/pull/4165) | Robustness: a bare `Do` operator made `extract_text()` raise `IndexError` from inside its own warning; it is now skipped and the text around it kept |
 | [#4163](https://github.com/py-pdf/pypdf/pull/4163) | Robustness: a `/FirstChar` that is null, a name or a string crashed layout-mode `extract_text()` with `TypeError` |
@@ -190,17 +191,18 @@
 </details>
 
 <details>
-<summary><b>fonttools/fonttools</b> &nbsp;<code>5.3k★</code> &nbsp;—&nbsp; 2 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>fonttools/fonttools</b> &nbsp;<code>5.3k★</code> &nbsp;—&nbsp; 3 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#4263](https://github.com/fonttools/fonttools/pull/4263) | Bug fix: a `BaseScriptList` without a matching `BaseTagList` crashed feaLib with `UnboundLocalError` or a bare `ValueError`; both now raise `FeatureLibError` with the line |
 | [#4259](https://github.com/fonttools/fonttools/pull/4259) | Bug fix: feaLib wrote a short OS/2 Vendor ID padded with NUL bytes; it is now padded with spaces as the OpenType spec requires |
 | [#4253](https://github.com/fonttools/fonttools/pull/4253) | Bug fix: a CFF font with a non-ASCII name could be saved but not read back — the Name INDEX was decoded as ASCII while the compiler writes latin-1 |
 
 </details>
 > 🔄 **In review:** pypdf · fontTools · Pillow · joblib · urllib3 · typeguard — bug fixes.
 
-*73 merged across 6 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*75 merged across 6 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

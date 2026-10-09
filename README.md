@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 77 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 78 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -67,7 +67,7 @@
 [![pypdf](https://img.shields.io/badge/✓_MERGED-py--pdf%2Fpypdf_(10.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/py-pdf/pypdf/pull/3929)
 [![authlib](https://img.shields.io/badge/✓_MERGED-authlib%2Fauthlib_(5.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/authlib/authlib/pull/919)
 
-**77 merged pull requests across 6 libraries.** Grouped by project — click any row to expand.
+**78 merged pull requests across 6 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -76,7 +76,7 @@
 | [joblib/joblib](https://github.com/joblib/joblib) `4.1k★` | **3** | Input validation, path handling |
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **1** | OAuth correctness |
-| [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **5** | CFF round-trip, feaLib spec compliance |
+| [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **6** | CFF round-trip, feaLib spec compliance |
 
 <details>
 <summary><b>py-pdf/pypdf</b> &nbsp;<code>10.1k★</code> &nbsp;—&nbsp; 65 merged &nbsp;<i>(click to expand)</i></summary>
@@ -191,10 +191,11 @@
 </details>
 
 <details>
-<summary><b>fonttools/fonttools</b> &nbsp;<code>5.3k★</code> &nbsp;—&nbsp; 5 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>fonttools/fonttools</b> &nbsp;<code>5.3k★</code> &nbsp;—&nbsp; 6 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#4268](https://github.com/fonttools/fonttools/pull/4268) | Bug fix: a STAT axis location with no or too many values was skipped and crashed later with `KeyError`; feaLib now rejects it with the line |
 | [#4267](https://github.com/fonttools/fonttools/pull/4267) | Bug fix: a name string feaLib could not encode or decode (an unpaired surrogate, an emoji in Mac Roman) raised a bare `UnicodeError`; it now raises `FeatureLibError` at the string |
 | [#4266](https://github.com/fonttools/fonttools/pull/4266) | Bug fix: a `UnicodeRange` bit outside 0-127 passed the feaLib parser and failed later with a bare `ValueError`; it now raises `FeatureLibError` with the line |
 | [#4263](https://github.com/fonttools/fonttools/pull/4263) | Bug fix: a `BaseScriptList` without a matching `BaseTagList` crashed feaLib with `UnboundLocalError` or a bare `ValueError`; both now raise `FeatureLibError` with the line |
@@ -204,7 +205,7 @@
 </details>
 > 🔄 **In review:** pypdf · fontTools · Pillow · joblib · urllib3 · typeguard — bug fixes.
 
-*77 merged across 6 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*78 merged across 6 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

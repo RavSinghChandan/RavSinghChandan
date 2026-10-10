@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 79 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 80 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -59,6 +59,8 @@
   <a href="https://github.com/py-pdf/pypdf/pull/3929"><img src="./assets/pypdf-logo.svg" height="46" alt="pypdf" /></a>
   &nbsp;&nbsp;
   <a href="https://github.com/authlib/authlib/pull/919"><img src="./assets/authlib-logo.svg" height="46" alt="Authlib" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/py-pdf/fpdf2/pull/1984"><img src="./assets/fpdf2-logo.png" height="46" alt="fpdf2" /></a>
 </p>
 
 [![joblib](https://img.shields.io/badge/✓_MERGED-joblib%2Fjoblib_(4.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joblib/joblib/pull/1812)
@@ -66,8 +68,9 @@
 [![nltk](https://img.shields.io/badge/✓_MERGED-nltk%2Fnltk_(14.7k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nltk/nltk/pull/3703)
 [![pypdf](https://img.shields.io/badge/✓_MERGED-py--pdf%2Fpypdf_(10.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/py-pdf/pypdf/pull/3929)
 [![authlib](https://img.shields.io/badge/✓_MERGED-authlib%2Fauthlib_(5.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/authlib/authlib/pull/919)
+[![fpdf2](https://img.shields.io/badge/✓_MERGED-py--pdf%2Ffpdf2_(1.5k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/py-pdf/fpdf2/pull/1984)
 
-**79 merged pull requests across 6 libraries.** Grouped by project — click any row to expand.
+**80 merged pull requests across 7 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -77,6 +80,7 @@
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **1** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
+| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **1** | HTML rendering robustness |
 
 <details>
 <summary><b>py-pdf/pypdf</b> &nbsp;<code>10.1k★</code> &nbsp;—&nbsp; 65 merged &nbsp;<i>(click to expand)</i></summary>
@@ -204,9 +208,18 @@
 | [#4253](https://github.com/fonttools/fonttools/pull/4253) | Bug fix: a CFF font with a non-ASCII name could be saved but not read back — the Name INDEX was decoded as ASCII while the compiler writes latin-1 |
 
 </details>
+
+<details>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 1 merged &nbsp;<i>(click to expand)</i></summary>
+
+| PR | Contribution |
+|---|---|
+| [#1984](https://github.com/py-pdf/fpdf2/pull/1984) | Bug fix: `write_html()` raised `KeyError: 'href'` on a named anchor (`<a name="intro">`); its text is now rendered as plain text |
+
+</details>
 > 🔄 **In review:** pypdf · fontTools · Pillow · joblib · urllib3 · typeguard — bug fixes.
 
-*79 merged across 6 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*80 merged across 7 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

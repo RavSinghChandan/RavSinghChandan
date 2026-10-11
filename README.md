@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 85 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 86 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -73,7 +73,7 @@
 [![fpdf2](https://img.shields.io/badge/✓_MERGED-py--pdf%2Ffpdf2_(1.5k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/py-pdf/fpdf2/pull/1984)
 [![Pillow](https://img.shields.io/badge/✓_MERGED-python--pillow%2FPillow_(13.9k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/python-pillow/Pillow/pull/10146)
 
-**85 merged pull requests across 8 libraries.** Grouped by project — click any row to expand.
+**86 merged pull requests across 8 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -84,7 +84,7 @@
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **1** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
 | [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **5** | HTML rendering robustness |
-| [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **1** | Image decoder robustness |
+| [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **2** | Image decoder robustness |
 
 <details>
 <summary><b>py-pdf/pypdf</b> &nbsp;<code>10.1k★</code> &nbsp;—&nbsp; 65 merged &nbsp;<i>(click to expand)</i></summary>
@@ -227,16 +227,17 @@
 </details>
 
 <details>
-<summary><b>python-pillow/Pillow</b> &nbsp;<code>13.9k★</code> &nbsp;—&nbsp; 1 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>python-pillow/Pillow</b> &nbsp;<code>13.9k★</code> &nbsp;—&nbsp; 2 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#10173](https://github.com/python-pillow/Pillow/pull/10173) | Validation: `ImageOps.posterize()` bits outside the documented 1-8 crashed or silently returned black; it now raises `ValueError` |
 | [#10146](https://github.com/python-pillow/Pillow/pull/10146) | Robustness: a truncated or corrupt gzip FITS image raised a raw `zlib.error` or `EOFError`; both are now raised as `OSError`, which callers catch for broken images |
 
 </details>
 > 🔄 **In review:** pypdf · fontTools · Pillow · joblib · urllib3 · typeguard — bug fixes.
 
-*85 merged across 8 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*86 merged across 8 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

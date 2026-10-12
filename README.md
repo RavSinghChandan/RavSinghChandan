@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 91 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 94 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -73,7 +73,7 @@
 [![fpdf2](https://img.shields.io/badge/✓_MERGED-py--pdf%2Ffpdf2_(1.5k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/py-pdf/fpdf2/pull/1984)
 [![Pillow](https://img.shields.io/badge/✓_MERGED-python--pillow%2FPillow_(13.9k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/python-pillow/Pillow/pull/10146)
 
-**91 merged pull requests across 8 libraries.** Grouped by project — click any row to expand.
+**94 merged pull requests across 8 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -83,7 +83,7 @@
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **1** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
-| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **9** | HTML rendering robustness |
+| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **12** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **3** | Image decoder robustness |
 
 <details>
@@ -214,10 +214,13 @@
 </details>
 
 <details>
-<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 9 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 12 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2003](https://github.com/py-pdf/fpdf2/pull/2003) | Robustness: `bgcolor="eeeeee"` (six hex digits without `#`, common in email HTML) raised `ValueError`; it is now read like browsers do |
+| [#2002](https://github.com/py-pdf/fpdf2/pull/2002) | Robustness: `<ul type="CIRCLE">` raised `NotImplementedError`; list type keywords are now case-insensitive like in browsers |
+| [#2001](https://github.com/py-pdf/fpdf2/pull/2001) | Feature gap: css `rgb(100%, 0%, 50%)` raised `ValueError` in SVG import and `write_html()`; percentages are now read and clamped to 0-100% |
 | [#2000](https://github.com/py-pdf/fpdf2/pull/2000) | SVG import: a `<polygon>` / `<polyline>` with an odd number of coordinates or empty `points` raised `IndexError`; it now draws up to the first error, as the spec says |
 | [#1998](https://github.com/py-pdf/fpdf2/pull/1998) | SVG import: opacity percentages (`50%`) and an out-of-range `opacity` raised `ValueError`; percentages are read and opacity is clamped to 0-1 |
 | [#1997](https://github.com/py-pdf/fpdf2/pull/1997) | SVG import: `fill="transparent"` and upper-case color keywords raised `ValueError`; transparent now paints nothing and keywords are case-insensitive |
@@ -242,7 +245,7 @@
 </details>
 > 🔄 **In review:** pypdf · fontTools · Pillow · joblib · urllib3 · typeguard — bug fixes.
 
-*91 merged across 8 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*94 merged across 8 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

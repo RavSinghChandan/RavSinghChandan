@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 94 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 97 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -63,6 +63,8 @@
   <a href="https://github.com/py-pdf/fpdf2/pull/1984"><img src="./assets/fpdf2-logo.png" height="46" alt="fpdf2" /></a>
   &nbsp;&nbsp;
   <a href="https://github.com/python-pillow/Pillow/pull/10146"><img src="./assets/pillow-logo.png" height="46" alt="Pillow" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/pydantic/pydantic-extra-types/pull/440"><img src="./assets/pydantic-logo.png" height="46" alt="pydantic" /></a>
 </p>
 
 [![joblib](https://img.shields.io/badge/✓_MERGED-joblib%2Fjoblib_(4.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joblib/joblib/pull/1812)
@@ -72,25 +74,28 @@
 [![authlib](https://img.shields.io/badge/✓_MERGED-authlib%2Fauthlib_(5.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/authlib/authlib/pull/919)
 [![fpdf2](https://img.shields.io/badge/✓_MERGED-py--pdf%2Ffpdf2_(1.5k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/py-pdf/fpdf2/pull/1984)
 [![Pillow](https://img.shields.io/badge/✓_MERGED-python--pillow%2FPillow_(13.9k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/python-pillow/Pillow/pull/10146)
+[![pydantic-extra-types](https://img.shields.io/badge/✓_MERGED-pydantic%2Fpydantic--extra--types_(338★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pydantic/pydantic-extra-types/pull/440)
 
-**94 merged pull requests across 8 libraries.** Grouped by project — click any row to expand.
+**97 merged pull requests across 9 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf) `10.1k★` | **65** | Reader robustness, typing, spec compliance |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf) `10.1k★` | **66** | Reader robustness, typing, spec compliance |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) `18.9k★` | **2** | Regression tests, docs |
 | [joblib/joblib](https://github.com/joblib/joblib) `4.1k★` | **3** | Input validation, path handling |
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **1** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
-| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **12** | HTML rendering robustness |
+| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **13** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **3** | Image decoder robustness |
+| [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `338★` | **1** | Validation of real-world input |
 
 <details>
-<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.1k★</code> &nbsp;—&nbsp; 65 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.1k★</code> &nbsp;—&nbsp; 66 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#4174](https://github.com/py-pdf/pypdf/pull/4174) | Robustness: text with a font size of 0 made layout-mode `extract_text()` divide by a zero width; the text is now extracted |
 | [#4171](https://github.com/py-pdf/pypdf/pull/4171) | Robustness: a `Tj` operator with a number instead of a string made `extract_text()` raise `TypeError`; it is now skipped and the text around it kept |
 | [#4166](https://github.com/py-pdf/pypdf/pull/4166) | Robustness: a `TJ` operator with a number instead of an array made `extract_text()` raise `TypeError`; it is now skipped and the text around it kept |
 | [#4165](https://github.com/py-pdf/pypdf/pull/4165) | Robustness: a bare `Do` operator made `extract_text()` raise `IndexError` from inside its own warning; it is now skipped and the text around it kept |
@@ -214,10 +219,11 @@
 </details>
 
 <details>
-<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 12 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 13 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2011](https://github.com/py-pdf/fpdf2/pull/2011) | Robustness: `<ol type="disc">` (an unknown list type) raised `NotImplementedError`; like browsers, the list is now numbered 1, 2, 3 |
 | [#2003](https://github.com/py-pdf/fpdf2/pull/2003) | Robustness: `bgcolor="eeeeee"` (six hex digits without `#`, common in email HTML) raised `ValueError`; it is now read like browsers do |
 | [#2002](https://github.com/py-pdf/fpdf2/pull/2002) | Robustness: `<ul type="CIRCLE">` raised `NotImplementedError`; list type keywords are now case-insensitive like in browsers |
 | [#2001](https://github.com/py-pdf/fpdf2/pull/2001) | Feature gap: css `rgb(100%, 0%, 50%)` raised `ValueError` in SVG import and `write_html()`; percentages are now read and clamped to 0-100% |
@@ -243,9 +249,18 @@
 | [#10146](https://github.com/python-pillow/Pillow/pull/10146) | Robustness: a truncated or corrupt gzip FITS image raised a raw `zlib.error` or `EOFError`; both are now raised as `OSError`, which callers catch for broken images |
 
 </details>
-> 🔄 **In review:** pypdf · fontTools · Pillow · joblib · urllib3 · typeguard — bug fixes.
 
-*94 merged across 8 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+<details>
+<summary><b>pydantic/pydantic-extra-types</b> &nbsp;<code>338★</code> &nbsp;—&nbsp; 1 merged &nbsp;<i>(click to expand)</i></summary>
+
+| PR | Contribution |
+|---|---|
+| [#440](https://github.com/pydantic/pydantic-extra-types/pull/440) | Real-world input: ISBNs written with hyphens or spaces (`978-3-16-148410-0`, as printed on books) were rejected; they are now validated like the plain digits |
+
+</details>
+> 🔄 **In review:** pypdf · fontTools · fpdf2 · pikepdf · Pillow — bug fixes.
+
+*97 merged across 9 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

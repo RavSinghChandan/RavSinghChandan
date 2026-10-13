@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 97 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 98 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -76,7 +76,7 @@
 [![Pillow](https://img.shields.io/badge/✓_MERGED-python--pillow%2FPillow_(13.9k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/python-pillow/Pillow/pull/10146)
 [![pydantic-extra-types](https://img.shields.io/badge/✓_MERGED-pydantic%2Fpydantic--extra--types_(338★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pydantic/pydantic-extra-types/pull/440)
 
-**97 merged pull requests across 9 libraries.** Grouped by project — click any row to expand.
+**98 merged pull requests across 9 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -86,7 +86,7 @@
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **1** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
-| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **13** | HTML rendering robustness |
+| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **14** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **3** | Image decoder robustness |
 | [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `338★` | **1** | Validation of real-world input |
 
@@ -219,10 +219,11 @@
 </details>
 
 <details>
-<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 13 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 14 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2010](https://github.com/py-pdf/fpdf2/pull/2010) | Robustness: `bgcolor="transparent"` raised `ValueError`; like browsers it is now ignored and the inherited text or row background color is kept |
 | [#2011](https://github.com/py-pdf/fpdf2/pull/2011) | Robustness: `<ol type="disc">` (an unknown list type) raised `NotImplementedError`; like browsers, the list is now numbered 1, 2, 3 |
 | [#2003](https://github.com/py-pdf/fpdf2/pull/2003) | Robustness: `bgcolor="eeeeee"` (six hex digits without `#`, common in email HTML) raised `ValueError`; it is now read like browsers do |
 | [#2002](https://github.com/py-pdf/fpdf2/pull/2002) | Robustness: `<ul type="CIRCLE">` raised `NotImplementedError`; list type keywords are now case-insensitive like in browsers |
@@ -260,7 +261,7 @@
 </details>
 > 🔄 **In review:** pypdf · fontTools · fpdf2 · pikepdf · Pillow — bug fixes.
 
-*97 merged across 9 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*98 merged across 9 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

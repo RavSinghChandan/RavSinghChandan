@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 98 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 100 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -76,11 +76,11 @@
 [![Pillow](https://img.shields.io/badge/✓_MERGED-python--pillow%2FPillow_(13.9k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/python-pillow/Pillow/pull/10146)
 [![pydantic-extra-types](https://img.shields.io/badge/✓_MERGED-pydantic%2Fpydantic--extra--types_(338★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pydantic/pydantic-extra-types/pull/440)
 
-**98 merged pull requests across 9 libraries.** Grouped by project — click any row to expand.
+**100 merged pull requests across 9 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf) `10.1k★` | **66** | Reader robustness, typing, spec compliance |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf) `10.1k★` | **68** | Reader robustness, typing, spec compliance |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) `18.9k★` | **2** | Regression tests, docs |
 | [joblib/joblib](https://github.com/joblib/joblib) `4.1k★` | **3** | Input validation, path handling |
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
@@ -91,10 +91,12 @@
 | [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `338★` | **1** | Validation of real-world input |
 
 <details>
-<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.1k★</code> &nbsp;—&nbsp; 66 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.1k★</code> &nbsp;—&nbsp; 68 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#4186](https://github.com/py-pdf/pypdf/pull/4186) | Robustness: a name, nested array or dictionary inside a `TJ` array crashed layout-mode `extract_text()` and printed names as text; such items are now skipped |
+| [#4175](https://github.com/py-pdf/pypdf/pull/4175) | Robustness: a non-numeric operand of `Td`, `TL`, `Tz` or `Tw` made `extract_text()` raise; it is now treated as missing and the text kept |
 | [#4174](https://github.com/py-pdf/pypdf/pull/4174) | Robustness: text with a font size of 0 made layout-mode `extract_text()` divide by a zero width; the text is now extracted |
 | [#4171](https://github.com/py-pdf/pypdf/pull/4171) | Robustness: a `Tj` operator with a number instead of a string made `extract_text()` raise `TypeError`; it is now skipped and the text around it kept |
 | [#4166](https://github.com/py-pdf/pypdf/pull/4166) | Robustness: a `TJ` operator with a number instead of an array made `extract_text()` raise `TypeError`; it is now skipped and the text around it kept |
@@ -261,7 +263,7 @@
 </details>
 > 🔄 **In review:** pypdf · fontTools · fpdf2 · pikepdf · Pillow — bug fixes.
 
-*98 merged across 9 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*100 merged across 9 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 103 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 104 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -76,7 +76,7 @@
 [![Pillow](https://img.shields.io/badge/✓_MERGED-python--pillow%2FPillow_(13.9k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/python-pillow/Pillow/pull/10146)
 [![pydantic-extra-types](https://img.shields.io/badge/✓_MERGED-pydantic%2Fpydantic--extra--types_(338★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pydantic/pydantic-extra-types/pull/440)
 
-**103 merged pull requests across 9 libraries.** Grouped by project — click any row to expand.
+**104 merged pull requests across 9 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -88,7 +88,7 @@
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
 | [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **16** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **3** | Image decoder robustness |
-| [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `338★` | **2** | Validation of real-world input |
+| [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `338★` | **3** | Validation of real-world input |
 
 <details>
 <summary><b>py-pdf/pypdf</b> &nbsp;<code>10.1k★</code> &nbsp;—&nbsp; 68 merged &nbsp;<i>(click to expand)</i></summary>
@@ -256,17 +256,18 @@
 </details>
 
 <details>
-<summary><b>pydantic/pydantic-extra-types</b> &nbsp;<code>338★</code> &nbsp;—&nbsp; 2 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>pydantic/pydantic-extra-types</b> &nbsp;<code>338★</code> &nbsp;—&nbsp; 3 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#447](https://github.com/pydantic/pydantic-extra-types/pull/447) | CSS parity: `Color("rebeccapurple")` (CSS Color Level 4) was rejected; it now parses and `as_named()` returns it |
 | [#442](https://github.com/pydantic/pydantic-extra-types/pull/442) | Consistency: a color name with surrounding whitespace (`"red "`) was rejected while hex and `rgba()` allowed it; names now accept it too |
 | [#440](https://github.com/pydantic/pydantic-extra-types/pull/440) | Real-world input: ISBNs written with hyphens or spaces (`978-3-16-148410-0`, as printed on books) were rejected; they are now validated like the plain digits |
 
 </details>
 > 🔄 **In review:** pypdf · fontTools · fpdf2 · pikepdf · Pillow — bug fixes.
 
-*103 merged across 9 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*104 merged across 9 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

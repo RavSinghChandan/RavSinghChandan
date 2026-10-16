@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 106 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 111 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -65,6 +65,10 @@
   <a href="https://github.com/python-pillow/Pillow/pull/10146"><img src="./assets/pillow-logo.png" height="46" alt="Pillow" /></a>
   &nbsp;&nbsp;
   <a href="https://github.com/pydantic/pydantic-extra-types/pull/440"><img src="./assets/pydantic-logo.png" height="46" alt="pydantic" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/neuml/txtai/pull/1408"><img src="./assets/txtai-logo.png" height="46" alt="txtai" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/kornia/kornia/pull/5946"><img src="./assets/kornia-logo.png" height="46" alt="kornia" /></a>
 </p>
 
 [![joblib](https://img.shields.io/badge/✓_MERGED-joblib%2Fjoblib_(4.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joblib/joblib/pull/1812)
@@ -75,8 +79,10 @@
 [![fpdf2](https://img.shields.io/badge/✓_MERGED-py--pdf%2Ffpdf2_(1.5k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/py-pdf/fpdf2/pull/1984)
 [![Pillow](https://img.shields.io/badge/✓_MERGED-python--pillow%2FPillow_(13.9k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/python-pillow/Pillow/pull/10146)
 [![pydantic-extra-types](https://img.shields.io/badge/✓_MERGED-pydantic%2Fpydantic--extra--types_(338★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pydantic/pydantic-extra-types/pull/440)
+[![txtai](https://img.shields.io/badge/✓_MERGED-neuml%2Ftxtai_(13k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/neuml/txtai/pull/1408)
+[![kornia](https://img.shields.io/badge/✓_MERGED-kornia%2Fkornia_(11.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kornia/kornia/pull/5946)
 
-**106 merged pull requests across 9 libraries.** Grouped by project — click any row to expand.
+**111 merged pull requests across 11 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -86,9 +92,11 @@
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **2** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
-| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **17** | HTML rendering robustness |
-| [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **3** | Image decoder robustness |
+| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **18** | HTML rendering robustness |
+| [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **4** | Image decoder robustness |
 | [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `338★` | **3** | Validation of real-world input |
+| [neuml/txtai](https://github.com/neuml/txtai) `13k★` | **2** | HTML to Markdown fidelity |
+| [kornia/kornia](https://github.com/kornia/kornia) `11.4k★` | **1** | Integer-image handling in filters |
 
 <details>
 <summary><b>py-pdf/pypdf</b> &nbsp;<code>10.1k★</code> &nbsp;—&nbsp; 68 merged &nbsp;<i>(click to expand)</i></summary>
@@ -222,10 +230,11 @@
 </details>
 
 <details>
-<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 17 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 18 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2031](https://github.com/py-pdf/fpdf2/pull/2031) | Browser parity: `<td rowspan="99">` near the end of a table raised `Rowspan extends beyond end of table`; the rowspan now stops at the last row, as in browsers |
 | [#2009](https://github.com/py-pdf/fpdf2/pull/2009) | Browser parity: `<font face="Arial, Helvetica, sans-serif">` raised `Undefined font`; the first available font is now used, keeping the PDF/A check and bold/italic |
 | [#2017](https://github.com/py-pdf/fpdf2/pull/2017) | Robustness: `<table width="150%">` raised `ValueError`; the table is now fitted to the page width with a warning, and a negative width is ignored |
 | [#2013](https://github.com/py-pdf/fpdf2/pull/2013) | Browser parity: `<ul type="none">` raised `NotImplementedError`; it now renders as a plain indented list with no marker |
@@ -247,10 +256,11 @@
 </details>
 
 <details>
-<summary><b>python-pillow/Pillow</b> &nbsp;<code>13.9k★</code> &nbsp;—&nbsp; 3 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>python-pillow/Pillow</b> &nbsp;<code>13.9k★</code> &nbsp;—&nbsp; 4 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#10174](https://github.com/python-pillow/Pillow/pull/10174) | Feature gap: `ImageOps.invert()`, `posterize()` and `solarize()` raised `NotImplementedError` for P images; the table is now applied to the palette, matching the RGB result |
 | [#10177](https://github.com/python-pillow/Pillow/pull/10177) | Robustness: `Exif.get_ifd()` raised `KeyError` for a missing Interop or MakerNote IFD (most images); it now returns `{}` like the other IFDs |
 | [#10173](https://github.com/python-pillow/Pillow/pull/10173) | Validation: `ImageOps.posterize()` bits outside the documented 1-8 crashed or silently returned black; it now raises `ValueError` |
 | [#10146](https://github.com/python-pillow/Pillow/pull/10146) | Robustness: a truncated or corrupt gzip FITS image raised a raw `zlib.error` or `EOFError`; both are now raised as `OSError`, which callers catch for broken images |
@@ -267,9 +277,28 @@
 | [#440](https://github.com/pydantic/pydantic-extra-types/pull/440) | Real-world input: ISBNs written with hyphens or spaces (`978-3-16-148410-0`, as printed on books) were rejected; they are now validated like the plain digits |
 
 </details>
+
+<details>
+<summary><b>neuml/txtai</b> &nbsp;<code>13k★</code> &nbsp;—&nbsp; 2 merged &nbsp;<i>(click to expand)</i></summary>
+
+| PR | Contribution |
+|---|---|
+| [#1422](https://github.com/neuml/txtai/pull/1422) | Fidelity: a list inside a blockquote became `> FirstSecond` with compact HTML; it now keeps its `-` / `1.` markers, one item per line |
+| [#1408](https://github.com/neuml/txtai/pull/1408) | Fidelity: paragraphs inside a blockquote were joined with no separator (`> FirstSecond`); each now starts on its own line |
+
+</details>
+
+<details>
+<summary><b>kornia/kornia</b> &nbsp;<code>11.4k★</code> &nbsp;—&nbsp; 1 merged &nbsp;<i>(click to expand)</i></summary>
+
+| PR | Contribution |
+|---|---|
+| [#5946](https://github.com/kornia/kornia/pull/5946) | Robustness: `unsharp_mask` raised `RuntimeError` for a uint8 image; integer images are now promoted to float32 first, like `guided_blur` |
+
+</details>
 > 🔄 **In review:** pypdf · fontTools · fpdf2 · pikepdf · Pillow — bug fixes.
 
-*106 merged across 9 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*111 merged across 11 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

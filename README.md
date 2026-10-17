@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 111 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 112 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -69,6 +69,8 @@
   <a href="https://github.com/neuml/txtai/pull/1408"><img src="./assets/txtai-logo.png" height="46" alt="txtai" /></a>
   &nbsp;&nbsp;
   <a href="https://github.com/kornia/kornia/pull/5946"><img src="./assets/kornia-logo.png" height="46" alt="kornia" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/tox-dev/tox/pull/4161"><img src="./assets/tox-logo.png" height="46" alt="tox" /></a>
 </p>
 
 [![joblib](https://img.shields.io/badge/✓_MERGED-joblib%2Fjoblib_(4.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joblib/joblib/pull/1812)
@@ -81,8 +83,9 @@
 [![pydantic-extra-types](https://img.shields.io/badge/✓_MERGED-pydantic%2Fpydantic--extra--types_(338★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pydantic/pydantic-extra-types/pull/440)
 [![txtai](https://img.shields.io/badge/✓_MERGED-neuml%2Ftxtai_(13k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/neuml/txtai/pull/1408)
 [![kornia](https://img.shields.io/badge/✓_MERGED-kornia%2Fkornia_(11.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kornia/kornia/pull/5946)
+[![tox](https://img.shields.io/badge/✓_MERGED-tox--dev%2Ftox_(4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tox-dev/tox/pull/4161)
 
-**111 merged pull requests across 11 libraries.** Grouped by project — click any row to expand.
+**112 merged pull requests across 12 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -97,6 +100,7 @@
 | [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `338★` | **3** | Validation of real-world input |
 | [neuml/txtai](https://github.com/neuml/txtai) `13k★` | **2** | HTML to Markdown fidelity |
 | [kornia/kornia](https://github.com/kornia/kornia) `11.4k★` | **1** | Integer-image handling in filters |
+| [tox-dev/tox](https://github.com/tox-dev/tox) `4k★` | **1** | Configuration correctness |
 
 <details>
 <summary><b>py-pdf/pypdf</b> &nbsp;<code>10.1k★</code> &nbsp;—&nbsp; 68 merged &nbsp;<i>(click to expand)</i></summary>
@@ -296,9 +300,18 @@
 | [#5946](https://github.com/kornia/kornia/pull/5946) | Robustness: `unsharp_mask` raised `RuntimeError` for a uint8 image; integer images are now promoted to float32 first, like `guided_blur` |
 
 </details>
+
+<details>
+<summary><b>tox-dev/tox</b> &nbsp;<code>4k★</code> &nbsp;—&nbsp; 1 merged &nbsp;<i>(click to expand)</i></summary>
+
+| PR | Contribution |
+|---|---|
+| [#4161](https://github.com/tox-dev/tox/pull/4161) | Correctness: `export KEY=value` in a `set_env` env file set a variable named `export KEY`; the leading `export` is now dropped, as dotenv and Docker Compose do |
+
+</details>
 > 🔄 **In review:** pypdf · fontTools · fpdf2 · pikepdf · Pillow — bug fixes.
 
-*111 merged across 11 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*112 merged across 12 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

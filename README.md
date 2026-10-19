@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 115 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 116 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -88,7 +88,7 @@
 [![tox](https://img.shields.io/badge/✓_MERGED-tox--dev%2Ftox_(4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tox-dev/tox/pull/4161)
 [![mistune](https://img.shields.io/badge/✓_MERGED-lepture%2Fmistune_(3.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lepture/mistune/pull/501)
 
-**115 merged pull requests across 13 libraries.** Grouped by project — click any row to expand.
+**116 merged pull requests across 13 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -100,7 +100,7 @@
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
 | [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **18** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **4** | Image decoder robustness |
-| [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `339★` | **4** | Validation of real-world input |
+| [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `339★` | **5** | Validation of real-world input |
 | [neuml/txtai](https://github.com/neuml/txtai) `13k★` | **2** | HTML to Markdown fidelity |
 | [kornia/kornia](https://github.com/kornia/kornia) `11.4k★` | **1** | Integer-image handling in filters |
 | [tox-dev/tox](https://github.com/tox-dev/tox) `4k★` | **1** | Configuration correctness |
@@ -277,10 +277,11 @@
 </details>
 
 <details>
-<summary><b>pydantic/pydantic-extra-types</b> &nbsp;<code>339★</code> &nbsp;—&nbsp; 4 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>pydantic/pydantic-extra-types</b> &nbsp;<code>339★</code> &nbsp;—&nbsp; 5 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#454](https://github.com/pydantic/pydantic-extra-types/pull/454) | Real-world input: ISO 15924 script codes rejected `latn`, `LATN` and `" Latn "`; any case and surrounding whitespace are now accepted and normalised to `Latn` |
 | [#451](https://github.com/pydantic/pydantic-extra-types/pull/451) | Real-world input: currency, country and language codes with surrounding whitespace such as `" USD "` were rejected; ten types now strip it |
 | [#447](https://github.com/pydantic/pydantic-extra-types/pull/447) | CSS parity: `Color("rebeccapurple")` (CSS Color Level 4) was rejected; it now parses and `as_named()` returns it |
 | [#442](https://github.com/pydantic/pydantic-extra-types/pull/442) | Consistency: a color name with surrounding whitespace (`"red "`) was rejected while hex and `rgba()` allowed it; names now accept it too |
@@ -326,7 +327,7 @@
 </details>
 > 🔄 **In review:** pypdf · fontTools · fpdf2 · pikepdf · Pillow — bug fixes.
 
-*115 merged across 13 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*116 merged across 13 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

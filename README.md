@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 112 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 115 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -71,6 +71,8 @@
   <a href="https://github.com/kornia/kornia/pull/5946"><img src="./assets/kornia-logo.png" height="46" alt="kornia" /></a>
   &nbsp;&nbsp;
   <a href="https://github.com/tox-dev/tox/pull/4161"><img src="./assets/tox-logo.png" height="46" alt="tox" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/lepture/mistune/pull/501"><img src="./assets/mistune-logo.svg" height="46" alt="mistune" /></a>
 </p>
 
 [![joblib](https://img.shields.io/badge/✓_MERGED-joblib%2Fjoblib_(4.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joblib/joblib/pull/1812)
@@ -84,12 +86,13 @@
 [![txtai](https://img.shields.io/badge/✓_MERGED-neuml%2Ftxtai_(13k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/neuml/txtai/pull/1408)
 [![kornia](https://img.shields.io/badge/✓_MERGED-kornia%2Fkornia_(11.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kornia/kornia/pull/5946)
 [![tox](https://img.shields.io/badge/✓_MERGED-tox--dev%2Ftox_(4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tox-dev/tox/pull/4161)
+[![mistune](https://img.shields.io/badge/✓_MERGED-lepture%2Fmistune_(3.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lepture/mistune/pull/501)
 
-**112 merged pull requests across 12 libraries.** Grouped by project — click any row to expand.
+**115 merged pull requests across 13 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf) `10.1k★` | **68** | Reader robustness, typing, spec compliance |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf) `10.3k★` | **69** | Reader robustness, typing, spec compliance |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) `18.9k★` | **2** | Regression tests, docs |
 | [joblib/joblib](https://github.com/joblib/joblib) `4.1k★` | **3** | Input validation, path handling |
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
@@ -97,16 +100,18 @@
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
 | [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **18** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **4** | Image decoder robustness |
-| [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `338★` | **3** | Validation of real-world input |
+| [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `339★` | **4** | Validation of real-world input |
 | [neuml/txtai](https://github.com/neuml/txtai) `13k★` | **2** | HTML to Markdown fidelity |
 | [kornia/kornia](https://github.com/kornia/kornia) `11.4k★` | **1** | Integer-image handling in filters |
 | [tox-dev/tox](https://github.com/tox-dev/tox) `4k★` | **1** | Configuration correctness |
+| [lepture/mistune](https://github.com/lepture/mistune) `3.1k★` | **1** | Markdown round-trip rendering |
 
 <details>
-<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.1k★</code> &nbsp;—&nbsp; 68 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 69 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#4203](https://github.com/py-pdf/pypdf/pull/4203) | Robustness: a `'` or `"` operator without a string made layout-mode `extract_text()` raise; the line move is kept and only the text skipped, matching plain mode |
 | [#4186](https://github.com/py-pdf/pypdf/pull/4186) | Robustness: a name, nested array or dictionary inside a `TJ` array crashed layout-mode `extract_text()` and printed names as text; such items are now skipped |
 | [#4175](https://github.com/py-pdf/pypdf/pull/4175) | Robustness: a non-numeric operand of `Td`, `TL`, `Tz` or `Tw` made `extract_text()` raise; it is now treated as missing and the text kept |
 | [#4174](https://github.com/py-pdf/pypdf/pull/4174) | Robustness: text with a font size of 0 made layout-mode `extract_text()` divide by a zero width; the text is now extracted |
@@ -272,10 +277,11 @@
 </details>
 
 <details>
-<summary><b>pydantic/pydantic-extra-types</b> &nbsp;<code>338★</code> &nbsp;—&nbsp; 3 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>pydantic/pydantic-extra-types</b> &nbsp;<code>339★</code> &nbsp;—&nbsp; 4 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#451](https://github.com/pydantic/pydantic-extra-types/pull/451) | Real-world input: currency, country and language codes with surrounding whitespace such as `" USD "` were rejected; ten types now strip it |
 | [#447](https://github.com/pydantic/pydantic-extra-types/pull/447) | CSS parity: `Color("rebeccapurple")` (CSS Color Level 4) was rejected; it now parses and `as_named()` returns it |
 | [#442](https://github.com/pydantic/pydantic-extra-types/pull/442) | Consistency: a color name with surrounding whitespace (`"red "`) was rejected while hex and `rgba()` allowed it; names now accept it too |
 | [#440](https://github.com/pydantic/pydantic-extra-types/pull/440) | Real-world input: ISBNs written with hyphens or spaces (`978-3-16-148410-0`, as printed on books) were rejected; they are now validated like the plain digits |
@@ -309,9 +315,18 @@
 | [#4161](https://github.com/tox-dev/tox/pull/4161) | Correctness: `export KEY=value` in a `set_env` env file set a variable named `export KEY`; the leading `export` is now dropped, as dotenv and Docker Compose do |
 
 </details>
+
+<details>
+<summary><b>lepture/mistune</b> &nbsp;<code>3.1k★</code> &nbsp;—&nbsp; 1 merged &nbsp;<i>(click to expand)</i></summary>
+
+| PR | Contribution |
+|---|---|
+| [#501](https://github.com/lepture/mistune/pull/501) | Round trip: `MarkdownRenderer` raised for the strikethrough, mark and insert plugins; it now writes them back as `~~`, `==` and `^^`, nested formatting included |
+
+</details>
 > 🔄 **In review:** pypdf · fontTools · fpdf2 · pikepdf · Pillow — bug fixes.
 
-*112 merged across 12 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*115 merged across 13 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

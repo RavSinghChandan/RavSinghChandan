@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 119 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 121 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -73,6 +73,8 @@
   <a href="https://github.com/tox-dev/tox/pull/4161"><img src="./assets/tox-logo.png" height="46" alt="tox" /></a>
   &nbsp;&nbsp;
   <a href="https://github.com/lepture/mistune/pull/501"><img src="./assets/mistune-logo.svg" height="46" alt="mistune" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/docling-project/docling-core/pull/872"><img src="./assets/docling-logo.png" height="46" alt="docling-core" /></a>
 </p>
 
 [![joblib](https://img.shields.io/badge/✓_MERGED-joblib%2Fjoblib_(4.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joblib/joblib/pull/1812)
@@ -87,8 +89,9 @@
 [![kornia](https://img.shields.io/badge/✓_MERGED-kornia%2Fkornia_(11.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kornia/kornia/pull/5946)
 [![tox](https://img.shields.io/badge/✓_MERGED-tox--dev%2Ftox_(4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tox-dev/tox/pull/4161)
 [![mistune](https://img.shields.io/badge/✓_MERGED-lepture%2Fmistune_(3.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lepture/mistune/pull/501)
+[![docling-core](https://img.shields.io/badge/✓_MERGED-docling--project%2Fdocling--core-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/docling-project/docling-core/pull/872)
 
-**119 merged pull requests across 13 libraries.** Grouped by project — click any row to expand.
+**121 merged pull requests across 14 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -98,13 +101,14 @@
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **2** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
-| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **19** | HTML rendering robustness |
+| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **20** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **4** | Image decoder robustness |
 | [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `339★` | **5** | Validation of real-world input |
 | [neuml/txtai](https://github.com/neuml/txtai) `13k★` | **2** | HTML to Markdown fidelity |
 | [kornia/kornia](https://github.com/kornia/kornia) `11.4k★` | **1** | Integer-image handling in filters |
 | [tox-dev/tox](https://github.com/tox-dev/tox) `4k★` | **1** | Configuration correctness |
 | [lepture/mistune](https://github.com/lepture/mistune) `3.1k★` | **1** | Markdown round-trip rendering |
+| [docling-project/docling-core](https://github.com/docling-project/docling-core) `294★` | **1** | Markdown serialization correctness |
 
 <details>
 <summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 71 merged &nbsp;<i>(click to expand)</i></summary>
@@ -241,10 +245,11 @@
 </details>
 
 <details>
-<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 19 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 20 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2034](https://github.com/py-pdf/fpdf2/pull/2034) | Browser parity: a CSS `font-size` on `<font>` with a unit (`14pt`, `12px`) was silently ignored; the unit is now read, and a bare number is still in points |
 | [#2032](https://github.com/py-pdf/fpdf2/pull/2032) | Browser parity: `<li value="N">` was ignored; the item is now numbered N and the next ones continue from it, in every list type |
 | [#2031](https://github.com/py-pdf/fpdf2/pull/2031) | Browser parity: `<td rowspan="99">` near the end of a table raised `Rowspan extends beyond end of table`; the rowspan now stops at the last row, as in browsers |
 | [#2009](https://github.com/py-pdf/fpdf2/pull/2009) | Browser parity: `<font face="Arial, Helvetica, sans-serif">` raised `Undefined font`; the first available font is now used, keeping the PDF/A check and bold/italic |
@@ -328,9 +333,18 @@
 | [#501](https://github.com/lepture/mistune/pull/501) | Round trip: `MarkdownRenderer` raised for the strikethrough, mark and insert plugins; it now writes them back as `~~`, `==` and `^^`, nested formatting included |
 
 </details>
-> 🔄 **In review — 29 open PRs:** typeguard 5 · fonttools 3 · fpdf2 3 · pikepdf 3 · evaluate 2 · joblib 2 · camelot · docling-core · kokoro-onnx · mistune · narwhals · python-jose · ragas · smolagents · trafilatura · urllib3 · xhtml2pdf — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*119 merged across 13 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+<details>
+<summary><b>docling-project/docling-core</b> &nbsp;<code>294★</code> &nbsp;—&nbsp; 1 merged &nbsp;<i>(click to expand)</i></summary>
+
+| PR | Contribution |
+|---|---|
+| [#872](https://github.com/docling-project/docling-core/pull/872) | Correctness: a section header at level 6 or deeper was serialized with seven or more `#` and rendered as plain text; the Markdown serializer now caps it at six, like the HTML one caps at `<h6>` |
+
+</details>
+> 🔄 **In review — 29 open PRs:** typeguard 5 · fonttools 3 · pikepdf 3 · evaluate 2 · fpdf2 2 · joblib 2 · pypdf 2 · camelot · kokoro-onnx · mistune · narwhals · python-jose · ragas · smolagents · trafilatura · urllib3 · xhtml2pdf — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+
+*121 merged across 14 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

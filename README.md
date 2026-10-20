@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 117 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 119 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -88,11 +88,11 @@
 [![tox](https://img.shields.io/badge/✓_MERGED-tox--dev%2Ftox_(4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tox-dev/tox/pull/4161)
 [![mistune](https://img.shields.io/badge/✓_MERGED-lepture%2Fmistune_(3.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lepture/mistune/pull/501)
 
-**117 merged pull requests across 13 libraries.** Grouped by project — click any row to expand.
+**119 merged pull requests across 13 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf) `10.3k★` | **69** | Reader robustness, typing, spec compliance |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf) `10.3k★` | **71** | Reader robustness, typing, spec compliance |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) `18.9k★` | **2** | Regression tests, docs |
 | [joblib/joblib](https://github.com/joblib/joblib) `4.1k★` | **3** | Input validation, path handling |
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
@@ -107,10 +107,12 @@
 | [lepture/mistune](https://github.com/lepture/mistune) `3.1k★` | **1** | Markdown round-trip rendering |
 
 <details>
-<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 69 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 71 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#4228](https://github.com/py-pdf/pypdf/pull/4228) | Robustness: a `Tf` operator with a missing size or no operands made layout-mode `extract_text()` raise `IndexError`; the current size and a placeholder font are kept, as in plain mode |
+| [#4214](https://github.com/py-pdf/pypdf/pull/4214) | Robustness: a non-numeric operand of `Tc`, `Tw`, `Tz`, `TL`, `Ts`, `Td` or `Tm` made layout-mode `extract_text()` raise; the parameter is now left unchanged and the text kept |
 | [#4203](https://github.com/py-pdf/pypdf/pull/4203) | Robustness: a `'` or `"` operator without a string made layout-mode `extract_text()` raise; the line move is kept and only the text skipped, matching plain mode |
 | [#4186](https://github.com/py-pdf/pypdf/pull/4186) | Robustness: a name, nested array or dictionary inside a `TJ` array crashed layout-mode `extract_text()` and printed names as text; such items are now skipped |
 | [#4175](https://github.com/py-pdf/pypdf/pull/4175) | Robustness: a non-numeric operand of `Td`, `TL`, `Tz` or `Tw` made `extract_text()` raise; it is now treated as missing and the text kept |
@@ -326,9 +328,9 @@
 | [#501](https://github.com/lepture/mistune/pull/501) | Round trip: `MarkdownRenderer` raised for the strikethrough, mark and insert plugins; it now writes them back as `~~`, `==` and `^^`, nested formatting included |
 
 </details>
-> 🔄 **In review:** pypdf · fontTools · fpdf2 · pikepdf · Pillow — bug fixes.
+> 🔄 **In review — 29 open PRs:** typeguard 5 · fonttools 3 · fpdf2 3 · pikepdf 3 · evaluate 2 · joblib 2 · camelot · docling-core · kokoro-onnx · mistune · narwhals · python-jose · ragas · smolagents · trafilatura · urllib3 · xhtml2pdf — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*117 merged across 13 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*119 merged across 13 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

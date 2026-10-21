@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 121 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 122 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -91,7 +91,7 @@
 [![mistune](https://img.shields.io/badge/✓_MERGED-lepture%2Fmistune_(3.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lepture/mistune/pull/501)
 [![docling-core](https://img.shields.io/badge/✓_MERGED-docling--project%2Fdocling--core-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/docling-project/docling-core/pull/872)
 
-**121 merged pull requests across 14 libraries.** Grouped by project — click any row to expand.
+**122 merged pull requests across 14 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -101,7 +101,7 @@
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **2** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
-| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **20** | HTML rendering robustness |
+| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **21** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **4** | Image decoder robustness |
 | [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `339★` | **5** | Validation of real-world input |
 | [neuml/txtai](https://github.com/neuml/txtai) `13k★` | **2** | HTML to Markdown fidelity |
@@ -245,10 +245,11 @@
 </details>
 
 <details>
-<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 20 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 21 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2044](https://github.com/py-pdf/fpdf2/pull/2044) | Correctness: the content of `<style>` and `<script>` was written into the PDF as visible text; it is now skipped, as browsers do |
 | [#2034](https://github.com/py-pdf/fpdf2/pull/2034) | Browser parity: a CSS `font-size` on `<font>` with a unit (`14pt`, `12px`) was silently ignored; the unit is now read, and a bare number is still in points |
 | [#2032](https://github.com/py-pdf/fpdf2/pull/2032) | Browser parity: `<li value="N">` was ignored; the item is now numbered N and the next ones continue from it, in every list type |
 | [#2031](https://github.com/py-pdf/fpdf2/pull/2031) | Browser parity: `<td rowspan="99">` near the end of a table raised `Rowspan extends beyond end of table`; the rowspan now stops at the last row, as in browsers |
@@ -344,7 +345,7 @@
 </details>
 > 🔄 **In review — 29 open PRs:** typeguard 5 · fonttools 3 · pikepdf 3 · evaluate 2 · fpdf2 2 · joblib 2 · pypdf 2 · camelot · kokoro-onnx · mistune · narwhals · python-jose · ragas · smolagents · trafilatura · urllib3 · xhtml2pdf — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*121 merged across 14 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*122 merged across 14 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

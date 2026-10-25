@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 130 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 132 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -94,7 +94,7 @@
 [![docling-core](https://img.shields.io/badge/✓_MERGED-docling--project%2Fdocling--core-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/docling-project/docling-core/pull/872)
 [![trafilatura](https://img.shields.io/badge/✓_MERGED-adbar%2Ftrafilatura_(7k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adbar/trafilatura/pull/984)
 
-**130 merged pull requests across 15 libraries.** Grouped by project — click any row to expand.
+**132 merged pull requests across 15 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -104,7 +104,7 @@
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **2** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
-| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **26** | HTML rendering robustness |
+| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **28** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **4** | Image decoder robustness |
 | [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `339★` | **5** | Validation of real-world input |
 | [neuml/txtai](https://github.com/neuml/txtai) `13k★` | **2** | HTML to Markdown fidelity |
@@ -250,10 +250,12 @@
 </details>
 
 <details>
-<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 26 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 28 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2059](https://github.com/py-pdf/fpdf2/pull/2059) | Robustness: an internal link number that `add_link()` did not return raised a bare `AssertionError`; it now raises a clear `ValueError` |
+| [#2058](https://github.com/py-pdf/fpdf2/pull/2058) | Robustness: a table `colspan` below 1 crashed or broke the layout; it now spans one column, like `rowspan` |
 | [#2056](https://github.com/py-pdf/fpdf2/pull/2056) | Robustness: a `table()` `text_align` tuple shorter than the columns crashed with a bare `IndexError`; it now raises a clear `ValueError` like `col_widths` |
 | [#2055](https://github.com/py-pdf/fpdf2/pull/2055) | Correctness: an empty or unknown `<ul type>` raised `NotImplementedError`; it now keeps the default bullet, like browsers and like `<ol>` |
 | [#2053](https://github.com/py-pdf/fpdf2/pull/2053) | Correctness: `<meta>`, `<link>`, `<col>`, `<wbr>` and the other HTML void elements produced bogus "missing end tag" warnings; they are now handled like `<br>` |
@@ -365,7 +367,7 @@
 </details>
 > 🔄 **In review — 27 open PRs:** typeguard 5 · fonttools 3 · pikepdf 3 · evaluate 2 · joblib 2 · pypdf 2 · camelot · fpdf2 · kokoro-onnx · mistune · narwhals · python-jose · ragas · smolagents · trafilatura · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*130 merged across 15 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*132 merged across 15 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

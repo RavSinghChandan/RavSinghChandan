@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 132 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 133 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -94,11 +94,11 @@
 [![docling-core](https://img.shields.io/badge/✓_MERGED-docling--project%2Fdocling--core-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/docling-project/docling-core/pull/872)
 [![trafilatura](https://img.shields.io/badge/✓_MERGED-adbar%2Ftrafilatura_(7k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adbar/trafilatura/pull/984)
 
-**132 merged pull requests across 15 libraries.** Grouped by project — click any row to expand.
+**133 merged pull requests across 15 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf) `10.3k★` | **72** | Reader robustness, typing, spec compliance |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf) `10.3k★` | **73** | Reader robustness, typing, spec compliance |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) `18.9k★` | **2** | Regression tests, docs |
 | [joblib/joblib](https://github.com/joblib/joblib) `4.1k★` | **3** | Input validation, path handling |
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
@@ -115,10 +115,11 @@
 | [adbar/trafilatura](https://github.com/adbar/trafilatura) `7k★` | **2** | Markdown output fidelity |
 
 <details>
-<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 72 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 73 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#4242](https://github.com/py-pdf/pypdf/pull/4242) | Robustness: a `BT` inside a text object made layout-mode `extract_text()` print text twice or drop it; a nested `BT` now only resets the text matrix, as in plain mode |
 | [#4233](https://github.com/py-pdf/pypdf/pull/4233) | Robustness: a `TD` operator with a name instead of a number raised `TypeError` in plain and layout mode, and one with too few operands raised `IndexError` in layout mode; the leading now only changes for a number and the text is kept |
 | [#4228](https://github.com/py-pdf/pypdf/pull/4228) | Robustness: a `Tf` operator with a missing size or no operands made layout-mode `extract_text()` raise `IndexError`; the current size and a placeholder font are kept, as in plain mode |
 | [#4214](https://github.com/py-pdf/pypdf/pull/4214) | Robustness: a non-numeric operand of `Tc`, `Tw`, `Tz`, `TL`, `Ts`, `Td` or `Tm` made layout-mode `extract_text()` raise; the parameter is now left unchanged and the text kept |
@@ -365,9 +366,9 @@
 | [#984](https://github.com/adbar/trafilatura/pull/984) | Correctness: a list nested in a numbered item was indented 2 spaces, so Markdown renderers showed it as sibling items; it is now indented to the parent item's text, as CommonMark requires |
 
 </details>
-> 🔄 **In review — 27 open PRs:** typeguard 5 · fonttools 3 · pikepdf 3 · evaluate 2 · joblib 2 · pypdf 2 · camelot · fpdf2 · kokoro-onnx · mistune · narwhals · python-jose · ragas · smolagents · trafilatura · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+> 🔄 **In review — 28 open PRs:** typeguard 5 · fonttools 3 · fpdf2 3 · pikepdf 3 · evaluate 2 · joblib 2 · camelot · kokoro-onnx · mistune · narwhals · pypdf · python-jose · ragas · smolagents · trafilatura · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*132 merged across 15 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*133 merged across 15 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

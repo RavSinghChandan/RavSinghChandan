@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 146 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 147 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -94,7 +94,7 @@
 [![docling-core](https://img.shields.io/badge/✓_MERGED-docling--project%2Fdocling--core-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/docling-project/docling-core/pull/872)
 [![trafilatura](https://img.shields.io/badge/✓_MERGED-adbar%2Ftrafilatura_(7k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adbar/trafilatura/pull/984)
 
-**146 merged pull requests across 15 libraries.** Grouped by project — click any row to expand.
+**147 merged pull requests across 15 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -112,7 +112,7 @@
 | [tox-dev/tox](https://github.com/tox-dev/tox) `4k★` | **1** | Configuration correctness |
 | [lepture/mistune](https://github.com/lepture/mistune) `3.1k★` | **1** | Markdown round-trip rendering |
 | [docling-project/docling-core](https://github.com/docling-project/docling-core) `294★` | **1** | Markdown serialization correctness |
-| [adbar/trafilatura](https://github.com/adbar/trafilatura) `7k★` | **3** | Markdown output fidelity |
+| [adbar/trafilatura](https://github.com/adbar/trafilatura) `7k★` | **4** | Markdown output fidelity |
 
 <details>
 <summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 75 merged &nbsp;<i>(click to expand)</i></summary>
@@ -370,18 +370,19 @@
 </details>
 
 <details>
-<summary><b>adbar/trafilatura</b> &nbsp;<code>7k★</code> &nbsp;—&nbsp; 3 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>adbar/trafilatura</b> &nbsp;<code>7k★</code> &nbsp;—&nbsp; 4 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#1013](https://github.com/adbar/trafilatura/pull/1013) | Correctness: feed discovery matched `rel="alternate"` exactly, so feeds declared as `rel="Alternate"` or `rel="alternate feed"` were not found; `rel` is now read as case-insensitive keywords |
 | [#1002](https://github.com/adbar/trafilatura/pull/1002) | Correctness: an RSS feed whose item HTML contained a `<link>` tag was read as Atom and lost all its item links; RSS-rooted feeds are now read as RSS first (linear-time root check) |
 | [#997](https://github.com/adbar/trafilatura/pull/997) | Correctness: an inline `<q>` was converted like a block quote and split its paragraph; it is now unwrapped, so the sentence stays in one piece |
 | [#984](https://github.com/adbar/trafilatura/pull/984) | Correctness: a list nested in a numbered item was indented 2 spaces, so Markdown renderers showed it as sibling items; it is now indented to the parent item's text, as CommonMark requires |
 
 </details>
-> 🔄 **In review — 32 open PRs:** fpdf2 6 · typeguard 5 · fonttools 3 · pikepdf 3 · evaluate 2 · joblib 2 · pypdf 2 · camelot · kokoro-onnx · mistune · narwhals · python-jose · ragas · smolagents · trafilatura · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+> 🔄 **In review — 32 open PRs:** fpdf2 7 · typeguard 5 · fonttools 3 · pikepdf 3 · evaluate 2 · joblib 2 · pypdf 2 · camelot · kokoro-onnx · mistune · narwhals · python-jose · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*146 merged across 15 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*147 merged across 15 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

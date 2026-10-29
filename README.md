@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 151 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 152 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -76,6 +76,8 @@
   &nbsp;&nbsp;
   <a href="https://github.com/docling-project/docling-core/pull/872"><img src="./assets/docling-logo.png" height="46" alt="docling-core" /></a>
   &nbsp;&nbsp;
+  <a href="https://github.com/mindee/doctr/pull/2187"><img src="./assets/doctr-logo.png" height="46" alt="docTR" /></a>
+  &nbsp;&nbsp;
   <a href="https://github.com/adbar/trafilatura/pull/984"><img src="./assets/trafilatura-logo.png" height="46" alt="trafilatura" /></a>
 </p>
 
@@ -92,9 +94,10 @@
 [![tox](https://img.shields.io/badge/✓_MERGED-tox--dev%2Ftox_(4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tox-dev/tox/pull/4161)
 [![mistune](https://img.shields.io/badge/✓_MERGED-lepture%2Fmistune_(3.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lepture/mistune/pull/501)
 [![docling-core](https://img.shields.io/badge/✓_MERGED-docling--project%2Fdocling--core-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/docling-project/docling-core/pull/872)
+[![doctr](https://img.shields.io/badge/✓_MERGED-mindee%2Fdoctr_(6.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mindee/doctr/pull/2187)
 [![trafilatura](https://img.shields.io/badge/✓_MERGED-adbar%2Ftrafilatura_(7k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adbar/trafilatura/pull/984)
 
-**151 merged pull requests across 15 libraries.** Grouped by project — click any row to expand.
+**152 merged pull requests across 16 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -112,6 +115,7 @@
 | [tox-dev/tox](https://github.com/tox-dev/tox) `4k★` | **1** | Configuration correctness |
 | [lepture/mistune](https://github.com/lepture/mistune) `3.1k★` | **1** | Markdown round-trip rendering |
 | [docling-project/docling-core](https://github.com/docling-project/docling-core) `294★` | **1** | Markdown serialization correctness |
+| [mindee/doctr](https://github.com/mindee/doctr) `6.4k★` | **1** | Document model robustness |
 | [adbar/trafilatura](https://github.com/adbar/trafilatura) `7k★` | **4** | Markdown output fidelity |
 
 <details>
@@ -374,6 +378,15 @@
 </details>
 
 <details>
+<summary><b>mindee/doctr</b> &nbsp;<code>6.4k★</code> &nbsp;—&nbsp; 1 merged &nbsp;<i>(click to expand)</i></summary>
+
+| PR | Contribution |
+|---|---|
+| [#2187](https://github.com/mindee/doctr/pull/2187) | Robustness: a `Block` with artefacts but no text lines raised `IndexError` while resolving its geometry; it now uses the first artefact, which the exporters already handle |
+
+</details>
+
+<details>
 <summary><b>adbar/trafilatura</b> &nbsp;<code>7k★</code> &nbsp;—&nbsp; 4 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
@@ -384,9 +397,9 @@
 | [#984](https://github.com/adbar/trafilatura/pull/984) | Correctness: a list nested in a numbered item was indented 2 spaces, so Markdown renderers showed it as sibling items; it is now indented to the parent item's text, as CommonMark requires |
 
 </details>
-> 🔄 **In review — 29 open PRs:** typeguard 5 · fonttools 3 · fpdf2 3 · pikepdf 3 · evaluate 2 · joblib 2 · pypdf 2 · camelot · doctr · kokoro-onnx · mistune · narwhals · python-jose · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+> 🔄 **In review — 32 open PRs:** fpdf2 7 · typeguard 5 · fonttools 3 · pikepdf 3 · evaluate 2 · joblib 2 · pypdf 2 · camelot · kokoro-onnx · mistune · narwhals · python-jose · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*151 merged across 15 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*152 merged across 16 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

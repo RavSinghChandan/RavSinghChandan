@@ -382,7 +382,7 @@
 | [#984](https://github.com/adbar/trafilatura/pull/984) | Correctness: a list nested in a numbered item was indented 2 spaces, so Markdown renderers showed it as sibling items; it is now indented to the parent item's text, as CommonMark requires |
 
 </details>
-> 🔄 **In review — 0 open PRs:**  — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+> 🔄 **In review — 31 open PRs:** fpdf2 5 · typeguard 5 · fonttools 3 · pikepdf 3 · evaluate 2 · joblib 2 · pypdf 2 · camelot · doctr · kokoro-onnx · mistune · narwhals · python-jose · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
 *149 merged across 15 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 

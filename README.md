@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 153 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 154 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -97,7 +97,7 @@
 [![doctr](https://img.shields.io/badge/✓_MERGED-mindee%2Fdoctr_(6.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mindee/doctr/pull/2187)
 [![trafilatura](https://img.shields.io/badge/✓_MERGED-adbar%2Ftrafilatura_(7k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adbar/trafilatura/pull/984)
 
-**153 merged pull requests across 16 libraries.** Grouped by project — click any row to expand.
+**154 merged pull requests across 16 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -107,7 +107,7 @@
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **2** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
-| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **42** | HTML rendering robustness |
+| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **43** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **4** | Image decoder robustness |
 | [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `339★` | **5** | Validation of real-world input |
 | [neuml/txtai](https://github.com/neuml/txtai) `13k★` | **2** | HTML to Markdown fidelity |
@@ -258,10 +258,11 @@
 </details>
 
 <details>
-<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 42 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 43 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2084](https://github.com/py-pdf/fpdf2/pull/2084) | Robustness: `set_auto_page_break()` with a negative margin put the page break below the page, so the last lines before each break were lost off the page; it now raises a clear `ValueError` |
 | [#2082](https://github.com/py-pdf/fpdf2/pull/2082) | Robustness: `set_stretching()` with zero or a negative value gave text no width, so justified text collapsed onto one line; it now raises a clear `ValueError` |
 | [#2079](https://github.com/py-pdf/fpdf2/pull/2079) | Robustness: `set_display_mode()` wrote a negative zoom into the PDF and failed late on a non-numeric one; both now raise a clear `FPDFException` |
 | [#2078](https://github.com/py-pdf/fpdf2/pull/2078) | Robustness: `table(borders_layout=...)` with an unknown value crashed with a bare `AttributeError`; it now raises its intended `ValueError`, like `cell_fill_mode` and `v_align` |
@@ -398,9 +399,9 @@
 | [#984](https://github.com/adbar/trafilatura/pull/984) | Correctness: a list nested in a numbered item was indented 2 spaces, so Markdown renderers showed it as sibling items; it is now indented to the parent item's text, as CommonMark requires |
 
 </details>
-> 🔄 **In review — 35 open PRs:** fpdf2 7 · typeguard 5 · doctr 4 · fonttools 3 · pikepdf 3 · evaluate 2 · joblib 2 · camelot · kokoro-onnx · mistune · narwhals · pypdf · python-jose · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+> 🔄 **In review — 35 open PRs:** fpdf2 6 · typeguard 5 · doctr 4 · fonttools 3 · pikepdf 3 · evaluate 2 · joblib 2 · pypdf 2 · camelot · kokoro-onnx · mistune · narwhals · python-jose · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*153 merged across 16 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*154 merged across 16 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

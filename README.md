@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 173 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 175 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -97,7 +97,7 @@
 [![doctr](https://img.shields.io/badge/✓_MERGED-mindee%2Fdoctr_(6.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mindee/doctr/pull/2187)
 [![trafilatura](https://img.shields.io/badge/✓_MERGED-adbar%2Ftrafilatura_(7k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adbar/trafilatura/pull/984)
 
-**173 merged pull requests across 16 libraries.** Grouped by project — click any row to expand.
+**175 merged pull requests across 16 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -115,7 +115,7 @@
 | [tox-dev/tox](https://github.com/tox-dev/tox) `4k★` | **1** | Configuration correctness |
 | [lepture/mistune](https://github.com/lepture/mistune) `3.1k★` | **1** | Markdown round-trip rendering |
 | [docling-project/docling-core](https://github.com/docling-project/docling-core) `294★` | **1** | Markdown serialization correctness |
-| [mindee/doctr](https://github.com/mindee/doctr) `6.4k★` | **17** | Document model robustness |
+| [mindee/doctr](https://github.com/mindee/doctr) `6.4k★` | **19** | Document model robustness |
 | [adbar/trafilatura](https://github.com/adbar/trafilatura) `7k★` | **4** | Markdown output fidelity |
 
 <details>
@@ -383,10 +383,12 @@
 </details>
 
 <details>
-<summary><b>mindee/doctr</b> &nbsp;<code>6.4k★</code> &nbsp;—&nbsp; 17 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>mindee/doctr</b> &nbsp;<code>6.4k★</code> &nbsp;—&nbsp; 19 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2205](https://github.com/mindee/doctr/pull/2205) | Correctness: `encode_crop` wrote a float crop with values in `[0, 1]` as an almost black image; it is now scaled to `uint8` first and gives the same bytes as the `uint8` crop |
+| [#2201](https://github.com/mindee/doctr/pull/2201) | Robustness: `tensor_from_numpy` crashed on an `(H, W)` grayscale image with `uint8` or `float16`; it now gets a channel axis with every dtype, like with `float32` |
 | [#2206](https://github.com/mindee/doctr/pull/2206) | Correctness: `estimate_orientation` gave a wrong angle for a float image with values in `[0, 1]`; it is now scaled to `uint8` first and gets the same angle as the `uint8` image |
 | [#2203](https://github.com/mindee/doctr/pull/2203) | Robustness: `WordGenerator` accepted `min_chars > max_chars` or `min_chars < 1` and only failed while sampling; it now raises a clear `ValueError` when created |
 | [#2193](https://github.com/mindee/doctr/pull/2193) | Correctness: `rotate_abs_points` and `rotate_boxes` truncated the rotation matrix to integers for integer coordinates, collapsing them; it is now built in floating point |
@@ -418,9 +420,9 @@
 | [#984](https://github.com/adbar/trafilatura/pull/984) | Correctness: a list nested in a numbered item was indented 2 spaces, so Markdown renderers showed it as sibling items; it is now indented to the parent item's text, as CommonMark requires |
 
 </details>
-> 🔄 **In review — 36 open PRs:** fpdf2 6 · typeguard 5 · doctr 3 · fonttools 3 · pikepdf 3 · evaluate 2 · joblib 2 · pypdf 2 · camelot · kokoro-onnx · mistune · more-itertools · narwhals · python-email-validator · python-jose · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+> 🔄 **In review — 35 open PRs:** fpdf2 6 · typeguard 5 · doctr 3 · fonttools 3 · pikepdf 3 · evaluate 2 · joblib 2 · pypdf 2 · camelot · kokoro-onnx · mistune · narwhals · python-email-validator · python-jose · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*173 merged across 16 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*175 merged across 16 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

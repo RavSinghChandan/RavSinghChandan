@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 154 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 157 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -97,7 +97,7 @@
 [![doctr](https://img.shields.io/badge/✓_MERGED-mindee%2Fdoctr_(6.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mindee/doctr/pull/2187)
 [![trafilatura](https://img.shields.io/badge/✓_MERGED-adbar%2Ftrafilatura_(7k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adbar/trafilatura/pull/984)
 
-**154 merged pull requests across 16 libraries.** Grouped by project — click any row to expand.
+**157 merged pull requests across 16 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -115,7 +115,7 @@
 | [tox-dev/tox](https://github.com/tox-dev/tox) `4k★` | **1** | Configuration correctness |
 | [lepture/mistune](https://github.com/lepture/mistune) `3.1k★` | **1** | Markdown round-trip rendering |
 | [docling-project/docling-core](https://github.com/docling-project/docling-core) `294★` | **1** | Markdown serialization correctness |
-| [mindee/doctr](https://github.com/mindee/doctr) `6.4k★` | **1** | Document model robustness |
+| [mindee/doctr](https://github.com/mindee/doctr) `6.4k★` | **4** | Document model robustness |
 | [adbar/trafilatura](https://github.com/adbar/trafilatura) `7k★` | **4** | Markdown output fidelity |
 
 <details>
@@ -380,10 +380,13 @@
 </details>
 
 <details>
-<summary><b>mindee/doctr</b> &nbsp;<code>6.4k★</code> &nbsp;—&nbsp; 1 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>mindee/doctr</b> &nbsp;<code>6.4k★</code> &nbsp;—&nbsp; 4 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2192](https://github.com/mindee/doctr/pull/2192) | Correctness: `TableCellMetric` gave an F1 of `None` when no cell matched although recall and precision were 0, so training logged an empty dataset; the F1 is now 0 |
+| [#2190](https://github.com/mindee/doctr/pull/2190) | Correctness: `get_colors(161)` returned 162 colors because of a float hue step and `get_colors(0)` crashed, breaking KIE page rendering; it now returns exactly `n` colors |
+| [#2188](https://github.com/mindee/doctr/pull/2188) | Correctness: `bbox_to_polygon` returned the corners crossed, giving a zero-area bow-tie polygon; they now go around the box in order |
 | [#2187](https://github.com/mindee/doctr/pull/2187) | Robustness: a `Block` with artefacts but no text lines raised `IndexError` while resolving its geometry; it now uses the first artefact, which the exporters already handle |
 
 </details>
@@ -399,9 +402,9 @@
 | [#984](https://github.com/adbar/trafilatura/pull/984) | Correctness: a list nested in a numbered item was indented 2 spaces, so Markdown renderers showed it as sibling items; it is now indented to the parent item's text, as CommonMark requires |
 
 </details>
-> 🔄 **In review — 35 open PRs:** fpdf2 6 · typeguard 5 · doctr 4 · fonttools 3 · pikepdf 3 · evaluate 2 · joblib 2 · pypdf 2 · camelot · kokoro-onnx · mistune · narwhals · python-jose · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+> 🔄 **In review — 33 open PRs:** fpdf2 6 · typeguard 5 · fonttools 3 · pikepdf 3 · doctr 2 · evaluate 2 · joblib 2 · pypdf 2 · camelot · kokoro-onnx · mistune · narwhals · python-jose · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*154 merged across 16 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*157 merged across 16 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

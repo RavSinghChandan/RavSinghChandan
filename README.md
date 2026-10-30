@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 162 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 164 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -97,7 +97,7 @@
 [![doctr](https://img.shields.io/badge/✓_MERGED-mindee%2Fdoctr_(6.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mindee/doctr/pull/2187)
 [![trafilatura](https://img.shields.io/badge/✓_MERGED-adbar%2Ftrafilatura_(7k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adbar/trafilatura/pull/984)
 
-**162 merged pull requests across 16 libraries.** Grouped by project — click any row to expand.
+**164 merged pull requests across 16 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -115,7 +115,7 @@
 | [tox-dev/tox](https://github.com/tox-dev/tox) `4k★` | **1** | Configuration correctness |
 | [lepture/mistune](https://github.com/lepture/mistune) `3.1k★` | **1** | Markdown round-trip rendering |
 | [docling-project/docling-core](https://github.com/docling-project/docling-core) `294★` | **1** | Markdown serialization correctness |
-| [mindee/doctr](https://github.com/mindee/doctr) `6.4k★` | **9** | Document model robustness |
+| [mindee/doctr](https://github.com/mindee/doctr) `6.4k★` | **11** | Document model robustness |
 | [adbar/trafilatura](https://github.com/adbar/trafilatura) `7k★` | **4** | Markdown output fidelity |
 
 <details>
@@ -380,10 +380,12 @@
 </details>
 
 <details>
-<summary><b>mindee/doctr</b> &nbsp;<code>6.4k★</code> &nbsp;—&nbsp; 9 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>mindee/doctr</b> &nbsp;<code>6.4k★</code> &nbsp;—&nbsp; 11 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2193](https://github.com/mindee/doctr/pull/2193) | Correctness: `rotate_abs_points` and `rotate_boxes` truncated the rotation matrix to integers for integer coordinates, collapsing them; it is now built in floating point |
+| [#2191](https://github.com/mindee/doctr/pull/2191) | Robustness: `crop_detection` raised `ValueError` on an image without any box; empty box arrays are now returned as is and the image is still cropped |
 | [#2197](https://github.com/mindee/doctr/pull/2197) | Robustness: `straighten_page` crashed on grayscale pages; `(H, W)` and `(H, W, 1)` pages are now straightened like each channel of a color page |
 | [#2195](https://github.com/mindee/doctr/pull/2195) | Robustness: `rotate_image` crashed on grayscale images with `expand=True` and dropped the axis of `(H, W, 1)` images; both now rotate like each channel of a color image |
 | [#2196](https://github.com/mindee/doctr/pull/2196) | Robustness: a `Block` with only artefacts got an objectness score of `NaN`, making the JSON export invalid; it now takes the confidence of its artefacts |
@@ -409,7 +411,7 @@
 </details>
 > 🔄 **In review — 33 open PRs:** fpdf2 6 · typeguard 5 · fonttools 3 · pikepdf 3 · evaluate 2 · joblib 2 · pypdf 2 · camelot · kokoro-onnx · mistune · more-itertools · narwhals · python-email-validator · python-jose · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*162 merged across 16 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*164 merged across 16 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

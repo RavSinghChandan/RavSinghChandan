@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 167 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 171 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -97,7 +97,7 @@
 [![doctr](https://img.shields.io/badge/✓_MERGED-mindee%2Fdoctr_(6.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mindee/doctr/pull/2187)
 [![trafilatura](https://img.shields.io/badge/✓_MERGED-adbar%2Ftrafilatura_(7k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adbar/trafilatura/pull/984)
 
-**167 merged pull requests across 16 libraries.** Grouped by project — click any row to expand.
+**171 merged pull requests across 16 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -107,7 +107,7 @@
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **2** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
-| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **45** | HTML rendering robustness |
+| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **46** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **4** | Image decoder robustness |
 | [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `339★` | **5** | Validation of real-world input |
 | [neuml/txtai](https://github.com/neuml/txtai) `13k★` | **2** | HTML to Markdown fidelity |
@@ -115,7 +115,7 @@
 | [tox-dev/tox](https://github.com/tox-dev/tox) `4k★` | **1** | Configuration correctness |
 | [lepture/mistune](https://github.com/lepture/mistune) `3.1k★` | **1** | Markdown round-trip rendering |
 | [docling-project/docling-core](https://github.com/docling-project/docling-core) `294★` | **1** | Markdown serialization correctness |
-| [mindee/doctr](https://github.com/mindee/doctr) `6.4k★` | **12** | Document model robustness |
+| [mindee/doctr](https://github.com/mindee/doctr) `6.4k★` | **15** | Document model robustness |
 | [adbar/trafilatura](https://github.com/adbar/trafilatura) `7k★` | **4** | Markdown output fidelity |
 
 <details>
@@ -258,10 +258,11 @@
 </details>
 
 <details>
-<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 45 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 46 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2089](https://github.com/py-pdf/fpdf2/pull/2089) | Robustness: `table()` with a negative `gutter_height` or `gutter_width` drew rows or columns on top of each other; it now raises a clear `ValueError` |
 | [#2088](https://github.com/py-pdf/fpdf2/pull/2088) | Robustness: `text_columns()` with a negative `gutter` laid out overlapping columns printed on top of each other; it now raises a clear `ValueError` |
 | [#2083](https://github.com/py-pdf/fpdf2/pull/2083) | Robustness: `set_font()` and `set_font_size()` accepted a negative size, mirroring the text and moving `multi_cell()` lines above the top margin; they now raise a clear `ValueError` |
 | [#2084](https://github.com/py-pdf/fpdf2/pull/2084) | Robustness: `set_auto_page_break()` with a negative margin put the page break below the page, so the last lines before each break were lost off the page; it now raises a clear `ValueError` |
@@ -382,12 +383,15 @@
 </details>
 
 <details>
-<summary><b>mindee/doctr</b> &nbsp;<code>6.4k★</code> &nbsp;—&nbsp; 12 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>mindee/doctr</b> &nbsp;<code>6.4k★</code> &nbsp;—&nbsp; 15 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
 | [#2193](https://github.com/mindee/doctr/pull/2193) | Correctness: `rotate_abs_points` and `rotate_boxes` truncated the rotation matrix to integers for integer coordinates, collapsing them; it is now built in floating point |
 | [#2191](https://github.com/mindee/doctr/pull/2191) | Robustness: `crop_detection` raised `ValueError` on an image without any box; empty box arrays are now returned as is and the image is still cropped |
+| [#2202](https://github.com/mindee/doctr/pull/2202) | Robustness: `Block()` and `Line([])` crashed with a bare `IndexError`; they now raise a `ValueError` saying the geometry has to be passed |
+| [#2200](https://github.com/mindee/doctr/pull/2200) | Correctness: `extract_crops` gave an empty or wrong crop for a box going past the image edge; coordinates are now clamped to the image |
+| [#2199](https://github.com/mindee/doctr/pull/2199) | Correctness: `remap_boxes` truncated integer boxes to zero; they are now remapped in floating point |
 | [#2198](https://github.com/mindee/doctr/pull/2198) | Correctness: `polygon_patch` scaled the geometry passed to it in place, overwriting a word's relative coordinates; the patch is now built from a scaled copy |
 | [#2197](https://github.com/mindee/doctr/pull/2197) | Robustness: `straighten_page` crashed on grayscale pages; `(H, W)` and `(H, W, 1)` pages are now straightened like each channel of a color page |
 | [#2195](https://github.com/mindee/doctr/pull/2195) | Robustness: `rotate_image` crashed on grayscale images with `expand=True` and dropped the axis of `(H, W, 1)` images; both now rotate like each channel of a color image |
@@ -412,9 +416,9 @@
 | [#984](https://github.com/adbar/trafilatura/pull/984) | Correctness: a list nested in a numbered item was indented 2 spaces, so Markdown renderers showed it as sibling items; it is now indented to the parent item's text, as CommonMark requires |
 
 </details>
-> 🔄 **In review — 33 open PRs:** fpdf2 6 · typeguard 5 · fonttools 3 · pikepdf 3 · evaluate 2 · joblib 2 · pypdf 2 · camelot · kokoro-onnx · mistune · more-itertools · narwhals · python-email-validator · python-jose · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+> 🔄 **In review — 31 open PRs:** typeguard 5 · fonttools 3 · fpdf2 3 · pikepdf 3 · evaluate 2 · joblib 2 · pypdf 2 · camelot · doctr · kokoro-onnx · mistune · more-itertools · narwhals · python-email-validator · python-jose · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*167 merged across 16 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*171 merged across 16 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

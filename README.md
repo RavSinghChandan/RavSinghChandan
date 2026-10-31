@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 179 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 182 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -100,7 +100,7 @@
 [![trafilatura](https://img.shields.io/badge/✓_MERGED-adbar%2Ftrafilatura_(7k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adbar/trafilatura/pull/984)
 [![email-validator](https://img.shields.io/badge/✓_MERGED-JoshData%2Fpython--email--validator_(1.5k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JoshData/python-email-validator/pull/183)
 
-**179 merged pull requests across 17 libraries.** Grouped by project — click any row to expand.
+**182 merged pull requests across 17 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -390,10 +390,13 @@
 </details>
 
 <details>
-<summary><b>mindee/doctr</b> &nbsp;<code>6.4k★</code> &nbsp;—&nbsp; 19 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>mindee/doctr</b> &nbsp;<code>6.4k★</code> &nbsp;—&nbsp; 22 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2211](https://github.com/mindee/doctr/pull/2211) | Robustness: `invert_data_structure([])` raised `IndexError` and `invert_data_structure({})` a misleading length error; empty input now gives an empty result |
+| [#2209](https://github.com/mindee/doctr/pull/2209) | Correctness: `download_from_url` read short hex runs in names like `checkpoint-10.pt` as a hash and deleted correct downloads; it now needs the 8+ hex digits docTR uses |
+| [#2204](https://github.com/mindee/doctr/pull/2204) | Robustness: an interrupted download left a truncated file that later calls reused; downloads now go to a `.part` file moved into place only when complete |
 | [#2205](https://github.com/mindee/doctr/pull/2205) | Correctness: `encode_crop` wrote a float crop with values in `[0, 1]` as an almost black image; it is now scaled to `uint8` first and gives the same bytes as the `uint8` crop |
 | [#2201](https://github.com/mindee/doctr/pull/2201) | Robustness: `tensor_from_numpy` crashed on an `(H, W)` grayscale image with `uint8` or `float16`; it now gets a channel axis with every dtype, like with `float32` |
 | [#2206](https://github.com/mindee/doctr/pull/2206) | Correctness: `estimate_orientation` gave a wrong angle for a float image with values in `[0, 1]`; it is now scaled to `uint8` first and gets the same angle as the `uint8` image |
@@ -438,7 +441,7 @@
 </details>
 > 🔄 **In review — 37 open PRs:** fpdf2 5 · typeguard 5 · doctr 4 · fonttools 3 · pikepdf 3 · evaluate 2 · joblib 2 · pypdf 2 · babel · camelot · docstring_parser · kokoro-onnx · mistune · narwhals · python-jose · python-markdown2 · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*179 merged across 17 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*182 merged across 17 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

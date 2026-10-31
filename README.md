@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 175 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 177 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -79,6 +79,8 @@
   <a href="https://github.com/mindee/doctr/pull/2187"><img src="./assets/doctr-logo.png" height="46" alt="docTR" /></a>
   &nbsp;&nbsp;
   <a href="https://github.com/adbar/trafilatura/pull/984"><img src="./assets/trafilatura-logo.png" height="46" alt="trafilatura" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/JoshData/python-email-validator/pull/183"><img src="./assets/email-validator-logo.svg" height="46" alt="email-validator" /></a>
 </p>
 
 [![joblib](https://img.shields.io/badge/✓_MERGED-joblib%2Fjoblib_(4.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joblib/joblib/pull/1812)
@@ -96,8 +98,9 @@
 [![docling-core](https://img.shields.io/badge/✓_MERGED-docling--project%2Fdocling--core-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/docling-project/docling-core/pull/872)
 [![doctr](https://img.shields.io/badge/✓_MERGED-mindee%2Fdoctr_(6.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mindee/doctr/pull/2187)
 [![trafilatura](https://img.shields.io/badge/✓_MERGED-adbar%2Ftrafilatura_(7k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adbar/trafilatura/pull/984)
+[![email-validator](https://img.shields.io/badge/✓_MERGED-JoshData%2Fpython--email--validator_(1.5k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JoshData/python-email-validator/pull/183)
 
-**175 merged pull requests across 16 libraries.** Grouped by project — click any row to expand.
+**177 merged pull requests across 17 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -107,7 +110,7 @@
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **2** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
-| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **46** | HTML rendering robustness |
+| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **47** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **4** | Image decoder robustness |
 | [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `339★` | **5** | Validation of real-world input |
 | [neuml/txtai](https://github.com/neuml/txtai) `13k★` | **2** | HTML to Markdown fidelity |
@@ -117,6 +120,7 @@
 | [docling-project/docling-core](https://github.com/docling-project/docling-core) `294★` | **1** | Markdown serialization correctness |
 | [mindee/doctr](https://github.com/mindee/doctr) `6.4k★` | **19** | Document model robustness |
 | [adbar/trafilatura](https://github.com/adbar/trafilatura) `7k★` | **4** | Markdown output fidelity |
+| [JoshData/python-email-validator](https://github.com/JoshData/python-email-validator) `1.5k★` | **1** | RFC compliance of address parsing |
 
 <details>
 <summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 76 merged &nbsp;<i>(click to expand)</i></summary>
@@ -258,10 +262,11 @@
 </details>
 
 <details>
-<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 46 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 47 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2090](https://github.com/py-pdf/fpdf2/pull/2090) | Robustness: `add_page(duration=-1)` wrote `/Dur -1`, a display duration with no meaning, into the page; it now raises a clear `ValueError` |
 | [#2089](https://github.com/py-pdf/fpdf2/pull/2089) | Robustness: `table()` with a negative `gutter_height` or `gutter_width` drew rows or columns on top of each other; it now raises a clear `ValueError` |
 | [#2088](https://github.com/py-pdf/fpdf2/pull/2088) | Robustness: `text_columns()` with a negative `gutter` laid out overlapping columns printed on top of each other; it now raises a clear `ValueError` |
 | [#2083](https://github.com/py-pdf/fpdf2/pull/2083) | Robustness: `set_font()` and `set_font_size()` accepted a negative size, mirroring the text and moving `multi_cell()` lines above the top margin; they now raise a clear `ValueError` |
@@ -420,9 +425,18 @@
 | [#984](https://github.com/adbar/trafilatura/pull/984) | Correctness: a list nested in a numbered item was indented 2 spaces, so Markdown renderers showed it as sibling items; it is now indented to the parent item's text, as CommonMark requires |
 
 </details>
-> 🔄 **In review — 35 open PRs:** fpdf2 6 · typeguard 5 · doctr 3 · fonttools 3 · pikepdf 3 · evaluate 2 · joblib 2 · pypdf 2 · camelot · kokoro-onnx · mistune · narwhals · python-email-validator · python-jose · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*175 merged across 16 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+<details>
+<summary><b>JoshData/python-email-validator</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 1 merged &nbsp;<i>(click to expand)</i></summary>
+
+| PR | Contribution |
+|---|---|
+| [#183](https://github.com/JoshData/python-email-validator/pull/183) | Correctness: with domain literals allowed, `me@[ipv6:::1]` was rejected although RFC 5321 defines the `IPv6:` tag as a case-insensitive ABNF literal; the tag is now matched in any case |
+
+</details>
+> 🔄 **In review — 37 open PRs:** fpdf2 5 · typeguard 5 · doctr 4 · fonttools 3 · pikepdf 3 · evaluate 2 · joblib 2 · pypdf 2 · babel · camelot · docstring_parser · kokoro-onnx · mistune · narwhals · python-jose · python-markdown2 · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+
+*177 merged across 17 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

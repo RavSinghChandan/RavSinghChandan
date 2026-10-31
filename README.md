@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 177 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 179 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -100,7 +100,7 @@
 [![trafilatura](https://img.shields.io/badge/✓_MERGED-adbar%2Ftrafilatura_(7k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adbar/trafilatura/pull/984)
 [![email-validator](https://img.shields.io/badge/✓_MERGED-JoshData%2Fpython--email--validator_(1.5k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JoshData/python-email-validator/pull/183)
 
-**177 merged pull requests across 17 libraries.** Grouped by project — click any row to expand.
+**179 merged pull requests across 17 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -123,10 +123,11 @@
 | [JoshData/python-email-validator](https://github.com/JoshData/python-email-validator) `1.5k★` | **1** | RFC compliance of address parsing |
 
 <details>
-<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 76 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 77 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#4272](https://github.com/py-pdf/pypdf/pull/4272) | Robustness: a page whose `/Resources` is not a dictionary made `page.images` raise `TypeError`; it now warns and treats the page as having no XObject images |
 | [#4271](https://github.com/py-pdf/pypdf/pull/4271) | Robustness: a page labels `/Nums` entry that is not an array made `reader.page_labels` raise `TypeError`; it now warns and falls back to the page position |
 | [#4256](https://github.com/py-pdf/pypdf/pull/4256) | Robustness: an embedded file entry that is not a dictionary made `reader.attachments` raise `TypeError`; it is now reported as malformed and skipped (`PdfReadError` in strict mode) |
 | [#4232](https://github.com/py-pdf/pypdf/pull/4232) | Robustness: a `Tc`, `Tw`, `Tz`, `TL` or `Ts` operator without an operand made layout-mode `extract_text()` raise `IndexError`; the parameter now keeps its current value |
@@ -262,10 +263,11 @@
 </details>
 
 <details>
-<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 47 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 48 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2091](https://github.com/py-pdf/fpdf2/pull/2091) | Robustness: `write_html` raised `ValueError` for an invalid percentage width such as `width="x%"`; it is now read as 0, like any other invalid width |
 | [#2090](https://github.com/py-pdf/fpdf2/pull/2090) | Robustness: `add_page(duration=-1)` wrote `/Dur -1`, a display duration with no meaning, into the page; it now raises a clear `ValueError` |
 | [#2089](https://github.com/py-pdf/fpdf2/pull/2089) | Robustness: `table()` with a negative `gutter_height` or `gutter_width` drew rows or columns on top of each other; it now raises a clear `ValueError` |
 | [#2088](https://github.com/py-pdf/fpdf2/pull/2088) | Robustness: `text_columns()` with a negative `gutter` laid out overlapping columns printed on top of each other; it now raises a clear `ValueError` |
@@ -436,7 +438,7 @@
 </details>
 > 🔄 **In review — 37 open PRs:** fpdf2 5 · typeguard 5 · doctr 4 · fonttools 3 · pikepdf 3 · evaluate 2 · joblib 2 · pypdf 2 · babel · camelot · docstring_parser · kokoro-onnx · mistune · narwhals · python-jose · python-markdown2 · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*177 merged across 17 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*179 merged across 17 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

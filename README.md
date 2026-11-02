@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 187 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 189 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -100,9 +100,9 @@
 [![trafilatura](https://img.shields.io/badge/✓_MERGED-adbar%2Ftrafilatura_(7k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adbar/trafilatura/pull/984)
 [![email-validator](https://img.shields.io/badge/✓_MERGED-JoshData%2Fpython--email--validator_(1.5k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JoshData/python-email-validator/pull/183)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **5** <sub>(in progress — goal: beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **7** <sub>(in progress — goal: beat October)</sub>
 
-**187 merged pull requests across 17 libraries.** Grouped by project — click any row to expand.
+**189 merged pull requests across 17 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -112,7 +112,7 @@
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **2** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
-| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **49** | HTML rendering robustness |
+| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **51** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **4** | Image decoder robustness |
 | [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `339★` | **5** | Validation of real-world input |
 | [neuml/txtai](https://github.com/neuml/txtai) `13k★` | **2** | HTML to Markdown fidelity |
@@ -265,10 +265,12 @@
 </details>
 
 <details>
-<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 49 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 51 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2096](https://github.com/py-pdf/fpdf2/pull/2096) | Robustness: `table()` with a negative `width` or `col_widths` failed with an unrelated "Not enough horizontal space" error; it now raises a clear `ValueError` |
+| [#2095](https://github.com/py-pdf/fpdf2/pull/2095) | Correctness: `add_link(page=-2)` silently pointed to a page counted from the end of the document; a negative page other than -1 now raises a clear `ValueError` |
 | [#2094](https://github.com/py-pdf/fpdf2/pull/2094) | Robustness: `set_margins()` and the single-side margin setters accepted a negative margin, so text was written past the page edge; they now raise a clear `ValueError` |
 | [#2091](https://github.com/py-pdf/fpdf2/pull/2091) | Robustness: `write_html` raised `ValueError` for an invalid percentage width such as `width="x%"`; it is now read as 0, like any other invalid width |
 | [#2090](https://github.com/py-pdf/fpdf2/pull/2090) | Robustness: `add_page(duration=-1)` wrote `/Dur -1`, a display duration with no meaning, into the page; it now raises a clear `ValueError` |

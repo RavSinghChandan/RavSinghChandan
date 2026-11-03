@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 189 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 198 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -100,19 +100,19 @@
 [![trafilatura](https://img.shields.io/badge/✓_MERGED-adbar%2Ftrafilatura_(7k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adbar/trafilatura/pull/984)
 [![email-validator](https://img.shields.io/badge/✓_MERGED-JoshData%2Fpython--email--validator_(1.5k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JoshData/python-email-validator/pull/183)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **7** <sub>(in progress — goal: beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **16** <sub>(in progress — goal: beat October)</sub>
 
-**189 merged pull requests across 17 libraries.** Grouped by project — click any row to expand.
+**198 merged pull requests across 17 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf) `10.3k★` | **77** | Reader robustness, typing, spec compliance |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf) `10.3k★` | **79** | Reader robustness, typing, spec compliance |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) `18.9k★` | **2** | Regression tests, docs |
 | [joblib/joblib](https://github.com/joblib/joblib) `4.1k★` | **3** | Input validation, path handling |
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **2** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
-| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **51** | HTML rendering robustness |
+| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **56** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **4** | Image decoder robustness |
 | [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `339★` | **5** | Validation of real-world input |
 | [neuml/txtai](https://github.com/neuml/txtai) `13k★` | **2** | HTML to Markdown fidelity |
@@ -120,15 +120,17 @@
 | [tox-dev/tox](https://github.com/tox-dev/tox) `4k★` | **1** | Configuration correctness |
 | [lepture/mistune](https://github.com/lepture/mistune) `3.1k★` | **1** | Markdown round-trip rendering |
 | [docling-project/docling-core](https://github.com/docling-project/docling-core) `294★` | **1** | Markdown serialization correctness |
-| [mindee/doctr](https://github.com/mindee/doctr) `6.4k★` | **26** | Document model robustness |
+| [mindee/doctr](https://github.com/mindee/doctr) `6.4k★` | **28** | Document model robustness |
 | [adbar/trafilatura](https://github.com/adbar/trafilatura) `7k★` | **4** | Markdown output fidelity |
 | [JoshData/python-email-validator](https://github.com/JoshData/python-email-validator) `1.5k★` | **1** | RFC compliance of address parsing |
 
 <details>
-<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 77 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 79 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#4329](https://github.com/py-pdf/pypdf/pull/4329) | Robustness: `remove_images()`/`remove_text()` crashed when a page's `/Resources` or `/XObject` was not a dictionary; such entries are now skipped |
+| [#4305](https://github.com/py-pdf/pypdf/pull/4305) | Robustness: `add_outline_item()` crashed when `/Outlines` was not an indirect dictionary; it now repairs it and adds the item |
 | [#4272](https://github.com/py-pdf/pypdf/pull/4272) | Robustness: a page whose `/Resources` is not a dictionary made `page.images` raise `TypeError`; it now warns and treats the page as having no XObject images |
 | [#4271](https://github.com/py-pdf/pypdf/pull/4271) | Robustness: a page labels `/Nums` entry that is not an array made `reader.page_labels` raise `TypeError`; it now warns and falls back to the page position |
 | [#4256](https://github.com/py-pdf/pypdf/pull/4256) | Robustness: an embedded file entry that is not a dictionary made `reader.attachments` raise `TypeError`; it is now reported as malformed and skipped (`PdfReadError` in strict mode) |
@@ -265,10 +267,15 @@
 </details>
 
 <details>
-<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 51 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 56 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2104](https://github.com/py-pdf/fpdf2/pull/2104) | Robustness: `set_font_size()` and `set_stretching()` wrote NaN or infinity into the page (`inf Tf`, `nan Tz`); they now raise a clear `ValueError` |
+| [#2103](https://github.com/py-pdf/fpdf2/pull/2103) | Robustness: `set_line_width(nan)` wrote `nan w` and `set_dash_pattern()` accepted an infinite length; both now raise a clear `ValueError` |
+| [#2099](https://github.com/py-pdf/fpdf2/pull/2099) | Robustness: `FPDF(unit=0)` raised `ZeroDivisionError` and a negative unit a misleading margin error; a non-positive or non-finite unit now raises a clear `ValueError` |
+| [#2101](https://github.com/py-pdf/fpdf2/pull/2101) | Robustness: an invalid `set_page_background()` color failed only on the next `add_page()`; it is now checked when set |
+| [#2098](https://github.com/py-pdf/fpdf2/pull/2098) | Correctness: `rect(round_corners=...)` rounded the mirrored corner, left and right swapped; the named corners are now rounded |
 | [#2096](https://github.com/py-pdf/fpdf2/pull/2096) | Robustness: `table()` with a negative `width` or `col_widths` failed with an unrelated "Not enough horizontal space" error; it now raises a clear `ValueError` |
 | [#2095](https://github.com/py-pdf/fpdf2/pull/2095) | Correctness: `add_link(page=-2)` silently pointed to a page counted from the end of the document; a negative page other than -1 now raises a clear `ValueError` |
 | [#2094](https://github.com/py-pdf/fpdf2/pull/2094) | Robustness: `set_margins()` and the single-side margin setters accepted a negative margin, so text was written past the page edge; they now raise a clear `ValueError` |
@@ -395,12 +402,14 @@
 </details>
 
 <details>
-<summary><b>mindee/doctr</b> &nbsp;<code>6.4k★</code> &nbsp;—&nbsp; 26 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>mindee/doctr</b> &nbsp;<code>6.4k★</code> &nbsp;—&nbsp; 28 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
 | [#2212](https://github.com/mindee/doctr/pull/2212) | Robustness: `RandomShadow` sometimes raised a bare `ValueError` when a shadow base corner was rounded onto the tip corner; that corner is now kept |
 | [#2213](https://github.com/mindee/doctr/pull/2213) | Robustness: `RandomResize` turned a side under 4 pixels into 0 and crashed `Resize`; each side now keeps at least one pixel |
+| [#2215](https://github.com/mindee/doctr/pull/2215) | Robustness: `RandomRotate` added a channel axis to the mask, so batches mixing rotated and unrotated samples failed in `torch.stack`; the mask now keeps its shape |
+| [#2216](https://github.com/mindee/doctr/pull/2216) | Robustness: `rotate_sample` crashed on an image without any box; it now rotates the image and returns no polygon |
 | [#2214](https://github.com/mindee/doctr/pull/2214) | Robustness: `detach_scores([])` raised `ValueError` from unpacking; it now returns `([], [])` |
 | [#2210](https://github.com/mindee/doctr/pull/2210) | Robustness: `encode_sequences([])` without a fixed `target_size` crashed on `max()` of an empty list; it now returns an empty array |
 | [#2211](https://github.com/mindee/doctr/pull/2211) | Robustness: `invert_data_structure([])` raised `IndexError` and `invert_data_structure({})` a misleading length error; empty input now gives an empty result |

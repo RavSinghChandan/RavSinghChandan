@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 200 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 201 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -100,13 +100,13 @@
 [![trafilatura](https://img.shields.io/badge/✓_MERGED-adbar%2Ftrafilatura_(7k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adbar/trafilatura/pull/984)
 [![email-validator](https://img.shields.io/badge/✓_MERGED-JoshData%2Fpython--email--validator_(1.5k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JoshData/python-email-validator/pull/183)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **18** <sub>(in progress — goal: beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **19** <sub>(in progress — goal: beat October)</sub>
 
-**200 merged pull requests across 17 libraries.** Grouped by project — click any row to expand.
+**201 merged pull requests across 17 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf) `10.3k★` | **79** | Reader robustness, typing, spec compliance |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf) `10.3k★` | **80** | Reader robustness, typing, spec compliance |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) `18.9k★` | **2** | Regression tests, docs |
 | [joblib/joblib](https://github.com/joblib/joblib) `4.1k★` | **3** | Input validation, path handling |
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
@@ -125,10 +125,11 @@
 | [JoshData/python-email-validator](https://github.com/JoshData/python-email-validator) `1.5k★` | **1** | RFC compliance of address parsing |
 
 <details>
-<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 79 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 80 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#4349](https://github.com/py-pdf/pypdf/pull/4349) | Robustness: `remove_annotations()`/`remove_links()` crashed when a page's `/Annots` was a number or string, or held a non-dictionary entry; such values are now logged or kept instead of raising |
 | [#4329](https://github.com/py-pdf/pypdf/pull/4329) | Robustness: `remove_images()`/`remove_text()` crashed when a page's `/Resources` or `/XObject` was not a dictionary; such entries are now skipped |
 | [#4305](https://github.com/py-pdf/pypdf/pull/4305) | Robustness: `add_outline_item()` crashed when `/Outlines` was not an indirect dictionary; it now repairs it and adds the item |
 | [#4272](https://github.com/py-pdf/pypdf/pull/4272) | Robustness: a page whose `/Resources` is not a dictionary made `page.images` raise `TypeError`; it now warns and treats the page as having no XObject images |

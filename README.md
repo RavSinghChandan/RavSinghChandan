@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 218 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 219 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -83,6 +83,8 @@
   <a href="https://github.com/JoshData/python-email-validator/pull/183"><img src="./assets/email-validator-logo.svg" height="46" alt="email-validator" /></a>
   &nbsp;&nbsp;
   <a href="https://github.com/pikepdf/pikepdf/pull/751"><img src="./assets/pikepdf-logo.png" height="46" alt="pikepdf" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/mozman/ezdxf/pull/1463"><img src="./assets/ezdxf-logo.svg" height="46" alt="ezdxf" /></a>
 </p>
 
 [![joblib](https://img.shields.io/badge/✓_MERGED-joblib%2Fjoblib_(4.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joblib/joblib/pull/1812)
@@ -102,10 +104,11 @@
 [![trafilatura](https://img.shields.io/badge/✓_MERGED-adbar%2Ftrafilatura_(7k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/adbar/trafilatura/pull/984)
 [![email-validator](https://img.shields.io/badge/✓_MERGED-JoshData%2Fpython--email--validator_(1.5k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JoshData/python-email-validator/pull/183)
 [![pikepdf](https://img.shields.io/badge/✓_MERGED-pikepdf%2Fpikepdf_(2.8k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pikepdf/pikepdf/pull/751)
+[![ezdxf](https://img.shields.io/badge/✓_MERGED-mozman%2Fezdxf_(1.5k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mozman/ezdxf/pull/1463)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **36** <sub>(in progress — goal: beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **37** <sub>(in progress — goal: beat October)</sub>
 
-**218 merged pull requests across 18 libraries.** Grouped by project — click any row to expand.
+**219 merged pull requests across 19 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -127,6 +130,7 @@
 | [adbar/trafilatura](https://github.com/adbar/trafilatura) `7k★` | **4** | Markdown output fidelity |
 | [JoshData/python-email-validator](https://github.com/JoshData/python-email-validator) `1.5k★` | **1** | RFC compliance of address parsing |
 | [pikepdf/pikepdf](https://github.com/pikepdf/pikepdf) `2.8k★` | **3** | Image extraction from real-world PDFs |
+| [mozman/ezdxf](https://github.com/mozman/ezdxf) `1.5k★` | **1** | Geometry of transformed CAD entities |
 
 <details>
 <summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 80 merged &nbsp;<i>(click to expand)</i></summary>
@@ -488,9 +492,17 @@
 | [#749](https://github.com/pikepdf/pikepdf/pull/749) | Robustness: an unknown page label style such as `/S /Z` made `page.label` raise `KeyError`; it now warns and keeps the prefix, like other invalid styles (merged to main by the maintainer) |
 
 </details>
-> 🔄 **In review — 34 open PRs:** typeguard 5 · fonttools 3 · pypdf 2 · pygments 2 · joblib 2 · fpdf2 2 · evaluate 2 · doctr 2 · urllib3 · smolagents · ragas · python-markdown2 · python-jose · python-email-validator · pyelftools · narwhals · mistune · kokoro-onnx · imagehash · ezdxf · charset_normalizer · camelot — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+<details>
+<summary><b>mozman/ezdxf</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 1 merged &nbsp;<i>(click to expand)</i></summary>
 
-*218 merged across 18 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+| PR | Contribution |
+|---|---|
+| [#1463](https://github.com/mozman/ezdxf/pull/1463) | Correctness: `MLine.transform()` kept a stale scale factor under 2D scaling and rotate-plus-scale, and put one-sided elements on the wrong side when mirrored; it now uses the same OCS transform as CIRCLE and ARC (fixes #1457) |
+
+</details>
+> 🔄 **In review — 40 open PRs:** fpdf2 6 · typeguard 5 · fonttools 3 · pypdf 2 · pygments 2 · joblib 2 · evaluate 2 · doctr 2 · urllib3 · svglib · smolagents · ragas · python-markdown2 · python-jose · python-email-validator · pyelftools · pikepdf · narwhals · mistune · kokoro-onnx · imagehash · charset_normalizer · camelot · OCRmyPDF — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+
+*219 merged across 19 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

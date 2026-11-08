@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 216 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 218 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -103,9 +103,9 @@
 [![email-validator](https://img.shields.io/badge/✓_MERGED-JoshData%2Fpython--email--validator_(1.5k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JoshData/python-email-validator/pull/183)
 [![pikepdf](https://img.shields.io/badge/✓_MERGED-pikepdf%2Fpikepdf_(2.8k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pikepdf/pikepdf/pull/751)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **34** <sub>(in progress — goal: beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **36** <sub>(in progress — goal: beat October)</sub>
 
-**216 merged pull requests across 18 libraries.** Grouped by project — click any row to expand.
+**218 merged pull requests across 18 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -126,7 +126,7 @@
 | [mindee/doctr](https://github.com/mindee/doctr) `6.4k★` | **29** | Document model robustness |
 | [adbar/trafilatura](https://github.com/adbar/trafilatura) `7k★` | **4** | Markdown output fidelity |
 | [JoshData/python-email-validator](https://github.com/JoshData/python-email-validator) `1.5k★` | **1** | RFC compliance of address parsing |
-| [pikepdf/pikepdf](https://github.com/pikepdf/pikepdf) `2.8k★` | **1** | Image extraction from real-world PDFs |
+| [pikepdf/pikepdf](https://github.com/pikepdf/pikepdf) `2.8k★` | **3** | Image extraction from real-world PDFs |
 
 <details>
 <summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 80 merged &nbsp;<i>(click to expand)</i></summary>
@@ -479,16 +479,18 @@
 
 </details>
 <details>
-<summary><b>pikepdf/pikepdf</b> &nbsp;<code>2.8k★</code> &nbsp;—&nbsp; 1 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>pikepdf/pikepdf</b> &nbsp;<code>2.8k★</code> &nbsp;—&nbsp; 3 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
 | [#751](https://github.com/pikepdf/pikepdf/pull/751) | Robustness: an ICC-based image whose profile stream omits the required `/N` made `PdfImage.mode` and `as_pil_image()` raise `KeyError`; the mode now comes from the profile's own colour space (extended by the maintainer into `icc_ncomponents()`) |
+| [#750](https://github.com/pikepdf/pikepdf/pull/750) | Robustness: an image with `/ColorSpace [/CalRGB]` and no parameter dictionary raised `IndexError` in `as_pil_image()`; it now falls back to the device colour space (merged to main by the maintainer) |
+| [#749](https://github.com/pikepdf/pikepdf/pull/749) | Robustness: an unknown page label style such as `/S /Z` made `page.label` raise `KeyError`; it now warns and keeps the prefix, like other invalid styles (merged to main by the maintainer) |
 
 </details>
 > 🔄 **In review — 34 open PRs:** typeguard 5 · fonttools 3 · pypdf 2 · pygments 2 · joblib 2 · fpdf2 2 · evaluate 2 · doctr 2 · urllib3 · smolagents · ragas · python-markdown2 · python-jose · python-email-validator · pyelftools · narwhals · mistune · kokoro-onnx · imagehash · ezdxf · charset_normalizer · camelot — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*216 merged across 18 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*218 merged across 18 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

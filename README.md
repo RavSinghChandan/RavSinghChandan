@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 223 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 225 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -91,6 +91,8 @@
   <a href="https://github.com/deeplook/svglib/pull/537"><img src="./assets/svglib-logo.svg" height="46" alt="svglib" /></a>
   &nbsp;&nbsp;
   <a href="https://github.com/trentm/python-markdown2/pull/758"><img src="./assets/markdown2-logo.svg" height="46" alt="python-markdown2" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/frostming/marko/pull/302"><img src="./assets/marko-logo.svg" height="46" alt="marko" /></a>
 </p>
 
 [![joblib](https://img.shields.io/badge/✓_MERGED-joblib%2Fjoblib_(4.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joblib/joblib/pull/1812)
@@ -114,10 +116,11 @@
 [![pdfannots](https://img.shields.io/badge/✓_MERGED-0xabu%2Fpdfannots_(674★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0xabu/pdfannots/pull/125)
 [![svglib](https://img.shields.io/badge/✓_MERGED-deeplook%2Fsvglib_(371★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/deeplook/svglib/pull/537)
 [![python-markdown2](https://img.shields.io/badge/✓_MERGED-trentm%2Fpython--markdown2_(2.8k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/trentm/python-markdown2/pull/758)
+[![marko](https://img.shields.io/badge/✓_MERGED-frostming%2Fmarko_(470★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/frostming/marko/pull/302)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **41** <sub>(in progress — goal: beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **43** <sub>(in progress — goal: beat October)</sub>
 
-**223 merged pull requests across 22 libraries.** Grouped by project — click any row to expand.
+**225 merged pull requests across 23 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -141,8 +144,9 @@
 | [pikepdf/pikepdf](https://github.com/pikepdf/pikepdf) `2.8k★` | **3** | Image extraction from real-world PDFs |
 | [mozman/ezdxf](https://github.com/mozman/ezdxf) `1.5k★` | **1** | Geometry of transformed CAD entities |
 | [0xabu/pdfannots](https://github.com/0xabu/pdfannots) `674★` | **2** | Annotation extraction from real-world PDFs |
-| [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **1** | SVG/CSS spec coverage in SVG-to-PDF conversion |
+| [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **2** | SVG/CSS spec coverage in SVG-to-PDF conversion |
 | [trentm/python-markdown2](https://github.com/trentm/python-markdown2) `2.8k★` | **1** | Footnotes extra output |
+| [frostming/marko](https://github.com/frostming/marko) `470★` | **1** | Markdown re-rendering that keeps the same HTML |
 
 <details>
 <summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 80 merged &nbsp;<i>(click to expand)</i></summary>
@@ -522,10 +526,11 @@
 
 </details>
 <details>
-<summary><b>deeplook/svglib</b> &nbsp;<code>371★</code> &nbsp;—&nbsp; 1 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>deeplook/svglib</b> &nbsp;<code>371★</code> &nbsp;—&nbsp; 2 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#541](https://github.com/deeplook/svglib/pull/541) | Correctness: color names in any case (`fill="White"`, `RGB(...)`) left shapes without a fill or stroke; keywords and function names are now case-insensitive, as in CSS |
 | [#537](https://github.com/deeplook/svglib/pull/537) | Correctness: CSS font-size keywords such as `large` and `smaller` made `svg2rlg()` fail with `ValueError`; they now use the CSS Fonts scale |
 
 </details>
@@ -537,9 +542,17 @@
 | [#758](https://github.com/trentm/python-markdown2/pull/758) | Correctness: the `footnotes` extra wrote an empty footnotes block (a stray `<hr>`) when no footnote was referenced |
 
 </details>
-> 🔄 **In review — 40 open PRs:** fpdf2 6 · typeguard 5 · fonttools 3 · doctr 2 · evaluate 2 · joblib 2 · pygments 2 · pypdf 2 · OCRmyPDF · PyMuPDF · camelot · charset_normalizer · imagehash · kokoro-onnx · mistune · narwhals · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · smolagents · svglib · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+<details>
+<summary><b>frostming/marko</b> &nbsp;<code>470★</code> &nbsp;—&nbsp; 1 merged &nbsp;<i>(click to expand)</i></summary>
 
-*223 merged across 22 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+| PR | Contribution |
+|---|---|
+| [#302](https://github.com/frostming/marko/pull/302) | Correctness: `MarkdownRenderer` wrote blank lines inside a block quote without `>`, so a two-paragraph quote came back as two quotes; blank lines and loose-list separators now keep the quote markers |
+
+</details>
+> 🔄 **In review — 42 open PRs:** fpdf2 6 · typeguard 5 · fonttools 3 · doctr 2 · evaluate 2 · joblib 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · PyMuPDF · camelot · charset_normalizer · imagehash · kokoro-onnx · mistune · narwhals · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · smolagents · svglib · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+
+*225 merged across 23 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

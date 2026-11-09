@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 232 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 234 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -121,13 +121,13 @@
 [![marko](https://img.shields.io/badge/✓_MERGED-frostming%2Fmarko_(470★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/frostming/marko/pull/302)
 [![PyMuPDF](https://img.shields.io/badge/✓_MERGED-pymupdf%2FPyMuPDF_(11.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pymupdf/PyMuPDF/pull/5264)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **50** <sub>(in progress — goal: beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **52** <sub>(in progress — goal: beat October)</sub>
 
-**232 merged pull requests across 24 libraries.** Grouped by project — click any row to expand.
+**234 merged pull requests across 24 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf) `10.3k★` | **80** | Reader robustness, typing, spec compliance |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf) `10.3k★` | **81** | Reader robustness, typing, spec compliance |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) `18.9k★` | **2** | Regression tests, docs |
 | [joblib/joblib](https://github.com/joblib/joblib) `4.1k★` | **3** | Input validation, path handling |
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
@@ -147,16 +147,17 @@
 | [pikepdf/pikepdf](https://github.com/pikepdf/pikepdf) `2.8k★` | **3** | Image extraction from real-world PDFs |
 | [mozman/ezdxf](https://github.com/mozman/ezdxf) `1.5k★` | **1** | Geometry of transformed CAD entities |
 | [0xabu/pdfannots](https://github.com/0xabu/pdfannots) `674★` | **2** | Annotation extraction from real-world PDFs |
-| [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **3** | SVG/CSS spec coverage in SVG-to-PDF conversion |
+| [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **4** | SVG/CSS spec coverage in SVG-to-PDF conversion |
 | [trentm/python-markdown2](https://github.com/trentm/python-markdown2) `2.8k★` | **1** | Footnotes extra output |
 | [frostming/marko](https://github.com/frostming/marko) `470★` | **3** | Markdown re-rendering that keeps the same HTML |
 | [pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF) `11.1k★` | **1** | PDF spec compliance of page labels |
 
 <details>
-<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 80 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 81 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#4376](https://github.com/py-pdf/pypdf/pull/4376) | Robustness: `get_contents()`, `compress_content_streams()`, `scale_by()`, `merge_page()` and `remove_text()` crashed when a page's `/Contents` was a number, string or plain dictionary; it is now logged and treated as missing |
 | [#4349](https://github.com/py-pdf/pypdf/pull/4349) | Robustness: `remove_annotations()`/`remove_links()` crashed when a page's `/Annots` was a number or string, or held a non-dictionary entry; such values are now logged or kept instead of raising |
 | [#4329](https://github.com/py-pdf/pypdf/pull/4329) | Robustness: `remove_images()`/`remove_text()` crashed when a page's `/Resources` or `/XObject` was not a dictionary; such entries are now skipped |
 | [#4305](https://github.com/py-pdf/pypdf/pull/4305) | Robustness: `add_outline_item()` crashed when `/Outlines` was not an indirect dictionary; it now repairs it and adds the item |
@@ -533,10 +534,11 @@
 
 </details>
 <details>
-<summary><b>deeplook/svglib</b> &nbsp;<code>371★</code> &nbsp;—&nbsp; 3 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>deeplook/svglib</b> &nbsp;<code>371★</code> &nbsp;—&nbsp; 4 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#540](https://github.com/deeplook/svglib/pull/540) | Correctness: nested `<svg viewBox>` content was drawn at 75% of its `width`/`height` because the px-to-pt factor was applied twice; it now fills its viewport, as in browsers |
 | [#542](https://github.com/deeplook/svglib/pull/542) | Correctness: `fill="rebeccapurple"` or `"lightgray"` left shapes unfilled (missing from ReportLab) and `darkseagreen` used ReportLab's different shade; these CSS colors are now looked up first |
 | [#541](https://github.com/deeplook/svglib/pull/541) | Correctness: color names in any case (`fill="White"`, `RGB(...)`) left shapes without a fill or stroke; keywords and function names are now case-insensitive, as in CSS |
 | [#537](https://github.com/deeplook/svglib/pull/537) | Correctness: CSS font-size keywords such as `large` and `smaller` made `svg2rlg()` fail with `ValueError`; they now use the CSS Fonts scale |
@@ -570,7 +572,7 @@
 </details>
 > 🔄 **In review — 41 open PRs:** fpdf2 5 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · doctr · imagehash · kokoro-onnx · mistune · narwhals · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*232 merged across 24 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*234 merged across 24 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

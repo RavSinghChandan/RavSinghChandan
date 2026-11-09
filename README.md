@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 225 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 226 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -118,9 +118,9 @@
 [![python-markdown2](https://img.shields.io/badge/✓_MERGED-trentm%2Fpython--markdown2_(2.8k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/trentm/python-markdown2/pull/758)
 [![marko](https://img.shields.io/badge/✓_MERGED-frostming%2Fmarko_(470★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/frostming/marko/pull/302)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **43** <sub>(in progress — goal: beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **44** <sub>(in progress — goal: beat October)</sub>
 
-**225 merged pull requests across 23 libraries.** Grouped by project — click any row to expand.
+**226 merged pull requests across 23 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -146,7 +146,7 @@
 | [0xabu/pdfannots](https://github.com/0xabu/pdfannots) `674★` | **2** | Annotation extraction from real-world PDFs |
 | [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **2** | SVG/CSS spec coverage in SVG-to-PDF conversion |
 | [trentm/python-markdown2](https://github.com/trentm/python-markdown2) `2.8k★` | **1** | Footnotes extra output |
-| [frostming/marko](https://github.com/frostming/marko) `470★` | **1** | Markdown re-rendering that keeps the same HTML |
+| [frostming/marko](https://github.com/frostming/marko) `470★` | **2** | Markdown re-rendering that keeps the same HTML |
 
 <details>
 <summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 80 merged &nbsp;<i>(click to expand)</i></summary>
@@ -543,16 +543,17 @@
 
 </details>
 <details>
-<summary><b>frostming/marko</b> &nbsp;<code>470★</code> &nbsp;—&nbsp; 1 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>frostming/marko</b> &nbsp;<code>470★</code> &nbsp;—&nbsp; 2 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#303](https://github.com/frostming/marko/pull/303) | Correctness: lines of an HTML block inside a quote or list item lost their `>` or indent, so `> <details>…</details>` fell out of the quote; every line now keeps the container prefix |
 | [#302](https://github.com/frostming/marko/pull/302) | Correctness: `MarkdownRenderer` wrote blank lines inside a block quote without `>`, so a two-paragraph quote came back as two quotes; blank lines and loose-list separators now keep the quote markers |
 
 </details>
-> 🔄 **In review — 42 open PRs:** fpdf2 6 · typeguard 5 · fonttools 3 · doctr 2 · evaluate 2 · joblib 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · PyMuPDF · camelot · charset_normalizer · imagehash · kokoro-onnx · mistune · narwhals · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · smolagents · svglib · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+> 🔄 **In review — 42 open PRs:** fpdf2 6 · typeguard 5 · fonttools 3 · evaluate 2 · joblib 2 · pdfannots 2 · pygments 2 · pypdf 2 · svglib 2 · OCRmyPDF · PyMuPDF · camelot · charset_normalizer · doctr · imagehash · kokoro-onnx · mistune · narwhals · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*225 merged across 23 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*226 merged across 23 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

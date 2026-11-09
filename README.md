@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 226 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 230 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -93,6 +93,8 @@
   <a href="https://github.com/trentm/python-markdown2/pull/758"><img src="./assets/markdown2-logo.svg" height="46" alt="python-markdown2" /></a>
   &nbsp;&nbsp;
   <a href="https://github.com/frostming/marko/pull/302"><img src="./assets/marko-logo.svg" height="46" alt="marko" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/pymupdf/PyMuPDF/pull/5264"><img src="./assets/pymupdf-logo.svg" height="46" alt="PyMuPDF" /></a>
 </p>
 
 [![joblib](https://img.shields.io/badge/✓_MERGED-joblib%2Fjoblib_(4.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joblib/joblib/pull/1812)
@@ -117,10 +119,11 @@
 [![svglib](https://img.shields.io/badge/✓_MERGED-deeplook%2Fsvglib_(371★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/deeplook/svglib/pull/537)
 [![python-markdown2](https://img.shields.io/badge/✓_MERGED-trentm%2Fpython--markdown2_(2.8k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/trentm/python-markdown2/pull/758)
 [![marko](https://img.shields.io/badge/✓_MERGED-frostming%2Fmarko_(470★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/frostming/marko/pull/302)
+[![PyMuPDF](https://img.shields.io/badge/✓_MERGED-pymupdf%2FPyMuPDF_(11.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pymupdf/PyMuPDF/pull/5264)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **44** <sub>(in progress — goal: beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **48** <sub>(in progress — goal: beat October)</sub>
 
-**226 merged pull requests across 23 libraries.** Grouped by project — click any row to expand.
+**230 merged pull requests across 24 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -130,7 +133,7 @@
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **2** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
-| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **71** | HTML rendering robustness |
+| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **72** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **4** | Image decoder robustness |
 | [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `339★` | **5** | Validation of real-world input |
 | [neuml/txtai](https://github.com/neuml/txtai) `13k★` | **2** | HTML to Markdown fidelity |
@@ -138,7 +141,7 @@
 | [tox-dev/tox](https://github.com/tox-dev/tox) `4k★` | **1** | Configuration correctness |
 | [lepture/mistune](https://github.com/lepture/mistune) `3.1k★` | **1** | Markdown round-trip rendering |
 | [docling-project/docling-core](https://github.com/docling-project/docling-core) `294★` | **1** | Markdown serialization correctness |
-| [mindee/doctr](https://github.com/mindee/doctr) `6.4k★` | **29** | Document model robustness |
+| [mindee/doctr](https://github.com/mindee/doctr) `6.4k★` | **30** | Document model robustness |
 | [adbar/trafilatura](https://github.com/adbar/trafilatura) `7k★` | **4** | Markdown output fidelity |
 | [JoshData/python-email-validator](https://github.com/JoshData/python-email-validator) `1.5k★` | **1** | RFC compliance of address parsing |
 | [pikepdf/pikepdf](https://github.com/pikepdf/pikepdf) `2.8k★` | **3** | Image extraction from real-world PDFs |
@@ -146,7 +149,8 @@
 | [0xabu/pdfannots](https://github.com/0xabu/pdfannots) `674★` | **2** | Annotation extraction from real-world PDFs |
 | [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **2** | SVG/CSS spec coverage in SVG-to-PDF conversion |
 | [trentm/python-markdown2](https://github.com/trentm/python-markdown2) `2.8k★` | **1** | Footnotes extra output |
-| [frostming/marko](https://github.com/frostming/marko) `470★` | **2** | Markdown re-rendering that keeps the same HTML |
+| [frostming/marko](https://github.com/frostming/marko) `470★` | **3** | Markdown re-rendering that keeps the same HTML |
+| [pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF) `11.1k★` | **1** | PDF spec compliance of page labels |
 
 <details>
 <summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 80 merged &nbsp;<i>(click to expand)</i></summary>
@@ -292,10 +296,11 @@
 </details>
 
 <details>
-<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 71 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 72 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2132](https://github.com/py-pdf/fpdf2/pull/2132) | Correctness: an arc whose end point is its start point drew a full circle; it is now omitted, as SVG specifies |
 | [#2129](https://github.com/py-pdf/fpdf2/pull/2129) | Robustness: `add_page()`/`set_page_label()` wrote `/St nan` for a NaN or infinite `label_start`; it now raises the existing `ValueError` |
 | [#2128](https://github.com/py-pdf/fpdf2/pull/2128) | Robustness: a rounded `rect()` with an infinite `corner_radius` wrote `inf`/`nan` coordinates, and NaN crashed; both now raise a clear `ValueError` |
 | [#2127](https://github.com/py-pdf/fpdf2/pull/2127) | Robustness: `arc()`/`solid_arc()` raised `ZeroDivisionError` for a zero size and a cryptic error for NaN; they now raise a clear `ValueError` |
@@ -442,10 +447,11 @@
 </details>
 
 <details>
-<summary><b>mindee/doctr</b> &nbsp;<code>6.4k★</code> &nbsp;—&nbsp; 29 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>mindee/doctr</b> &nbsp;<code>6.4k★</code> &nbsp;—&nbsp; 30 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2219](https://github.com/mindee/doctr/pull/2219) | Correctness: a self-intersecting ground-truth box crashed the polygon metrics deep in GEOS; `update()` now raises a clear `ValueError` naming the broken boxes |
 | [#2217](https://github.com/mindee/doctr/pull/2217) | Correctness: a 16-bit grayscale PNG came out almost all white from `read_img_as_tensor` and `decode_img_as_tensor` (Pillow clips instead of scaling); values are now shifted to 8 bits like `cv2.imdecode`, so both readers agree |
 | [#2212](https://github.com/mindee/doctr/pull/2212) | Robustness: `RandomShadow` sometimes raised a bare `ValueError` when a shadow base corner was rounded onto the tip corner; that corner is now kept |
 | [#2213](https://github.com/mindee/doctr/pull/2213) | Robustness: `RandomResize` turned a side under 4 pixels into 0 and crashed `Resize`; each side now keeps at least one pixel |
@@ -543,17 +549,26 @@
 
 </details>
 <details>
-<summary><b>frostming/marko</b> &nbsp;<code>470★</code> &nbsp;—&nbsp; 2 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>frostming/marko</b> &nbsp;<code>470★</code> &nbsp;—&nbsp; 3 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#304](https://github.com/frostming/marko/pull/304) | Correctness: a setext heading over several lines was re-rendered as a one-line ATX heading, pushing the other lines into a paragraph; multi-line headings now stay setext |
 | [#303](https://github.com/frostming/marko/pull/303) | Correctness: lines of an HTML block inside a quote or list item lost their `>` or indent, so `> <details>…</details>` fell out of the quote; every line now keeps the container prefix |
 | [#302](https://github.com/frostming/marko/pull/302) | Correctness: `MarkdownRenderer` wrote blank lines inside a block quote without `>`, so a two-paragraph quote came back as two quotes; blank lines and loose-list separators now keep the quote markers |
 
 </details>
-> 🔄 **In review — 42 open PRs:** fpdf2 6 · typeguard 5 · fonttools 3 · evaluate 2 · joblib 2 · pdfannots 2 · pygments 2 · pypdf 2 · svglib 2 · OCRmyPDF · PyMuPDF · camelot · charset_normalizer · doctr · imagehash · kokoro-onnx · mistune · narwhals · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+<details>
+<summary><b>pymupdf/PyMuPDF</b> &nbsp;<code>11.1k★</code> &nbsp;—&nbsp; 1 merged &nbsp;<i>(click to expand)</i></summary>
 
-*226 merged across 23 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+| PR | Contribution |
+|---|---|
+| [#5264](https://github.com/pymupdf/PyMuPDF/pull/5264) | Spec compliance: letter page labels (`/S /A`, `/S /a`) after Z continued with punctuation instead of AA, BB, …; they now follow the PDF specification (approved by JorjMcKie, who wrote the original function) |
+
+</details>
+> 🔄 **In review — 41 open PRs:** fpdf2 5 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · doctr · imagehash · kokoro-onnx · mistune · narwhals · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+
+*230 merged across 24 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

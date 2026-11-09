@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 230 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 231 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -121,9 +121,9 @@
 [![marko](https://img.shields.io/badge/✓_MERGED-frostming%2Fmarko_(470★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/frostming/marko/pull/302)
 [![PyMuPDF](https://img.shields.io/badge/✓_MERGED-pymupdf%2FPyMuPDF_(11.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pymupdf/PyMuPDF/pull/5264)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **48** <sub>(in progress — goal: beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **49** <sub>(in progress — goal: beat October)</sub>
 
-**230 merged pull requests across 24 libraries.** Grouped by project — click any row to expand.
+**231 merged pull requests across 24 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -133,7 +133,7 @@
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **2** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
-| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **72** | HTML rendering robustness |
+| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **73** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **4** | Image decoder robustness |
 | [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `339★` | **5** | Validation of real-world input |
 | [neuml/txtai](https://github.com/neuml/txtai) `13k★` | **2** | HTML to Markdown fidelity |
@@ -296,10 +296,11 @@
 </details>
 
 <details>
-<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 72 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 73 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2130](https://github.com/py-pdf/fpdf2/pull/2130) | Robustness: `ink_annotation()` wrote NaN or infinite points into the PDF as invalid numbers; they now raise a clear `ValueError`, and any iterable of points still works |
 | [#2132](https://github.com/py-pdf/fpdf2/pull/2132) | Correctness: an arc whose end point is its start point drew a full circle; it is now omitted, as SVG specifies |
 | [#2129](https://github.com/py-pdf/fpdf2/pull/2129) | Robustness: `add_page()`/`set_page_label()` wrote `/St nan` for a NaN or infinite `label_start`; it now raises the existing `ValueError` |
 | [#2128](https://github.com/py-pdf/fpdf2/pull/2128) | Robustness: a rounded `rect()` with an infinite `corner_radius` wrote `inf`/`nan` coordinates, and NaN crashed; both now raise a clear `ValueError` |
@@ -568,7 +569,7 @@
 </details>
 > 🔄 **In review — 41 open PRs:** fpdf2 5 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · doctr · imagehash · kokoro-onnx · mistune · narwhals · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*230 merged across 24 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*231 merged across 24 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

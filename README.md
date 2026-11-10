@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 241 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 243 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -121,9 +121,9 @@
 [![marko](https://img.shields.io/badge/✓_MERGED-frostming%2Fmarko_(470★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/frostming/marko/pull/302)
 [![PyMuPDF](https://img.shields.io/badge/✓_MERGED-pymupdf%2FPyMuPDF_(11.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pymupdf/PyMuPDF/pull/5264)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **59** <sub>(in progress — goal: beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **61** <sub>(in progress — goal: beat October)</sub>
 
-**241 merged pull requests across 24 libraries.** Grouped by project — click any row to expand.
+**243 merged pull requests across 24 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -146,7 +146,7 @@
 | [JoshData/python-email-validator](https://github.com/JoshData/python-email-validator) `1.5k★` | **1** | RFC compliance of address parsing |
 | [pikepdf/pikepdf](https://github.com/pikepdf/pikepdf) `2.8k★` | **3** | Image extraction from real-world PDFs |
 | [mozman/ezdxf](https://github.com/mozman/ezdxf) `1.5k★` | **1** | Geometry of transformed CAD entities |
-| [0xabu/pdfannots](https://github.com/0xabu/pdfannots) `674★` | **2** | Annotation extraction from real-world PDFs |
+| [0xabu/pdfannots](https://github.com/0xabu/pdfannots) `674★` | **4** | Annotation extraction from real-world PDFs |
 | [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **5** | SVG/CSS spec coverage in SVG-to-PDF conversion |
 | [trentm/python-markdown2](https://github.com/trentm/python-markdown2) `2.8k★` | **1** | Footnotes extra output |
 | [frostming/marko](https://github.com/frostming/marko) `470★` | **4** | Markdown re-rendering that keeps the same HTML |
@@ -530,10 +530,12 @@
 
 </details>
 <details>
-<summary><b>0xabu/pdfannots</b> &nbsp;<code>674★</code> &nbsp;—&nbsp; 2 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>0xabu/pdfannots</b> &nbsp;<code>674★</code> &nbsp;—&nbsp; 4 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#128](https://github.com/0xabu/pdfannots/pull/128) | Robustness: a page whose `/Annots` array listed a non-annotation dictionary (a link's action dict, as in a published paper) stopped the run with `AssertionError`; entries without a valid `/Subtype` are now skipped |
+| [#127](https://github.com/0xabu/pdfannots/pull/127) | Robustness: outlines pointing to pages not in the document (page excerpts that kept their bookmarks; 9 of 67 ICDAR 2013 PDFs) made the run fail at the end and print nothing; such outlines are now ignored |
 | [#126](https://github.com/0xabu/pdfannots/pull/126) | Robustness: a page whose `/MediaBox` lists its corners in the other order (allowed by the PDF spec) crashed the whole run; rectangles are now normalized |
 | [#125](https://github.com/0xabu/pdfannots/pull/125) | Robustness: an annotation whose `/Contents` or `/Subtype` was an indirect object crashed the whole run (`AttributeError` / `AssertionError`); both are now resolved with `resolve1()` like the other entries |
 
@@ -577,9 +579,9 @@
 | [#5264](https://github.com/pymupdf/PyMuPDF/pull/5264) | Spec compliance: letter page labels (`/S /A`, `/S /a`) after Z continued with punctuation instead of AA, BB, …; they now follow the PDF specification (approved by JorjMcKie, who wrote the original function) |
 
 </details>
-> 🔄 **In review — 41 open PRs:** fpdf2 5 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · doctr · imagehash · kokoro-onnx · mistune · narwhals · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+> 🔄 **In review — 51 open PRs:** fpdf2 13 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · doctr · imagehash · kokoro-onnx · mistune · narwhals · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*241 merged across 24 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*243 merged across 24 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

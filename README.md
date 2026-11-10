@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 248 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 250 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -121,9 +121,9 @@
 [![marko](https://img.shields.io/badge/✓_MERGED-frostming%2Fmarko_(470★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/frostming/marko/pull/302)
 [![PyMuPDF](https://img.shields.io/badge/✓_MERGED-pymupdf%2FPyMuPDF_(11.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pymupdf/PyMuPDF/pull/5264)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **66** <sub>(in progress — goal: beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **68** <sub>(in progress — goal: beat October)</sub>
 
-**248 merged pull requests across 24 libraries.** Grouped by project — click any row to expand.
+**250 merged pull requests across 24 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -133,7 +133,7 @@
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **2** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
-| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **81** | HTML rendering robustness |
+| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **83** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **4** | Image decoder robustness |
 | [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `339★` | **5** | Validation of real-world input |
 | [neuml/txtai](https://github.com/neuml/txtai) `13k★` | **2** | HTML to Markdown fidelity |
@@ -298,10 +298,12 @@
 </details>
 
 <details>
-<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 81 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 83 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2160](https://github.com/py-pdf/fpdf2/pull/2160) | Robustness: `fill="currentcolor"`, as in the Font Awesome icons that WordPress plugins put in web pages, failed with `unsupported color specification`; `currentColor` and `inherit` are now read regardless of case, like other CSS keywords |
+| [#2146](https://github.com/py-pdf/fpdf2/pull/2146) | Robustness: definitions in a `<defs>` nested in another `<defs>` were skipped, so Wikipedia's Berlin location map failed with `KeyError: '#clipPath1'`; nested `<defs>` are now read |
 | [#2153](https://github.com/py-pdf/fpdf2/pull/2153) | Robustness: black or gray SVG text in a `<tspan>` with its own style, as Inkscape writes every text, failed with an `AssertionError`; gray text colors are now accepted |
 | [#2144](https://github.com/py-pdf/fpdf2/pull/2144) | Robustness: an SVG `<path d="">`, as PyMuPDF and ezdxf write, failed with `Path does not start with move item`; empty path data now disables rendering like a missing `d`, as SVG says |
 | [#2143](https://github.com/py-pdf/fpdf2/pull/2143) | Correctness: `clip-path="none"` (Inkscape) failed with an `AssertionError`, and an id with `-` or `.` was cut short, so `url(#clip-1)` clipped with `#clip` or raised `KeyError`; any `url(#id)` reference, quoted or not, now finds its clip path |
@@ -586,7 +588,7 @@
 </details>
 > 🔄 **In review — 49 open PRs:** fpdf2 11 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · doctr · imagehash · kokoro-onnx · mistune · narwhals · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*248 merged across 24 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*250 merged across 24 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

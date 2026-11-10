@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 234 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 240 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -121,9 +121,9 @@
 [![marko](https://img.shields.io/badge/✓_MERGED-frostming%2Fmarko_(470★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/frostming/marko/pull/302)
 [![PyMuPDF](https://img.shields.io/badge/✓_MERGED-pymupdf%2FPyMuPDF_(11.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pymupdf/PyMuPDF/pull/5264)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **52** <sub>(in progress — goal: beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **58** <sub>(in progress — goal: beat October)</sub>
 
-**234 merged pull requests across 24 libraries.** Grouped by project — click any row to expand.
+**240 merged pull requests across 24 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -133,7 +133,7 @@
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **2** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
-| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **73** | HTML rendering robustness |
+| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **78** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **4** | Image decoder robustness |
 | [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `339★` | **5** | Validation of real-world input |
 | [neuml/txtai](https://github.com/neuml/txtai) `13k★` | **2** | HTML to Markdown fidelity |
@@ -147,7 +147,7 @@
 | [pikepdf/pikepdf](https://github.com/pikepdf/pikepdf) `2.8k★` | **3** | Image extraction from real-world PDFs |
 | [mozman/ezdxf](https://github.com/mozman/ezdxf) `1.5k★` | **1** | Geometry of transformed CAD entities |
 | [0xabu/pdfannots](https://github.com/0xabu/pdfannots) `674★` | **2** | Annotation extraction from real-world PDFs |
-| [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **4** | SVG/CSS spec coverage in SVG-to-PDF conversion |
+| [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **5** | SVG/CSS spec coverage in SVG-to-PDF conversion |
 | [trentm/python-markdown2](https://github.com/trentm/python-markdown2) `2.8k★` | **1** | Footnotes extra output |
 | [frostming/marko](https://github.com/frostming/marko) `470★` | **3** | Markdown re-rendering that keeps the same HTML |
 | [pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF) `11.1k★` | **1** | PDF spec compliance of page labels |
@@ -297,10 +297,15 @@
 </details>
 
 <details>
-<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 73 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 78 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2142](https://github.com/py-pdf/fpdf2/pull/2142) | Robustness: an SVG without `xmlns` crashed with `substring not found` on any unsupported tag (`<title>`, `<script>`); the tag is now skipped with the usual warning |
+| [#2141](https://github.com/py-pdf/fpdf2/pull/2141) | Robustness: `text()` wrote a NaN or infinite position into the page as an invalid number; it now raises a clear `ValueError`, like `set_xy()` |
+| [#2135](https://github.com/py-pdf/fpdf2/pull/2135) | Robustness: `RadialGradient` wrote a negative or non-finite radius into the PDF; it now raises a clear `ValueError` |
+| [#2134](https://github.com/py-pdf/fpdf2/pull/2134) | Robustness: gradient bounds outside [0, 1] or decreasing produced an invalid shading function; they now raise a clear `ValueError` |
+| [#2133](https://github.com/py-pdf/fpdf2/pull/2133) | Robustness: a negative or non-finite annotation `border_width` was written into the PDF; it now raises a clear `ValueError` |
 | [#2130](https://github.com/py-pdf/fpdf2/pull/2130) | Robustness: `ink_annotation()` wrote NaN or infinite points into the PDF as invalid numbers; they now raise a clear `ValueError`, and any iterable of points still works |
 | [#2132](https://github.com/py-pdf/fpdf2/pull/2132) | Correctness: an arc whose end point is its start point drew a full circle; it is now omitted, as SVG specifies |
 | [#2129](https://github.com/py-pdf/fpdf2/pull/2129) | Robustness: `add_page()`/`set_page_label()` wrote `/St nan` for a NaN or infinite `label_start`; it now raises the existing `ValueError` |
@@ -534,10 +539,11 @@
 
 </details>
 <details>
-<summary><b>deeplook/svglib</b> &nbsp;<code>371★</code> &nbsp;—&nbsp; 4 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>deeplook/svglib</b> &nbsp;<code>371★</code> &nbsp;—&nbsp; 5 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#544](https://github.com/deeplook/svglib/pull/544) | Correctness: a `clip-path` set in CSS or as a quoted `url("#id")` was ignored, so Illustrator and svgo/matplotlib files lost their clipping; it is now read like gradient fills |
 | [#540](https://github.com/deeplook/svglib/pull/540) | Correctness: nested `<svg viewBox>` content was drawn at 75% of its `width`/`height` because the px-to-pt factor was applied twice; it now fills its viewport, as in browsers |
 | [#542](https://github.com/deeplook/svglib/pull/542) | Correctness: `fill="rebeccapurple"` or `"lightgray"` left shapes unfilled (missing from ReportLab) and `darkseagreen` used ReportLab's different shade; these CSS colors are now looked up first |
 | [#541](https://github.com/deeplook/svglib/pull/541) | Correctness: color names in any case (`fill="White"`, `RGB(...)`) left shapes without a fill or stroke; keywords and function names are now case-insensitive, as in CSS |
@@ -572,7 +578,7 @@
 </details>
 > 🔄 **In review — 41 open PRs:** fpdf2 5 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · doctr · imagehash · kokoro-onnx · mistune · narwhals · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*234 merged across 24 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*240 merged across 24 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

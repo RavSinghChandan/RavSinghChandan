@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 251 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 253 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -121,9 +121,9 @@
 [![marko](https://img.shields.io/badge/✓_MERGED-frostming%2Fmarko_(470★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/frostming/marko/pull/302)
 [![PyMuPDF](https://img.shields.io/badge/✓_MERGED-pymupdf%2FPyMuPDF_(11.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pymupdf/PyMuPDF/pull/5264)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **69** <sub>(in progress — goal: beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **71** <sub>(in progress — goal: beat October)</sub>
 
-**251 merged pull requests across 24 libraries.** Grouped by project — click any row to expand.
+**253 merged pull requests across 24 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -149,7 +149,7 @@
 | [0xabu/pdfannots](https://github.com/0xabu/pdfannots) `674★` | **4** | Annotation extraction from real-world PDFs |
 | [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **5** | SVG/CSS spec coverage in SVG-to-PDF conversion |
 | [trentm/python-markdown2](https://github.com/trentm/python-markdown2) `2.8k★` | **1** | Footnotes extra output |
-| [frostming/marko](https://github.com/frostming/marko) `470★` | **6** | Markdown re-rendering that keeps the same HTML |
+| [frostming/marko](https://github.com/frostming/marko) `470★` | **8** | Markdown re-rendering that keeps the same HTML |
 | [pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF) `11.1k★` | **1** | PDF spec compliance of page labels |
 
 <details>
@@ -567,10 +567,12 @@
 
 </details>
 <details>
-<summary><b>frostming/marko</b> &nbsp;<code>470★</code> &nbsp;—&nbsp; 6 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>frostming/marko</b> &nbsp;<code>470★</code> &nbsp;—&nbsp; 8 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#315](https://github.com/frostming/marko/pull/315) | Correctness: a link reference definition inside a list item or quote was re-rendered outside it, which split the list in two or emptied the quote; it now keeps the container prefix |
+| [#310](https://github.com/frostming/marko/pull/310) | Correctness: an indented paragraph line starting with `-`, `#`, `***` or `1.` (common in docstrings) became a list, heading or rule when re-rendered; such markers are now escaped |
 | [#312](https://github.com/frostming/marko/pull/312) | Correctness: bold italic written `**_foo_**` was re-rendered as `***foo***`, which parses as italic around bold, and `*_foo_*` became bold; emphasis nested directly in emphasis now uses the other delimiter |
 | [#305](https://github.com/frostming/marko/pull/305) | Correctness: every ordered list marker was re-rendered with `.`, so `1)` lists became `1.` lists and a `)` list after a `.` list merged into it; the delimiter is now kept |
 | [#306](https://github.com/frostming/marko/pull/306) | Correctness: empty list items were dropped when re-rendering, so a list could lose items or disappear; the marker of an empty item is now written |
@@ -589,7 +591,7 @@
 </details>
 > 🔄 **In review — 49 open PRs:** fpdf2 11 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · doctr · imagehash · kokoro-onnx · mistune · narwhals · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*251 merged across 24 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*253 merged across 24 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

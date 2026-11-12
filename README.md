@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 253 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 262 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -121,9 +121,9 @@
 [![marko](https://img.shields.io/badge/✓_MERGED-frostming%2Fmarko_(470★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/frostming/marko/pull/302)
 [![PyMuPDF](https://img.shields.io/badge/✓_MERGED-pymupdf%2FPyMuPDF_(11.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pymupdf/PyMuPDF/pull/5264)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **71** <sub>(in progress — goal: beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **80** <sub>(in progress — goal: beat October)</sub>
 
-**253 merged pull requests across 24 libraries.** Grouped by project — click any row to expand.
+**262 merged pull requests across 24 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -133,7 +133,7 @@
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **2** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
-| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **83** | HTML rendering robustness |
+| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **89** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **4** | Image decoder robustness |
 | [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `339★` | **5** | Validation of real-world input |
 | [neuml/txtai](https://github.com/neuml/txtai) `13k★` | **2** | HTML to Markdown fidelity |
@@ -141,7 +141,7 @@
 | [tox-dev/tox](https://github.com/tox-dev/tox) `4k★` | **1** | Configuration correctness |
 | [lepture/mistune](https://github.com/lepture/mistune) `3.1k★` | **1** | Markdown round-trip rendering |
 | [docling-project/docling-core](https://github.com/docling-project/docling-core) `294★` | **1** | Markdown serialization correctness |
-| [mindee/doctr](https://github.com/mindee/doctr) `6.4k★` | **30** | Document model robustness |
+| [mindee/doctr](https://github.com/mindee/doctr) `6.4k★` | **31** | Document model robustness |
 | [adbar/trafilatura](https://github.com/adbar/trafilatura) `7k★` | **4** | Markdown output fidelity |
 | [JoshData/python-email-validator](https://github.com/JoshData/python-email-validator) `1.5k★` | **1** | RFC compliance of address parsing |
 | [pikepdf/pikepdf](https://github.com/pikepdf/pikepdf) `2.8k★` | **3** | Image extraction from real-world PDFs |
@@ -149,7 +149,7 @@
 | [0xabu/pdfannots](https://github.com/0xabu/pdfannots) `674★` | **4** | Annotation extraction from real-world PDFs |
 | [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **5** | SVG/CSS spec coverage in SVG-to-PDF conversion |
 | [trentm/python-markdown2](https://github.com/trentm/python-markdown2) `2.8k★` | **1** | Footnotes extra output |
-| [frostming/marko](https://github.com/frostming/marko) `470★` | **8** | Markdown re-rendering that keeps the same HTML |
+| [frostming/marko](https://github.com/frostming/marko) `470★` | **10** | Markdown re-rendering that keeps the same HTML |
 | [pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF) `11.1k★` | **1** | PDF spec compliance of page labels |
 
 <details>
@@ -298,10 +298,16 @@
 </details>
 
 <details>
-<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 83 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 89 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2161](https://github.com/py-pdf/fpdf2/pull/2161) | Robustness: an `<image>` with `width="342px"`, as in the narwhals logo, failed with `could not convert string to float`; its `x`, `y`, `width` and `height` are now read as lengths |
+| [#2157](https://github.com/py-pdf/fpdf2/pull/2157) | Robustness: `SVGObject.from_file()` always decoded as UTF-8, so a file declaring `iso-8859-1` raised `UnicodeDecodeError`; the declared encoding is now used, as `pdf.image()` already did |
+| [#2164](https://github.com/py-pdf/fpdf2/pull/2164) | Correctness: a gradient `<stop>` without `offset` was skipped, so the Hugging Face Hub logo on spaCy's site rendered flat black; a missing offset now reads as 0, as the spec says |
+| [#2159](https://github.com/py-pdf/fpdf2/pull/2159) | Robustness: icon sets write `<svg width="1em" height="1em">` and fpdf2 failed with `unsupported relative length em`; the root size is now resolved against its font size, 16px by default |
+| [#2156](https://github.com/py-pdf/fpdf2/pull/2156) | Robustness: draw.io exports write `light-dark(rgb(...), rgb(...))` colors, which failed with `unsupported color specification`; the light color is now used, as in browsers without a dark `color-scheme` |
+| [#2154](https://github.com/py-pdf/fpdf2/pull/2154) | Robustness: SVG text with a character a core font lacks, like `–` or `€`, raised a bare `KeyError`; it now raises the same `FPDFUnicodeEncodingException` as `pdf.cell()` |
 | [#2160](https://github.com/py-pdf/fpdf2/pull/2160) | Robustness: `fill="currentcolor"`, as in the Font Awesome icons that WordPress plugins put in web pages, failed with `unsupported color specification`; `currentColor` and `inherit` are now read regardless of case, like other CSS keywords |
 | [#2146](https://github.com/py-pdf/fpdf2/pull/2146) | Robustness: definitions in a `<defs>` nested in another `<defs>` were skipped, so Wikipedia's Berlin location map failed with `KeyError: '#clipPath1'`; nested `<defs>` are now read |
 | [#2153](https://github.com/py-pdf/fpdf2/pull/2153) | Robustness: black or gray SVG text in a `<tspan>` with its own style, as Inkscape writes every text, failed with an `AssertionError`; gray text colors are now accepted |
@@ -460,10 +466,11 @@
 </details>
 
 <details>
-<summary><b>mindee/doctr</b> &nbsp;<code>6.4k★</code> &nbsp;—&nbsp; 30 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>mindee/doctr</b> &nbsp;<code>6.4k★</code> &nbsp;—&nbsp; 31 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2221](https://github.com/mindee/doctr/pull/2221) | Robustness: an empty crop passed to a recognition predictor failed with `ZeroDivisionError` deep in preprocessing; it now raises a `ValueError` naming the shape |
 | [#2219](https://github.com/mindee/doctr/pull/2219) | Correctness: a self-intersecting ground-truth box crashed the polygon metrics deep in GEOS; `update()` now raises a clear `ValueError` naming the broken boxes |
 | [#2217](https://github.com/mindee/doctr/pull/2217) | Correctness: a 16-bit grayscale PNG came out almost all white from `read_img_as_tensor` and `decode_img_as_tensor` (Pillow clips instead of scaling); values are now shifted to 8 bits like `cv2.imdecode`, so both readers agree |
 | [#2212](https://github.com/mindee/doctr/pull/2212) | Robustness: `RandomShadow` sometimes raised a bare `ValueError` when a shadow base corner was rounded onto the tip corner; that corner is now kept |
@@ -567,10 +574,12 @@
 
 </details>
 <details>
-<summary><b>frostming/marko</b> &nbsp;<code>470★</code> &nbsp;—&nbsp; 8 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>frostming/marko</b> &nbsp;<code>470★</code> &nbsp;—&nbsp; 10 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#317](https://github.com/frostming/marko/pull/317) | Performance: a line in n nested block quotes made the quote prefix regex backtrack about 2<sup>n</sup> ways, so 26 levels took 5 seconds to parse; the space after `>` is now matched without backtracking |
+| [#316](https://github.com/frostming/marko/pull/316) | Correctness: the continuation-line escaping of #310 was skipped with `extensions=["gfm"]`, which renders paragraphs itself for task list checkboxes, so an indented `# bar` still became a heading |
 | [#315](https://github.com/frostming/marko/pull/315) | Correctness: a link reference definition inside a list item or quote was re-rendered outside it, which split the list in two or emptied the quote; it now keeps the container prefix |
 | [#310](https://github.com/frostming/marko/pull/310) | Correctness: an indented paragraph line starting with `-`, `#`, `***` or `1.` (common in docstrings) became a list, heading or rule when re-rendered; such markers are now escaped |
 | [#312](https://github.com/frostming/marko/pull/312) | Correctness: bold italic written `**_foo_**` was re-rendered as `***foo***`, which parses as italic around bold, and `*_foo_*` became bold; emphasis nested directly in emphasis now uses the other delimiter |
@@ -591,7 +600,7 @@
 </details>
 > 🔄 **In review — 49 open PRs:** fpdf2 11 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · doctr · imagehash · kokoro-onnx · mistune · narwhals · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*253 merged across 24 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*262 merged across 24 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

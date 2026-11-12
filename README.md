@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 265 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 270 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -121,9 +121,9 @@
 [![marko](https://img.shields.io/badge/✓_MERGED-frostming%2Fmarko_(470★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/frostming/marko/pull/302)
 [![PyMuPDF](https://img.shields.io/badge/✓_MERGED-pymupdf%2FPyMuPDF_(11.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pymupdf/PyMuPDF/pull/5264)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **83** <sub>(in progress — goal: beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **88** <sub>(in progress — goal: beat October)</sub>
 
-**265 merged pull requests across 24 libraries.** Grouped by project — click any row to expand.
+**270 merged pull requests across 24 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -133,7 +133,7 @@
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **2** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
-| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **92** | HTML rendering robustness |
+| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **93** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **4** | Image decoder robustness |
 | [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `339★` | **5** | Validation of real-world input |
 | [neuml/txtai](https://github.com/neuml/txtai) `13k★` | **2** | HTML to Markdown fidelity |
@@ -147,9 +147,9 @@
 | [pikepdf/pikepdf](https://github.com/pikepdf/pikepdf) `2.8k★` | **3** | Image extraction from real-world PDFs |
 | [mozman/ezdxf](https://github.com/mozman/ezdxf) `1.5k★` | **1** | Geometry of transformed CAD entities |
 | [0xabu/pdfannots](https://github.com/0xabu/pdfannots) `674★` | **4** | Annotation extraction from real-world PDFs |
-| [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **5** | SVG/CSS spec coverage in SVG-to-PDF conversion |
+| [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **7** | SVG/CSS spec coverage in SVG-to-PDF conversion |
 | [trentm/python-markdown2](https://github.com/trentm/python-markdown2) `2.8k★` | **1** | Footnotes extra output |
-| [frostming/marko](https://github.com/frostming/marko) `470★` | **10** | Markdown re-rendering that keeps the same HTML |
+| [frostming/marko](https://github.com/frostming/marko) `470★` | **12** | Markdown re-rendering that keeps the same HTML |
 | [pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF) `11.1k★` | **1** | PDF spec compliance of page labels |
 
 <details>
@@ -298,10 +298,11 @@
 </details>
 
 <details>
-<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 92 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 93 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2158](https://github.com/py-pdf/fpdf2/pull/2158) | Correctness: `display="none"` was ignored, so hidden Inkscape layers and hidden `<tspan>`s were printed; an element, group or root `<svg>` hidden by attribute, style or CSS class is now skipped |
 | [#2145](https://github.com/py-pdf/fpdf2/pull/2145) | Robustness: Illustrator writes `<clipPath>` outside `<defs>` with a `<use>` of the shape, which failed with `KeyError` or clipped nothing; both now clip, and a `<path>` in a `<clipPath>` clips too |
 | [#2048](https://github.com/py-pdf/fpdf2/pull/2048) | Feature: `href="#..."` links to an `id` or `<a name>` failed with `FPDFException`; targets are now named destinations set where they render, on their own line, image top or table row, also after a page break |
 | [#2163](https://github.com/py-pdf/fpdf2/pull/2163) | Robustness: Font Awesome's `instagram.svg` failed with `ValueError: math domain error` because rounding made scaled-up arc radii look too small again; it now renders |
@@ -557,10 +558,12 @@
 
 </details>
 <details>
-<summary><b>deeplook/svglib</b> &nbsp;<code>371★</code> &nbsp;—&nbsp; 5 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>deeplook/svglib</b> &nbsp;<code>371★</code> &nbsp;—&nbsp; 7 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#546](https://github.com/deeplook/svglib/pull/546) | Correctness: draw.io writes `light-dark()` colors, which svglib could not read, so shapes lost their fill or stroke; the first (light) color is now used, as CSS does without a dark `color-scheme` |
+| [#543](https://github.com/deeplook/svglib/pull/543) | Correctness: `fill="hsl(120deg, 100%, 50%)"` was drawn black; hues with a CSS angle unit (`deg`, `grad`, `rad`, `turn`) are now read |
 | [#544](https://github.com/deeplook/svglib/pull/544) | Correctness: a `clip-path` set in CSS or as a quoted `url("#id")` was ignored, so Illustrator and svgo/matplotlib files lost their clipping; it is now read like gradient fills |
 | [#540](https://github.com/deeplook/svglib/pull/540) | Correctness: nested `<svg viewBox>` content was drawn at 75% of its `width`/`height` because the px-to-pt factor was applied twice; it now fills its viewport, as in browsers |
 | [#542](https://github.com/deeplook/svglib/pull/542) | Correctness: `fill="rebeccapurple"` or `"lightgray"` left shapes unfilled (missing from ReportLab) and `darkseagreen` used ReportLab's different shade; these CSS colors are now looked up first |
@@ -577,10 +580,12 @@
 
 </details>
 <details>
-<summary><b>frostming/marko</b> &nbsp;<code>470★</code> &nbsp;—&nbsp; 10 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>frostming/marko</b> &nbsp;<code>470★</code> &nbsp;—&nbsp; 12 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#320](https://github.com/frostming/marko/pull/320) | Correctness: `MarkdownRenderer` wrote `<foo@bar.example.com>` back as `<mailto:foo@bar.example.com>`, changing the visible link text; email autolinks now round-trip unchanged |
+| [#319](https://github.com/frostming/marko/pull/319) | Performance: long runs of brackets made link parsing quadratic (16,000 bytes took 2.7 s); the link after `]` is now looked for before the bracket pairing check |
 | [#317](https://github.com/frostming/marko/pull/317) | Performance: a line in n nested block quotes made the quote prefix regex backtrack about 2<sup>n</sup> ways, so 26 levels took 5 seconds to parse; the space after `>` is now matched without backtracking |
 | [#316](https://github.com/frostming/marko/pull/316) | Correctness: the continuation-line escaping of #310 was skipped with `extensions=["gfm"]`, which renders paragraphs itself for task list checkboxes, so an indented `# bar` still became a heading |
 | [#315](https://github.com/frostming/marko/pull/315) | Correctness: a link reference definition inside a list item or quote was re-rendered outside it, which split the list in two or emptied the quote; it now keeps the container prefix |
@@ -601,9 +606,9 @@
 | [#5264](https://github.com/pymupdf/PyMuPDF/pull/5264) | Spec compliance: letter page labels (`/S /A`, `/S /a`) after Z continued with punctuation instead of AA, BB, …; they now follow the PDF specification (approved by JorjMcKie, who wrote the original function) |
 
 </details>
-> 🔄 **In review — 44 open PRs:** fpdf2 5 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · narwhals · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+> 🔄 **In review — 42 open PRs:** fpdf2 7 · typeguard 5 · fonttools 3 · evaluate 2 · joblib 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · narwhals · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · smolagents · svglib · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*265 merged across 24 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*270 merged across 24 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

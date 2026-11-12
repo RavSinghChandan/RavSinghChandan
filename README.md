@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 262 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 265 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -121,9 +121,9 @@
 [![marko](https://img.shields.io/badge/✓_MERGED-frostming%2Fmarko_(470★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/frostming/marko/pull/302)
 [![PyMuPDF](https://img.shields.io/badge/✓_MERGED-pymupdf%2FPyMuPDF_(11.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pymupdf/PyMuPDF/pull/5264)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **80** <sub>(in progress — goal: beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **83** <sub>(in progress — goal: beat October)</sub>
 
-**262 merged pull requests across 24 libraries.** Grouped by project — click any row to expand.
+**265 merged pull requests across 24 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -133,7 +133,7 @@
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **2** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
-| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **89** | HTML rendering robustness |
+| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **92** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **4** | Image decoder robustness |
 | [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `339★` | **5** | Validation of real-world input |
 | [neuml/txtai](https://github.com/neuml/txtai) `13k★` | **2** | HTML to Markdown fidelity |
@@ -298,10 +298,13 @@
 </details>
 
 <details>
-<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 89 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 92 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2145](https://github.com/py-pdf/fpdf2/pull/2145) | Robustness: Illustrator writes `<clipPath>` outside `<defs>` with a `<use>` of the shape, which failed with `KeyError` or clipped nothing; both now clip, and a `<path>` in a `<clipPath>` clips too |
+| [#2048](https://github.com/py-pdf/fpdf2/pull/2048) | Feature: `href="#..."` links to an `id` or `<a name>` failed with `FPDFException`; targets are now named destinations set where they render, on their own line, image top or table row, also after a page break |
+| [#2163](https://github.com/py-pdf/fpdf2/pull/2163) | Robustness: Font Awesome's `instagram.svg` failed with `ValueError: math domain error` because rounding made scaled-up arc radii look too small again; it now renders |
 | [#2161](https://github.com/py-pdf/fpdf2/pull/2161) | Robustness: an `<image>` with `width="342px"`, as in the narwhals logo, failed with `could not convert string to float`; its `x`, `y`, `width` and `height` are now read as lengths |
 | [#2157](https://github.com/py-pdf/fpdf2/pull/2157) | Robustness: `SVGObject.from_file()` always decoded as UTF-8, so a file declaring `iso-8859-1` raised `UnicodeDecodeError`; the declared encoding is now used, as `pdf.image()` already did |
 | [#2164](https://github.com/py-pdf/fpdf2/pull/2164) | Correctness: a gradient `<stop>` without `offset` was skipped, so the Hugging Face Hub logo on spaCy's site rendered flat black; a missing offset now reads as 0, as the spec says |
@@ -598,9 +601,9 @@
 | [#5264](https://github.com/pymupdf/PyMuPDF/pull/5264) | Spec compliance: letter page labels (`/S /A`, `/S /a`) after Z continued with punctuation instead of AA, BB, …; they now follow the PDF specification (approved by JorjMcKie, who wrote the original function) |
 
 </details>
-> 🔄 **In review — 47 open PRs:** fpdf2 8 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · narwhals · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+> 🔄 **In review — 44 open PRs:** fpdf2 5 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · narwhals · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*262 merged across 24 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*265 merged across 24 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

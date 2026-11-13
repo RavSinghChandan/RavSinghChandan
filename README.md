@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 284 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 287 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -95,6 +95,8 @@
   <a href="https://github.com/frostming/marko/pull/302"><img src="./assets/marko-logo.svg" height="46" alt="marko" /></a>
   &nbsp;&nbsp;
   <a href="https://github.com/pymupdf/PyMuPDF/pull/5264"><img src="./assets/pymupdf-logo.svg" height="46" alt="PyMuPDF" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/facelessuser/soupsieve/pull/362"><img src="./assets/soupsieve-logo.svg" height="46" alt="Soup Sieve" /></a>
 </p>
 
 [![joblib](https://img.shields.io/badge/✓_MERGED-joblib%2Fjoblib_(4.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joblib/joblib/pull/1812)
@@ -120,10 +122,11 @@
 [![python-markdown2](https://img.shields.io/badge/✓_MERGED-trentm%2Fpython--markdown2_(2.8k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/trentm/python-markdown2/pull/758)
 [![marko](https://img.shields.io/badge/✓_MERGED-frostming%2Fmarko_(470★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/frostming/marko/pull/302)
 [![PyMuPDF](https://img.shields.io/badge/✓_MERGED-pymupdf%2FPyMuPDF_(11.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pymupdf/PyMuPDF/pull/5264)
+[![soupsieve](https://img.shields.io/badge/✓_MERGED-facelessuser%2Fsoupsieve_(272★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/facelessuser/soupsieve/pull/362)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **102** <sub>(in progress — goal: beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **105** <sub>(in progress — goal: beat October)</sub>
 
-**284 merged pull requests across 24 libraries.** Grouped by project — click any row to expand.
+**287 merged pull requests across 25 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -133,7 +136,7 @@
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **2** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
-| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **104** | HTML rendering robustness |
+| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **105** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **4** | Image decoder robustness |
 | [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `339★` | **5** | Validation of real-world input |
 | [neuml/txtai](https://github.com/neuml/txtai) `13k★` | **2** | HTML to Markdown fidelity |
@@ -147,10 +150,11 @@
 | [pikepdf/pikepdf](https://github.com/pikepdf/pikepdf) `2.8k★` | **3** | Image extraction from real-world PDFs |
 | [mozman/ezdxf](https://github.com/mozman/ezdxf) `1.5k★` | **1** | Geometry of transformed CAD entities |
 | [0xabu/pdfannots](https://github.com/0xabu/pdfannots) `674★` | **5** | Annotation extraction from real-world PDFs |
-| [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **8** | SVG/CSS spec coverage in SVG-to-PDF conversion |
+| [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **9** | SVG/CSS spec coverage in SVG-to-PDF conversion |
 | [trentm/python-markdown2](https://github.com/trentm/python-markdown2) `2.8k★` | **1** | Footnotes extra output |
 | [frostming/marko](https://github.com/frostming/marko) `470★` | **13** | Markdown re-rendering that keeps the same HTML |
 | [pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF) `11.1k★` | **1** | PDF spec compliance of page labels |
+| [facelessuser/soupsieve](https://github.com/facelessuser/soupsieve) `272★` | **1** | CSS selector matching that agrees with browsers |
 
 <details>
 <summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 82 merged &nbsp;<i>(click to expand)</i></summary>
@@ -298,10 +302,11 @@
 </details>
 
 <details>
-<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 104 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 105 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2179](https://github.com/py-pdf/fpdf2/pull/2179) | Robustness: `font-size="large"`, `"x-small"`, `"larger"` or `"smaller"` failed with `ValueError`; the absolute keywords now use the CSS Fonts scale around `medium`, and `larger`/`smaller` scale the inherited size by 1.2, as browsers do |
 | [#2180](https://github.com/py-pdf/fpdf2/pull/2180) | Robustness: `font-family="system-ui"`, as in the social preview image of react-window, failed with `KeyError`; the CSS Fonts 4 generic families (`system-ui`, `ui-sans-serif`, `ui-serif`, `ui-monospace`, `ui-rounded`) now map to core fonts in SVG text and `write_html()` |
 | [#2176](https://github.com/py-pdf/fpdf2/pull/2176) | Robustness: `<use x="20px" y="1in">` failed with `ValueError`, in a group and in a `<clipPath>`; the `x` and `y` of a `<use>` are now read as lengths, like those of `<svg>`, `<text>` and `<image>` |
 | [#2174](https://github.com/py-pdf/fpdf2/pull/2174) | Robustness: Figma exports write `width="auto" height="auto"` on the root `<svg>` (e.g. the country flags of the ProtonVPN apps), which failed with `ValueError`; `auto` is now read like a missing size, so the image is sized from its `viewBox` |
@@ -570,10 +575,11 @@
 
 </details>
 <details>
-<summary><b>deeplook/svglib</b> &nbsp;<code>371★</code> &nbsp;—&nbsp; 8 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>deeplook/svglib</b> &nbsp;<code>371★</code> &nbsp;—&nbsp; 9 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#549](https://github.com/deeplook/svglib/pull/549) | Correctness: `em` and `ex` in shape geometry always used 16px, so `<rect width="2em">` inside `font-size="10px"` was 32 units wide instead of 20; they now resolve against the font size of the element, as in browsers |
 | [#547](https://github.com/deeplook/svglib/pull/547) | Correctness: an `<image>` that references an SVG file drew it at its own size, ignoring the `<image>`'s `width` and `height` (issue #237); it is now fitted to that viewport with its own `preserveAspectRatio`, as in browsers and Inkscape |
 | [#546](https://github.com/deeplook/svglib/pull/546) | Correctness: draw.io writes `light-dark()` colors, which svglib could not read, so shapes lost their fill or stroke; the first (light) color is now used, as CSS does without a dark `color-scheme` |
 | [#543](https://github.com/deeplook/svglib/pull/543) | Correctness: `fill="hsl(120deg, 100%, 50%)"` was drawn black; hues with a CSS angle unit (`deg`, `grad`, `rad`, `turn`) are now read |
@@ -620,9 +626,17 @@
 | [#5264](https://github.com/pymupdf/PyMuPDF/pull/5264) | Spec compliance: letter page labels (`/S /A`, `/S /a`) after Z continued with punctuation instead of AA, BB, …; they now follow the PDF specification (approved by JorjMcKie, who wrote the original function) |
 
 </details>
-> 🔄 **In review — 52 open PRs:** fpdf2 13 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · pdfannots 2 · pygments 2 · pypdf 2 · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · marko · mistune · narwhals · OCRmyPDF · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · smolagents · soupsieve · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+<details>
+<summary><b>facelessuser/soupsieve</b> &nbsp;<code>272★</code> &nbsp;—&nbsp; 1 merged &nbsp;<i>(click to expand)</i></summary>
 
-*284 merged across 24 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+| PR | Contribution |
+|---|---|
+| [#362](https://github.com/facelessuser/soupsieve/pull/362) | Browser compatibility: an `<input type="range">` is always clamped to its bounds, so browsers never match it with `:out-of-range`; Soup Sieve matched it when the value was outside `min`/`max`. It now resolves the bounds (0 and 100 by default) and agrees with Chrome, Firefox and Safari (merged by facelessuser) |
+
+</details>
+> 🔄 **In review — 49 open PRs:** fpdf2 12 · typeguard 5 · fonttools 3 · svglib 2 · evaluate 2 · joblib 2 · pdfannots 2 · pygments 2 · pypdf 2 · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · marko · mistune · narwhals · OCRmyPDF · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+
+*287 merged across 25 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

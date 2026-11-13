@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 282 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 284 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -121,9 +121,9 @@
 [![marko](https://img.shields.io/badge/✓_MERGED-frostming%2Fmarko_(470★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/frostming/marko/pull/302)
 [![PyMuPDF](https://img.shields.io/badge/✓_MERGED-pymupdf%2FPyMuPDF_(11.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pymupdf/PyMuPDF/pull/5264)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **100** <sub>(in progress — goal: beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **102** <sub>(in progress — goal: beat October)</sub>
 
-**282 merged pull requests across 24 libraries.** Grouped by project — click any row to expand.
+**284 merged pull requests across 24 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -133,7 +133,7 @@
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **2** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
-| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **102** | HTML rendering robustness |
+| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **104** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **4** | Image decoder robustness |
 | [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `339★` | **5** | Validation of real-world input |
 | [neuml/txtai](https://github.com/neuml/txtai) `13k★` | **2** | HTML to Markdown fidelity |
@@ -298,10 +298,12 @@
 </details>
 
 <details>
-<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 102 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 104 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2180](https://github.com/py-pdf/fpdf2/pull/2180) | Robustness: `font-family="system-ui"`, as in the social preview image of react-window, failed with `KeyError`; the CSS Fonts 4 generic families (`system-ui`, `ui-sans-serif`, `ui-serif`, `ui-monospace`, `ui-rounded`) now map to core fonts in SVG text and `write_html()` |
+| [#2176](https://github.com/py-pdf/fpdf2/pull/2176) | Robustness: `<use x="20px" y="1in">` failed with `ValueError`, in a group and in a `<clipPath>`; the `x` and `y` of a `<use>` are now read as lengths, like those of `<svg>`, `<text>` and `<image>` |
 | [#2174](https://github.com/py-pdf/fpdf2/pull/2174) | Robustness: Figma exports write `width="auto" height="auto"` on the root `<svg>` (e.g. the country flags of the ProtonVPN apps), which failed with `ValueError`; `auto` is now read like a missing size, so the image is sized from its `viewBox` |
 | [#2171](https://github.com/py-pdf/fpdf2/pull/2171) | Correctness: `hsl()` and `hsla()` colors, as written by Mermaid and many CSS themes, failed with `ValueError`; they are now read with commas or spaces, an optional alpha and hue units such as `turn` |
 | [#2170](https://github.com/py-pdf/fpdf2/pull/2170) | Correctness: `rgba()` colors and the space-separated `rgb(255 0 0 / 50%)` syntax of CSS Color 4 failed with `ValueError`; both are now read, with the alpha applied as opacity |
@@ -618,9 +620,9 @@
 | [#5264](https://github.com/pymupdf/PyMuPDF/pull/5264) | Spec compliance: letter page labels (`/S /A`, `/S /a`) after Z continued with punctuation instead of AA, BB, …; they now follow the PDF specification (approved by JorjMcKie, who wrote the original function) |
 
 </details>
-> 🔄 **In review — 54 open PRs:** fpdf2 15 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · pdfannots 2 · pygments 2 · pypdf 2 · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · marko · mistune · narwhals · OCRmyPDF · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · smolagents · soupsieve · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+> 🔄 **In review — 52 open PRs:** fpdf2 13 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · pdfannots 2 · pygments 2 · pypdf 2 · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · marko · mistune · narwhals · OCRmyPDF · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · smolagents · soupsieve · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*282 merged across 24 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*284 merged across 24 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 288 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 298 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -124,9 +124,9 @@
 [![PyMuPDF](https://img.shields.io/badge/✓_MERGED-pymupdf%2FPyMuPDF_(11.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pymupdf/PyMuPDF/pull/5264)
 [![soupsieve](https://img.shields.io/badge/✓_MERGED-facelessuser%2Fsoupsieve_(272★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/facelessuser/soupsieve/pull/362)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **106** <sub>(in progress — goal: beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **116** <sub>(in progress — goal: beat October)</sub>
 
-**288 merged pull requests across 25 libraries.** Grouped by project — click any row to expand.
+**298 merged pull requests across 25 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -136,7 +136,7 @@
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **2** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
-| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **106** | HTML rendering robustness |
+| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **115** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **4** | Image decoder robustness |
 | [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `339★` | **5** | Validation of real-world input |
 | [neuml/txtai](https://github.com/neuml/txtai) `13k★` | **2** | HTML to Markdown fidelity |
@@ -154,7 +154,7 @@
 | [trentm/python-markdown2](https://github.com/trentm/python-markdown2) `2.8k★` | **1** | Footnotes extra output |
 | [frostming/marko](https://github.com/frostming/marko) `470★` | **13** | Markdown re-rendering that keeps the same HTML |
 | [pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF) `11.1k★` | **1** | PDF spec compliance of page labels |
-| [facelessuser/soupsieve](https://github.com/facelessuser/soupsieve) `272★` | **1** | CSS selector matching that agrees with browsers |
+| [facelessuser/soupsieve](https://github.com/facelessuser/soupsieve) `272★` | **2** | CSS selector matching that agrees with browsers |
 
 <details>
 <summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 82 merged &nbsp;<i>(click to expand)</i></summary>
@@ -302,10 +302,19 @@
 </details>
 
 <details>
-<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 106 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 115 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2195](https://github.com/py-pdf/fpdf2/pull/2195) | Robustness: `stroke-linejoin="miter-clip"` and `"arcs"` of SVG 2, written by the JPEXS Flash decompiler, failed with `ValueError`; PDF has no such joins, so they are now drawn as `miter` |
+| [#2189](https://github.com/py-pdf/fpdf2/pull/2189) | Robustness: a link with `href="#"`, as in the "Back to top" links of many web pages, made `output()` fail with `FPDFException: Named destination '' was referenced but never set`; it now goes to the top of the document, as in browsers |
+| [#2192](https://github.com/py-pdf/fpdf2/pull/2192) | Robustness: fonts with Apple bitmap tables, such as the `Geneva.ttf` and `Cochin.ttc` of macOS, made `output()` fail with `struct.error`; their `bdat` and `bloc` tables are now dropped when subsetting, like `EBDT` and `EBLC` |
+| [#2191](https://github.com/py-pdf/fpdf2/pull/2191) | Robustness: `add_font()` failed with `KeyError: 'OS/2'` for Apple fonts without that optional table, such as `Courier.ttc` and `LastResort.otf` of macOS; the weight now comes from `head.macStyle` |
+| [#2188](https://github.com/py-pdf/fpdf2/pull/2188) | Robustness: a `<use>` of an `id` the SVG does not define, as in the matplotlib charts of the RapidFuzz documentation, failed the whole image; it now draws nothing with a warning, like browsers |
+| [#2177](https://github.com/py-pdf/fpdf2/pull/2177) | Spec compliance: path data with an error after a correct start (`M0 0L10 0Z 20 20`, an arc missing numbers) failed with `ValueError`; the path is now drawn up to the error, as the SVG specification requires |
+| [#2196](https://github.com/py-pdf/fpdf2/pull/2196) | Robustness: a paint with an ICC color, such as Inkscape's `fill="#094491 icc-color(sRGB, ...)"`, failed with `ValueError`; the sRGB fallback before it is now used, as SVG 1.1 specifies |
+| [#2183](https://github.com/py-pdf/fpdf2/pull/2183) | Robustness: an `<image>` with `width="auto"` or `height="auto"`, the initial value in SVG 2, failed with `ValueError`; it now takes the size of the image, or the one that keeps its ratio |
+| [#2182](https://github.com/py-pdf/fpdf2/pull/2182) | Correctness: transform functions with units (`rotate(45deg)`, `translate(5px, 5px)`, `scale(50%)`) were silently ignored, as was `transform` given in CSS; both now apply, as in browsers |
 | [#2181](https://github.com/py-pdf/fpdf2/pull/2181) | Correctness: CSS rules with a universal selector (`*`) or an element name (`rect`, `text`…) in a `<style>` were ignored, including the `*{stroke-linejoin: round; stroke-linecap: butt}` that starts every SVG matplotlib writes; they now apply after presentation attributes and before class rules and inline styles, as in browsers |
 | [#2179](https://github.com/py-pdf/fpdf2/pull/2179) | Robustness: `font-size="large"`, `"x-small"`, `"larger"` or `"smaller"` failed with `ValueError`; the absolute keywords now use the CSS Fonts scale around `medium`, and `larger`/`smaller` scale the inherited size by 1.2, as browsers do |
 | [#2180](https://github.com/py-pdf/fpdf2/pull/2180) | Robustness: `font-family="system-ui"`, as in the social preview image of react-window, failed with `KeyError`; the CSS Fonts 4 generic families (`system-ui`, `ui-sans-serif`, `ui-serif`, `ui-monospace`, `ui-rounded`) now map to core fonts in SVG text and `write_html()` |
@@ -628,16 +637,17 @@
 
 </details>
 <details>
-<summary><b>facelessuser/soupsieve</b> &nbsp;<code>272★</code> &nbsp;—&nbsp; 1 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>facelessuser/soupsieve</b> &nbsp;<code>272★</code> &nbsp;—&nbsp; 2 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#363](https://github.com/facelessuser/soupsieve/pull/363) | Browser compatibility: `:placeholder-shown` used the raw `value` of an input; browsers sanitize it first (line breaks removed, an invalid number, email or URL counts as empty), so Soup Sieve now agrees with Chrome, Firefox and Safari (merged by facelessuser) |
 | [#362](https://github.com/facelessuser/soupsieve/pull/362) | Browser compatibility: an `<input type="range">` is always clamped to its bounds, so browsers never match it with `:out-of-range`; Soup Sieve matched it when the value was outside `min`/`max`. It now resolves the bounds (0 and 100 by default) and agrees with Chrome, Firefox and Safari (merged by facelessuser) |
 
 </details>
-> 🔄 **In review — 48 open PRs:** fpdf2 11 · typeguard 5 · fonttools 3 · svglib 2 · evaluate 2 · joblib 2 · pdfannots 2 · pygments 2 · pypdf 2 · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · marko · mistune · narwhals · OCRmyPDF · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+> 🔄 **In review — 48 open PRs:** fpdf2 9 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · pypdf 2 · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · narwhals · OCRmyPDF · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*288 merged across 25 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*298 merged across 25 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

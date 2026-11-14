@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 298 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 302 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -124,9 +124,9 @@
 [![PyMuPDF](https://img.shields.io/badge/✓_MERGED-pymupdf%2FPyMuPDF_(11.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pymupdf/PyMuPDF/pull/5264)
 [![soupsieve](https://img.shields.io/badge/✓_MERGED-facelessuser%2Fsoupsieve_(272★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/facelessuser/soupsieve/pull/362)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** 🏆 · Nov **116** <sub>(in progress — goal: beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **120** 🏆 <sub>(new record — beat October)</sub>
 
-**298 merged pull requests across 25 libraries.** Grouped by project — click any row to expand.
+**302 merged pull requests across 25 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -136,7 +136,7 @@
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **2** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
-| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **115** | HTML rendering robustness |
+| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **119** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **4** | Image decoder robustness |
 | [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `339★` | **5** | Validation of real-world input |
 | [neuml/txtai](https://github.com/neuml/txtai) `13k★` | **2** | HTML to Markdown fidelity |
@@ -302,10 +302,14 @@
 </details>
 
 <details>
-<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 115 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 119 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2197](https://github.com/py-pdf/fpdf2/pull/2197) | Robustness: Mermaid's `rgb(0,0,0, 0.5)` failed with `ValueError`; a fractional or percentage alpha is now read as in CSS Color 4, and an integer alpha (signed or not) keeps fpdf2's 0-255 scale |
+| [#2193](https://github.com/py-pdf/fpdf2/pull/2193) | Correctness: a `<use>` of another `<use>` (Inkscape clones of clones) or of an element defined later failed or drew nothing; both are now drawn, as in browsers |
+| [#2178](https://github.com/py-pdf/fpdf2/pull/2178) | Correctness: an `@import` or `@charset` at the start of a `<style>` hid the next CSS rule; at-rules without a block are now skipped by a single-pass scanner aware of strings, `url()` and declarations |
+| [#2199](https://github.com/py-pdf/fpdf2/pull/2199) | Robustness: `oklch()` and `oklab()` colors of CSS Color 4 failed with `ValueError`; they are now converted to sRGB (Ottosson's matrices), with lightness, chroma and alpha clamped as in CSS |
 | [#2195](https://github.com/py-pdf/fpdf2/pull/2195) | Robustness: `stroke-linejoin="miter-clip"` and `"arcs"` of SVG 2, written by the JPEXS Flash decompiler, failed with `ValueError`; PDF has no such joins, so they are now drawn as `miter` |
 | [#2189](https://github.com/py-pdf/fpdf2/pull/2189) | Robustness: a link with `href="#"`, as in the "Back to top" links of many web pages, made `output()` fail with `FPDFException: Named destination '' was referenced but never set`; it now goes to the top of the document, as in browsers |
 | [#2192](https://github.com/py-pdf/fpdf2/pull/2192) | Robustness: fonts with Apple bitmap tables, such as the `Geneva.ttf` and `Cochin.ttc` of macOS, made `output()` fail with `struct.error`; their `bdat` and `bloc` tables are now dropped when subsetting, like `EBDT` and `EBLC` |
@@ -647,7 +651,7 @@
 </details>
 > 🔄 **In review — 48 open PRs:** fpdf2 9 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · pypdf 2 · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · narwhals · OCRmyPDF · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · smolagents · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*298 merged across 25 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*302 merged across 25 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

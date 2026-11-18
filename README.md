@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 314 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 321 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -127,9 +127,9 @@
 [![soupsieve](https://img.shields.io/badge/✓_MERGED-facelessuser%2Fsoupsieve_(272★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/facelessuser/soupsieve/pull/362)
 [![camelot](https://img.shields.io/badge/✓_MERGED-camelot--dev%2Fcamelot_(3.9k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/camelot-dev/camelot/pull/866)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **132** 🏆 <sub>(new record — beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **139** 🏆 <sub>(new record — beat October)</sub>
 
-**314 merged pull requests across 26 libraries.** Grouped by project — click any row to expand.
+**321 merged pull requests across 26 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -139,7 +139,7 @@
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
 | [authlib/authlib](https://github.com/authlib/authlib) `5.4k★` | **2** | OAuth correctness |
 | [fonttools/fonttools](https://github.com/fonttools/fonttools) `5.3k★` | **7** | CFF round-trip, feaLib spec compliance |
-| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **125** | HTML rendering robustness |
+| [py-pdf/fpdf2](https://github.com/py-pdf/fpdf2) `1.5k★` | **132** | HTML rendering robustness |
 | [python-pillow/Pillow](https://github.com/python-pillow/Pillow) `13.9k★` | **4** | Image decoder robustness |
 | [pydantic/pydantic-extra-types](https://github.com/pydantic/pydantic-extra-types) `339★` | **5** | Validation of real-world input |
 | [neuml/txtai](https://github.com/neuml/txtai) `13k★` | **2** | HTML to Markdown fidelity |
@@ -308,10 +308,17 @@
 </details>
 
 <details>
-<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 125 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/fpdf2</b> &nbsp;<code>1.5k★</code> &nbsp;—&nbsp; 132 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#2217](https://github.com/py-pdf/fpdf2/pull/2217) | Correctness: on a document in mm, `width="50%"` of an SVG drawn with `draw_to_page()` came out 2.8 times too small (33 mm instead of 95 mm on A4); the percentage of the page is now converted to the unit of the document once (merged by andersonhc) |
+| [#2216](https://github.com/py-pdf/fpdf2/pull/2216) | Correctness: `draw_to_page()` on a document in mm, cm or in converted the origin and the alignment of the `viewBox` twice, so drawings were shifted or fell off the page (Mermaid git graphs); the conversion is now the last transform (merged by andersonhc) |
+| [#2211](https://github.com/py-pdf/fpdf2/pull/2211) | Correctness: `stroke-dasharray: 0` became an invalid PDF dash array of zeros and the line disappeared, so every edge of Mermaid flowcharts and state, class and ER diagrams was missing; all-zero values now draw a solid line (merged by andersonhc) |
+| [#2210](https://github.com/py-pdf/fpdf2/pull/2210) | Correctness: a gradient outside a `<defs>`, as in each link of a Mermaid Sankey diagram, was never found and the shape got no paint; it is now parsed when first referenced (merged by andersonhc) |
+| [#2207](https://github.com/py-pdf/fpdf2/pull/2207) | Robustness: Mermaid's `rgb(45,179.9999999999,184.5)` failed with `ValueError`; non-integer channels are now read as in CSS Color 4 and malformed values are rejected (merged by andersonhc) |
+| [#2204](https://github.com/py-pdf/fpdf2/pull/2204) | Correctness: the `letter-spacing` of text (spaCy displaCy labels, Inkscape) was ignored; it is now applied with the PDF `Tc` operator, inherited, with em/ex and `text-anchor` kept right (merged by andersonhc) |
+| [#2190](https://github.com/py-pdf/fpdf2/pull/2190) | Robustness: WordPress's lazy-load placeholder `data:image/svg+xml,%3Csvg...` failed in `write_html()` and `image()`; percent-encoded and SVG data: URIs are now read as RFC 2397 says (merged by andersonhc) |
 | [#2184](https://github.com/py-pdf/fpdf2/pull/2184) | Correctness: `currentColor` was always read as `inherit`, so the `color` property never reached icon-set shapes with `fill="currentColor"`; it is now carried down and given to the fill or stroke of groups, paths, shapes and text (merged by andersonhc) |
 | [#2175](https://github.com/py-pdf/fpdf2/pull/2175) | Robustness: a `<rect>`, `<circle>`, `<ellipse>` or `<line>` sized in `em` or `ex` (svglib's `units.svg`) failed with `ValueError`; these shapes now resolve both units against their own inherited font size, as CSS does |
 | [#2194](https://github.com/py-pdf/fpdf2/pull/2194) | Correctness: rules in `@media` blocks applied whatever the query, so dark-mode rules drew the overpass-turbo logo white on a white page; only blocks matching a light color scheme (the browser default) now apply, in one linear pass |
@@ -672,9 +679,9 @@
 | [#866](https://github.com/camelot-dev/camelot/pull/866) | Correctness: `pages="0"` became index `-1` and silently returned the tables of the last page, labelled with its number; a page past the end failed later with a bare `IndexError`. Both now raise a `ValueError` naming the page and the page count before parsing (merged by bosd) |
 
 </details>
-> 🔄 **In review — 45 open PRs:** fpdf2 12 · typeguard 5 · fonttools 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · OCRmyPDF · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · narwhals · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+> 🔄 **In review — 45 open PRs:** fpdf2 7 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · narwhals · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*314 merged across 26 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*321 merged across 26 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

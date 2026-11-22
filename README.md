@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 326 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 328 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -127,9 +127,9 @@
 [![soupsieve](https://img.shields.io/badge/✓_MERGED-facelessuser%2Fsoupsieve_(272★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/facelessuser/soupsieve/pull/362)
 [![camelot](https://img.shields.io/badge/✓_MERGED-camelot--dev%2Fcamelot_(3.9k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/camelot-dev/camelot/pull/866)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **144** 🏆 <sub>(new record — beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **146** 🏆 <sub>(new record — beat October)</sub>
 
-**326 merged pull requests across 26 libraries.** Grouped by project — click any row to expand.
+**328 merged pull requests across 26 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -153,7 +153,7 @@
 | [pikepdf/pikepdf](https://github.com/pikepdf/pikepdf) `2.8k★` | **3** | Image extraction from real-world PDFs |
 | [mozman/ezdxf](https://github.com/mozman/ezdxf) `1.5k★` | **1** | Geometry of transformed CAD entities |
 | [0xabu/pdfannots](https://github.com/0xabu/pdfannots) `674★` | **5** | Annotation extraction from real-world PDFs |
-| [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **12** | SVG/CSS spec coverage in SVG-to-PDF conversion |
+| [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **14** | SVG/CSS spec coverage in SVG-to-PDF conversion |
 | [trentm/python-markdown2](https://github.com/trentm/python-markdown2) `2.8k★` | **1** | Footnotes extra output |
 | [frostming/marko](https://github.com/frostming/marko) `470★` | **13** | Markdown re-rendering that keeps the same HTML |
 | [pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF) `11.1k★` | **1** | PDF spec compliance of page labels |
@@ -612,10 +612,12 @@
 
 </details>
 <details>
-<summary><b>deeplook/svglib</b> &nbsp;<code>371★</code> &nbsp;—&nbsp; 12 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>deeplook/svglib</b> &nbsp;<code>371★</code> &nbsp;—&nbsp; 14 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#555](https://github.com/deeplook/svglib/pull/555) | Correctness: `oklch()` and `oklab()` colors (design tools, social preview images) were not read and the shape was not drawn; they are now converted to sRGB with Ottosson's matrices, with `deg`/`grad`/`rad`/`turn` hues, percentages, `none` and an opacity (merged by deeplook) |
+| [#553](https://github.com/deeplook/svglib/pull/553) | Correctness: a `<clipPath>` without any shape drew the whole element instead of clipping it away, which is what browsers do for an empty clip region (merged by deeplook) |
 | [#551](https://github.com/deeplook/svglib/pull/551) | Correctness: `<use href="#r" x="20px" y="1in"/>` drew the element at the origin because the units made its translate unreadable; `x` and `y` are now converted as lengths, so units, percentages and `em` work (merged by deeplook) |
 | [#550](https://github.com/deeplook/svglib/pull/550) | Robustness: Figma's `width="auto" height="auto"` on the root `<svg>` (ProtonVPN flags) failed with `ValueError`; `auto` now reads like a missing attribute and the viewBox gives the size (merged by deeplook) |
 | [#548](https://github.com/deeplook/svglib/pull/548) | Correctness: `fill="currentcolor"`, `CURRENTCOLOR` or `currentColor !important` drew black instead of the parent's `color`; the keyword is now matched without regard to case (merged by deeplook) |
@@ -684,9 +686,9 @@
 | [#866](https://github.com/camelot-dev/camelot/pull/866) | Correctness: `pages="0"` became index `-1` and silently returned the tables of the last page, labelled with its number; a page past the end failed later with a bare `IndexError`. Both now raise a `ValueError` naming the page and the page count before parsing (merged by bosd) |
 
 </details>
-> 🔄 **In review — 51 open PRs:** fpdf2 14 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · narwhals · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+> 🔄 **In review — 50 open PRs:** fpdf2 14 · typeguard 5 · fonttools 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · narwhals · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · svglib · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*326 merged across 26 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*328 merged across 26 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

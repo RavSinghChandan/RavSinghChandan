@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 328 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 330 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -99,6 +99,8 @@
   <a href="https://github.com/facelessuser/soupsieve/pull/362"><img src="./assets/soupsieve-logo.svg" height="46" alt="Soup Sieve" /></a>
   &nbsp;&nbsp;
   <a href="https://github.com/camelot-dev/camelot/pull/866"><img src="./assets/camelot-logo.png" height="46" alt="Camelot" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/jawah/charset_normalizer/pull/838"><img src="./assets/charset-normalizer-logo.jpg" height="46" alt="charset_normalizer" /></a>
 </p>
 
 [![joblib](https://img.shields.io/badge/✓_MERGED-joblib%2Fjoblib_(4.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joblib/joblib/pull/1812)
@@ -126,10 +128,11 @@
 [![PyMuPDF](https://img.shields.io/badge/✓_MERGED-pymupdf%2FPyMuPDF_(11.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pymupdf/PyMuPDF/pull/5264)
 [![soupsieve](https://img.shields.io/badge/✓_MERGED-facelessuser%2Fsoupsieve_(272★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/facelessuser/soupsieve/pull/362)
 [![camelot](https://img.shields.io/badge/✓_MERGED-camelot--dev%2Fcamelot_(3.9k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/camelot-dev/camelot/pull/866)
+[![charset_normalizer](https://img.shields.io/badge/✓_MERGED-jawah%2Fcharset__normalizer_(811★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jawah/charset_normalizer/pull/838)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **146** 🏆 <sub>(new record — beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **148** 🏆 <sub>(new record — beat October)</sub>
 
-**328 merged pull requests across 26 libraries.** Grouped by project — click any row to expand.
+**330 merged pull requests across 27 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -153,12 +156,13 @@
 | [pikepdf/pikepdf](https://github.com/pikepdf/pikepdf) `2.8k★` | **3** | Image extraction from real-world PDFs |
 | [mozman/ezdxf](https://github.com/mozman/ezdxf) `1.5k★` | **1** | Geometry of transformed CAD entities |
 | [0xabu/pdfannots](https://github.com/0xabu/pdfannots) `674★` | **5** | Annotation extraction from real-world PDFs |
-| [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **14** | SVG/CSS spec coverage in SVG-to-PDF conversion |
+| [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **15** | SVG/CSS spec coverage in SVG-to-PDF conversion |
 | [trentm/python-markdown2](https://github.com/trentm/python-markdown2) `2.8k★` | **1** | Footnotes extra output |
 | [frostming/marko](https://github.com/frostming/marko) `470★` | **13** | Markdown re-rendering that keeps the same HTML |
 | [pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF) `11.1k★` | **1** | PDF spec compliance of page labels |
 | [facelessuser/soupsieve](https://github.com/facelessuser/soupsieve) `272★` | **2** | CSS selector matching that agrees with browsers |
 | [camelot-dev/camelot](https://github.com/camelot-dev/camelot) `3.9k★` | **2** | Page selection in PDF table extraction |
+| [jawah/charset_normalizer](https://github.com/jawah/charset_normalizer) `811★` | **1** | Command-line output naming |
 
 <details>
 <summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 86 merged &nbsp;<i>(click to expand)</i></summary>
@@ -612,10 +616,11 @@
 
 </details>
 <details>
-<summary><b>deeplook/svglib</b> &nbsp;<code>371★</code> &nbsp;—&nbsp; 14 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>deeplook/svglib</b> &nbsp;<code>371★</code> &nbsp;—&nbsp; 15 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#554](https://github.com/deeplook/svglib/pull/554) | Correctness: Figma's and VS Code's `fill="var(--fill-0, #171D25)"` was not read and the shape was not drawn; `var()` is now the custom property of the element or an ancestor (style attribute or CSS rule), or its fallback, with limits on replacements, length and work so a small SVG cannot make it take exponential time (merged by deeplook) |
 | [#555](https://github.com/deeplook/svglib/pull/555) | Correctness: `oklch()` and `oklab()` colors (design tools, social preview images) were not read and the shape was not drawn; they are now converted to sRGB with Ottosson's matrices, with `deg`/`grad`/`rad`/`turn` hues, percentages, `none` and an opacity (merged by deeplook) |
 | [#553](https://github.com/deeplook/svglib/pull/553) | Correctness: a `<clipPath>` without any shape drew the whole element instead of clipping it away, which is what browsers do for an empty clip region (merged by deeplook) |
 | [#551](https://github.com/deeplook/svglib/pull/551) | Correctness: `<use href="#r" x="20px" y="1in"/>` drew the element at the origin because the units made its translate unreadable; `x` and `y` are now converted as lengths, so units, percentages and `em` work (merged by deeplook) |
@@ -686,9 +691,18 @@
 | [#866](https://github.com/camelot-dev/camelot/pull/866) | Correctness: `pages="0"` became index `-1` and silently returned the tables of the last page, labelled with its number; a page past the end failed later with a bare `IndexError`. Both now raise a `ValueError` naming the page and the page count before parsing (merged by bosd) |
 
 </details>
-> 🔄 **In review — 50 open PRs:** fpdf2 14 · typeguard 5 · fonttools 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · narwhals · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · svglib · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*328 merged across 26 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+<details>
+<summary><b>jawah/charset_normalizer</b> &nbsp;<code>811★</code> &nbsp;—&nbsp; 1 merged &nbsp;<i>(click to expand)</i></summary>
+
+| PR | Contribution |
+|---|---|
+| [#838](https://github.com/jawah/charset_normalizer/pull/838) | Correctness: `normalizer --normalize README` wrote `cp1252.README` and a dotfile `.cp1252.bashrc`, because the encoding was put before the last dot-separated part of the name, which for a file without an extension is the whole name; the name is now split with `os.path.splitext()` (merged by Ousret) |
+
+</details>
+> 🔄 **In review — 48 open PRs:** fpdf2 14 · typeguard 5 · fonttools 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · distlib · imagehash · kokoro-onnx · mistune · narwhals · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+
+*330 merged across 27 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 334 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 338 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -130,9 +130,9 @@
 [![camelot](https://img.shields.io/badge/✓_MERGED-camelot--dev%2Fcamelot_(3.9k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/camelot-dev/camelot/pull/866)
 [![charset_normalizer](https://img.shields.io/badge/✓_MERGED-jawah%2Fcharset__normalizer_(811★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jawah/charset_normalizer/pull/838)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **152** 🏆 <sub>(new record — beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **156** 🏆 <sub>(new record — beat October)</sub>
 
-**334 merged pull requests across 27 libraries.** Grouped by project — click any row to expand.
+**338 merged pull requests across 27 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -156,9 +156,9 @@
 | [pikepdf/pikepdf](https://github.com/pikepdf/pikepdf) `2.8k★` | **3** | Image extraction from real-world PDFs |
 | [mozman/ezdxf](https://github.com/mozman/ezdxf) `1.5k★` | **1** | Geometry of transformed CAD entities |
 | [0xabu/pdfannots](https://github.com/0xabu/pdfannots) `674★` | **5** | Annotation extraction from real-world PDFs |
-| [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **15** | SVG/CSS spec coverage in SVG-to-PDF conversion |
+| [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **18** | SVG/CSS spec coverage in SVG-to-PDF conversion |
 | [trentm/python-markdown2](https://github.com/trentm/python-markdown2) `2.8k★` | **1** | Footnotes extra output |
-| [frostming/marko](https://github.com/frostming/marko) `470★` | **17** | Markdown re-rendering that keeps the same HTML |
+| [frostming/marko](https://github.com/frostming/marko) `470★` | **18** | Markdown re-rendering that keeps the same HTML |
 | [pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF) `11.1k★` | **1** | PDF spec compliance of page labels |
 | [facelessuser/soupsieve](https://github.com/facelessuser/soupsieve) `272★` | **2** | CSS selector matching that agrees with browsers |
 | [camelot-dev/camelot](https://github.com/camelot-dev/camelot) `3.9k★` | **2** | Page selection in PDF table extraction |
@@ -616,10 +616,13 @@
 
 </details>
 <details>
-<summary><b>deeplook/svglib</b> &nbsp;<code>371★</code> &nbsp;—&nbsp; 15 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>deeplook/svglib</b> &nbsp;<code>371★</code> &nbsp;—&nbsp; 18 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#560](https://github.com/deeplook/svglib/pull/560) | Correctness: CSS Color 4 `hwb()` colors were not read and the shape was not drawn; they are now converted to sRGB with the algorithm of the specification (hue units, whiteness and blackness as percentages or numbers, `none`, opacity), checked against 30 colors computed by Chrome |
+| [#559](https://github.com/deeplook/svglib/pull/559) | Correctness: `stop-color: currentColor` on a gradient stop made `svg2rlg()` fail with an `AttributeError`; it is now the inherited color of the stop, or black when none is set |
+| [#558](https://github.com/deeplook/svglib/pull/558) | Correctness: a gradient stop styled by a CSS rule (`.cls-1 { stop-color: #fff }`, as Illustrator exports) was black, and a `<style>` outside `<defs>` was read too late; a `<style>` now applies to the whole document |
 | [#554](https://github.com/deeplook/svglib/pull/554) | Correctness: Figma's and VS Code's `fill="var(--fill-0, #171D25)"` was not read and the shape was not drawn; `var()` is now the custom property of the element or an ancestor (style attribute or CSS rule), or its fallback, with limits on replacements, length and work so a small SVG cannot make it take exponential time (merged by deeplook) |
 | [#555](https://github.com/deeplook/svglib/pull/555) | Correctness: `oklch()` and `oklab()` colors (design tools, social preview images) were not read and the shape was not drawn; they are now converted to sRGB with Ottosson's matrices, with `deg`/`grad`/`rad`/`turn` hues, percentages, `none` and an opacity (merged by deeplook) |
 | [#553](https://github.com/deeplook/svglib/pull/553) | Correctness: a `<clipPath>` without any shape drew the whole element instead of clipping it away, which is what browsers do for an empty clip region (merged by deeplook) |
@@ -646,10 +649,11 @@
 
 </details>
 <details>
-<summary><b>frostming/marko</b> &nbsp;<code>470★</code> &nbsp;—&nbsp; 17 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>frostming/marko</b> &nbsp;<code>470★</code> &nbsp;—&nbsp; 18 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#339](https://github.com/frostming/marko/pull/339) | Correctness: a paragraph line that started with an HTML tag (`<!-- -->`, `<div>`, `<pre>`) was written without its indentation and ended the paragraph, splitting the text into a block of its own (seen in a sentence-transformers template); the line is now indented, or its `<` escaped |
 | [#338](https://github.com/frostming/marko/pull/338) | Correctness: a `*` in the text of emphasis (`__*nix__`, `_*_`) joined the `*` that `MarkdownRenderer` writes around it, so bold `*nix` came back as a star followed by bold text; the star in the text is now escaped |
 | [#337](https://github.com/frostming/marko/pull/337) | Correctness: a paragraph line in a list item or quote that started with a number (`2026.`) was written without indentation and read as a new list, which split the item (seen in the pikepdf and OCRmyPDF release notes); such lines are now escaped |
 | [#330](https://github.com/frostming/marko/pull/330) | Correctness: a list that starts a list item (`* - a`) was re-rendered with the outer marker before every inner item, so one nested list broke into separate outer items |
@@ -704,9 +708,9 @@
 | [#838](https://github.com/jawah/charset_normalizer/pull/838) | Correctness: `normalizer --normalize README` wrote `cp1252.README` and a dotfile `.cp1252.bashrc`, because the encoding was put before the last dot-separated part of the name, which for a file without an extension is the whole name; the name is now split with `os.path.splitext()` (merged by Ousret) |
 
 </details>
-> 🔄 **In review — 52 open PRs:** fpdf2 14 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · narwhals · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+> 🔄 **In review — 48 open PRs:** fpdf2 14 · typeguard 5 · fonttools 3 · evaluate 2 · joblib 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · marko · mistune · narwhals · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*334 merged across 27 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*338 merged across 27 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

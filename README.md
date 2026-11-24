@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 332 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 334 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -130,9 +130,9 @@
 [![camelot](https://img.shields.io/badge/✓_MERGED-camelot--dev%2Fcamelot_(3.9k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/camelot-dev/camelot/pull/866)
 [![charset_normalizer](https://img.shields.io/badge/✓_MERGED-jawah%2Fcharset__normalizer_(811★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jawah/charset_normalizer/pull/838)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **150** 🏆 <sub>(new record — beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **152** 🏆 <sub>(new record — beat October)</sub>
 
-**332 merged pull requests across 27 libraries.** Grouped by project — click any row to expand.
+**334 merged pull requests across 27 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -158,7 +158,7 @@
 | [0xabu/pdfannots](https://github.com/0xabu/pdfannots) `674★` | **5** | Annotation extraction from real-world PDFs |
 | [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **15** | SVG/CSS spec coverage in SVG-to-PDF conversion |
 | [trentm/python-markdown2](https://github.com/trentm/python-markdown2) `2.8k★` | **1** | Footnotes extra output |
-| [frostming/marko](https://github.com/frostming/marko) `470★` | **15** | Markdown re-rendering that keeps the same HTML |
+| [frostming/marko](https://github.com/frostming/marko) `470★` | **17** | Markdown re-rendering that keeps the same HTML |
 | [pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF) `11.1k★` | **1** | PDF spec compliance of page labels |
 | [facelessuser/soupsieve](https://github.com/facelessuser/soupsieve) `272★` | **2** | CSS selector matching that agrees with browsers |
 | [camelot-dev/camelot](https://github.com/camelot-dev/camelot) `3.9k★` | **2** | Page selection in PDF table extraction |
@@ -646,10 +646,12 @@
 
 </details>
 <details>
-<summary><b>frostming/marko</b> &nbsp;<code>470★</code> &nbsp;—&nbsp; 15 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>frostming/marko</b> &nbsp;<code>470★</code> &nbsp;—&nbsp; 17 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#338](https://github.com/frostming/marko/pull/338) | Correctness: a `*` in the text of emphasis (`__*nix__`, `_*_`) joined the `*` that `MarkdownRenderer` writes around it, so bold `*nix` came back as a star followed by bold text; the star in the text is now escaped |
+| [#337](https://github.com/frostming/marko/pull/337) | Correctness: a paragraph line in a list item or quote that started with a number (`2026.`) was written without indentation and read as a new list, which split the item (seen in the pikepdf and OCRmyPDF release notes); such lines are now escaped |
 | [#330](https://github.com/frostming/marko/pull/330) | Correctness: a list that starts a list item (`* - a`) was re-rendered with the outer marker before every inner item, so one nested list broke into separate outer items |
 | [#322](https://github.com/frostming/marko/pull/322) | Correctness: an indented code block after a list was re-rendered as a paragraph of the last item, because the markers were not indented past column 4 (the build commands of the Liberation fonts README ended up in a list item) |
 | [#321](https://github.com/frostming/marko/pull/321) | Correctness: `MarkdownRenderer` put a space between CJK characters and latin letters inside code blocks too, changing the code (`print("opensearch产品文档")`); fenced and indented code is now kept as written |
@@ -702,9 +704,9 @@
 | [#838](https://github.com/jawah/charset_normalizer/pull/838) | Correctness: `normalizer --normalize README` wrote `cp1252.README` and a dotfile `.cp1252.bashrc`, because the encoding was put before the last dot-separated part of the name, which for a file without an extension is the whole name; the name is now split with `os.path.splitext()` (merged by Ousret) |
 
 </details>
-> 🔄 **In review — 52 open PRs:** fpdf2 14 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · narwhals · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+> 🔄 **In review — 50 open PRs:** fpdf2 14 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · narwhals · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*332 merged across 27 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*334 merged across 27 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

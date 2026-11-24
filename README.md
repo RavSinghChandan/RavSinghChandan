@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 339 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 342 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -130,9 +130,9 @@
 [![camelot](https://img.shields.io/badge/✓_MERGED-camelot--dev%2Fcamelot_(3.9k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/camelot-dev/camelot/pull/866)
 [![charset_normalizer](https://img.shields.io/badge/✓_MERGED-jawah%2Fcharset__normalizer_(811★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jawah/charset_normalizer/pull/838)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **157** 🏆 <sub>(new record — beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **160** 🏆 <sub>(new record — beat October)</sub>
 
-**339 merged pull requests across 27 libraries.** Grouped by project — click any row to expand.
+**342 merged pull requests across 27 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -156,7 +156,7 @@
 | [pikepdf/pikepdf](https://github.com/pikepdf/pikepdf) `2.8k★` | **3** | Image extraction from real-world PDFs |
 | [mozman/ezdxf](https://github.com/mozman/ezdxf) `1.5k★` | **1** | Geometry of transformed CAD entities |
 | [0xabu/pdfannots](https://github.com/0xabu/pdfannots) `674★` | **5** | Annotation extraction from real-world PDFs |
-| [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **18** | SVG/CSS spec coverage in SVG-to-PDF conversion |
+| [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **21** | SVG/CSS spec coverage in SVG-to-PDF conversion |
 | [trentm/python-markdown2](https://github.com/trentm/python-markdown2) `2.8k★` | **1** | Footnotes extra output |
 | [frostming/marko](https://github.com/frostming/marko) `470★` | **19** | Markdown re-rendering that keeps the same HTML |
 | [pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF) `11.1k★` | **1** | PDF spec compliance of page labels |
@@ -616,10 +616,13 @@
 
 </details>
 <details>
-<summary><b>deeplook/svglib</b> &nbsp;<code>371★</code> &nbsp;—&nbsp; 18 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>deeplook/svglib</b> &nbsp;<code>371★</code> &nbsp;—&nbsp; 21 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#564](https://github.com/deeplook/svglib/pull/564) | Correctness: the `offset` of a gradient stop above 1, below 0 or before the previous stop put the colors out of order or past the end; it is now kept between 0 and 1 and at least the previous offset, as in the specification |
+| [#563](https://github.com/deeplook/svglib/pull/563) | Correctness: a gradient that refers to another with `href` did not take its coordinates, units and spread method from it, so a gradient that only added stops lost its direction; the attributes it does not set are now inherited |
+| [#562](https://github.com/deeplook/svglib/pull/562) | Correctness: Figma's `stop-color="var(--fill-0, #171D25)"` was not read in a gradient stop, so the stop and the gradient came out black; `var()` is now resolved in `stop-color` and `stop-opacity` (6 gradients compared with Chrome) |
 | [#560](https://github.com/deeplook/svglib/pull/560) | Correctness: CSS Color 4 `hwb()` colors were not read and the shape was not drawn; they are now converted to sRGB with the algorithm of the specification (hue units, whiteness and blackness as percentages or numbers, `none`, opacity), checked against 30 colors computed by Chrome |
 | [#559](https://github.com/deeplook/svglib/pull/559) | Correctness: `stop-color: currentColor` on a gradient stop made `svg2rlg()` fail with an `AttributeError`; it is now the inherited color of the stop, or black when none is set |
 | [#558](https://github.com/deeplook/svglib/pull/558) | Correctness: a gradient stop styled by a CSS rule (`.cls-1 { stop-color: #fff }`, as Illustrator exports) was black, and a `<style>` outside `<defs>` was read too late; a `<style>` now applies to the whole document |
@@ -709,9 +712,9 @@
 | [#838](https://github.com/jawah/charset_normalizer/pull/838) | Correctness: `normalizer --normalize README` wrote `cp1252.README` and a dotfile `.cp1252.bashrc`, because the encoding was put before the last dot-separated part of the name, which for a file without an extension is the whole name; the name is now split with `os.path.splitext()` (merged by Ousret) |
 
 </details>
-> 🔄 **In review — 51 open PRs:** fpdf2 14 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · marko 1 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · narwhals · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+> 🔄 **In review — 49 open PRs:** fpdf2 14 · typeguard 5 · fonttools 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · narwhals · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*339 merged across 27 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*342 merged across 27 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

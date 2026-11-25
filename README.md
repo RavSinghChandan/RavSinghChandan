@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 347 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 348 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -103,6 +103,8 @@
   <a href="https://github.com/jawah/charset_normalizer/pull/838"><img src="./assets/charset-normalizer-logo.jpg" height="46" alt="charset_normalizer" /></a>
   &nbsp;&nbsp;
   <a href="https://github.com/narwhals-dev/narwhals/pull/4047"><img src="./assets/narwhals-logo.svg" height="46" alt="narwhals" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/ocrmypdf/OCRmyPDF/pull/1785"><img src="./assets/ocrmypdf-logo.png" height="46" alt="OCRmyPDF" /></a>
 </p>
 
 [![joblib](https://img.shields.io/badge/✓_MERGED-joblib%2Fjoblib_(4.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joblib/joblib/pull/1812)
@@ -132,10 +134,11 @@
 [![camelot](https://img.shields.io/badge/✓_MERGED-camelot--dev%2Fcamelot_(3.9k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/camelot-dev/camelot/pull/866)
 [![charset_normalizer](https://img.shields.io/badge/✓_MERGED-jawah%2Fcharset__normalizer_(811★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jawah/charset_normalizer/pull/838)
 [![narwhals](https://img.shields.io/badge/✓_MERGED-narwhals--dev%2Fnarwhals_(1.8k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/narwhals-dev/narwhals/pull/4047)
+[![OCRmyPDF](https://img.shields.io/badge/✓_MERGED-ocrmypdf%2FOCRmyPDF_(35.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ocrmypdf/OCRmyPDF/pull/1785)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **165** 🏆 <sub>(new record — beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **166** 🏆 <sub>(new record — beat October)</sub>
 
-**347 merged pull requests across 28 libraries.** Grouped by project — click any row to expand.
+**348 merged pull requests across 29 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -167,6 +170,7 @@
 | [camelot-dev/camelot](https://github.com/camelot-dev/camelot) `3.9k★` | **2** | Page selection in PDF table extraction |
 | [jawah/charset_normalizer](https://github.com/jawah/charset_normalizer) `811★` | **1** | Command-line output naming |
 | [narwhals-dev/narwhals](https://github.com/narwhals-dev/narwhals) `1.8k★` | **1** | DataFrame-library compatibility layer: histogram counts |
+| [ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) `35.4k★` | **1** | OCR pipeline input checks |
 
 <details>
 <summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 86 merged &nbsp;<i>(click to expand)</i></summary>
@@ -730,9 +734,18 @@
 
 </details>
 
-> 🔄 **In review — 50 open PRs:** fpdf2 12 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · pypdf 2 · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · narwhals · OCRmyPDF · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+<details>
+<summary><b>ocrmypdf/OCRmyPDF</b> &nbsp;<code>35.4k★</code> &nbsp;—&nbsp; 1 merged &nbsp;<i>(click to expand)</i></summary>
 
-*347 merged across 28 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+| PR | Contribution |
+|---|---|
+| [#1785](https://github.com/ocrmypdf/OCRmyPDF/pull/1785) | Robustness: `ocrmypdf --pages 7` on a 6-page file ran to the end, exited 0 and OCRed nothing, with no hint that page 7 does not exist; it now logs which pages the file does not have, still processes the ones it has and keeps the exit code |
+
+</details>
+
+> 🔄 **In review — 51 open PRs:** fpdf2 14 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · pypdf 2 · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · narwhals · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+
+*348 merged across 29 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

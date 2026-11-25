@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 348 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 349 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -136,9 +136,9 @@
 [![narwhals](https://img.shields.io/badge/✓_MERGED-narwhals--dev%2Fnarwhals_(1.8k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/narwhals-dev/narwhals/pull/4047)
 [![OCRmyPDF](https://img.shields.io/badge/✓_MERGED-ocrmypdf%2FOCRmyPDF_(35.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ocrmypdf/OCRmyPDF/pull/1785)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **166** 🏆 <sub>(new record — beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **167** 🏆 <sub>(new record — beat October)</sub>
 
-**348 merged pull requests across 29 libraries.** Grouped by project — click any row to expand.
+**349 merged pull requests across 29 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -162,7 +162,7 @@
 | [pikepdf/pikepdf](https://github.com/pikepdf/pikepdf) `2.8k★` | **3** | Image extraction from real-world PDFs |
 | [mozman/ezdxf](https://github.com/mozman/ezdxf) `1.5k★` | **1** | Geometry of transformed CAD entities |
 | [0xabu/pdfannots](https://github.com/0xabu/pdfannots) `674★` | **5** | Annotation extraction from real-world PDFs |
-| [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **21** | SVG/CSS spec coverage in SVG-to-PDF conversion |
+| [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **22** | SVG/CSS spec coverage in SVG-to-PDF conversion |
 | [trentm/python-markdown2](https://github.com/trentm/python-markdown2) `2.8k★` | **1** | Footnotes extra output |
 | [frostming/marko](https://github.com/frostming/marko) `470★` | **21** | Markdown re-rendering that keeps the same HTML |
 | [pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF) `11.1k★` | **1** | PDF spec compliance of page labels |
@@ -626,10 +626,11 @@
 
 </details>
 <details>
-<summary><b>deeplook/svglib</b> &nbsp;<code>371★</code> &nbsp;—&nbsp; 21 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>deeplook/svglib</b> &nbsp;<code>371★</code> &nbsp;—&nbsp; 22 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#567](https://github.com/deeplook/svglib/pull/567) | Correctness: a gradient with `spreadMethod="reflect"` or `"repeat"` was painted black past its ends; its stops are now laid one period after the other over the shape, every other period back to front for `reflect`, and a gradient that would need more than 200 periods or 10,000 stops is padded |
 | [#564](https://github.com/deeplook/svglib/pull/564) | Correctness: the `offset` of a gradient stop above 1, below 0 or before the previous stop put the colors out of order or past the end; it is now kept between 0 and 1 and at least the previous offset, as in the specification |
 | [#563](https://github.com/deeplook/svglib/pull/563) | Correctness: a gradient that refers to another with `href` did not take its coordinates, units and spread method from it, so a gradient that only added stops lost its direction; the attributes it does not set are now inherited |
 | [#562](https://github.com/deeplook/svglib/pull/562) | Correctness: Figma's `stop-color="var(--fill-0, #171D25)"` was not read in a gradient stop, so the stop and the gradient came out black; `var()` is now resolved in `stop-color` and `stop-opacity` (6 gradients compared with Chrome) |
@@ -743,9 +744,9 @@
 
 </details>
 
-> 🔄 **In review — 51 open PRs:** fpdf2 14 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · pypdf 2 · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · narwhals · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+> 🔄 **In review — 51 open PRs:** fpdf2 14 · typeguard 5 · fonttools 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · pypdf 2 · svglib 2 · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · narwhals · OCRmyPDF · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*348 merged across 29 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*349 merged across 29 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

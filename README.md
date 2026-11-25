@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 344 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 345 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -101,6 +101,8 @@
   <a href="https://github.com/camelot-dev/camelot/pull/866"><img src="./assets/camelot-logo.png" height="46" alt="Camelot" /></a>
   &nbsp;&nbsp;
   <a href="https://github.com/jawah/charset_normalizer/pull/838"><img src="./assets/charset-normalizer-logo.jpg" height="46" alt="charset_normalizer" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/narwhals-dev/narwhals/pull/4047"><img src="./assets/narwhals-logo.svg" height="46" alt="narwhals" /></a>
 </p>
 
 [![joblib](https://img.shields.io/badge/✓_MERGED-joblib%2Fjoblib_(4.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joblib/joblib/pull/1812)
@@ -129,10 +131,11 @@
 [![soupsieve](https://img.shields.io/badge/✓_MERGED-facelessuser%2Fsoupsieve_(272★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/facelessuser/soupsieve/pull/362)
 [![camelot](https://img.shields.io/badge/✓_MERGED-camelot--dev%2Fcamelot_(3.9k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/camelot-dev/camelot/pull/866)
 [![charset_normalizer](https://img.shields.io/badge/✓_MERGED-jawah%2Fcharset__normalizer_(811★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jawah/charset_normalizer/pull/838)
+[![narwhals](https://img.shields.io/badge/✓_MERGED-narwhals--dev%2Fnarwhals_(1.8k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/narwhals-dev/narwhals/pull/4047)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **162** 🏆 <sub>(new record — beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **163** 🏆 <sub>(new record — beat October)</sub>
 
-**344 merged pull requests across 27 libraries.** Grouped by project — click any row to expand.
+**345 merged pull requests across 28 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -163,6 +166,7 @@
 | [facelessuser/soupsieve](https://github.com/facelessuser/soupsieve) `272★` | **2** | CSS selector matching that agrees with browsers |
 | [camelot-dev/camelot](https://github.com/camelot-dev/camelot) `3.9k★` | **2** | Page selection in PDF table extraction |
 | [jawah/charset_normalizer](https://github.com/jawah/charset_normalizer) `811★` | **1** | Command-line output naming |
+| [narwhals-dev/narwhals](https://github.com/narwhals-dev/narwhals) `1.8k★` | **1** | DataFrame-library compatibility layer: histogram counts |
 
 <details>
 <summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 86 merged &nbsp;<i>(click to expand)</i></summary>
@@ -714,9 +718,19 @@
 | [#838](https://github.com/jawah/charset_normalizer/pull/838) | Correctness: `normalizer --normalize README` wrote `cp1252.README` and a dotfile `.cp1252.bashrc`, because the encoding was put before the last dot-separated part of the name, which for a file without an extension is the whole name; the name is now split with `os.path.splitext()` (merged by Ousret) |
 
 </details>
-> 🔄 **In review — 52 open PRs:** fpdf2 14 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · narwhals · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*344 merged across 27 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+<details>
+<summary><b>narwhals-dev/narwhals</b> &nbsp;<code>1.8k★</code> &nbsp;—&nbsp; 1 merged &nbsp;<i>(click to expand)</i></summary>
+
+| PR | Contribution |
+|---|---|
+| [#4047](https://github.com/narwhals-dev/narwhals/pull/4047) | Correctness: on pandas `Series.hist()` returned `count` as Float64 for an empty or all-null series but as Int64 otherwise, because the zeros were made without a dtype; it is now int64 in both cases, and an all-null series no longer crashes `bin_count=` on polars older than 1.15 |
+
+</details>
+
+> 🔄 **In review — 51 open PRs:** fpdf2 14 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+
+*345 merged across 28 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

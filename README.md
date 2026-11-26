@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 352 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 354 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -136,9 +136,9 @@
 [![narwhals](https://img.shields.io/badge/✓_MERGED-narwhals--dev%2Fnarwhals_(1.8k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/narwhals-dev/narwhals/pull/4047)
 [![OCRmyPDF](https://img.shields.io/badge/✓_MERGED-ocrmypdf%2FOCRmyPDF_(35.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ocrmypdf/OCRmyPDF/pull/1785)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **170** 🏆 <sub>(new record — beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **172** 🏆 <sub>(new record — beat October)</sub>
 
-**352 merged pull requests across 29 libraries.** Grouped by project — click any row to expand.
+**354 merged pull requests across 29 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -164,7 +164,7 @@
 | [0xabu/pdfannots](https://github.com/0xabu/pdfannots) `674★` | **5** | Annotation extraction from real-world PDFs |
 | [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **24** | SVG/CSS spec coverage in SVG-to-PDF conversion |
 | [trentm/python-markdown2](https://github.com/trentm/python-markdown2) `2.8k★` | **1** | Footnotes extra output |
-| [frostming/marko](https://github.com/frostming/marko) `470★` | **21** | Markdown re-rendering that keeps the same HTML |
+| [frostming/marko](https://github.com/frostming/marko) `470★` | **23** | Markdown re-rendering that keeps the same HTML |
 | [pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF) `11.1k★` | **1** | PDF spec compliance of page labels |
 | [facelessuser/soupsieve](https://github.com/facelessuser/soupsieve) `272★` | **2** | CSS selector matching that agrees with browsers |
 | [camelot-dev/camelot](https://github.com/camelot-dev/camelot) `3.9k★` | **2** | Page selection in PDF table extraction |
@@ -666,10 +666,12 @@
 
 </details>
 <details>
-<summary><b>frostming/marko</b> &nbsp;<code>470★</code> &nbsp;—&nbsp; 21 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>frostming/marko</b> &nbsp;<code>470★</code> &nbsp;—&nbsp; 23 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#345](https://github.com/frostming/marko/pull/345) | Correctness: a list item that starts with an empty quote (`- >`) lost its marker when written back and came out as an indented quote; the blank line the empty quote renders now writes the prefix of the line it is on, also for a nested and an ordered item |
+| [#344](https://github.com/frostming/marko/pull/344) | Correctness: a link reference definition as the first line of a list item left the item with the prefix of its first line, so the marker of the next item was read as part of it and two items became one; the next item now starts after it |
 | [#340](https://github.com/frostming/marko/pull/340) | Correctness: a backslash in the text at the end of a line (`foo\` followed by a space and a newline) was written next to the line break, so the two joined into a hard line break and the text changed; the backslash is now escaped |
 | [#342](https://github.com/frostming/marko/pull/342) | Correctness: only the last list before an indented code block was indented, so a list of another kind before it read the indented one as a sublist; all the lists of the run are now indented |
 | [#341](https://github.com/frostming/marko/pull/341) | Correctness: a continuation line of a multi-line setext heading that started with a block marker (`- `, `# `, `> `, a fence) lost its indentation when written back and became a list, heading or quote of its own, cutting the heading short; such lines are now escaped |
@@ -747,9 +749,9 @@
 
 </details>
 
-> 🔄 **In review — 51 open PRs:** fpdf2 13 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · pypdf 2 · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · narwhals · OCRmyPDF · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+> 🔄 **In review — 53 open PRs:** fpdf2 14 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · pdfannots 2 · pygments 2 · pypdf 2 · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · mteb · narwhals · OCRmyPDF · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · sentencepiece · umap · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*352 merged across 29 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*354 merged across 29 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

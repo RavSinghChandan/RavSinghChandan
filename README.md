@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 362 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 368 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -105,6 +105,8 @@
   <a href="https://github.com/narwhals-dev/narwhals/pull/4047"><img src="./assets/narwhals-logo.svg" height="46" alt="narwhals" /></a>
   &nbsp;&nbsp;
   <a href="https://github.com/ocrmypdf/OCRmyPDF/pull/1785"><img src="./assets/ocrmypdf-logo.png" height="46" alt="OCRmyPDF" /></a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/google/sentencepiece/pull/1393"><img src="./assets/sentencepiece-logo.png" height="46" alt="sentencepiece" /></a>
 </p>
 
 [![joblib](https://img.shields.io/badge/✓_MERGED-joblib%2Fjoblib_(4.1k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joblib/joblib/pull/1812)
@@ -135,14 +137,15 @@
 [![charset_normalizer](https://img.shields.io/badge/✓_MERGED-jawah%2Fcharset__normalizer_(811★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jawah/charset_normalizer/pull/838)
 [![narwhals](https://img.shields.io/badge/✓_MERGED-narwhals--dev%2Fnarwhals_(1.8k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/narwhals-dev/narwhals/pull/4047)
 [![OCRmyPDF](https://img.shields.io/badge/✓_MERGED-ocrmypdf%2FOCRmyPDF_(35.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ocrmypdf/OCRmyPDF/pull/1785)
+[![sentencepiece](https://img.shields.io/badge/✓_MERGED-google%2Fsentencepiece_(12.2k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/google/sentencepiece/pull/1393)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **180** 🏆 <sub>(new record — beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **186** 🏆 <sub>(new record — beat October)</sub>
 
-**362 merged pull requests across 29 libraries.** Grouped by project — click any row to expand.
+**368 merged pull requests across 30 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
-| [py-pdf/pypdf](https://github.com/py-pdf/pypdf) `10.3k★` | **86** | Reader robustness, typing, spec compliance |
+| [py-pdf/pypdf](https://github.com/py-pdf/pypdf) `10.3k★` | **87** | Reader robustness, typing, spec compliance |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) `18.9k★` | **2** | Regression tests, docs |
 | [joblib/joblib](https://github.com/joblib/joblib) `4.1k★` | **3** | Input validation, path handling |
 | [nltk/nltk](https://github.com/nltk/nltk) `14.7k★` | **1** | Regression tests, argument validation |
@@ -162,21 +165,23 @@
 | [pikepdf/pikepdf](https://github.com/pikepdf/pikepdf) `2.8k★` | **3** | Image extraction from real-world PDFs |
 | [mozman/ezdxf](https://github.com/mozman/ezdxf) `1.5k★` | **1** | Geometry of transformed CAD entities |
 | [0xabu/pdfannots](https://github.com/0xabu/pdfannots) `674★` | **5** | Annotation extraction from real-world PDFs |
-| [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **27** | SVG/CSS spec coverage in SVG-to-PDF conversion |
+| [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **30** | SVG/CSS spec coverage in SVG-to-PDF conversion |
 | [trentm/python-markdown2](https://github.com/trentm/python-markdown2) `2.8k★` | **1** | Footnotes extra output |
-| [frostming/marko](https://github.com/frostming/marko) `470★` | **27** | Markdown re-rendering that keeps the same HTML |
+| [frostming/marko](https://github.com/frostming/marko) `470★` | **28** | Markdown re-rendering that keeps the same HTML |
 | [pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF) `11.1k★` | **1** | PDF spec compliance of page labels |
 | [facelessuser/soupsieve](https://github.com/facelessuser/soupsieve) `272★` | **2** | CSS selector matching that agrees with browsers |
 | [camelot-dev/camelot](https://github.com/camelot-dev/camelot) `3.9k★` | **2** | Page selection in PDF table extraction |
 | [jawah/charset_normalizer](https://github.com/jawah/charset_normalizer) `811★` | **1** | Command-line output naming |
 | [narwhals-dev/narwhals](https://github.com/narwhals-dev/narwhals) `1.8k★` | **1** | DataFrame-library compatibility layer: histogram counts |
 | [ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) `35.4k★` | **1** | OCR pipeline input checks |
+| [google/sentencepiece](https://github.com/google/sentencepiece) `12.2k★` | **1** | Path-like arguments in the Python wrapper |
 
 <details>
-<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 86 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>py-pdf/pypdf</b> &nbsp;<code>10.3k★</code> &nbsp;—&nbsp; 87 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#4492](https://github.com/py-pdf/pypdf/pull/4492) | Robustness: `PdfWriter.reattach_fields()` raised `TypeError` for a null `/AcroForm`, `/Fields` or `/Annots`, or a reference to the null object (`tika-961883.pdf`, and Ruby CombinePDF's `/Annots null`); these are now read as missing, so the widgets are still reattached |
 | [#4443](https://github.com/py-pdf/pypdf/pull/4443) | Robustness: an `/ICCBased` profile without the required `/N` (`pdf-bad-color-space.pdf`) failed `page.images` with `KeyError`; it is now read with the number of components known from the image, and an `/N` that is given still wins (merged by stefan6419846) |
 | [#4442](https://github.com/py-pdf/pypdf/pull/4442) | Robustness: `_get_fonts_walk()` raised `KeyError` for an appearance dictionary without `/N` and `AttributeError` for an `/N` pointing to the free object 0 (`test_4614.pdf`); a missing or null `/N` now collects nothing and anything else logs a warning (merged by stefan6419846) |
 | [#4399](https://github.com/py-pdf/pypdf/pull/4399) | Robustness: `_get_fonts_walk()` took an appearance stream without the optional `/Type` for a dictionary of states, so `page._get_fonts()` failed with `TypeError` on `germanfields.pdf`; it now reads the stream, and the fonts of every state (merged by stefan6419846) |
@@ -628,10 +633,13 @@
 
 </details>
 <details>
-<summary><b>deeplook/svglib</b> &nbsp;<code>371★</code> &nbsp;—&nbsp; 24 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>deeplook/svglib</b> &nbsp;<code>371★</code> &nbsp;—&nbsp; 30 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#578](https://github.com/deeplook/svglib/pull/578) | Correctness: a gradient that refers with `href` to one that refers to another took the attributes of the first only, so the one at the end of the chain had no stops and was not painted; the whole chain is now followed, and a cycle still ends |
+| [#577](https://github.com/deeplook/svglib/pull/577) | Correctness: a percentage in the geometry of a gradient was read against the units of the element that wrote it, so `x2="50%"` on a gradient that took `userSpaceOnUse` from its `href` was 0.5 user units; it is now of the viewport once the units are known |
+| [#576](https://github.com/deeplook/svglib/pull/576) | Correctness: a `<clipPath>` with `clipPathUnits="objectBoundingBox"` was read in user units, so the clip was a tiny shape at the origin and the element disappeared; it is now stretched to the bounding box of a shape or a group, as in browsers |
 | [#572](https://github.com/deeplook/svglib/pull/572) | Correctness: a gradient in the units of the bounding box was drawn in the user space on a shape that is not square, so a radial gradient was a circle and the lines of a slanted linear gradient stayed perpendicular to the axis; it is now stretched with the box, with the matrix of the box, as in browsers |
 | [#571](https://github.com/deeplook/svglib/pull/571) | Correctness: the `preserveAspectRatio` of a nested `<svg>` with `yMin` or `yMax` put the viewBox at the wrong edge (`xMidYMin meet` at the bottom, `xMidYMax meet` at the top) because the alignment was written for the PDF space of the outermost `<svg>`; it now follows the downward y of the parent |
 | [#570](https://github.com/deeplook/svglib/pull/570) | Correctness: a percentage in `x1`, `y1`, `x2`, `y2`, `cx`, `cy`, `fx`, `fy` or `r` of a gradient in user space units was read as a fraction of 1 user unit, so `x2="50%"` gave a flat color; it is now a percentage of the viewport (width, height, or the normalized diagonal for `r`), as in browsers |
@@ -670,10 +678,11 @@
 
 </details>
 <details>
-<summary><b>frostming/marko</b> &nbsp;<code>470★</code> &nbsp;—&nbsp; 26 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>frostming/marko</b> &nbsp;<code>470★</code> &nbsp;—&nbsp; 28 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#352](https://github.com/frostming/marko/pull/352) | Correctness: the blocks of a footnote after the first one (a second paragraph, a quote, a code block) were written at the start of the line, so they were outside the footnote when parsed again; they are now indented by four spaces, as the ones of a list item are |
 | [#351](https://github.com/frostming/marko/pull/351) | Correctness: a continuation line of a link or image title that started with a block marker (`- `, `# `, `> `) was written without the escape and began a list or heading of its own when parsed again, which cut the link short; the lines of a title after the first are now escaped like the ones of the text around it |
 | [#349](https://github.com/frostming/marko/pull/349) | Correctness: a continuation line inside an emphasis, a link or an image that started with a block marker (`- `, `# `, `> `, a fence) was written without the escape and began a list, heading, quote or code block of its own when parsed again; these lines are now escaped like the ones of a paragraph |
 | [#347](https://github.com/frostming/marko/pull/347) | Correctness: the line break after an escaped backslash (`foo\\` then a newline) stayed inside the text, so a list or heading marker at the start of the next line began a block of its own when written back; the line break is now parsed as a soft line break and the marker is escaped |
@@ -757,9 +766,18 @@
 
 </details>
 
-> 🔄 **In review — 51 open PRs:** fpdf2 14 · typeguard 5 · fonttools 3 · evaluate 2 · joblib 2 · pdfannots 2 · pygments 2 · marko · pypdf 2 · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · mteb · narwhals · OCRmyPDF · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · sentencepiece · umap · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+<details>
+<summary><b>google/sentencepiece</b> &nbsp;<code>12.2k★</code> &nbsp;—&nbsp; 1 merged &nbsp;<i>(click to expand)</i></summary>
 
-*362 merged across 29 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+| PR | Contribution |
+|---|---|
+| [#1393](https://github.com/google/sentencepiece/pull/1393) | Robustness: `SentencePieceProcessor(model_file=Path(...))`, `Load()`, `LoadFromFile()`, `from_file()` and `SentencePieceNormalizer(model_file=, rule_tsv=)` raised `TypeError` for a `pathlib.Path`, which `SentencePieceTrainer.Train()` already accepted; they now take any path-like object |
+
+</details>
+
+> 🔄 **In review — 49 open PRs:** fpdf2 14 · typeguard 5 · fonttools 3 · evaluate 2 · joblib 2 · pdfannots 2 · pygments 2 · marko · pypdf · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · mteb · narwhals · OCRmyPDF · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · umap · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+
+*368 merged across 30 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

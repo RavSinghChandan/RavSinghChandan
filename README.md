@@ -775,7 +775,7 @@
 
 </details>
 
-> 🔄 **In review — 55 open PRs:** fpdf2 14 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · marko 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · mteb · narwhals · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · sentencepiece · umap · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+> 🔄 **In review — 57 open PRs:** fpdf2 14 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · marko 2 · mistune 2 · narwhals 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mteb · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · sentencepiece · umap · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
 *368 merged across 30 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 

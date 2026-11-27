@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 358 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 362 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -136,9 +136,9 @@
 [![narwhals](https://img.shields.io/badge/✓_MERGED-narwhals--dev%2Fnarwhals_(1.8k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/narwhals-dev/narwhals/pull/4047)
 [![OCRmyPDF](https://img.shields.io/badge/✓_MERGED-ocrmypdf%2FOCRmyPDF_(35.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ocrmypdf/OCRmyPDF/pull/1785)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **176** 🏆 <sub>(new record — beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **180** 🏆 <sub>(new record — beat October)</sub>
 
-**358 merged pull requests across 29 libraries.** Grouped by project — click any row to expand.
+**362 merged pull requests across 29 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -162,9 +162,9 @@
 | [pikepdf/pikepdf](https://github.com/pikepdf/pikepdf) `2.8k★` | **3** | Image extraction from real-world PDFs |
 | [mozman/ezdxf](https://github.com/mozman/ezdxf) `1.5k★` | **1** | Geometry of transformed CAD entities |
 | [0xabu/pdfannots](https://github.com/0xabu/pdfannots) `674★` | **5** | Annotation extraction from real-world PDFs |
-| [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **24** | SVG/CSS spec coverage in SVG-to-PDF conversion |
+| [deeplook/svglib](https://github.com/deeplook/svglib) `371★` | **27** | SVG/CSS spec coverage in SVG-to-PDF conversion |
 | [trentm/python-markdown2](https://github.com/trentm/python-markdown2) `2.8k★` | **1** | Footnotes extra output |
-| [frostming/marko](https://github.com/frostming/marko) `470★` | **26** | Markdown re-rendering that keeps the same HTML |
+| [frostming/marko](https://github.com/frostming/marko) `470★` | **27** | Markdown re-rendering that keeps the same HTML |
 | [pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF) `11.1k★` | **1** | PDF spec compliance of page labels |
 | [facelessuser/soupsieve](https://github.com/facelessuser/soupsieve) `272★` | **2** | CSS selector matching that agrees with browsers |
 | [camelot-dev/camelot](https://github.com/camelot-dev/camelot) `3.9k★` | **2** | Page selection in PDF table extraction |
@@ -632,6 +632,9 @@
 
 | PR | Contribution |
 |---|---|
+| [#572](https://github.com/deeplook/svglib/pull/572) | Correctness: a gradient in the units of the bounding box was drawn in the user space on a shape that is not square, so a radial gradient was a circle and the lines of a slanted linear gradient stayed perpendicular to the axis; it is now stretched with the box, with the matrix of the box, as in browsers |
+| [#571](https://github.com/deeplook/svglib/pull/571) | Correctness: the `preserveAspectRatio` of a nested `<svg>` with `yMin` or `yMax` put the viewBox at the wrong edge (`xMidYMin meet` at the bottom, `xMidYMax meet` at the top) because the alignment was written for the PDF space of the outermost `<svg>`; it now follows the downward y of the parent |
+| [#570](https://github.com/deeplook/svglib/pull/570) | Correctness: a percentage in `x1`, `y1`, `x2`, `y2`, `cx`, `cy`, `fx`, `fy` or `r` of a gradient in user space units was read as a fraction of 1 user unit, so `x2="50%"` gave a flat color; it is now a percentage of the viewport (width, height, or the normalized diagonal for `r`), as in browsers |
 | [#568](https://github.com/deeplook/svglib/pull/568) | Correctness: the `gradientTransform` of a linear or radial gradient was ignored, so a gradient rotated or scaled by Figma or Illustrator ran in the wrong direction; it is now applied in both units and through `href`, and a transform that cannot be inverted paints nothing, as in Chrome |
 | [#569](https://github.com/deeplook/svglib/pull/569) | Correctness: a linear gradient with both ends in the same place, or a radial gradient with a radius of 0, was painted in the first color or in black; it is now one color, with the color and opacity of its last stop, as the specification says |
 | [#567](https://github.com/deeplook/svglib/pull/567) | Correctness: a gradient with `spreadMethod="reflect"` or `"repeat"` was painted black past its ends; its stops are now laid one period after the other over the shape, every other period back to front for `reflect`, and a gradient that would need more than 200 periods or 10,000 stops is padded |
@@ -671,6 +674,7 @@
 
 | PR | Contribution |
 |---|---|
+| [#351](https://github.com/frostming/marko/pull/351) | Correctness: a continuation line of a link or image title that started with a block marker (`- `, `# `, `> `) was written without the escape and began a list or heading of its own when parsed again, which cut the link short; the lines of a title after the first are now escaped like the ones of the text around it |
 | [#349](https://github.com/frostming/marko/pull/349) | Correctness: a continuation line inside an emphasis, a link or an image that started with a block marker (`- `, `# `, `> `, a fence) was written without the escape and began a list, heading, quote or code block of its own when parsed again; these lines are now escaped like the ones of a paragraph |
 | [#347](https://github.com/frostming/marko/pull/347) | Correctness: the line break after an escaped backslash (`foo\\` then a newline) stayed inside the text, so a list or heading marker at the start of the next line began a block of its own when written back; the line break is now parsed as a soft line break and the marker is escaped |
 | [#348](https://github.com/frostming/marko/pull/348) | Correctness: a continuation line that started with an indented run of delimiters (`***`) was written back with only its first character escaped, so the rest of the run paired with the emphasis opened on the line before and changed the text; the whole run is now escaped |
@@ -753,9 +757,9 @@
 
 </details>
 
-> 🔄 **In review — 55 open PRs:** fpdf2 14 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · pdfannots 2 · pygments 2 · marko 2 · pypdf 2 · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · mteb · narwhals · OCRmyPDF · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · sentencepiece · umap · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+> 🔄 **In review — 51 open PRs:** fpdf2 14 · typeguard 5 · fonttools 3 · evaluate 2 · joblib 2 · pdfannots 2 · pygments 2 · marko · pypdf 2 · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mistune · mteb · narwhals · OCRmyPDF · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · sentencepiece · umap · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*354 merged across 29 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*362 merged across 29 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 

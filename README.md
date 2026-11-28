@@ -43,7 +43,7 @@
 
 ### How It All Connects
 
-<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 368 merged open-source pull requests as glowing atoms" />
+<img src="./assets/buckyball.svg" width="560" alt="A rotating buckminsterfullerene — 60 vertices, 90 bonds, 12 pentagons and 20 hexagons — carrying my 369 merged open-source pull requests as glowing atoms" />
 
 <sub>Every merged PR, carried on a C<sub>60</sub> buckyball. Real geometry: 60 vertices, 90 bonds, 12 pentagons, 20 hexagons.<br/><a href="https://chandan-kumar-ai-engineer.vercel.app/#graph">Spin the interactive version on my portfolio →</a></sub>
 
@@ -139,9 +139,9 @@
 [![OCRmyPDF](https://img.shields.io/badge/✓_MERGED-ocrmypdf%2FOCRmyPDF_(35.4k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ocrmypdf/OCRmyPDF/pull/1785)
 [![sentencepiece](https://img.shields.io/badge/✓_MERGED-google%2Fsentencepiece_(12.2k★)-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/google/sentencepiece/pull/1393)
 
-**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **186** 🏆 <sub>(new record — beat October)</sub>
+**Merged per month (2026):** Jul **3** · Aug **45** · Sep **18** · Oct **116** · Nov **187** 🏆 <sub>(new record — beat October)</sub>
 
-**368 merged pull requests across 30 libraries.** Grouped by project — click any row to expand.
+**369 merged pull requests across 30 libraries.** Grouped by project — click any row to expand.
 
 | Library | Merged | Focus |
 |---|---|---|
@@ -170,7 +170,7 @@
 | [frostming/marko](https://github.com/frostming/marko) `470★` | **28** | Markdown re-rendering that keeps the same HTML |
 | [pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF) `11.1k★` | **1** | PDF spec compliance of page labels |
 | [facelessuser/soupsieve](https://github.com/facelessuser/soupsieve) `272★` | **2** | CSS selector matching that agrees with browsers |
-| [camelot-dev/camelot](https://github.com/camelot-dev/camelot) `3.9k★` | **2** | Page selection in PDF table extraction |
+| [camelot-dev/camelot](https://github.com/camelot-dev/camelot) `3.9k★` | **3** | Page selection in PDF table extraction |
 | [jawah/charset_normalizer](https://github.com/jawah/charset_normalizer) `811★` | **1** | Command-line output naming |
 | [narwhals-dev/narwhals](https://github.com/narwhals-dev/narwhals) `1.8k★` | **1** | DataFrame-library compatibility layer: histogram counts |
 | [ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) `35.4k★` | **1** | OCR pipeline input checks |
@@ -730,10 +730,11 @@
 
 </details>
 <details>
-<summary><b>camelot-dev/camelot</b> &nbsp;<code>3.9k★</code> &nbsp;—&nbsp; 2 merged &nbsp;<i>(click to expand)</i></summary>
+<summary><b>camelot-dev/camelot</b> &nbsp;<code>3.9k★</code> &nbsp;—&nbsp; 3 merged &nbsp;<i>(click to expand)</i></summary>
 
 | PR | Contribution |
 |---|---|
+| [#886](https://github.com/camelot-dev/camelot/pull/886) | Correctness: the stream parser raised `ValueError: max() iterable argument is empty` or `TypeError: cannot unpack non-iterable NoneType object` when the area it found for a table had no text, or only whitespace (10 of 1,764 PDFs of other projects); such an area now gets the existing `No tables found in table area` warning and is skipped (merged by bosd) |
 | [#878](https://github.com/camelot-dev/camelot/pull/878) | Correctness: a reversed page range such as `pages="3-1"` selected no page and returned an empty `TableList` without an error, as did `"5-end"` on a 3-page PDF; it now raises a `ValueError`, and the first page of the range is checked against the page count first (merged by bosd) |
 | [#866](https://github.com/camelot-dev/camelot/pull/866) | Correctness: `pages="0"` became index `-1` and silently returned the tables of the last page, labelled with its number; a page past the end failed later with a bare `IndexError`. Both now raise a `ValueError` naming the page and the page count before parsing (merged by bosd) |
 
@@ -775,9 +776,9 @@
 
 </details>
 
-> 🔄 **In review — 57 open PRs:** fpdf2 14 · typeguard 5 · fonttools 3 · svglib 3 · evaluate 2 · joblib 2 · marko 2 · mistune 2 · narwhals 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · camelot · charset_normalizer · distlib · imagehash · kokoro-onnx · mteb · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · sentencepiece · umap · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
+> 🔄 **In review — 62 open PRs:** fpdf2 14 · marko 5 · svglib 5 · typeguard 5 · fonttools 3 · evaluate 2 · joblib 2 · mistune 2 · narwhals 2 · pdfannots 2 · pygments 2 · pypdf 2 · OCRmyPDF · distlib · doctr · imagehash · kokoro-onnx · mteb · odfpy · pikepdf · pyelftools · python-jose · python-markdown2 · ragas · sentencepiece · umap · urllib3 — [see them all](https://github.com/pulls?q=is%3Apr%20is%3Aopen%20archived%3Afalse%20author%3ARavSinghChandan%20-user%3ARavSinghChandan)
 
-*368 merged across 30 libraries the AI/ML and Python world runs on — more PRs landing over time.*
+*369 merged across 30 libraries the AI/ML and Python world runs on — more PRs landing over time.*
 
 </div>
 
